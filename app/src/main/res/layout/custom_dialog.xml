@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/lib/aawallpapers.rizzo.gabriele"
+    xmlns:app2="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/finestra"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="24dp"
+    android:layout_marginEnd="24dp"
+    android:background="@drawable/dialog_bg"
+    android:padding="5dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:fontFamily="@font/swanky_and_moo_moo"
+            android:gravity="center_vertical|center_horizontal"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/launch_dialog_title"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#ffffffff"
+            android:textSize="27sp"
+            android:textStyle="bold" />
+
+
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:background="#00000000">
+
+        <TextView
+            android:id="@+id/dialog_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:background="#00000000"
+            android:gravity="center"
+            android:lineSpacingMultiplier="0.86"
+            android:paddingRight="13dp"
+            android:paddingLeft="13dp"
+            android:text="@string/launch_dialog_content"
+            android:textAlignment="gravity"
+            android:textAppearance="@android:style/TextAppearance.Material"
+            android:textColor="#fff"
+            android:textSize="17sp"
+            android:typeface="sans"
+            tools:ignore="RtlSymmetry" />
+
+        <Button
+            android:id="@+id/button_continue"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_below="@id/dialog_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="6dp"
+            android:background="#CC4343"
+            android:radius="150dp"
+            android:text="@string/proceed"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <Button
+        android:id="@+id/button_donate"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/button_continue"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="6dp"
+        android:background="#ff0000"
+        android:radius="150dp"
+        android:text="@string/donate"
+        android:textColor="#ffffffff"
+        android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/terzo_bottone"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/button_donate"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="6dp"
+            android:background="#520505"
+            android:radius="150dp"
+            android:text="@string/reconsider"
+            android:textColor="#ffffffff"
+            android:textSize="14sp"
+            android:layout_marginBottom="9dp"/>
+
+
+        <CheckBox
+            android:id="@+id/myCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/area_altritemi"
+            android:layout_alignStart="@id/area_credits"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="4dp"
+            android:background="#00000000"
+            android:buttonTint="#fff"
+            android:text="@string/do_not_show_again"
+            android:textColor="#fff"
+            android:textSize="12sp" />
+
+        <RelativeLayout
+            android:id="@+id/area_preview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/terzo_bottone"
+            android:layout_alignBottom="@id/area_credits"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="15dp"
+            android:layout_toEndOf="@id/area_credits">
+
+            <ImageButton
+                android:id="@+id/previews_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="0dp"
+                android:background="@android:color/transparent"
+                android:buttonTint="#fff"
+                android:contentDescription="@android:string/untitled"
+                android:src="@drawable/ic_photo_library_black_24dp"
+                android:textColor="#fff"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@id/previews_icon"
+                android:layout_marginStart="3dp"
+                android:layout_toEndOf="@id/previews_icon"
+                android:text="@string/previews_text"
+                android:textAppearance="@android:style/TextAppearance.Material"
+                android:textSize="14sp"
+                android:textColor="@android:color/white"
+                tools:layout_toEndOf="@id/previews_icon" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/area_altritemi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/area_credits"
+            android:layout_alignStart="@id/area_credits">
+
+            <ImageButton
+                android:id="@+id/alterimage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="0dp"
+                android:background="@android:color/transparent"
+                android:buttonTint="#fff"
+                android:clickable="true"
+                android:contentDescription="@android:string/untitled"
+                android:src="@drawable/ic_add_circle_black_24dp"
+                android:textColor="#fff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/alterimage"
+                android:layout_marginStart="3dp"
+                android:layout_toEndOf="@id/alterimage"
+                android:text="@string/more_backgrounds"
+                android:textAppearance="@android:style/TextAppearance.Material"
+                android:textColor="#fff"
+                android:textSize="14sp"
+                tools:layout_toEndOf="@id/alterimage" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/area_credits"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/terzo_bottone"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="15dp">
+
+            <ImageButton
+                android:id="@+id/image_credits"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="0dp"
+                android:background="@android:color/transparent"
+                android:buttonTint="#fff"
+                android:contentDescription="@android:string/untitled"
+                android:src="@drawable/ic_info_black_24dp"
+                android:textColor="#fff"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/image_credits"
+                android:layout_alignBottom="@id/image_credits"
+                android:layout_toEndOf="@id/image_credits"
+                android:text="@string/credit"
+                android:textColor="#fff"
+                android:textAppearance="@android:style/TextAppearance.Material"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

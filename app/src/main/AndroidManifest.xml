@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="aawallpapers.rizzo.gabriele"
+    android:installLocation="internalOnly">
+
+    <uses-feature
+        android:name="projekt.substratum.theme"
+        android:required="false" />
+
+    <application
+        android:allowBackup="false"
+        android:extractNativeLibs="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/ThemeName"
+        android:supportsRtl="true"
+        android:theme="@style/DialogStyle"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".Launcher"
+            android:theme="@style/CustomActivityThemeNoTitle">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SubstratumLauncher"
+            android:theme="@style/Transparent">
+            <intent-filter>
+                <action android:name="projekt.substratum.THEME" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="projekt.substratum.lite.THEME" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="projekt.substratum.lite.THEME" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="projekt.substratum.GET_KEYS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="Substratum_Legacy"
+            android:value="true" />
+        <meta-data
+            android:name="Substratum_Name"
+            android:value="@string/ThemeName" />
+        <meta-data
+            android:name="Substratum_Author"
+            android:value="@string/ThemeAuthor" />
+        <meta-data
+            android:name="Substratum_Email"
+            android:value="@string/ThemeAuthorEmail" />
+        <meta-data
+            android:name="Substratum_Samsung"
+            android:value="@bool/ThemeSupportSamsung" />
+        <meta-data
+            android:name="Substratum_Wallpapers"
+            android:value="@string/ThemeWallpaperSource" />
+        <meta-data
+            android:name="Substratum_HeroOverride"
+            android:value="@string/ThemeHeroOverride" /> <!-- SUBSTRATUM INTERNAL USE: DO NOT TOUCH -->
+        <meta-data
+            android:name="Substratum_Plugin"
+            android:value="14.0.2" />
+        <meta-data
+            android:name="Substratum_Encryption"
+            android:value="false" />
+    </application>
+
+</manifest>

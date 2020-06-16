@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="0.0dip"
+    android:layout_height="@*com.google.android.projection.gearhead:dimen/gearhead_launcher_app_height"
+    android:layout_weight="1.0"
+    android:background="@*com.google.android.projection.gearhead:drawable/gearhead_rectangle_round_corner_focus_background"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:paddingLeft="@*com.google.android.projection.gearhead:dimen/gearhead_launcher_app_left_right_paddding"
+    android:paddingTop="@*com.google.android.projection.gearhead:dimen/gearhead_launcher_app_top_bottom_paddding"
+    android:paddingRight="@*com.google.android.projection.gearhead:dimen/gearhead_launcher_app_left_right_paddding"
+    android:paddingBottom="@*com.google.android.projection.gearhead:dimen/gearhead_launcher_app_top_bottom_paddding"
+    android:visibility="invisible">
+    <ImageView
+        android:id="@*com.google.android.projection.gearhead:id/icon"
+        android:layout_width="@*com.google.android.projection.gearhead:dimen/gearhead_launcher_icon_diameter"
+        android:layout_height="@*com.google.android.projection.gearhead:dimen/gearhead_launcher_icon_diameter"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@*com.google.android.projection.gearhead:id/badge_background"
+        android:layout_width="@*com.google.android.projection.gearhead:dimen/gearhead_launcher_badge_background_diameter"
+        android:layout_height="@*com.google.android.projection.gearhead:dimen/gearhead_launcher_badge_background_diameter"
+        android:layout_marginLeft="@*com.google.android.projection.gearhead:dimen/gearhead_launcher_badge_left_margin"
+        android:layout_marginTop="@*com.google.android.projection.gearhead:dimen/gearhead_launcher_badge_left_margin"
+        android:layout_toLeftOf="@*com.google.android.projection.gearhead:id/icon"
+        android:alpha="0.0"/>
+    <ImageView
+        android:id="@*com.google.android.projection.gearhead:id/badge"
+        android:layout_width="@*com.google.android.projection.gearhead:dimen/gearhead_launcher_badge_diameter"
+        android:layout_height="@*com.google.android.projection.gearhead:dimen/gearhead_launcher_badge_diameter"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@*com.google.android.projection.gearhead:id/badge_background"
+        android:layout_toEndOf="@*com.google.android.projection.gearhead:id/badge_background"
+        android:layout_below="@*com.google.android.projection.gearhead:id/badge_background"
+        android:alpha="0.0"/>
+    <TextView
+        android:id="@*com.google.android.projection.gearhead:id/label"
+        style="@*com.google.android.projection.gearhead:style/GearheadSdkBody2"
+        android:layout_width="fill_parent"
+        android:layout_height="@*com.google.android.projection.gearhead:dimen/gearhead_launcher_label_height"
+        android:layout_marginTop="@*com.google.android.projection.gearhead:dimen/gearhead_launcher_label_margin"
+        android:alpha="@*com.google.android.projection.gearhead:dimen/boardwalk_launcher_text_opacity"
+        android:ellipsize="end"
+        android:fontFamily="roboto-regular"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:maxLines="1"
+        android:textColor="@*com.google.android.projection.gearhead:color/hats_lib_prompt_take_survey_blue"
+        android:textSize="@*com.google.android.projection.gearhead:dimen/gearhead_launcher_label_text_size"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<type0>
+    <type0a name="Launcher icons text color" color="#FFFFFF" alpha_allowed="false">
+        <resource name="hats_lib_prompt_take_survey_blue" />
+    </type0a>
+	<type0b name="Bottom bar primary color" color="#000000" alpha_allowed="false">
+        <resource name="boardwalk_facet_bar_background" />
+    </type0b>
+    <type0c name="Bottom bar accent color" color="#2d3134" alpha_allowed="false">
+        <resource name="hats_lib_prompt_take_survey_blue_focused" />
+    </type0c>
+</type0>

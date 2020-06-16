@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app2="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.jetradarmobile.snowfall.SnowfallView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="-3dp"
+        app2:snowflakeSizeMax="15dp"
+        app2:snowflakeSizeMin="2dp"
+        app2:snowflakeSpeedMax="8"
+        app2:snowflakeSpeedMin="2"
+        app2:snowflakesAlreadyFalling="true"
+        app2:snowflakesNum="400"
+        app2:snowflakeAlphaMax="255" />
+
+</FrameLayout>

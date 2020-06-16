@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/lib/aawallpapers.rizzo.gabriele"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/finestra_crediti"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="24dp"
+    android:layout_marginEnd="24dp"
+    android:background="@drawable/dialog_bg"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/credits_content"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="#00000000"
+        android:gravity="center"
+        android:lineSpacingMultiplier="0.86"
+        android:paddingStart="1dp"
+        android:text="@string/creditstring"
+        android:textAlignment="gravity"
+        android:textAppearance="@android:style/TextAppearance.Material"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:typeface="sans"
+        tools:ignore="RtlSymmetry" />
+
+    <RelativeLayout
+        android:id="@+id/takemetocontacts"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/credits_content"
+        android:layout_alignStart="@id/credits_content"
+        android:layout_alignEnd="@id/credits_content"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/bottomtextivew"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="@string/takemetoxdathreadstring"
+            android:layout_marginStart="5dp"
+            android:textAppearance="@android:style/TextAppearance.Material"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:background="#9AD61616"
+            android:typeface="sans"
+            android:gravity="center"/>
+
+</RelativeLayout>
+</RelativeLayout>
+

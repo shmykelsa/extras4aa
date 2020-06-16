@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<item type="dimen" name="gearhead_app_launcher_row_offset">2.0dip</item>
+	<item type="dimen" name="gearhead_launcher_left_padding">2.0dip</item>
+</resources>
+

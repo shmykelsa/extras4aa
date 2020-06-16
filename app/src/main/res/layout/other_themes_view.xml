@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/finestra_altri"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="24dp"
+    android:layout_marginEnd="24dp"
+    android:background="@drawable/dialog_bg"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/credits_content"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="#00000000"
+        android:gravity="center"
+        android:lineSpacingMultiplier="0.86"
+        android:paddingStart="1dp"
+        android:text="@string/otherthemes"
+        android:textAlignment="gravity"
+        android:textAppearance="@android:style/TextAppearance.Material"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:typeface="sans"
+        tools:ignore="RtlSymmetry" />
+
+    <RelativeLayout
+        android:id="@+id/primaiconaaltre"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/credits_content">
+
+        <TextView
+            android:id="@+id/telegram_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:textSize="13sp"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:text="@string/wp_for_aa_sport_version" />
+
+        <ImageView
+            android:id="@+id/sporticon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignStart="@id/telegram_textview"
+            android:layout_alignEnd="@id/telegram_textview"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:src="@drawable/ic_soccer"
+            android:tint="@android:color/white" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/secondaiconaaltre"
+        android:layout_width="170dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/credits_content"
+        android:layout_toEndOf="@+id/primaiconaaltre"
+        android:layout_alignEnd="@id/credits_content">
+
+        <TextView
+            android:id="@+id/textView_secondaicona"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:text="@string/wp_for_aa_vehicule_version" />
+
+        <ImageView
+            android:id="@+id/imageView_secondaicona"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_toStartOf="@id/textView_secondaicona"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:src="@drawable/ic_directions_car_black_24dp"
+            android:tint="@android:color/white" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/takemetocontacts"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/primaiconaaltre"
+        android:layout_alignStart="@id/credits_content"
+        android:layout_alignEnd="@id/credits_content"
+        android:layout_margin="9dp"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/bottomtextivewothers"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="@string/gimmemore"
+            android:layout_marginStart="5dp"
+            android:textAppearance="@android:style/TextAppearance.Material"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:background="#9AD61616"
+            android:typeface="sans"
+            android:gravity="center"/>
+
+</RelativeLayout>
+</RelativeLayout>
+

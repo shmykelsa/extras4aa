@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="GearheadSdkBody1">
+        <item name="android:textSize">@*com.google.android.projection.gearhead:dimen/gearhead_sdk_body_1_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@*com.google.android.projection.gearhead:color/gearhead_sdk_body1</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="GearheadSdkBody1.Dark">
+        <item name="android:textSize">@*com.google.android.projection.gearhead:dimen/gearhead_sdk_body_1_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@*com.google.android.projection.gearhead:color/gearhead_sdk_body1_dark</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="GearheadSdkBody1.Light">
+        <item name="android:textSize">@*com.google.android.projection.gearhead:dimen/gearhead_sdk_body_1_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textColor">@*com.google.android.projection.gearhead:color/gearhead_sdk_body1_light</item>
+    </style>
+    <style name="GearheadSdkBody2">
+        <item name="android:textSize">@*com.google.android.projection.gearhead:dimen/gearhead_sdk_body_2_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@*com.google.android.projection.gearhead:color/gearhead_sdk_body2</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="TextAppearance.Boardwalk" parent="@*android:style/TextAppearance.Material">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@*com.google.android.projection.gearhead:color/boardwalk_default_text_color</item>
+        <item name="android:fontFamily">@*com.google.android.projection.gearhead:font/google_sans</item>
+    </style>
+    <style name="TextAppearance.Boardwalk.Body3" parent="@*android:style/TextAppearance.Material">
+        <item name="android:textSize">@*com.google.android.projection.gearhead:dimen/boardwalk_body3_text_size</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@*com.google.android.projection.gearhead:color/boardwalk_white</item>
+    </style>
+    <style name="TextAppearance.Boardwalk.Body1.Hun" parent="@*com.google.android.projection.gearhead:style/TextAppearance.Boardwalk">
+        <item name="android:textColor">@*com.google.android.projection.gearhead:color/boardwalk_hun_text_color</item>
+    </style>
+    <style name="TextAppearance.Boardwalk.Body3.Hun1" parent="@*com.google.android.projection.gearhead:style/TextAppearance.Boardwalk.Body3">
+        <item name="android:textColor">@*com.google.android.projection.gearhead:color/boardwalk_hun_text_color</item>
+    </style>
+    <style name="TextAppearance.Boardwalk.Body3.Hun2" parent="@*com.google.android.projection.gearhead:style/TextAppearance.Boardwalk.Body3">
+        <item name="android:textColor">@*com.google.android.projection.gearhead:color/boardwalk_hun_text_color2</item>
+    </style>
+	</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mailme">M\'envoyer un mail</string>
+    <string name="previews_text">Aperçus!</string>
+    <string name="proceed">Continuer</string>
+    <string name="takemetoxdathreadstring">J\'ai toujours besoin d\'aide!</string>
+    <string name="gotoxdathread">Aller dans le sujet du forum XDA</string>
+    <string name="donate">Faire un don</string>
+    <string name="do_not_show_again">Ne plus afficher</string>
+    <string name="credit">Crédits</string>
+    <string name="contact_me_on_telegram">Me contacter sur Telegram</string>
+    <string name="launch_dialog_content">"Ce thème est Wallpapers for Android Auto (WP4AA), pour changer l\'image de fond d\'Android Auto\n
+        Si vous souhaitez soutenir le développement et contribuer à l\'effort, vous pouvez faire un don PayPal par l\'intermédiaire du bouton ci-dessous.\n
+        Même les petits montants sont appréciés😊"</string>
+    <string name="helpme">Pour installer un fond d\'écran:\n\n
+        1. Cochez Android Auto et choisissez une image dans la liste\n
+        2. Touchez l\'icône en bas à droite et choisissez Compiler et Installer\n
+        3. Redémarrer, allez dans l\'onglet manager, sélectionnez le thème installé et activez-le (activer la sélection)</string>
+    <string name="helpme_lite">Pour installer un fond d\'écran:\n\n
+        1. Cochez Android Auto et choisissez une image dans la liste\n
+        2. Touchez l\'icône en bas à droite et choisissez Install Selected\n
+        3. Redémarrer, allez dans l\'onglet manager, sélectionnez le thème installé et activez-le (activer la sélection)</string>
+    <string name="creditstring">Remerciements pour les fonds d\'écran:%1$s</string>
+    <string name="hi_iew">Salut!\n
+    \nSi vous voyez ce message, c\'est que vous n\'avez pas installé Substratum.
+    \nWallpapers For AA est un thème et nécessite Substratum pour fonctionner, ce n\'est pas une application standalone.
+    \nMerci d\'installer Substratum et de réessayer.</string>
+    <string name="rating_message">Au fait, voudriez-vous prendre un moment pour évaluer ce thème sur XDA Labs?</string>
+    <string name="gotorating">Allons-y !</string>
+    <string name="nevershowagain">Laissez-moi tranquille!</string>
+    <string name="reconsider">Plus tard</string>
+    <string name="donation_message">Il semblerait que vous appréciez vraiment Substratum Wallpapers for Android Auto (WP4AA), voudriez-vous le montrer avec un don?</string>
+    <string name="helpButton">Aide-moi</string>
+    <string name="more_backgrounds">Plus de fonds d\'écran</string>
+    <string name="otherthemes">Découvrez les autres variantes de WP4AA</string>
+    <string name="gimmemore">Pouvez-vous ajouter un fond d\'écran?</string>
+</resources>

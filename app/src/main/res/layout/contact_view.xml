@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/finestra_crediti"
+    xmlns:app="http://schemas.android.com/apk/lib/aawallpapers.rizzo.gabriele"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="12dp"
+    android:layout_marginEnd="12dp"
+    android:background="@drawable/dialog_bg"
+    android:padding="5dp">
+
+    <RelativeLayout
+        android:id="@+id/primaicona"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/telegram_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:text="@string/contact_me_on_telegram" />
+
+        <ImageView
+            android:id="@+id/telegram_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/telegram_textview"
+            android:layout_alignEnd="@id/telegram_textview"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:src="@drawable/ic_icons8_telegramma_app"
+            android:tint="@android:color/white" />
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/secondaicona"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_toEndOf="@id/primaicona"
+        android:layout_marginStart="10dp"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/mail_icon"
+            android:layout_width="match_parent"
+            android:layout_height="98dp"
+            android:scaleX="0.54"
+            android:scaleY="0.54"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_envelope"
+            android:tint="@android:color/white"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/mail_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:text="@string/mailme"
+            android:gravity="center"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/terzaicona"
+        android:layout_width="110dp"
+        android:layout_height="120dp"
+        android:layout_toEndOf="@id/secondaicona"
+        android:layout_marginStart="10dp"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/xda_icon"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:scaleX="0.55"
+            android:scaleY="0.55"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_xda"
+            android:padding="15dp"/>
+
+        <TextView
+            android:id="@+id/xda_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:textSize="12sp"
+            android:text="@string/gotoxdathread"
+            android:gravity="center"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

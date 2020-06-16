@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DialogStyle" parent="@android:style/Theme.Material.Dialog.Alert">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorAccent">#009688</item>
+    </style>
+
+    <string name="launch_dialog_title" translatable="false">Heya!</string>
+    <string name="launch_dialog_content">This is Wallpapers for Android Auto (WP4AA), a theme to change Android Auto background
+        \n\nIf you want to thank me for the development and the effort, you could make a donation via PayPal with the button down below.
+        \nEven a small amount would be much appreciated 😊</string>
+    <string name="do_not_show_again">Do not show again</string>
+    <string name="proceed">Continue</string>
+    <string name="donate">Donate</string>
+    <string name="credit">Credits</string>
+    <string name="previews_text">Previews!</string>
+    <string name="creditstring">Many thanks for the wallpapers go to: %1$s</string>
+    <string name="creditors" translatable="false">\n\n_R1zz_ - Google Pixel Wallpapers\nAtlas-83 - GoT Wallpapers\nAPAstrolab, John Sim - Astrophotography wallpapers</string>
+    <string name="helpButton">Help</string>
+    <string name="helpme">To install a background wallpaper:\n
+        1. Tick Android Auto and select a wallpaper from list\n
+        2. Hit the bottom button and select Build &amp; Install\n
+        3. Reboot, go to manager tab, select the built overlay(s) and enable</string>
+    <string name="helpme_lite">To install a background wallpaper:\n
+        1. Tick Android Auto and select a wallpaper from list\n
+        2. Hit the bottom button and select Build &amp; Install\n
+        3. Reboot, go to manager tab, select the built overlay(s) and enable</string>
+    <string name="takemetoxdathreadstring">I still need help!</string>
+    <string name="gotoxdathread">Go to XDA Thread</string>
+    <string name="mailme">Mail me</string>
+    <string name="contact_me_on_telegram">Contact me on Telegram</string>
+    <string name="hi_iew">Heya!\n
+    If you are here, that\'s because you don\'t have Substratum Installed.\n
+    Wallpapers For AA is a theme and needs Substratum to work, it\'s not a stand-alone app.\n
+    Please install Substratum and try again.</string>
+    <string name="rating_message">Hey, would you take a moment to rate this theme on XDA Labs?</string>
+    <string name="gotorating">Take me there!</string>
+    <string name="nevershowagain">Leave me alone!</string>
+    <string name="reconsider">Maybe Later</string>
+    <string name="donation_message">You seem to really enjoy Substratum Wallpapers For AA, would you like to show appreciation with a donation?</string>
+    <string name="more_backgrounds">More Wallpapers</string>
+    <string name="otherthemes">Check out the other variants of WP4AA</string>
+    <string name="gimmemore">Can you add a wallpaper?</string>
+</resources>

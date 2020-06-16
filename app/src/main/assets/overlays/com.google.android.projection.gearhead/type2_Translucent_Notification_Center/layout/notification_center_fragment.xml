@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.auto.components.system.layout.KeyEventDispatchingFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:descendantFocusability="afterDescendants"
+    android:focusable="true">
+    <FrameLayout
+        android:id="@*com.google.android.projection.gearhead:id/notification_center_background"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#73000000"
+        android:focusable="false" />
+    <com.google.android.apps.auto.sdk.ui.PagedListView
+        android:id="@*com.google.android.projection.gearhead:id/paged_list_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="@*com.google.android.projection.gearhead:dimen/gearhead_baseline_grid_4x"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:paddingTop="@*com.google.android.projection.gearhead:dimen/gearhead_baseline_grid_2x"
+        android:visibility="gone" />
+    <LinearLayout
+        android:id="@*com.google.android.projection.gearhead:id/no_notifications_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:id="@*com.google.android.projection.gearhead:id/no_notifications_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:text="@*com.google.android.projection.gearhead:string/boardwalk_no_notifications"
+            android:textAppearance="@*com.google.android.projection.gearhead:style/TextAppearance.Boardwalk.Body1" />
+        <FrameLayout
+            android:id="@*com.google.android.projection.gearhead:id/close_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="@*com.google.android.projection.gearhead:dimen/gearhead_baseline_grid_7x"
+            android:layout_gravity="center"
+            android:layout_marginTop="@*com.google.android.projection.gearhead:dimen/gearhead_baseline_grid_3x"
+            android:background="@*com.google.android.projection.gearhead:drawable/notification_center_row_action_button_background"
+            android:focusable="true"
+            android:foreground="@*com.google.android.projection.gearhead:drawable/notification_action_button_focus_ring"
+            android:paddingLeft="@*com.google.android.projection.gearhead:dimen/gearhead_baseline_grid_5x"
+            android:paddingRight="@*com.google.android.projection.gearhead:dimen/gearhead_baseline_grid_5x">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:alpha="@*com.google.android.projection.gearhead:dimen/gearhead_notification_center_primary_text_opacity"
+                android:maxLines="1"
+                android:text="@*com.google.android.projection.gearhead:string/boardwalk_close_notification_center"
+                android:textAppearance="@*com.google.android.projection.gearhead:style/TextAppearance.Boardwalk.Body3" />
+        </FrameLayout>
+    </LinearLayout>
+</com.google.android.apps.auto.components.system.layout.KeyEventDispatchingFrameLayout>
