@@ -48,7 +48,6 @@ class SubstratumLauncher : Activity() {
 
         //setContentView(R.layout.content_snow)
         showWelcomeDialog()
-        finish()
     }
 
     @SuppressLint("InflateParams")
