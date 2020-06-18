@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-        <string name="launch_dialog_content">Esto es Extras for Android Auto, un tema para cambiar el fondo de pantalla en Android Auto.
+        <string name="launch_dialog_content">Esto es Extras para AA, un tema para cambiar el aspecto de Android Auto.\n
     Si quieres contribuir con el desarollo, quizás puedas considerar una donación. Sería bien recibida. 😊</string>
     <string name="do_not_show_again">No mostrar de nuevo</string>
     <string name="proceed">Continuar</string>
     <string name="donate">Donar</string>
     <string name="credit">Créditos</string>
-    <string name="helpme">Para instalar un fondo de pantalla:
-    \n1. Marca la casilla Android Auto y selecciona un fondo desde la lista.
-    \n2. Pulsa el botón de abajo y selecciona \'Compilar &amp; Activar\';.
-    \n3. Reinicia el móvil, vete a la pestaña \'Gestor\', selecciona el tema creado, y pulsa \'Activar\'.</string>
-    <string name="helpme_lite">Para instalar un fondo de pantalla:
-    \n1. Marca la casilla Android Auto y selecciona un fondo desde la lista.
-    \n2. Pulsa el botón de abajo y selecciona \'Install Selected\';.
-    \n3. Reinicia el móvil, vete a la pestaña \'Manager\', selecciona el tema creado, y pulsa \'Activate\'.</string>
+    <string name="helpme">Parece ser que no estas utilizando Substratum Lite.\n
+        Para que se apliquen los Extras para AA, por favor instala primero Substratum Lite.</string>
+    <string name="helpme_lite">Para instalar:\n
+    1. Marca Android Auto y selecciona un extra de la lista\n
+    2. Observa la exclamación al lado de &quot;Android Auto&quot; para evitar errores\n
+    3. Selecciona uno o más extras de la lista\n
+    4. Pincha el botón inferior y selecciona ‘Build &amp; Install’\n
+    5. Repite los pasos 3 y 4 cuantas veces desees\n
+    6. Reinicia el móvil, vete a la pestaña ‘manager’, selecciona la/s capas de personalización, y  pincha en ‘enable’\n
+    </string>
     <string name="takemetoxdathreadstring">Necesito ayuda ¡!</string>
     <string name="gotoxdathread">Llévame al hilo en XDA</string>
     <string name="mailme">Mail me</string>
-    <string name="contact_me_on_telegram">Contáctame en Telegram</string>
+    <string name="contact_me_on_telegram">Únete al canal en Telegram</string>
     <string name="creditstring">Muchos agradecimientos por los fondos de pantalla a:%1$s</string>
     <string name="hi_iew">’Hola!\n
 	Si has llegado hasta aquí, es porque no tienes Substratum instalado.\n
@@ -27,7 +29,7 @@
     <string name="gotorating">¡Llevadme hasta ahí!</string>
     <string name="nevershowagain">¡No me molestéis!</string>
     <string name="reconsider">Quizás más tarde</string>
-    <string name="donation_message">Parece que disfrutas mucho usando Substratum Extras for Android Auto, ¿te gustaría mostrar tu apoyo realizando una donación?</string>
+    <string name="donation_message">Parece que disfrutas mucho usando Extras for Android Auto, ¿te gustaría mostrar tu apoyo realizando una donación?</string>
     <string name="helpButton">Ayuda</string>
-    <string name="copied_bitcoin">Address copied to clipboard</string>
+    <string name="copied_bitcoin">Dirección BTC copiada al portapapeles</string>
 </resources>
