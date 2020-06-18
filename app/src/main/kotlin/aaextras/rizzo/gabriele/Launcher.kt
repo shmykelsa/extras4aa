@@ -1,4 +1,4 @@
-package aawallpapers.rizzo.gabriele
+package aaextras.rizzo.gabriele
 
 import android.app.Activity
 import android.content.pm.PackageManager

@@ -1,10 +1,12 @@
 @file:Suppress("ConstantConditionIf")
 
-package aawallpapers.rizzo.gabriele
+package aaextras.rizzo.gabriele
 
 import android.annotation.SuppressLint
 import android.app.Activity
 import android.app.AlertDialog
+import android.content.ClipData
+import android.content.ClipboardManager
 import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageInfo
@@ -36,7 +38,6 @@ class SubstratumLauncher : Activity() {
         returnIntent.putExtra("theme_name", themeName)
         returnIntent.putExtra("theme_author", themeAuthor)
         returnIntent.putExtra("theme_pid", themePid)
-        returnIntent.putExtra("theme_debug", BuildConfig.DEBUG)
 
         if (intent.action == "projekt.substratum.THEME") {
             setResult(getSelfSignature(applicationContext), returnIntent)
@@ -46,7 +47,7 @@ class SubstratumLauncher : Activity() {
         }
 
         //setContentView(R.layout.content_snow)
-        //showWelcomeDialog()
+        showWelcomeDialog()
         finish()
     }
 
@@ -68,33 +69,6 @@ class SubstratumLauncher : Activity() {
         val dialogTitle = view.findViewById(R.id.title) as TextView
         dialogTitle.startAnimation(anislideup)
 
-        val previewsIcon: ImageButton = view.findViewById(R.id.previews_icon) as ImageButton
-        previewsIcon.startAnimation(anifadeinfast)
-        previewsIcon.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.link_photos))))
-        }
-        val preview = view.findViewById(R.id.area_preview) as RelativeLayout
-        preview.startAnimation(anifadeinfast)
-        preview.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.link_photos))))
-        }
-
-        val creditsicon: ImageButton = view.findViewById(R.id.image_credits) as ImageButton
-        creditsicon.startAnimation(anifadeinfast)
-        creditsicon.setOnClickListener {
-            openCreditsDialog()
-        }
-        val areacrediti = view.findViewById(R.id.area_credits) as RelativeLayout
-        areacrediti.startAnimation(anifadeinfast)
-        areacrediti.setOnClickListener {
-            openCreditsDialog()
-        }
-
-        val areavarianti = view.findViewById(R.id.area_altritemi) as RelativeLayout
-        areavarianti.startAnimation(anifadeinfast)
-        areavarianti.setOnClickListener {
-            openotherthemesdialog()
-        }
 
         val cont = view.findViewById(R.id.button_continue) as Button
         cont.startAnimation(anifadeinfast)
@@ -118,7 +92,7 @@ class SubstratumLauncher : Activity() {
         val donate = view.findViewById(R.id.button_donate) as Button
         donate.startAnimation(anifadeinfast)
         donate.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.link_donate))))
+            openDonationOptions()
         }
         /*Checkbox*/
         val myCheckBox = view.findViewById(R.id.myCheckBox) as CheckBox
@@ -143,48 +117,30 @@ class SubstratumLauncher : Activity() {
 
     }
 
-    private fun openotherthemesdialog() {
+
+    private fun openDonationOptions() {
         val alertDialog = AlertDialog.Builder(this, R.style.DialogStyle)
                 .setCancelable(true)
-        val view = LayoutInflater.from(this).inflate(R.layout.other_themes_view, null)
+        val view = LayoutInflater.from(this).inflate(R.layout.donation_dialog, null)
 
-        val bottomtext: TextView = view.findViewById(R.id.bottomtextivewothers)
-        bottomtext.setOnClickListener{
-            openContactDialog()
+        val paypalButton:ImageView = view.findViewById(R.id.paypal_button)
+        paypalButton.setOnClickListener{
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.link_donate))))
         }
 
-        val primobottone: RelativeLayout = view.findViewById(R.id.primaiconaaltre)
-        primobottone.setOnClickListener{
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.link_sport))))
-        }
-
-        val secondobottone: RelativeLayout = view.findViewById(R.id.secondaiconaaltre)
-        secondobottone.setOnClickListener{
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.link_vehicules))))
+        val bitcoinButton:ImageView = view.findViewById(R.id.bitcoin_button)
+        bitcoinButton.setOnClickListener{
+                val clipboard = getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
+                val clip = ClipData.newPlainText("label","39bdKem8taTZvm2WeyH8wwDhYKzZ2PzhGn")
+                clipboard.primaryClip = clip
+            val text = R.string.copied_bitcoin
+            val duration = Toast.LENGTH_LONG
+            val toast = Toast.makeText(applicationContext, text, duration)
+            toast.show()
         }
 
         alertDialog.setView(view)
         alertDialog.show()
-    }
-
-    @SuppressLint("InflateParams")
-    private fun openCreditsDialog() {
-
-        val alertDialog = AlertDialog.Builder(this, R.style.DialogStyle)
-                .setCancelable(true)
-        val view = LayoutInflater.from(this).inflate(R.layout.sample_credits_view, null)
-
-        val text:TextView = view.findViewById(R.id.credits_content)
-        val creditors = getString(R.string.creditstring, getString(R.string.creditors))
-        text.text = creditors
-
-        val bottomtext:TextView = view.findViewById(R.id.bottomtextivew)
-        bottomtext.visibility = TextView.GONE
-
-        alertDialog.setView(view)
-        alertDialog.show()
-
-
     }
 
 
@@ -207,26 +163,12 @@ class SubstratumLauncher : Activity() {
         val bottoneNegativo: Button = view.findViewById(R.id.button_donate)
         bottoneNegativo.text = getString(R.string.nevershowagain)
 
-        val previewsIcon: ImageButton = view.findViewById(R.id.previews_icon) as ImageButton
-        previewsIcon.visibility = ImageButton.GONE
-
-        val preview = view.findViewById(R.id.area_preview) as RelativeLayout
-        preview.visibility = RelativeLayout.GONE
-
-        val creditsicon: ImageButton = view.findViewById(R.id.image_credits) as ImageButton
-        creditsicon.visibility = ImageButton.GONE
-
-        val areacrediti = view.findViewById(R.id.area_credits) as RelativeLayout
-        areacrediti.visibility = RelativeLayout.GONE
-
-        val areaaktru = view.findViewById(R.id.area_altritemi) as RelativeLayout
-        areaaktru.visibility = RelativeLayout.GONE
 
         val myCheckBox = view.findViewById(R.id.myCheckBox) as CheckBox
         myCheckBox.visibility = CheckBox.GONE
 
         bottoneNegativo.setOnClickListener {
-            val mSharedPreferences = getSharedPreferences("counter", Activity.MODE_PRIVATE)
+            val mSharedPreferences = getSharedPreferences("counter", MODE_PRIVATE)
             val mEditor = mSharedPreferences.edit()
             mEditor.putInt("counter_", -1)
             mEditor.apply()
@@ -234,11 +176,11 @@ class SubstratumLauncher : Activity() {
         }
 
         bottoneContinua.setOnClickListener {
-            val mSharedPreferences = getSharedPreferences("counter", Activity.MODE_PRIVATE)
+            val mSharedPreferences = getSharedPreferences("counter", MODE_PRIVATE)
             val mEditor = mSharedPreferences.edit()
             mEditor.putInt("counter_", -1)
             mEditor.apply()
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.link_donate))))
+            openDonationOptions()
         }
 
         val maybelater: Button = view.findViewById(R.id.terzo_bottone) as Button
@@ -338,23 +280,9 @@ class SubstratumLauncher : Activity() {
         val bottoneNegativo:Button = view.findViewById(R.id.button_donate)
         bottoneNegativo.text = getString(R.string.nevershowagain)
 
-        val previewsIcon:ImageButton = view.findViewById(R.id.previews_icon) as ImageButton
-        previewsIcon.visibility = ImageButton.GONE
-
-        val preview = view.findViewById(R.id.area_preview) as RelativeLayout
-        preview.visibility = RelativeLayout.GONE
-
-        val creditsicon:ImageButton = view.findViewById(R.id.image_credits) as ImageButton
-        creditsicon.visibility = ImageButton.GONE
-
-        val areacrediti = view.findViewById(R.id.area_credits) as RelativeLayout
-        areacrediti.visibility = RelativeLayout.GONE
 
         val myCheckBox = view.findViewById(R.id.myCheckBox) as CheckBox
         myCheckBox.visibility = CheckBox.GONE
-
-        val areaaktru = view.findViewById(R.id.area_altritemi) as RelativeLayout
-        areaaktru.visibility = RelativeLayout.GONE
 
         bottoneNegativo.setOnClickListener {
             storeRatingStatus(isChecked = true)
@@ -410,7 +338,7 @@ class SubstratumLauncher : Activity() {
     }
 
     private fun storeCounterOpened() {
-        val mSharedPreferences = getSharedPreferences("counter", Activity.MODE_PRIVATE)
+        val mSharedPreferences = getSharedPreferences("counter", MODE_PRIVATE)
         val mEditor = mSharedPreferences.edit()
         var counter = mSharedPreferences.getInt("counter_", 0)
         if (counter == -1) {
@@ -422,7 +350,7 @@ class SubstratumLauncher : Activity() {
     }
 
     private fun getCounterOpened():Int {
-        val mSharedPreferences = getSharedPreferences("counter", Activity.MODE_PRIVATE)
+        val mSharedPreferences = getSharedPreferences("counter", MODE_PRIVATE)
         return mSharedPreferences.getInt("counter_", 0)
     }
 
