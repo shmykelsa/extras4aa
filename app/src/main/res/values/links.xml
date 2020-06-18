@@ -2,13 +2,9 @@
 <resources
     xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="MissingTranslation">
-    <string name="link_support">"https://forum.xda-developers.com/android-auto/android-auto-general/theme-change-background-android-auto-t3964022"</string>
-    <string name="link_playstore">"https://labs.xda-developers.com/store/app/aawallpapers.rizzo.gabriele"</string>
-    <string name="link_photos">https://www.flickr.com/photos/185236287@N04/albums/72157713417989841</string>
-    <string name="link_donate">"https://www.paypal.me/grizzo96"</string>
-    <string name="link_mail">mailto:gabriele.rizzo@outlook.com?Subject=[AABG v%1$s] - Describe Subject Here&amp;Body=Android Version:%2$s\nDevice:%3$s\n%4$s v.%5$s</string>
-    <string name="link_telegram">http://t.me/iamgabrieler</string>
-    <string name="link_theme_general">https://labs.xda-developers.com/store/app/aawallpapers.rizzo.gabriele</string>
-    <string name="link_vehicules">https://labs.xda-developers.com/store/app/aawallpapersveh.rizzo.gabriele</string>
-    <string name="link_sport">https://labs.xda-developers.com/store/app/aawallpaperssport.rizzo.gabriele</string>
+    <string name="link_support" translatable="false">"https://forum.xda-developers.com/android-auto/android-auto-general/theme-personalize-look-aa-t4103365"</string>
+    <string name="link_playstore" translatable="false">"https://labs.xda-developers.com/store/app/aaextras.rizzo.gabriele"</string>
+    <string name="link_donate" translatable="false">"https://www.paypal.me/grizzo96"</string>
+    <string name="link_mail" translatable="false">mailto:gabriele.rizzo@outlook.com?Subject=[EXAA v%1$s] - Describe Subject Here&amp;Body=Android Version:%2$s\nDevice:%3$s\n%4$s v.%5$s</string>
+    <string name="link_telegram" translatable="false">http://t.me/shmykelsathemes</string>
 </resources>

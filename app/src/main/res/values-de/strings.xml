@@ -8,11 +8,11 @@
         1. Setze den Haken bei Android Auto und wähle ein Wallpaper aus der Liste\n
         2. Klick den unteren Button und wähle Build &amp; Install\n
         3. Starte das Telefon neu, geh zum Manager Tab und wähle das neue overlay und klicke enable</string>
-    <string name="launch_dialog_content">Dies ist Wallpapers for Android Auto (WP4AA), ein Thema zum ändern des Android Auto Hintergrundes\n\n
-        Wenn Du mir für die Entwicklung und Mühe danken möchtest, kannst Du über den Button unten eine Spende via PayPal senden. Auch für kleine Beträge bin ich dankbar.😊</string>
+    <string name="launch_dialog_content">Dies ist Extras for Android Auto, ein Thema zum ändern des Android Auto Hintergrundes\n\n
+        Wenn Du mir für die Entwicklung und Mühe danken möchtest, kannst Du über den Button unten eine Spende senden. Auch für kleine Beträge bin ich dankbar.😊</string>
     <string name="hi_iew">Heya!\n\n
         Wenn Du hier bist, hast Du Substratum nicht installiert.\n
-        Wallpapers For AA ist ein Thema und benötigt Substratum um zu funktionieren. Es ist keine eigenständige App.\n
+        Extras for AA ist ein Thema und benötigt Substratum um zu funktionieren. Es ist keine eigenständige App.\n
         Bitte installiere Substratum und versuche es dann wieder.</string>
     <string name="credit">Danksagungen</string>
     <string name="creditstring">Vielen Dank für die Wallpaper an:%1$s</string>
@@ -22,15 +22,12 @@
     <string name="gotoxdathread">Geh zum XDA Thread</string>
     <string name="mailme">Mail mir</string>
     <string name="nevershowagain">Nicht wieder anzeigen</string>
-    <string name="previews_text">Vorschau!</string>
     <string name="proceed">Weiter</string>
     <string name="rating_message">Hey, hast Du einen Moment Zeit für eine Bewertung auf XDA Labs?</string>
     <string name="reconsider">Vielleicht später!</string>
     <string name="takemetoxdathreadstring">Ich brauche noch Hilfe!</string>
     <string name="contact_me_on_telegram">Kontaktier mich auf Telegram</string>
-    <string name="donation_message">You seem to really enjoy Substratum Wallpapers For AA, would you like to make a donation?</string>
+    <string name="donation_message">Sie scheinen Extras For AA wirklich zu genießen, möchten Sie eine Spende machen?</string>
     <string name="helpButton">Hilfe</string>
-    <string name="more_backgrounds">More Backgrounds</string>
-    <string name="otherthemes">Check out the other variants of WP4AA</string>
-    <string name="gimmemore">Can you add a wallpaper?</string>
+    <string name="copied_bitcoin">Address copied to clipboard</string>
 </resources>

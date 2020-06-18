@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="launch_dialog_content">Benvenuto su Wallpapers for Android Auto (WP4AA), un tema per cambiare lo sfondo di Android Auto
+    <string name="launch_dialog_content">Benvenuto su Extras for Android Auto, un tema per cambiare lo sfondo di Android Auto
         \n\n Se vuoi ringraziarmi per il lavoro, puoi farlo con una donazione, dal bottone sotto.
         \n Anche una piccola somma sarebbe molto apprezzata 😊</string>
     <string name="do_not_show_again">Non mostrare di nuovo</string>
     <string name="proceed">Continua</string>
     <string name="donate">Dona</string>
     <string name="credit">Crediti</string>
-    <string name="previews_text">Anteprime!</string>
     <string name="helpme">Per installare uno sfondo:
         \n1. Seleziona Android Auto e poi uno sfondo dalla lista
         \n2. Premi il bottone in basso e seleziona Costruisci &amp; installa
@@ -23,15 +22,13 @@
     <string name="creditstring">Ringraziamenti per gli sfondi vanno a:%1$s</string>
     <string name="hi_iew">Ciao,\n
     Se sei finito qui vuol dire che non hai Substratum installato.\n
-    Wallpapers For AA è un tema e ha bisogno di Substratum per essere applicato, non è un\'applicazione che funziona da sola.\n
+    Extras for AA è un tema e ha bisogno di Substratum per essere applicato, non è un\'applicazione che funziona da sola.\n
     Installa Substratum e riprova.\n</string>
     <string name="rating_message">Ehi, ti andrebbe di prenderti un momento e lasciare una recensione su XDA Labs?</string>
     <string name="gotorating">Portami!</string>
     <string name="nevershowagain">Lasciami stare!</string>
     <string name="reconsider">Forse dopo</string>
-    <string name="donation_message">Sembra che Substratum Wallpapers for Android Auto (WP4AA) ti piaccia! Vorresti aiutarmi facendo una piccola donazione?</string>
+    <string name="donation_message">Sembra che Substratum Extras for Android Auto ti piaccia! Vorresti aiutarmi facendo una piccola donazione?</string>
     <string name="helpButton">Aiuto</string>
-    <string name="more_backgrounds">Altri sfondi</string>
-    <string name="otherthemes">Dai un\'occhiata alle altre varianti di WP4AA</string>
-    <string name="gimmemore">Puoi aggiungere uno sfondo?</string>
+    <string name="copied_bitcoin">Address copied to clipboard</string>
 </resources>

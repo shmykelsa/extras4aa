@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="launch_dialog_content">To jest Wallpapers for Android Auto (WP4AA), narzędzie do zmiany tapety w Android Auto
+    <string name="launch_dialog_content">To jest Extras for Android Auto, narzędzie do zmiany tapety w Android Auto
         \n\n Jeśli chcesz wspomóc rozwój możesz rozważyć darowiznę. Będzie to bardzo mile widziane 😊</string>
     <string name="donate">Wspomóż</string>
     <string name="do_not_show_again">Nie pokazuj więcej</string>
@@ -13,7 +13,6 @@
         \n1. Zaznacz Android Auto i wybierz tapetę z listy
         \n2. Naciśnij przycisk na dole i wybierz \"Build &amp; Install\"
         \n3. Zrestartuj, wejdź w zakładkę \"Manager\", wybierz skompilowaną nakładkę(i) i włącz</string>
-    <string name="previews_text">Podglądy!</string>
     <string name="proceed">Kontynuuj</string>
     <string name="takemetoxdathreadstring">Wciąż potrzebuję pomocy</string>
     <string name="gotoxdathread">Zabierz mnie do wątku na XDA!</string>
@@ -22,15 +21,13 @@
     <string name="creditstring">Podziękowania za tapety dla:%1$s</string>
     <string name="hi_iew">"Witaj!
 				\nJeśli tu jesteś, to znaczy, że nie masz zainstalowanego Substratum.
-				\nWallpapers For AA to motyw i potrzebuje Substratum do działania, to nie jest samodzielna aplikacja.
+				\nExtras for AA to motyw i potrzebuje Substratum do działania, to nie jest samodzielna aplikacja.
 				\nUpewnij się, że masz zainstalowany Substratum i spróbuj ponownie.</string>
     <string name="rating_message">Hej, poświęcisz chwilę, by ocenić ten motyw na XDA Labs?</string>
     <string name="gotorating">Zabierz mnie tam!</string>
     <string name="nevershowagain">Zostaw mnie w spokoju!</string>
     <string name="reconsider">Może później</string>
-    <string name="donation_message">Wygląda na to, że naprawdę podoba Ci się Substratum Wallpapers for Android Auto (WP4AA), może chciałbyś wyrazić swoje uznanie darowizną?</string>
+    <string name="donation_message">Wygląda na to, że naprawdę podoba Ci się Substratum Extras for Android Auto, może chciałbyś wyrazić swoje uznanie darowizną?</string>
     <string name="helpButton">Pomocy</string>
-    <string name="more_backgrounds">Więcej tapet</string>
-    <string name="otherthemes">Sprawdź więcej wariantów WP4AA</string>
-    <string name="gimmemore">Czy możesz dodać tapetę?</string>
+    <string name="copied_bitcoin">Address copied to clipboard</string>
 </resources>

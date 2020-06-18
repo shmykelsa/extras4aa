@@ -102,8 +102,8 @@
             android:id="@+id/myCheckBox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/area_altritemi"
-            android:layout_alignStart="@id/area_credits"
+            android:layout_below="@id/terzo_bottone"
+            android:layout_alignStart="@id/terzo_bottone"
             android:layout_marginTop="15dp"
             android:layout_marginEnd="4dp"
             android:layout_marginBottom="4dp"
@@ -113,116 +113,18 @@
             android:textColor="#fff"
             android:textSize="12sp" />
 
-        <RelativeLayout
-            android:id="@+id/area_preview"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/terzo_bottone"
-            android:layout_alignBottom="@id/area_credits"
-            android:layout_marginStart="12dp"
-            android:layout_marginTop="15dp"
-            android:layout_toEndOf="@id/area_credits">
-
-            <ImageButton
-                android:id="@+id/previews_icon"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_marginTop="0dp"
-                android:layout_marginEnd="4dp"
-                android:layout_marginBottom="0dp"
-                android:background="@android:color/transparent"
-                android:buttonTint="#fff"
-                android:contentDescription="@android:string/untitled"
-                android:src="@drawable/ic_photo_library_black_24dp"
-                android:textColor="#fff"
-                android:clickable="true"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_alignBottom="@id/previews_icon"
-                android:layout_marginStart="3dp"
-                android:layout_toEndOf="@id/previews_icon"
-                android:text="@string/previews_text"
-                android:textAppearance="@android:style/TextAppearance.Material"
-                android:textSize="14sp"
-                android:textColor="@android:color/white"
-                tools:layout_toEndOf="@id/previews_icon" />
-
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:id="@+id/area_altritemi"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:layout_below="@id/area_credits"
-            android:layout_alignStart="@id/area_credits">
-
-            <ImageButton
-                android:id="@+id/alterimage"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="0dp"
-                android:layout_marginEnd="4dp"
-                android:layout_marginBottom="0dp"
-                android:background="@android:color/transparent"
-                android:buttonTint="#fff"
-                android:clickable="true"
-                android:contentDescription="@android:string/untitled"
-                android:src="@drawable/ic_add_circle_black_24dp"
-                android:textColor="#fff" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignBottom="@id/alterimage"
-                android:layout_marginStart="3dp"
-                android:layout_toEndOf="@id/alterimage"
-                android:text="@string/more_backgrounds"
-                android:textAppearance="@android:style/TextAppearance.Material"
-                android:textColor="#fff"
-                android:textSize="14sp"
-                tools:layout_toEndOf="@id/alterimage" />
 
 
-        </RelativeLayout>
 
-        <RelativeLayout
-            android:id="@+id/area_credits"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/terzo_bottone"
-            android:layout_marginStart="9dp"
-            android:layout_marginTop="15dp">
 
-            <ImageButton
-                android:id="@+id/image_credits"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="0dp"
-                android:layout_marginEnd="4dp"
-                android:layout_marginBottom="0dp"
-                android:background="@android:color/transparent"
-                android:buttonTint="#fff"
-                android:contentDescription="@android:string/untitled"
-                android:src="@drawable/ic_info_black_24dp"
-                android:textColor="#fff"
-                android:clickable="true"
-                android:focusable="true" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignTop="@+id/image_credits"
-                android:layout_alignBottom="@id/image_credits"
-                android:layout_toEndOf="@id/image_credits"
-                android:text="@string/credit"
-                android:textColor="#fff"
-                android:textAppearance="@android:style/TextAppearance.Material"
-                android:textSize="14sp" />
 
-        </RelativeLayout>
+
+
+
+
+
+
 
     </RelativeLayout>
 

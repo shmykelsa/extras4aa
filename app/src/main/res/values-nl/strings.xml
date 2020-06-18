@@ -19,19 +19,16 @@
         Als je hier bent, komt dat omdat je Substratum niet hebt geïnstalleerd.\n
         Android Auto-achtergronden is een thema en heeft Substratum nodig om te werken, het is geen zelfstandige app.\n
         Installeer alstublieft Substratum en probeer het opnieuw.</string>
-    <string name="launch_dialog_content">Dit is Wallpapers for Android Auto (WP4AA), een thema om Android Auto-achtergrond te veranderen\n\n
-        Als je me wilt bedanken voor de ontwikkeling en de inspanning, kun je een donatie doen via PayPal met de onderstaande knop.\n\n
+    <string name="launch_dialog_content">Dit is Extras for Android Auto, een thema om Android Auto-achtergrond te veranderen\n\n
+        Als je me wilt bedanken voor de ontwikkeling en de inspanning, kun je een donatie doen met de onderstaande knop.\n\n
         Zelfs een klein bedrag zou zeer worden gewaardeerd 😊</string>
     <string name="mailme">Mail me</string>
     <string name="nevershowagain">Laat me met rust!</string>
-    <string name="previews_text">Voorbeelden!</string>
     <string name="proceed">Doorgaan</string>
     <string name="rating_message">Hé, wil je even de tijd nemen om dit thema te beoordelen op XDA Labs?</string>
     <string name="reconsider">Misschien later</string>
     <string name="takemetoxdathreadstring">Ik heb nog steeds hulp nodig!</string>
-    <string name="donation_message">You seem to really enjoy Substratum Wallpapers For AA, would you like to make a donation?</string>
+    <string name="donation_message">You seem to really enjoy Substratum Extras for AA, would you like to make a donation?</string>
     <string name="helpButton">Help</string>
-    <string name="more_backgrounds">More Backgrounds</string>
-    <string name="otherthemes">Check out the other variants of WP4AA</string>
-    <string name="gimmemore">Can you add a wallpaper?</string>
+    <string name="copied_bitcoin">BTC adres gekopieerd naar het klembord</string>
 </resources>
