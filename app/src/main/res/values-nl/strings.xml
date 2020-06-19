@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="contact_me_on_telegram">Contact me op Telegram</string>
-    <string name="credit">Dank aan</string>
     <string name="creditstring">Hartelijk dank voor de achtergronden gaan naar:%1$s</string>
     <string name="do_not_show_again">Niet meer tonen</string>
     <string name="donate">Donatie</string>
@@ -15,12 +14,9 @@
         1. Vink Android Auto aan en selecteer een achtergrond uit de lijst\n
         2. Druk op de onderste knop en selecteer Install Selected\n
         3. Reboot, ga naar tabblad manager, selecteer de overlay(s) en schakel in</string>
-    <string name="hi_iew">Hallo!\n
-        Als je hier bent, komt dat omdat je Substratum niet hebt geïnstalleerd.\n
-        Android Auto-achtergronden is een thema en heeft Substratum nodig om te werken, het is geen zelfstandige app.\n
-        Installeer alstublieft Substratum en probeer het opnieuw.</string>
+    <string name="hi_iew">Contact me op Telegram</string>
     <string name="launch_dialog_content">Dit is Extras for Android Auto, een thema om Android Auto-achtergrond te veranderen\n\n
-        Als je me wilt bedanken voor de ontwikkeling en de inspanning, kun je een donatie doen met de onderstaande knop.\n\n
+        Als je me wilt bedanken voor de ontwikkeling en de inspanning, kun je een donatie doen met de onderstaande knop.\n
         Zelfs een klein bedrag zou zeer worden gewaardeerd 😊</string>
     <string name="mailme">Mail me</string>
     <string name="nevershowagain">Laat me met rust!</string>
@@ -28,7 +24,7 @@
     <string name="rating_message">Hé, wil je even de tijd nemen om dit thema te beoordelen op XDA Labs?</string>
     <string name="reconsider">Misschien later</string>
     <string name="takemetoxdathreadstring">Ik heb nog steeds hulp nodig!</string>
-    <string name="donation_message">You seem to really enjoy Substratum Extras for AA, would you like to make a donation?</string>
+    <string name="donation_message">Het lijkt alsof je er echt van geniet Extras for AA, wilt u een donatie doen?</string>
     <string name="helpButton">Help</string>
     <string name="copied_bitcoin">BTC adres gekopieerd naar het klembord</string>
 </resources>

@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="contact_me_on_telegram">Contate-me no Telegram</string>
-    <string name="credit">Creditos</string>
+    <string name="contact_me_on_telegram">Junte-Telegram Canal</string>
     <string name="creditstring">Agredecimentos pelos papéis de parede a:%1$s</string>
     <string name="do_not_show_again">Não mostrar novamente</string>
     <string name="donate">Doar</string>
-    <string name="donation_message">Você parece estar gostando do Substratum Extras for AA, gostaria de mostrar sua apreciação com uma doação?</string>
+    <string name="donation_message">Você parece estar gostando do Extras for AA, gostaria de mostrar sua apreciação com uma doação?</string>
     <string name="gotorating">Me leve lá!</string>
     <string name="gotoxdathread">Ir para XDA Thread</string>
-    <string name="helpme">Para instalar um papel de parede de fundo:\n\n
-        1. Selecione Android Auto e um papel de parede da lista\n
-        2. Aperte o botão de baixo e selecione Compilar e Instalar\n
-        3. Reinicie, vá para a guia do gerenciador, selecione a camada criada e ative\n</string>
-    <string name="helpme_lite">Para instalar um papel de parede de fundo:\n\n
-        1. Selecione Android Auto e um papel de parede da lista\n
-        2. Aperte o botão de baixo e selecione Install Selected\n
-        3. Reinicie, vá para a guia do manager, selecione a camada criada e ative\n</string>
+    <string name="helpme">Parece que você não está executando o Substratum Lite.\n
+     Para aplicar Extras para AA, instale o Substratum Lite.</string>
+    <string name="helpme_lite">Para instalar:\n
+         1. Marque Android Auto e selecione um extra da lista\n
+         2. Veja a marca de atenção perto de &quot;Android Auto&quot; para evitar erros\n
+         3. Selecione um ou mais extras da lista\n
+         4. Clique no botão inferior e selecione &quot;Build &amp; Install&quot;\n
+         5. Repita as etapas 3 e 4 quantas vezes quiser\n
+         6. Reinicialize, vá para a guia do gerente, selecione as sobreposições criadas e &quot;Activate&quot;</string>
     <string name="hi_iew">Heya!\n\n
     Se voce está aqui, é porque você não tem o Substratum Instalado.\n
-    Extras for AA é um thema e precisa do Substratum pra funcionar, não é um aplivativo independente.\n
-    Por favor instale o Substratum e tente novamente. </string>
-    <string name="launch_dialog_content">Esse é Extras for Android Auto, um tema para mudar o fundo do Android Auto.\n
-        Se quiser me agradecer pelo desenvolvimento e esforço, você pode fazer uma doação via Paypal no botão abaixo.
-        Mesmo uma pequena quantia seria apreciada!</string>
+    Extras for AA é um thema e precisa do Substratum Lite pra funcionar, não é um aplivativo independente.\n
+    Por favor instale o Substratum Lite e tente novamente. </string>
+    <string name="launch_dialog_content">Esse é Extras for Android Auto, um tema para alterar a aparência do Android Auto.\n
+        Se quiser me agradecer pelo desenvolvimento e esforço, você pode fazer uma doação via Paypal no botão abaixo.\n
+        Mesmo uma pequena quantia seria apreciada!😊</string>
     <string name="mailme">Me envie um E-mail</string>
     <string name="nevershowagain">Me deixe em paz!</string>
     <string name="proceed">Continuar</string>
@@ -30,5 +30,5 @@
     <string name="reconsider">Talvez Depois</string>
     <string name="takemetoxdathreadstring">Ainda preciso de ajuda!</string>
     <string name="helpButton">Ajuda</string>
-    <string name="copied_bitcoin">Address copied to clipboard</string>
+    <string name="copied_bitcoin">Endereço BTC copiado para a área de transferência</string>
 </resources>

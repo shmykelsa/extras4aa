@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="contact_me_on_telegram">Присоединиться к Telegram-каналу</string>
-    <string name="credit">О создателях</string>
     <string name="creditstring">Большое спасибо за Ваш вклад:%1$s</string>
     <string name="do_not_show_again">Не показывать снова</string>
     <string name="donate">Стать спонсором</string>

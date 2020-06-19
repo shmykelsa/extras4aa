@@ -4,20 +4,21 @@
         \n\n Jeśli chcesz wspomóc rozwój możesz rozważyć darowiznę. Będzie to bardzo mile widziane 😊</string>
     <string name="donate">Wspomóż</string>
     <string name="do_not_show_again">Nie pokazuj więcej</string>
-    <string name="credit">O programie</string>
-    <string name="helpme">Instalacja tapety:
-        \n1. Zaznacz Android Auto i wybierz tapetę z listy
-        \n2. Naciśnij przycisk na dole i wybierz \"Kompiluj i Zaktualizuj\"
-        \n3. Zrestartuj, wejdź w zakładkę \"Menedżer\", wybierz skompilowaną nakładkę(i) i włącz</string>
-    <string name="helpme_lite">Instalacja tapety:
-        \n1. Zaznacz Android Auto i wybierz tapetę z listy
-        \n2. Naciśnij przycisk na dole i wybierz \"Build &amp; Install\"
-        \n3. Zrestartuj, wejdź w zakładkę \"Manager\", wybierz skompilowaną nakładkę(i) i włącz</string>
+    <string name="helpme"> Wygląda na to, że nie używasz Substratum Lite.\n
+  Aby zastosować Extras for AA, zainstaluj Substratum Lite
+    </string>
+    <string name="helpme_lite">Aby zainstalować:\n
+        1. Zaznacz Android Auto i wybierz dodatek z listy\n
+        2. Sprawdź znak uwaga obok „Android Auto”, aby uniknąć błędów\n
+        3. Wybierz jeden lub więcej dodatków z listy\n
+        4. Naciśnij dolny przycisk i wybierz &quot;Build &amp; Install&quot;\n
+        5. Powtórz kroki 3 i 4 tyle razy, ile potrzebujesz\n
+        6. Uruchom ponownie, przejdź do karty menedżer, wybierz wbudowana(e) nakładka(i) i włącz</string>
     <string name="proceed">Kontynuuj</string>
     <string name="takemetoxdathreadstring">Wciąż potrzebuję pomocy</string>
     <string name="gotoxdathread">Zabierz mnie do wątku na XDA!</string>
     <string name="mailme">Wyślij mi maila</string>
-    <string name="contact_me_on_telegram">Skontaktuj się ze mną na Telegramie</string>
+    <string name="contact_me_on_telegram">Dołącz do kanału na Telegram</string>
     <string name="creditstring">Podziękowania za tapety dla:%1$s</string>
     <string name="hi_iew">"Witaj!
 				\nJeśli tu jesteś, to znaczy, że nie masz zainstalowanego Substratum.
@@ -27,7 +28,7 @@
     <string name="gotorating">Zabierz mnie tam!</string>
     <string name="nevershowagain">Zostaw mnie w spokoju!</string>
     <string name="reconsider">Może później</string>
-    <string name="donation_message">Wygląda na to, że naprawdę podoba Ci się Substratum Extras for Android Auto, może chciałbyś wyrazić swoje uznanie darowizną?</string>
+    <string name="donation_message">Wygląda na to, że naprawdę podoba Ci się Extras for Android Auto, może chciałbyś wyrazić swoje uznanie darowizną?</string>
     <string name="helpButton">Pomocy</string>
-    <string name="copied_bitcoin">Address copied to clipboard</string>
+    <string name="copied_bitcoin">Adres BTC skopiowany do schowka</string>
 </resources>
