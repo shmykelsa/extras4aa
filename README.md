@@ -1,1 +1,1 @@
-Substratum AA Wallpapers Theme
+Repo of Extras for AA (Substratum Theme)
