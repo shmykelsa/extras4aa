@@ -14,6 +14,7 @@ import android.content.pm.PackageManager
 import android.net.Uri
 import android.os.Build
 import android.os.Bundle
+import android.support.constraint.ConstraintLayout
 import android.util.TypedValue
 import android.view.LayoutInflater
 import android.view.animation.AnimationUtils
@@ -226,9 +227,9 @@ class SubstratumLauncher : Activity() {
         val icon3:ImageView = view.findViewById(R.id.xda_icon)
 
 
-        val takemetotelegram = view.findViewById(R.id.primaicona) as RelativeLayout
-        val mailme = view.findViewById(R.id.secondaicona) as RelativeLayout
-        val takmetoxda = view.findViewById(R.id.terzaicona) as RelativeLayout
+        val takemetotelegram = view.findViewById(R.id.primaicona) as ConstraintLayout
+        val mailme = view.findViewById(R.id.secondaicona) as ConstraintLayout
+        val takmetoxda = view.findViewById(R.id.terzaicona) as ConstraintLayout
 
         icon1.setImageResource(R.drawable.ic_icons8_telegramma_app)
         icon2.setImageResource(R.drawable.ic_envelope)
