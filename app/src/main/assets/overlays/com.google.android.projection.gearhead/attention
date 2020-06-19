@@ -1,1 +1,1 @@
-Due to a bug with Substratum Lite, you might want to build and install an overlay with just custom colours. If you chose custom colours, just build & install and then install other extras after. If you want to pick a gradient for bottom bar, also choose to apply gradient in the extras and then build.
+Due to a limitation of Substratum, if you chose custom colours, just build & install right after and then install other extras. If you want to theme something with a gradient, also choose to apply gradient in the extras and then build.
