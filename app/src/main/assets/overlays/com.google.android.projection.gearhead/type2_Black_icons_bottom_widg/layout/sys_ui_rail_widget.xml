@@ -34,6 +34,14 @@
                     android:layout_height="@*com.google.android.projection.gearhead:dimen/rail_widget_primary_icon_height"
                     android:scaleType="fitCenter" />
             </androidx.cardview.widget.CardView>
+            <ImageView
+                android:id="@*com.google.android.projection.gearhead:id/large_icon"
+                android:layout_width="@*com.google.android.projection.gearhead:dimen/rail_widget_large_icon_size"
+                android:layout_height="@*com.google.android.projection.gearhead:dimen/rail_widget_large_icon_size"
+                android:layout_gravity="center"
+                android:background="@*com.google.android.projection.gearhead:color/gearhead_rail_widget_pill_color"
+                android:scaleType="fitCenter"
+                android:visibility="gone" />
         </FrameLayout>
         <View
             android:id="@*com.google.android.projection.gearhead:id/start_margin"
