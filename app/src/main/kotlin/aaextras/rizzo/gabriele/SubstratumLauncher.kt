@@ -17,6 +17,7 @@ import android.os.Bundle
 import android.support.constraint.ConstraintLayout
 import android.util.TypedValue
 import android.view.LayoutInflater
+import android.view.View
 import android.view.animation.AnimationUtils
 import android.widget.*
 
@@ -121,7 +122,8 @@ class SubstratumLauncher : Activity() {
     private fun openDonationOptions() {
         val alertDialog = AlertDialog.Builder(this, R.style.DialogStyle)
                 .setCancelable(true)
-        val view = LayoutInflater.from(this).inflate(R.layout.donation_dialog, null)
+
+        val view = View.inflate(this, R.layout.donation_dialog, null);
 
         val paypalButton:ImageView = view.findViewById(R.id.paypal_button)
         paypalButton.setOnClickListener{
@@ -220,7 +222,7 @@ class SubstratumLauncher : Activity() {
 
         val alertDialog = AlertDialog.Builder(this, R.style.DialogStyle)
                 .setCancelable(true)
-        val view = LayoutInflater.from(this).inflate(R.layout.contact_view, null)
+        val view= View.inflate(this, R.layout.contact_view, null)
 
         val icon1:ImageView = view.findViewById(R.id.telegram_icon)
         val icon2:ImageView = view.findViewById(R.id.mail_icon)

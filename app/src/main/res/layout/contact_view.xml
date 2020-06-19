@@ -5,41 +5,39 @@
     xmlns:app="http://schemas.android.com/apk/lib/aawallpapers.rizzo.gabriele"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_marginStart="12dp"
-    android:layout_marginEnd="12dp"
+    android:layout_marginStart="9dp"
+    android:layout_marginEnd="9dp"
     android:background="@drawable/dialog_bg"
-    android:orientation="horizontal">
+    android:orientation="vertical">
 
     <android.support.constraint.ConstraintLayout
         android:id="@+id/primaicona"
-        android:layout_width="100dp"
-        android:layout_height="120dp"
-        android:gravity="start">
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/telegram_icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleX="0.54"
+            android:scaleY="0.54"
+            android:src="@drawable/ic_icons8_telegramma_app"
+            android:tint="@android:color/white"
+            app2:layout_constraintTop_toTopOf="parent"
+            app2:layout_constraintStart_toStartOf="parent"
+            app2:layout_constraintEnd_toStartOf="@id/telegram_textview"/>
 
         <TextView
             android:id="@+id/telegram_textview"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/contact_me_on_telegram"
-            android:textAlignment="center"
-            android:textSize="13sp"
-            app2:layout_constraintBottom_toBottomOf="parent"
-            app2:layout_constraintEnd_toEndOf="parent"
-            app2:layout_constraintStart_toStartOf="parent"/>
-
-        <ImageView
-            android:id="@+id/telegram_icon"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignStart="@id/telegram_textview"
-            android:layout_alignEnd="@id/telegram_textview"
-            android:scaleX="0.5"
-            android:scaleY="0.5"
-            android:src="@drawable/ic_icons8_telegramma_app"
-            android:tint="@android:color/white"
+            android:textSize="18sp"
             app2:layout_constraintTop_toTopOf="parent"
-            app2:layout_constraintEnd_toEndOf="parent"
-            app2:layout_constraintStart_toStartOf="parent"/>
+            app2:layout_constraintStart_toEndOf="@id/telegram_icon"
+            app2:layout_constraintBottom_toBottomOf="parent"
+            app2:layout_constraintEnd_toEndOf="parent"/>
 
 
 
@@ -47,23 +45,22 @@
 
     <android.support.constraint.ConstraintLayout
         android:id="@+id/secondaicona"
-        android:layout_width="100dp"
-        android:layout_height="120dp"
-        android:paddingStart="30dp"
-        android:paddingEnd="0dp">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="9dp">
 
         <ImageView
             android:id="@+id/mail_icon"
             android:layout_width="100dp"
-            android:layout_height="98dp"
+            android:layout_height="100dp"
             android:scaleX="0.54"
             android:scaleY="0.54"
-            android:gravity="center"
             android:src="@drawable/ic_envelope"
             android:tint="@android:color/white"
             android:padding="10dp"
             app2:layout_constraintTop_toTopOf="parent"
-            app2:layout_constraintEnd_toEndOf="parent"
+            app2:layout_constraintBottom_toBottomOf="parent"
+            app2:layout_constraintEnd_toStartOf="@id/mail_textview"
             app2:layout_constraintStart_toStartOf="parent"/>
 
         <TextView
@@ -71,47 +68,42 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAlignment="center"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
             android:text="@string/mailme"
+            android:textSize="18sp"
             app2:layout_constraintBottom_toBottomOf="parent"
             app2:layout_constraintEnd_toEndOf="parent"
-            app2:layout_constraintStart_toStartOf="parent"/>
+            app2:layout_constraintStart_toStartOf="@id/mail_icon"
+            app2:layout_constraintTop_toTopOf="parent"/>
 
     </android.support.constraint.ConstraintLayout>
 
     <android.support.constraint.ConstraintLayout
         android:id="@+id/terzaicona"
-        android:layout_width="100dp"
-        android:layout_height="120dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginEnd="0dp">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="9dp">
 
         <ImageView
             android:id="@+id/xda_icon"
-            android:layout_width="match_parent"
-            android:layout_height="90dp"
-            android:layout_centerHorizontal="true"
-            android:scaleX="0.55"
-            android:scaleY="0.55"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleX="0.54"
+            android:scaleY="0.54"
             android:src="@drawable/ic_xda"
             app2:layout_constraintTop_toTopOf="parent"
-            app2:layout_constraintEnd_toEndOf="parent"
-            app2:layout_constraintStart_toStartOf="parent"/>
+            app2:layout_constraintStart_toStartOf="parent"
+            app2:layout_constraintEnd_toStartOf="@id/xda_textview"/>
 
         <TextView
             android:id="@+id/xda_textview"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_alignParentBottom="true"
-            android:textAlignment="center"
-            android:textSize="12sp"
+            android:textSize="18sp"
             android:text="@string/gotoxdathread"
-            android:gravity="center"
             app2:layout_constraintBottom_toBottomOf="parent"
             app2:layout_constraintEnd_toEndOf="parent"
-            app2:layout_constraintStart_toStartOf="parent"/>
+            app2:layout_constraintTop_toTopOf="parent"
+            app2:layout_constraintStart_toStartOf="@id/xda_icon"/>
 
     </android.support.constraint.ConstraintLayout>
 
