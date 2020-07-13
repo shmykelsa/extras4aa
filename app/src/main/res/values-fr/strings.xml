@@ -7,17 +7,17 @@
     <string name="donate">Faire un don</string>
     <string name="do_not_show_again">Ne plus afficher</string>
     <string name="contact_me_on_telegram">Suivez le canal Telegram</string>
-    <string name="launch_dialog_content">"Ce thème est Extras for Android Auto, pour changer l\'image de fond d\'Android Auto\n
+    <string name="launch_dialog_content">Voici les Extras pour AA, un thème pour changer l\'apparance de votre Android Auto\n
         Si vous souhaitez soutenir le développement et contribuer à l\'effort, vous pouvez faire un don PayPal par l\'intermédiaire du bouton ci-dessous.\n
         Même les petits montants sont appréciés😊"</string>
-    <string name="helpme">Il semble que Substratum Lite ne soit pas installé.\nAfin d\'appliquer correctement ce thème, veuillez installer Substratum Lite.</string>
+    <string name="helpme">On dirait que vous n\'utilisez pas Substratum Lite.\nPour faire fonctionner les Extras pour AA, s.v.p. installez Substratum Lite.</string>
     <string name="helpme_lite">Pour installer:\n
-         1. Cochez Android Auto et sélectionnez un extra dans la liste\n
-         2. Voir la marque d\'attention près de &quot;Android Auto&quot; pour éviter les erreurs\n
-         3. Sélectionnez un ou plusieurs extras dans la liste\n
-         4. Appuyez sur le bouton du bas et sélectionnez &quot;Build &amp; Install&quot;\n
-         5. Répétez les étapes 3 et 4 autant de fois que vous le souhaitez\n
-         6. Redémarrez, accédez à l\'onglet gestionnaire, sélectionnez la ou les superpositions intégrées et &quot;Activate&quot;.</string>
+         1. Cochez Android Auto et selectionnez un extras de cette liste\n
+         2. Regardez la note près de "Android Auto" pour éviter les erreurs\n
+         3. Choissisez un ou plusieurs extras de la liste\n
+         4. Cochez ensuite le carré dans le bas de l\'écran et sélectionnez "Build &amp; Install"\n
+         5. Répéter les étapes 3 et 4 pour chaque items supplémentaires ou tel que désiré\n
+         6. Redémarrer votre appareil ensuite, revenez dans Subtratum Lite, dans le bas choisir l\'icône au centre "Manager", choisir votre extra et cliquez sur "Enable".</string>
     <string name="creditstring">Remerciements pour les fonds d\'écran:%1$s</string>
     <string name="hi_iew">Salut!\n
     \nSi vous voyez ce message, c\'est que vous n\'avez pas installé Substratum.

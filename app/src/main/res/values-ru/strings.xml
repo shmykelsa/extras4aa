@@ -8,11 +8,11 @@
     <string name="gotoxdathread">Посетить наш ресурс на форуме XDA.</string>
     <string name="helpme">У Вас не установлен Substratum Lite.\n
      Чтобы применить Extras for AA, необходимо установить Substratum Lite.</string>
-    <string name="helpme_lite">Инструкция по установке\n\n
+    <string name="hi_iew">Инструкция по установке\n\n
     Отметьте Android Auto и выберите обои из списка\n
     Нажмите кнопку ниже и выбирите тип установки\n
     Перегрузите устройство, откройте вкладку, выбирите фон и включите его</string>
-    <string name="hi_iew">Для установки изменений внешнего вида АА:\n
+    <string name="helpme_lite">Для установки изменений внешнего вида АА:\n
          1. Отметить Android Auto и выбрать опции из списка\n
          2. Обратить внимание на знак &quot;внимание&quot; рядом с &quot;Android Auto&quot;, чтобы избежать ошибок\n
          3. Выбрать одну или несколько опций из списка\n

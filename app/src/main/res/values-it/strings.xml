@@ -6,10 +6,7 @@
     <string name="do_not_show_again">Non mostrare di nuovo</string>
     <string name="proceed">Continua</string>
     <string name="donate">Dona</string>
-    <string name="helpme">Per installare uno sfondo:
-        \n1. Seleziona Android Auto e poi uno sfondo dalla lista
-        \n2. Premi il bottone in basso e seleziona Costruisci &amp; installa
-        \n3. Riavvia il dispositivo, ri-apri Substratum, recati alla sezione gestore, seleziona Android Auto e abilitalo</string>
+    <string name="helpme">Sembra che tu non abbia installato Substratum Lite. Per utilizzare a pieno Extras for AA, per favore, installa Substratum Lite.</string>
     <string name="helpme_lite">Per installare uno sfondo:
         \n1. Seleziona Android Auto e poi uno sfondo dalla lista
         \n2. Premi il bottone in basso e seleziona \'Install Selected\'
@@ -29,5 +26,5 @@
     <string name="reconsider">Forse dopo</string>
     <string name="donation_message">Sembra che Substratum Extras for Android Auto ti piaccia! Vorresti aiutarmi facendo una piccola donazione?</string>
     <string name="helpButton">Aiuto</string>
-    <string name="copied_bitcoin">Address copied to clipboard</string>
+    <string name="copied_bitcoin">Indirizzo Bitcoin copiato negli appunti</string>
 </resources>

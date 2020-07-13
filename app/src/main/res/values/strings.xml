@@ -29,10 +29,7 @@
     <string name="gotoxdathread">Go to XDA Thread</string>
     <string name="mailme">Mail me</string>
     <string name="contact_me_on_telegram">Join Telegram Channel</string>
-    <string name="hi_iew">Heya!\n
-    If you are here, that\'s because you don\'t have Substratum Installed.\n
-    Extras for AA is a theme and needs Substratum to work, it\'s not a stand-alone app.\n
-    Please install Substratum and try again.</string>
+    <string name="hi_iew">Heya!  If you are here, that\'s because you don\'t have Substratum Installed.  Extras for AA is a theme and needs Substratum to work, it\'s not a stand-alone app.  Please install Substratum and try again.</string>
     <string name="rating_message">Hey, would you take a moment to rate this theme on XDA Labs?</string>
     <string name="gotorating">Take me there!</string>
     <string name="nevershowagain">Leave me alone!</string>
