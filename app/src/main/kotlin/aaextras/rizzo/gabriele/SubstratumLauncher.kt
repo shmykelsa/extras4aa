@@ -143,7 +143,7 @@ class SubstratumLauncher : Activity() {
 
         alertDialog.setView(view)
         alertDialog.show()
-    }
+    } 
 
 
     private fun openDonationDialog() {
