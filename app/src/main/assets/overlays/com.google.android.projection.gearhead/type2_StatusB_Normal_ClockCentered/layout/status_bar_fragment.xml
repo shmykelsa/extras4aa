@@ -18,8 +18,8 @@
         android:format12Hour="@*com.google.android.projection.gearhead:string/car_clock_12_hours_format"
         android:format24Hour="@*com.google.android.projection.gearhead:string/car_clock_24_hours_format"
         android:textAppearance="@*com.google.android.projection.gearhead:style/TextAppearance.Boardwalk.Body3"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"/>
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
     <FrameLayout
         android:id="@*com.google.android.projection.gearhead:id/battery_container"
         android:layout_width="@*com.google.android.projection.gearhead:dimen/status_bar_icon_size"
@@ -29,7 +29,6 @@
         android:importantForAccessibility="no"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:alpha="0.0"
         android:layout_alignParentTop="true">
         <ImageView
             android:id="@*com.google.android.projection.gearhead:id/battery_level"
@@ -45,20 +44,18 @@
     </FrameLayout>
     <ImageView
         android:id="@*com.google.android.projection.gearhead:id/airplane_mode_icon"
-        android:alpha="0.0"
         android:layout_width="@*com.google.android.projection.gearhead:dimen/status_bar_icon_size"
         android:layout_height="@*com.google.android.projection.gearhead:dimen/status_bar_icon_size"
         android:layout_marginRight="@*com.google.android.projection.gearhead:dimen/status_bar_internal_padding"
         android:importantForAccessibility="no"
         android:src="@*com.google.android.projection.gearhead:drawable/ic_airplane_mode"
         android:tint="@*com.google.android.projection.gearhead:color/gearhead_sdk_grey_50"
-        android:layout_toLeftOf="@*com.google.android.projection.gearhead:id/battery_container"
+        android:layout_toLeftOf="@*com.google.android.projection.gearhead:id/etc_icon"
         android:layout_centerVertical="true"
         android:layout_alignParentBottom="true"
         android:layout_alignParentTop="true"/>
     <FrameLayout
         android:id="@*com.google.android.projection.gearhead:id/signal_icon"
-        android:alpha="0.0"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_marginRight="@*com.google.android.projection.gearhead:dimen/status_bar_internal_padding"
@@ -67,13 +64,11 @@
         <ImageView
             android:id="@*com.google.android.projection.gearhead:id/cell_info_overlay"
             android:layout_width="36.0dip"
-            android:alpha="0.0"
             android:layout_height="@*com.google.android.projection.gearhead:dimen/status_bar_icon_size"
             android:layout_gravity="end"
             android:importantForAccessibility="no" />
         <ImageView
             android:id="@*com.google.android.projection.gearhead:id/cell_signal"
-            android:alpha="0.0"
             android:layout_width="@*com.google.android.projection.gearhead:dimen/status_bar_icon_size"
             android:layout_height="@*com.google.android.projection.gearhead:dimen/status_bar_icon_size"
             android:layout_gravity="bottom"
@@ -85,7 +80,6 @@
     </FrameLayout>
     <ImageView
         android:id="@*com.google.android.projection.gearhead:id/wifi_signal"
-        android:alpha="0.0"
         android:layout_width="@*com.google.android.projection.gearhead:dimen/status_bar_icon_size"
         android:layout_height="@*com.google.android.projection.gearhead:dimen/status_bar_icon_size"
         android:layout_marginRight="@*com.google.android.projection.gearhead:dimen/status_bar_internal_padding"
@@ -104,7 +98,7 @@
         android:gravity="center"
         android:textAppearance="@*com.google.android.projection.gearhead:style/TextAppearance.Boardwalk.Body3"
         android:visibility="gone"
-        android:layout_toLeftOf="@*com.google.android.projection.gearhead:id/wifi_signal"
+        android:layout_toLeftOf="@*com.google.android.projection.gearhead:id/battery_container"
         android:layout_alignParentBottom="true"
         android:layout_alignParentTop="true" />
     <ImageView
@@ -122,7 +116,6 @@
     <ImageView
         android:id="@*com.google.android.projection.gearhead:id/etc_icon"
         android:layout_width="wrap_content"
-        android:alpha="0.0"
         android:layout_height="@*com.google.android.projection.gearhead:dimen/status_bar_icon_size"
         android:layout_marginRight="@*com.google.android.projection.gearhead:dimen/status_bar_spacer_size"
         android:importantForAccessibility="no"
