@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="facet_bar_touch_target_size">68.4dip</dimen>
+    <dimen name="rail_height">72.0dip</dimen>
+    <dimen name="facet_bar_icon_padding">2.0dip</dimen>
+    <dimen name="rail_icon_width">86.4dip</dimen>
+    <dimen name="rail_widget_pill_height">52.2dip</dimen>
+    <dimen name="gearhead_rail_widget_corner_radius">23.4dip</dimen>
+    <dimen name="rail_widget_primary_icon_width">50.4dip</dimen>
+    <dimen name="rail_widget_primary_icon_height">50.4dip</dimen>
+    <dimen name="rail_widget_action_icon_margin">18.0dip</dimen>
+    <dimen name="rail_widget_action_icon_width">39.6dip</dimen>
+    <dimen name="rail_widget_action_icon_height">39.6dip</dimen>
+    <dimen name="rail_widget_text_size">25.2dip</dimen>
+    <dimen name="rail_widget_primary_icon_card_radius">25.2dip</dimen>
+    <dimen name="status_bar_height">16.0dip</dimen>
+    <dimen name="status_bar_padding">10.0dip</dimen>
+    <dimen name="status_bar_icon_size">12.0dip</dimen>
+</resources>
