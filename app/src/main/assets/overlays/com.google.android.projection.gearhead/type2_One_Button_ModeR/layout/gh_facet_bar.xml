@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@*com.google.android.projection.gearhead:id/rail"
     android:layout_width="fill_parent"
-    android:layout_height="77.0dip">
+    android:layout_height="fill_parent">
     <ImageView
         android:id="@*com.google.android.projection.gearhead:id/launcher_icon"
         style="@*com.google.android.projection.gearhead:style/FacetBarIcon"
