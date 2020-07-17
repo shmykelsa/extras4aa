@@ -3,7 +3,4 @@
     <public type="id" name="battery_container" id="0x7f0b00b4" />
     <public type="id" name="battery_level" id="0x7f0b00b5" />
     <public type="id" name="battery_saver_outline" id="0x7f0b00b6" />
-    <public type="drawable" name="ic_overview_solid" id="0x7f080240" />
-    <public type="drawable" name="ic_assistant_mic" id="0x7f080252" />
-    <public type="drawable" name="ic_nc_icon_seen" id="0x7f0802dd" />
 </resources>

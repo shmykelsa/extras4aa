@@ -2,8 +2,9 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@*com.google.android.projection.gearhead:id/rail"
-    android:layout_width="80.0dip"
-    android:layout_height="@*com.google.android.projection.gearhead:dimen/rail_height">
+    android:background="@color/boardwalk_facet_bar_background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
     <ImageView
         android:id="@*com.google.android.projection.gearhead:id/launcher_icon"
         style="@*com.google.android.projection.gearhead:style/FacetBarIcon"
