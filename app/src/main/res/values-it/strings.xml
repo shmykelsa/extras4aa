@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="launch_dialog_content">Benvenuto su Extras for Android Auto, un tema per cambiare lo sfondo di Android Auto
+    <string name="launch_dialog_content">Benvenuto su Extras for Android Auto, un tema per cambiare l\'aspetto di Android Auto
         \n\n Se vuoi ringraziarmi per il lavoro, puoi farlo con una donazione, dal bottone sotto.
         \n Anche una piccola somma sarebbe molto apprezzata 😊</string>
     <string name="do_not_show_again">Non mostrare di nuovo</string>
     <string name="proceed">Continua</string>
     <string name="donate">Dona</string>
     <string name="helpme">Sembra che tu non abbia installato Substratum Lite. Per utilizzare a pieno Extras for AA, per favore, installa Substratum Lite.</string>
-    <string name="helpme_lite">Per installare uno sfondo:
-        \n1. Seleziona Android Auto e poi uno sfondo dalla lista
-        \n2. Premi il bottone in basso e seleziona \'Install Selected\'
-        \n3. Riavvia il dispositivo, ri-apri Lite, recati alla sezione manager, seleziona Android Auto e abilitalo</string>
+    <string name="helpme_lite">Per installare un extra:
+        \n1. Guarda il messaggio di attenzione (simbolo di attenzione accanto ad Android Auto) per evitare errori
+        \n2. Seleziona Android Auto e poi un extra dalla lista
+        \n3. Premi il bottone in basso e seleziona \'Install Selected\'
+        \n4. Ripetere i passi 2 e 3 a proprio piacimento
+        \n3. Riavvia il dispositivo, ri-apri Lite, recati alla sezione manager, e abilita gli extra</string>
     <string name="takemetoxdathreadstring">Ho ancora bisogno di aiuto!</string>
     <string name="gotoxdathread">Vai al thread XDA</string>
     <string name="mailme">Madami una mail</string>
