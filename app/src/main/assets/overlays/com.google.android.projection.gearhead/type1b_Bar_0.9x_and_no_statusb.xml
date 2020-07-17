@@ -2,7 +2,6 @@
 <resources>
     <dimen name="facet_bar_touch_target_size">68.4dip</dimen>
     <dimen name="rail_height">72.0dip</dimen>
-    <dimen name="facet_bar_icon_padding">2.0dip</dimen>
     <dimen name="rail_icon_width">86.4dip</dimen>
     <dimen name="rail_widget_pill_height">52.2dip</dimen>
     <dimen name="gearhead_rail_widget_corner_radius">23.4dip</dimen>
