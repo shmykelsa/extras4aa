@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@*com.google.android.projection.gearhead:id/rail"
-    android:background="@color/boardwalk_facet_bar_background"
+    android:background="@*com.google.android.projection.gearhead:color/boardwalk_facet_bar_background"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
     <ImageView
