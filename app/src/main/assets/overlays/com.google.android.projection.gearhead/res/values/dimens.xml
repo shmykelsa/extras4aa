@@ -1000,7 +1000,7 @@
     <dimen name="launcher_app_settings_switch_width">64.0dip</dimen>
     <dimen name="launchscreens_google_logo_bottom">48.0dip</dimen>
     <dimen name="launchscreens_product_logo_bottom">16.0dip</dimen>
-    <dimen name="legacy_facet_bar_buttons_margin_bottom">16.0dip</dimen>
+    <dimen name="legacy_facet_bar_buttons_margin_bottom">240.0dip</dimen>
     <dimen name="legacy_facet_bar_buttons_margin_top">160.0dip</dimen>
     <dimen name="legacy_facet_bar_chevron_height">32.0dip</dimen>
     <dimen name="legacy_facet_bar_chevron_margin_left">54.0dip</dimen>

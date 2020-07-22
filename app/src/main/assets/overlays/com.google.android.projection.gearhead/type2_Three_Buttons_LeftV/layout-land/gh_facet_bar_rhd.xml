@@ -11,13 +11,13 @@
         android:src="@*com.google.android.projection.gearhead:drawable/ic_overview_solid"
         android:layout_width="@*com.google.android.projection.gearhead:dimen/facet_bar_touch_target_size"
         android:layout_height="@*com.google.android.projection.gearhead:dimen/facet_bar_touch_target_size"
-        android:layout_center_horizontal="true"
+        android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true" />
     <com.google.android.projection.gearhead.system.facetbar.widget.RailWidgetView
         android:id="@*com.google.android.projection.gearhead:id/ongoing_widget"
         android:layout_width="@*com.google.android.projection.gearhead:dimen/facet_bar_touch_target_size"
         android:layout_height="@*com.google.android.projection.gearhead:dimen/facet_bar_touch_target_size"
-        android:layout_center_horizontal="true"
+        android:layout_centerHorizontal="true"
         android:layout_above="@*com.google.android.projection.gearhead:id/launcher_icon" />
     <ImageView
         android:id="@*com.google.android.projection.gearhead:id/notifications_icon"
@@ -26,7 +26,7 @@
         android:layout_height="@*com.google.android.projection.gearhead:dimen/facet_bar_touch_target_size"
         android:src="@*com.google.android.projection.gearhead:drawable/ic_nc_icon_seen"
         android:layout_alignParentTop="true"
-        android:layout_center_horizontal="true"/>
+        android:layout_centerHorizontal="true"/>
     <View
         android:id="@*com.google.android.projection.gearhead:id/rail_invisible_scrim"
         android:alpha="0.0"
