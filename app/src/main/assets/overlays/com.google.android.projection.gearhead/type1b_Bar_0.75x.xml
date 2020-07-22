@@ -2,6 +2,8 @@
 <resources>
     <dimen name="facet_bar_touch_target_size">57.0dip</dimen>
     <dimen name="rail_height">60.0dip</dimen>
+    <dimen name="legacy_facet_bar_buttons_margin_top">120.0dip</dimen>
+    <dimen name="legacy_facet_bar_buttons_margin_bottom">180.0dip</dimen>
     <dimen name="rail_icon_width">72.0dip</dimen>
     <dimen name="rail_widget_pill_height">45.0dip</dimen>
     <dimen name="gearhead_rail_widget_corner_radius">19.5dip</dimen>
@@ -11,5 +13,5 @@
     <dimen name="rail_widget_action_icon_width">33.0dip</dimen>
     <dimen name="rail_widget_action_icon_height">33.0dip</dimen>
     <dimen name="rail_widget_text_size">22.0dip</dimen>
-    <dimen name="rail_widget_primary_icon_card_radius">21.0dip</dimen>
+    <dimen name="rail_widget_primary_icon_card_radius">19.5dip</dimen>
 </resources>

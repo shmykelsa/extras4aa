@@ -4,6 +4,8 @@
     <dimen name="rail_height">72.0dip</dimen>
     <dimen name="rail_icon_width">86.4dip</dimen>
     <dimen name="rail_widget_pill_height">52.2dip</dimen>
+    <dimen name="legacy_facet_bar_buttons_margin_top">144.0dip</dimen>
+    <dimen name="legacy_facet_bar_buttons_margin_bottom">216.0dip</dimen>
     <dimen name="gearhead_rail_widget_corner_radius">23.4dip</dimen>
     <dimen name="rail_widget_primary_icon_width">50.4dip</dimen>
     <dimen name="rail_widget_primary_icon_height">50.4dip</dimen>
@@ -11,7 +13,7 @@
     <dimen name="rail_widget_action_icon_width">39.6dip</dimen>
     <dimen name="rail_widget_action_icon_height">39.6dip</dimen>
     <dimen name="rail_widget_text_size">25.2dip</dimen>
-    <dimen name="rail_widget_primary_icon_card_radius">25.2dip</dimen>
+    <dimen name="rail_widget_primary_icon_card_radius">23.4dip</dimen>
     <dimen name="status_bar_height">16.0dip</dimen>
     <dimen name="status_bar_padding">10.0dip</dimen>
     <dimen name="status_bar_icon_size">12.0dip</dimen>
