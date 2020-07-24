@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="status_bar_height">16.0dip</dimen>
-    <dimen name="status_bar_padding">10.0dip</dimen>
-    <dimen name="status_bar_icon_size">12.0dip</dimen>
-</resources>
