@@ -14,7 +14,7 @@
     <dimen name="rail_widget_action_icon_height">33.0dip</dimen>
     <dimen name="rail_widget_text_size">22.0dip</dimen>
     <dimen name="rail_widget_primary_icon_card_radius">19.5dip</dimen>
-    <dimen name="status_bar_height">16.0dip</dimen>
-    <dimen name="status_bar_padding">10.0dip</dimen>
-    <dimen name="status_bar_icon_size">12.0dip</dimen>
+    <dimen name="status_bar_height">24.0dip</dimen>
+    <dimen name="status_bar_padding">15.0dip</dimen>
+    <dimen name="status_bar_icon_size">18.0dip</dimen>
 </resources>
