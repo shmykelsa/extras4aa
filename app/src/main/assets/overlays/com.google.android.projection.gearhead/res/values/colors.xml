@@ -9,7 +9,6 @@
     <color name="google_dark_red900">#FF000000</color>
     <color name="google_dark_yellow900">#FF000000</color>
     <color name="google_dark_green900">#FF000000</color>
-    <color name="hats_lib_prompt_take_survey_blue">#FFFFFFFF</color>
-    <color name="hats_lib_prompt_take_survey_blue_focused">#FF2d3134</color>
     <color name="quantum_amberA400">#ff282a2d</color>
+    <color name="hats_lib_prompt_take_survey_blue">#FFFFFFFF</color>
 </resources>
