@@ -2,38 +2,39 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@*com.google.android.projection.gearhead:id/rail"
-    android:background="@*com.google.android.projection.gearhead:color/boardwalk_facet_bar_background"
+    android:background="@*com.google.android.projection.gearhead:drawable/quantum_ic_phone_vd_theme_24"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
     <ImageView
         android:id="@*com.google.android.projection.gearhead:id/launcher_icon"
         style="@*com.google.android.projection.gearhead:style/FacetBarIcon"
         android:src="@*com.google.android.projection.gearhead:drawable/ic_overview_solid"
-        android:layout_width="@*com.google.android.projection.gearhead:dimen/facet_bar_touch_target_size"
-        android:layout_height="@*com.google.android.projection.gearhead:dimen/facet_bar_touch_target_size"
+        android:layout_width="@*com.google.android.projection.gearhead:dimen/rail_height"
+        android:layout_height="@*com.google.android.projection.gearhead:dimen/rail_height"
         android:alpha="0.0"
         android:layout_alignParentStart="true"
-        android:layout_alignParentCenterVertical="true" />
+        android:layout_centerVertical="true" />
     <FrameLayout
-        android:layout_width="@*com.google.android.projection.gearhead:dimen/facet_bar_touch_target_size"
-        android:layout_height="@*com.google.android.projection.gearhead:dimen/facet_bar_touch_target_size"
+        android:layout_width="@*com.google.android.projection.gearhead:dimen/rail_height"
+        android:layout_height="@*com.google.android.projection.gearhead:dimen/rail_height"
         android:layout_alignParentStart="true"
-        android:layout_alignParentCenterVertical="true" >
+        android:layout_centerVertical="true" >
         <com.google.android.projection.gearhead.common.GhTextClock
             android:id="@*com.google.android.projection.gearhead:id/clock"
             android:layout_width="fill_parent"
-            android:layout_height="@*com.google.android.projection.gearhead:dimen/rail_widget_text_size"
+            android:layout_height="@*com.google.android.projection.gearhead:dimen/gearhead_legacy_facet_bar_chevron_width"
             android:autoSizeTextType="uniform"
-            android:autoSizeMinTextSize="29dp"
+            android:textStyle="bold"
+            android:autoSizeMinTextSize="@*com.google.android.projection.gearhead:dimen/gearhead_rail_widget_corner_radius"
             android:layout_gravity="center_vertical|top"
             android:gravity="center"
-            android:format12Hour="HH"
+            android:format12Hour="h"
             android:format24Hour="HH"
             android:textAppearance="@*com.google.android.projection.gearhead:style/TextAppearance.Boardwalk"/>
         <com.google.android.projection.gearhead.common.GhTextClock
             android:id="@*com.google.android.projection.gearhead:id/clock"
             android:layout_width="fill_parent"
-            android:layout_height="@*com.google.android.projection.gearhead:dimen/rail_widget_text_size"
+            android:layout_height="@*com.google.android.projection.gearhead:dimen/gearhead_legacy_facet_bar_chevron_width"
             android:gravity="center"
             android:autoSizeTextType="uniform"
             android:autoSizeMinTextSize="14dp"
@@ -44,8 +45,8 @@
     </FrameLayout>
     <com.google.android.projection.gearhead.system.facetbar.widget.RailWidgetView
         android:id="@*com.google.android.projection.gearhead:id/ongoing_widget"
-        android:layout_width="@*com.google.android.projection.gearhead:dimen/facet_bar_touch_target_size"
-        android:layout_height="@*com.google.android.projection.gearhead:dimen/facet_bar_touch_target_size"
+        android:layout_width="@*com.google.android.projection.gearhead:dimen/rail_height"
+        android:layout_height="@*com.google.android.projection.gearhead:dimen/rail_height"
         android:layout_marginTop="5dip"
         android:layout_centerVertical="true"
         android:layout_toLeftOf="@*com.google.android.projection.gearhead:id/launcher_icon" />

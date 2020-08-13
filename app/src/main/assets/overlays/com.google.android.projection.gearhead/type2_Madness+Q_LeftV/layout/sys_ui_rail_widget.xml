@@ -58,7 +58,7 @@
             android:layout_weight="1.0"
             android:gravity="center_vertical"
             android:orientation="vertical">
-            <TextView android:textSize="@*com.google.android.projection.gearhead:dimen/rail_widget_text_size" android:ellipsize="end" android:gravity="start|center" android:id="@*com.google.android.projection.gearhead:id/first_line_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+            <TextView android:textSize="@*com.google.android.projection.gearhead:dimen/gearhead_legacy_facet_bar_chevron_width" android:ellipsize="end" android:gravity="start|center" android:id="@*com.google.android.projection.gearhead:id/first_line_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
             <TextView android:textSize="@*com.google.android.projection.gearhead:dimen/rail_widget_small_text_size" android:ellipsize="end" android:gravity="start|center" android:id="@*com.google.android.projection.gearhead:id/second_line_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
         </LinearLayout>
         <View android:id="@*com.google.android.projection.gearhead:id/actions_start_margin" android:layout_width="24.0dip" android:layout_height="fill_parent" />
