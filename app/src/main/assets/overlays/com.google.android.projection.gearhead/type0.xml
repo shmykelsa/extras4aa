@@ -7,6 +7,6 @@
         <resource name="boardwalk_facet_bar_background" />
     </type0b>
     <type0c name="Bottom bar accent" color="#2e3134" alpha_allowed="false">
-        <resource name="gearhead_rail_widget_pill_color" />
+        <resource name="vn_media_scrim_deprecated" />
     </type0c>
 </type0>
