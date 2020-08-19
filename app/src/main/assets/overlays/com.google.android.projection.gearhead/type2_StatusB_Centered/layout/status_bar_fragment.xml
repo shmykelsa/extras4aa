@@ -14,8 +14,6 @@
     <com.google.android.projection.gearhead.common.GhTextClock
         android:id="@*com.google.android.projection.gearhead:id/clock"
         android:layout_width="wrap_content"
-        android:layout_marginLeft="@*com.google.android.projection.gearhead:dimen/status_bar_padding"
-        android:layout_marginRight="@*com.google.android.projection.gearhead:dimen/status_bar_padding"
         android:format12Hour="@*com.google.android.projection.gearhead:string/car_clock_12_hours_format"
         android:format24Hour="@*com.google.android.projection.gearhead:string/car_clock_24_hours_format"
         android:layout_height="fill_parent"
