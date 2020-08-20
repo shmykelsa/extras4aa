@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@*com.google.android.projection.gearhead:id/rail"
     android:background="@*com.google.android.projection.gearhead:drawable/quantum_ic_phone_vd_theme_24"
     android:layout_width="fill_parent"
