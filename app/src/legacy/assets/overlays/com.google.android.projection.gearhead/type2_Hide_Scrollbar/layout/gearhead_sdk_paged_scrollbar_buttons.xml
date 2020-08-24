@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="left" android:layout_width="0.1dip" android:layout_height="0.1dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.1dip" android:layout_height="0.1dip">
+        <FrameLayout android:id="@*com.google.android.projection.gearhead:id/page_up_container" android:focusable="false" android:layout_width="0.1dip" android:layout_height="0.0dip" android:layout_weight="1.0" android:hapticFeedbackEnabled="false">
+            <ImageView android:layout_gravity="center|top" android:id="@*com.google.android.projection.gearhead:id/page_up" android:background="@*com.google.android.projection.gearhead:drawable/gearhead_sdk_pagination_background" android:duplicateParentState="true" android:layout_width="0.1dip" android:layout_height="wrap_content" android:src="@*com.google.android.projection.gearhead:drawable/gearhead_sdk_ic_up" android:scaleType="center" android:alpha="0.0" />
+        </FrameLayout>
+        <FrameLayout android:id="@*com.google.android.projection.gearhead:id/page_down_container" android:focusable="false" android:layout_width="0.1dip" android:layout_height="0.0dip" android:layout_weight="1.0" android:hapticFeedbackEnabled="false">
+            <ImageView android:layout_gravity="bottom|center" android:id="@*com.google.android.projection.gearhead:id/page_down" android:background="@*com.google.android.projection.gearhead:drawable/gearhead_sdk_pagination_background" android:duplicateParentState="true" android:layout_width="0.1dip" android:layout_height="wrap_content" android:src="@*com.google.android.projection.gearhead:drawable/gearhead_sdk_ic_down" android:scaleType="center" android:alpha="0.0" />
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@*com.google.android.projection.gearhead:id/filler" android:layout_width="0.1dip" android:layout_height="fill_parent" android:layout_marginTop="@*com.google.android.projection.gearhead:dimen/gearhead_sdk_paged_list_view_scrollbar_thumb_margin" android:layout_marginBottom="@*com.google.android.projection.gearhead:dimen/gearhead_sdk_paged_list_view_scrollbar_thumb_margin">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@*com.google.android.projection.gearhead:id/scrollbar_thumb" android:background="@*com.google.android.projection.gearhead:color/gearhead_sdk_scrollbar_thumb" android:layout_width="0.1dip" android:layout_height="0.0dip" android:alpha="0.0" />
+    </FrameLayout>
+</FrameLayout>

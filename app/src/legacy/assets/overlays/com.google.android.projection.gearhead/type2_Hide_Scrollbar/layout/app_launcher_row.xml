@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@*com.google.android.projection.gearhead:id/app_launcher_row"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:gravity="left"
+    android:orientation="horizontal">
+    <include
+        android:id="@*com.google.android.projection.gearhead:id/first"
+        layout="@*com.google.android.projection.gearhead:layout/app_launcher_item" />
+    <Space
+        android:layout_width="@*com.google.android.projection.gearhead:dimen/gearhead_launcher_app_margin"
+        android:layout_height="0.0dip"
+        android:layout_weight="0.0" />
+    <include
+        android:id="@*com.google.android.projection.gearhead:id/second"
+        layout="@*com.google.android.projection.gearhead:layout/app_launcher_item" />
+    <Space
+        android:layout_width="@*com.google.android.projection.gearhead:dimen/gearhead_launcher_app_margin"
+        android:layout_height="0.0dip"
+        android:layout_weight="0.0" />
+    <include
+        android:id="@*com.google.android.projection.gearhead:id/third"
+        layout="@*com.google.android.projection.gearhead:layout/app_launcher_item" />
+    <Space
+        android:layout_width="@*com.google.android.projection.gearhead:dimen/gearhead_launcher_app_margin"
+        android:layout_height="0.0dip"
+        android:layout_weight="0.0" />
+    <include
+        android:id="@*com.google.android.projection.gearhead:id/fourth"
+        layout="@*com.google.android.projection.gearhead:layout/app_launcher_item" />
+</LinearLayout>

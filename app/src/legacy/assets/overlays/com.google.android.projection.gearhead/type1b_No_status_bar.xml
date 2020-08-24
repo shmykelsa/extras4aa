@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="legacy_facet_bar_buttons_margin_bottom">240.0dip</dimen>
+    <dimen name="legacy_facet_bar_buttons_margin_top">160.0dip</dimen>
+    <dimen name="gearhead_legacy_facet_bar_chevron_width">40.0dip</dimen>
+    <dimen name="status_bar_height">0.01dip</dimen>
+</resources>

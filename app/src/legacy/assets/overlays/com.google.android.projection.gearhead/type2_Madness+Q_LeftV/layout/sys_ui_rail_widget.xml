@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@*com.google.android.projection.gearhead:id/rail_widget_root"
+    android:layout_width="@*com.google.android.projection.gearhead:dimen/rail_widget_pill_height"
+    android:layout_height="@*com.google.android.projection.gearhead:dimen/rail_widget_pill_height">
+    <FrameLayout
+        android:id="@*com.google.android.projection.gearhead:id/background_pill"
+        android:layout_width="fill_parent"
+        android:layout_height="@*com.google.android.projection.gearhead:dimen/rail_widget_pill_height"
+        android:layout_gravity="center"
+        android:layout_marginStart="@*com.google.android.projection.gearhead:dimen/rail_widget_pill_margin"
+        android:layout_marginEnd="@*com.google.android.projection.gearhead:dimen/rail_widget_pill_margin"
+        android:background="@*com.google.android.projection.gearhead:drawable/rail_widget_pill_background" />
+    <LinearLayout
+        android:id="@*com.google.android.projection.gearhead:id/content_container"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <FrameLayout
+            android:id="@*com.google.android.projection.gearhead:id/icon_ripple_container"
+            style="@*com.google.android.projection.gearhead:style/RailWidgetButton">
+            <androidx.cardview.widget.CardView
+                android:id="@*com.google.android.projection.gearhead:id/icon_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                card_view:cardCornerRadius="@*com.google.android.projection.gearhead:dimen/rail_widget_primary_icon_card_radius"
+                card_view:cardElevation="0.0dip">
+                <ImageView
+                    android:id="@*com.google.android.projection.gearhead:id/icon"
+                    android:layout_width="@*com.google.android.projection.gearhead:dimen/rail_widget_primary_icon_width"
+                    android:layout_height="@*com.google.android.projection.gearhead:dimen/rail_widget_primary_icon_height"
+                    android:scaleType="fitCenter" />
+            </androidx.cardview.widget.CardView>
+            <ImageView
+                android:id="@*com.google.android.projection.gearhead:id/large_icon"
+                android:layout_width="@*com.google.android.projection.gearhead:dimen/rail_widget_large_icon_size"
+                android:layout_height="@*com.google.android.projection.gearhead:dimen/rail_widget_large_icon_size"
+                android:layout_gravity="center"
+                android:background="@*com.google.android.projection.gearhead:color/gearhead_rail_widget_pill_color"
+                android:scaleType="fitCenter"
+                android:visibility="gone" />
+        </FrameLayout>
+        <View
+            android:id="@*com.google.android.projection.gearhead:id/start_margin"
+            android:alpha="0.0"
+            android:layout_width="0.01dip"
+            android:layout_height="0.01dip"
+            android:visibility="gone" />
+        <LinearLayout
+            android:id="@*com.google.android.projection.gearhead:id/content_text_container"
+            android:alpha="0.0"
+            android:layout_width="0.01dip"
+            android:layout_height="0.01dip"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+            <TextView android:textSize="@*com.google.android.projection.gearhead:dimen/gearhead_legacy_facet_bar_chevron_width" android:ellipsize="end" android:gravity="start|center" android:id="@*com.google.android.projection.gearhead:id/first_line_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+            <TextView android:textSize="@*com.google.android.projection.gearhead:dimen/rail_widget_small_text_size" android:ellipsize="end" android:gravity="start|center" android:id="@*com.google.android.projection.gearhead:id/second_line_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+        </LinearLayout>
+        <View android:id="@*com.google.android.projection.gearhead:id/actions_start_margin" android:layout_width="24.0dip" android:layout_height="fill_parent" />
+        <FrameLayout
+            android:id="@*com.google.android.projection.gearhead:id/left_action_ripple_container"
+            style="@*com.google.android.projection.gearhead:style/RailWidgetActionButton"
+            android:alpha="0.0"
+            android:layout_width="0.01dip"
+            android:layout_height="0.01dip">
+            <ImageView android:id="@*com.google.android.projection.gearhead:id/left_action" style="@*com.google.android.projection.gearhead:style/RailWidgetActionIcon" />
+        </FrameLayout>
+        <FrameLayout
+            android:id="@*com.google.android.projection.gearhead:id/center_action_ripple_container"
+            style="@*com.google.android.projection.gearhead:style/RailWidgetActionButton"
+            android:alpha="0.0"
+            android:layout_width="0.01dip"
+            android:layout_height="0.01dip">
+            <ImageView
+                android:id="@*com.google.android.projection.gearhead:id/center_action"
+                style="@*com.google.android.projection.gearhead:style/RailWidgetActionIcon" />
+        </FrameLayout>
+        <FrameLayout
+            android:id="@*com.google.android.projection.gearhead:id/right_action_ripple_container"
+            style="@*com.google.android.projection.gearhead:style/RailWidgetActionButton"
+            android:alpha="0.0"
+            android:layout_width="0.01dip"
+            android:layout_height="0.01dip">
+            <ImageView
+                android:id="@*com.google.android.projection.gearhead:id/right_action"
+                style="@*com.google.android.projection.gearhead:style/RailWidgetActionIcon"
+                android:alpha="0.0"
+                android:layout_width="0.01dip"
+                android:layout_height="0.01dip"/>
+        </FrameLayout>
+        <View
+            android:id="@*com.google.android.projection.gearhead:id/end_margin"
+            android:alpha="0.0"
+            android:layout_width="0.01dip"
+            android:layout_height="0.01dip" />
+    </LinearLayout>
+</FrameLayout>

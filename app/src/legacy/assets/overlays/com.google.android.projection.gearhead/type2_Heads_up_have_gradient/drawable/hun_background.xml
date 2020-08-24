@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:angle="180"
+        android:centerColor="@*com.google.android.projection.gearhead:color/google_dark_red900"
+        android:endColor="@*com.google.android.projection.gearhead:color/google_dark_yellow900"
+        android:startColor="@*com.google.android.projection.gearhead:color/google_dark_green900"
+        android:type="linear" />
+    <corners android:radius="@*com.google.android.projection.gearhead:dimen/gearhead_hun_corner_radius" />
+</shape>
