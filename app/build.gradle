@@ -29,10 +29,10 @@ android {
         applicationId "aaextras.rizzo.gabriele"
         // We are only supporting Nougat and above, all new changes will incorporate Nougat changes
         // to the substratum repo rather than anything lower. Keep targetSdkVersion the same.
-        minSdkVersion 23
+        minSdkVersion 28
         // Both versions must be changed to increment on Play Store/user's devices
-        versionCode 18
-        versionName "3.4"
+        versionCode 20
+        versionName "3.4.1"
 
         // Themers: DO NOT MODIFY
         buildConfigField "boolean", "SUPPORTS_THIRD_PARTY_SYSTEMS", "" + SUPPORTS_THIRD_PARTY_SYSTEMS
@@ -41,7 +41,7 @@ android {
         buildConfigField "String", "IV_KEY", "\"" + IV_KEY + "\""
         buildConfigField "byte[]", "DECRYPTION_KEY", String.valueOf("\"" + KEY + "\"").replace("\"", "").replace("[", "{").replace("]", "}")
         buildConfigField "byte[]", "IV_KEY", String.valueOf("\"" + IV_KEY + "\"").replace("\"", "").replace("[", "{").replace("]", "}")
-        setProperty("archivesBaseName", "AAEXTRAS-$versionName")
+        setProperty("archivesBaseName","AAEXTRAS-$versionName")
     }
     buildTypes {
         debug {
@@ -73,6 +73,29 @@ android {
     }
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
+        legacy{
+            assets.srcDirs = ['src/legacy/assets/']
+        }
+        nonlegacy {
+            assets.srcDirs = ['src/nonlegacy/assets/']
+        }
+    }
+    flavorDimensions 'dim'
+    productFlavors {
+        full {
+            dimension 'dim'
+            resConfigs ''
+        }
+        legacy {
+            dimension 'dim'
+            applicationId 'aaextras.rizzo.gabriele.legacy'
+            minSdkVersion 24
+            versionName = defaultConfig.versionName + "L"
+        }
+        nonlegacy {
+            dimension 'dim'
+            minSdkVersion 28
+        }
     }
 }
 

@@ -99,7 +99,7 @@
         android:gravity="center"
         android:textAppearance="@*com.google.android.projection.gearhead:style/TextAppearance.Boardwalk.Body3"
         android:layout_height="fill_parent"
-        android:autoSizeTextType="uniform"
+        android:textSize="@*com.google.android.projection.gearhead:dimen/status_bar_icon_size"
         android:layout_marginBottom="1.0dip"
         android:layout_marginTop="1.0dip"
         android:visibility="gone"
