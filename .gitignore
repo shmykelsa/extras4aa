@@ -100,3 +100,5 @@ Thumbs.db
 # Mac thumbnail cache
 #############################################################################
 .DS_Store
+/app/legacy/release/output-metadata.json
+/app/nonlegacy/release/output-metadata.json

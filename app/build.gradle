@@ -29,7 +29,7 @@ android {
         applicationId "aaextras.rizzo.gabriele"
         // We are only supporting Nougat and above, all new changes will incorporate Nougat changes
         // to the substratum repo rather than anything lower. Keep targetSdkVersion the same.
-        minSdkVersion 28
+        minSdkVersion 26
         // Both versions must be changed to increment on Play Store/user's devices
         versionCode 20
         versionName "3.4.1"
@@ -94,7 +94,7 @@ android {
         }
         nonlegacy {
             dimension 'dim'
-            minSdkVersion 28
+            minSdkVersion 26
         }
     }
 }
