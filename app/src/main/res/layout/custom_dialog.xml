@@ -94,6 +94,20 @@
             android:radius="150dp"
             android:text="@string/reconsider"
             android:textColor="#ffffffff"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/quarto_bottone"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/terzo_bottone"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="6dp"
+            android:background="#2A3339"
+            android:radius="150dp"
+            android:text="@string/previews_text"
+            android:textColor="#ffffffff"
             android:textSize="14sp"
             android:layout_marginBottom="9dp"/>
 
@@ -102,8 +116,8 @@
             android:id="@+id/myCheckBox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/terzo_bottone"
-            android:layout_alignStart="@id/terzo_bottone"
+            android:layout_below="@id/quarto_bottone"
+            android:layout_alignStart="@id/quarto_bottone"
             android:layout_marginTop="15dp"
             android:layout_marginEnd="4dp"
             android:layout_marginBottom="4dp"
@@ -112,18 +126,6 @@
             android:text="@string/do_not_show_again"
             android:textColor="#fff"
             android:textSize="12sp" />
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     </RelativeLayout>

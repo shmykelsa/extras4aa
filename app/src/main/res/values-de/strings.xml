@@ -2,6 +2,7 @@
 <resources>
     <string name="helpme">Anscheinend haben sie kein Substratum Lite.\n
 Bitte installieren sie Substratum Lite, um dieses thema korrekt anzuwenden</string>
+    <string name="previews_text">Vorschau!</string>
     <string name="helpme_lite">So installieren Sie:\n
          1. Aktivieren Sie Android Auto und wählen Sie ein Extra aus der Liste aus\n
          2. Siehe aufmerksamkeitsmarkierung in der nähe von &quot;Android Auto&quot;, um Fehler zu vermeiden\n

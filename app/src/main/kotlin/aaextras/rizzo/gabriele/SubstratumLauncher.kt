@@ -90,6 +90,12 @@ class SubstratumLauncher : Activity() {
             openHelpDialog()
         }
 
+        val anteprime: Button = view.findViewById(R.id.quarto_bottone) as Button
+        anteprime.startAnimation(anifadeinfast)
+        anteprime.setOnClickListener{
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.link_previews))))
+        }
+
         val donate = view.findViewById(R.id.button_donate) as Button
         donate.startAnimation(anifadeinfast)
         donate.setOnClickListener {
