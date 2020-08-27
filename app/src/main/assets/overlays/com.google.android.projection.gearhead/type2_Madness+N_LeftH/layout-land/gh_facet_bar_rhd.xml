@@ -5,7 +5,6 @@
     android:background="@*com.google.android.projection.gearhead:drawable/quantum_ic_phone_vd_theme_24"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
-
     <ImageView
         android:id="@*com.google.android.projection.gearhead:id/launcher_icon"
         style="@*com.google.android.projection.gearhead:style/FacetBarIcon"
@@ -26,6 +25,7 @@
             android:layout_height="@*com.google.android.projection.gearhead:dimen/gearhead_legacy_facet_bar_chevron_width"
             android:autoSizeTextType="uniform"
             android:autoSizeMinTextSize="@*com.google.android.projection.gearhead:dimen/gearhead_rail_widget_corner_radius"
+            android:autoSizeMaxTextSize="@*com.google.android.projection.gearhead:dimen/gearhead_legacy_facet_bar_chevron_width"
             android:textStyle="bold"
             android:layout_gravity="center_vertical|top"
             android:gravity="center"

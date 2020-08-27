@@ -10,13 +10,13 @@
         style="@*com.google.android.projection.gearhead:style/FacetBarIcon"
         android:alpha="0.0"
         android:src="@*com.google.android.projection.gearhead:drawable/ic_overview_solid"
-        android:layout_width="@*com.google.android.projection.gearhead:dimen/facet_bar_touch_target_size"
-        android:layout_height="@*com.google.android.projection.gearhead:dimen/facet_bar_touch_target_size"
+        android:layout_width="@*com.google.android.projection.gearhead:dimen/rail_height"
+        android:layout_height="@*com.google.android.projection.gearhead:dimen/rail_height"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true" />
     <FrameLayout
-        android:layout_width="@*com.google.android.projection.gearhead:dimen/facet_bar_touch_target_size"
-        android:layout_height="@*com.google.android.projection.gearhead:dimen/facet_bar_touch_target_size"
+        android:layout_width="@*com.google.android.projection.gearhead:dimen/rail_height"
+        android:layout_height="@*com.google.android.projection.gearhead:dimen/rail_height"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true" >
         <com.google.android.projection.gearhead.common.GhTextClock
@@ -25,8 +25,9 @@
             android:layout_height="@*com.google.android.projection.gearhead:dimen/gearhead_legacy_facet_bar_chevron_width"
             android:autoSizeTextType="uniform"
             android:autoSizeMinTextSize="@*com.google.android.projection.gearhead:dimen/gearhead_rail_widget_corner_radius"
-            android:textStyle="bold"
+            android:autoSizeMaxTextSize="@*com.google.android.projection.gearhead:dimen/gearhead_legacy_facet_bar_chevron_width"
             android:layout_gravity="center_vertical|top"
+            android:textStyle="bold"
             android:gravity="center"
             android:format12Hour="h"
             android:format24Hour="HH"
@@ -37,7 +38,8 @@
             android:layout_height="@*com.google.android.projection.gearhead:dimen/gearhead_legacy_facet_bar_chevron_width"
             android:gravity="center"
             android:autoSizeTextType="uniform"
-            android:autoSizeMinTextSize="14dp"
+            android:autoSizeMinTextSize="@*com.google.android.projection.gearhead:dimen/gearhead_rail_widget_corner_radius"
+            android:autoSizeMaxTextSize="@*com.google.android.projection.gearhead:dimen/gearhead_legacy_facet_bar_chevron_width"
             android:layout_gravity="center_vertical|bottom"
             android:format12Hour="mm"
             android:format24Hour="mm"
@@ -57,8 +59,8 @@
         android:id="@*com.google.android.projection.gearhead:id/notifications_icon"
         android:alpha="1.0"
         style="@*com.google.android.projection.gearhead:style/FacetBarButton"
-        android:layout_width="@*com.google.android.projection.gearhead:dimen/facet_bar_touch_target_size"
-        android:layout_height="@*com.google.android.projection.gearhead:dimen/facet_bar_touch_target_size"
+        android:layout_width="@*com.google.android.projection.gearhead:dimen/rail_height"
+        android:layout_height="@*com.google.android.projection.gearhead:dimen/rail_height"
         android:src="@*com.google.android.projection.gearhead:drawable/ic_nc_icon_seen"
         android:layout_alignParentTop="true" />
     <View

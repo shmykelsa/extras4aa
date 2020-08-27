@@ -24,6 +24,7 @@
             android:layout_height="@*com.google.android.projection.gearhead:dimen/gearhead_legacy_facet_bar_chevron_width"
             android:autoSizeTextType="uniform"
             android:autoSizeMinTextSize="@*com.google.android.projection.gearhead:dimen/gearhead_rail_widget_corner_radius"
+            android:autoSizeMaxTextSize="@*com.google.android.projection.gearhead:dimen/gearhead_legacy_facet_bar_chevron_width"
             android:layout_gravity="center_vertical|top"
             android:textStyle="bold"
             android:gravity="center"
