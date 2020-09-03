@@ -31,7 +31,7 @@
         android:layout_marginLeft="@*com.google.android.projection.gearhead:dimen/status_bar_weather_margin"
         android:layout_marginRight="@*com.google.android.projection.gearhead:dimen/status_bar_padding"
         android:importantForAccessibility="no"
-        android:layout_alignParentEnd="true"
+        android:layout_toLeftOf="@*com.google.android.projection.gearhead:id/weather_icon"
         android:layout_alignParentBottom="true"
         android:alpha="0.0"
         android:layout_alignParentTop="true">
@@ -110,6 +110,7 @@
         android:visibility="gone"
         android:layout_toLeftOf="@*com.google.android.projection.gearhead:id/wifi_signal"
         android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true" />
     <ImageView
         android:id="@*com.google.android.projection.gearhead:id/weather_icon"
