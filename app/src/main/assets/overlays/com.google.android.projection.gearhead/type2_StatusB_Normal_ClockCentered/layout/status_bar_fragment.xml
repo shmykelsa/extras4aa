@@ -13,15 +13,15 @@
     <com.google.android.projection.gearhead.common.GhTextClock
         android:id="@*com.google.android.projection.gearhead:id/clock"
         android:layout_width="wrap_content"
-        android:layout_height="fill_parent"
-        android:textSize="@*com.google.android.projection.gearhead:dimen/status_bar_icon_size"
-        android:layout_marginBottom="1.0dip"
-        android:layout_marginTop="1.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@*com.google.android.projection.gearhead:dimen/status_bar_padding"
+        android:layout_marginRight="@*com.google.android.projection.gearhead:dimen/status_bar_padding"
         android:format12Hour="@*com.google.android.projection.gearhead:string/car_clock_12_hours_format"
         android:format24Hour="@*com.google.android.projection.gearhead:string/car_clock_24_hours_format"
         android:textAppearance="@*com.google.android.projection.gearhead:style/TextAppearance.Boardwalk.Body3"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"/>
+        android:textSize="@*com.google.android.projection.gearhead:dimen/status_bar_icon_size"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
     <FrameLayout
         android:id="@*com.google.android.projection.gearhead:id/battery_container"
         android:layout_width="@*com.google.android.projection.gearhead:dimen/status_bar_icon_size"
@@ -52,7 +52,7 @@
         android:importantForAccessibility="no"
         android:src="@*com.google.android.projection.gearhead:drawable/ic_airplane_mode"
         android:tint="@*com.google.android.projection.gearhead:color/gearhead_sdk_grey_50"
-        android:layout_toLeftOf="@*com.google.android.projection.gearhead:id/etc_icon"
+        android:layout_toLeftOf="@*com.google.android.projection.gearhead:id/battery_container"
         android:layout_centerVertical="true"
         android:layout_alignParentBottom="true"
         android:layout_alignParentTop="true"/>
@@ -94,15 +94,15 @@
     <TextView
         android:id="@*com.google.android.projection.gearhead:id/weather_temperature"
         android:layout_width="wrap_content"
+        android:layout_marginRight="@*com.google.android.projection.gearhead:dimen/status_bar_weather_margin"
         android:layout_height="fill_parent"
-        android:textSize="@*com.google.android.projection.gearhead:dimen/status_bar_icon_size"
         android:layout_marginBottom="1.0dip"
         android:layout_marginTop="1.0dip"
-        android:layout_marginRight="@*com.google.android.projection.gearhead:dimen/status_bar_weather_margin"
         android:gravity="center"
         android:textAppearance="@*com.google.android.projection.gearhead:style/TextAppearance.Boardwalk.Body3"
+        android:textSize="@*com.google.android.projection.gearhead:dimen/status_bar_icon_size"
         android:visibility="gone"
-        android:layout_toLeftOf="@*com.google.android.projection.gearhead:id/battery_container"
+        android:layout_toLeftOf="@*com.google.android.projection.gearhead:id/wifi_signal"
         android:layout_alignParentBottom="true"
         android:layout_alignParentTop="true" />
     <ImageView
