@@ -14,7 +14,6 @@
         android:id="@*com.google.android.projection.gearhead:id/clock"
         android:layout_width="wrap_content"
         android:layout_height="fill_parent"
-        android:autoSizeTextType="uniform"
         android:layout_marginBottom="1.0dip"
         android:layout_marginTop="1.0dip"
         android:layout_marginLeft="@*com.google.android.projection.gearhead:dimen/status_bar_padding"
@@ -22,6 +21,7 @@
         android:format12Hour="@*com.google.android.projection.gearhead:string/car_clock_12_hours_format"
         android:format24Hour="@*com.google.android.projection.gearhead:string/car_clock_24_hours_format"
         android:textAppearance="@*com.google.android.projection.gearhead:style/TextAppearance.Boardwalk.Body3"
+        android:textSize="@*com.google.android.projection.gearhead:dimen/status_bar_icon_size"
         android:layout_alignParentStart="true"
         android:layout_centerVertical="true"/>
     <FrameLayout
@@ -108,7 +108,8 @@
         android:gravity="center"
         android:textAppearance="@*com.google.android.projection.gearhead:style/TextAppearance.Boardwalk.Body3"
         android:visibility="gone"
-        android:layout_toLeftOf="@*com.google.android.projection.gearhead:id/wifi_signal"
+        android:textSize="@*com.google.android.projection.gearhead:dimen/status_bar_icon_size"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_alignParentTop="true" />
     <ImageView
