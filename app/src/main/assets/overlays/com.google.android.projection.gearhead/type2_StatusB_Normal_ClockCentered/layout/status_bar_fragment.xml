@@ -61,7 +61,7 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_marginRight="@*com.google.android.projection.gearhead:dimen/status_bar_internal_padding"
-        android:layout_toLeftOf="@*com.google.android.projection.gearhead:id/airplane_mode_icon"
+        android:layout_toLeftOf="@*com.google.android.projection.gearhead:id/battery_container"
         android:layout_centerVertical="true">
         <ImageView
             android:id="@*com.google.android.projection.gearhead:id/cell_info_overlay"
