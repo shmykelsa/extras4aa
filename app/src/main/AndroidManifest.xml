@@ -16,14 +16,14 @@
         android:supportsRtl="true"
         android:theme="@style/DialogStyle"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".Launcher"
+        <activity android:name="${LauncherActivity}"
             android:theme="@style/CustomActivityThemeNoTitle">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SubstratumLauncher"
+        <activity android:name="${substratumLauncherActivity}"
             android:theme="@style/Transparent">
             <intent-filter>
                 <action android:name="projekt.substratum.THEME" />

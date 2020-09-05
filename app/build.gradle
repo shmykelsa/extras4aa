@@ -85,12 +85,16 @@ android {
         full {
             dimension 'dim'
             resConfigs ''
+            manifestPlaceholders.substratumLauncherActivity = "aaextras.rizzo.gabriele.SubstratumLauncher"
+            manifestPlaceholders.LauncherActivity = "aaextras.rizzo.gabriele.Launcher"
         }
         legacy {
             dimension 'dim'
             applicationId 'aaextras.rizzo.gabriele.legacy'
-            minSdkVersion 24
+            minSdkVersion 23
             versionName = defaultConfig.versionName + "L"
+            manifestPlaceholders.substratumLauncherActivity = "aaextras.rizzo.gabriele.legacy.SubstratumLauncher"
+            manifestPlaceholders.LauncherActivity = "aaextras.rizzo.gabriele.legacy.Launcher"
         }
         nonlegacy {
             dimension 'dim'
