@@ -49,7 +49,19 @@ class SubstratumLauncher : Activity() {
         }
 
         //setContentView(R.layout.content_snow)
-        showWelcomeDialog()
+        if (getDialogStatus()) {
+            storeCounterOpened()
+            if (getCounterOpened() % 3 == 0) {
+                openDonationDialog()
+            } else if (!getStoreRatingStatus() && getCounterOpened() > 1) {
+                ratingDialog()
+            } else {
+                finish()
+            }
+        } else {
+            storeCounterOpened()
+            showWelcomeDialog()
+        }
     }
 
     @SuppressLint("InflateParams")
@@ -113,8 +125,8 @@ class SubstratumLauncher : Activity() {
             }
         }
 
-
         alertDialog.setView(view)
+
 
         if (getDialogStatus()) {
             finish()
@@ -170,6 +182,9 @@ class SubstratumLauncher : Activity() {
 
         val bottoneNegativo: Button = view.findViewById(R.id.button_donate)
         bottoneNegativo.text = getString(R.string.nevershowagain)
+
+        val bottoneAnteprime:Button = view.findViewById(R.id.quarto_bottone)
+        bottoneAnteprime.visibility = RelativeLayout.GONE
 
 
         val myCheckBox = view.findViewById(R.id.myCheckBox) as CheckBox
@@ -287,6 +302,9 @@ class SubstratumLauncher : Activity() {
 
         val bottoneNegativo:Button = view.findViewById(R.id.button_donate)
         bottoneNegativo.text = getString(R.string.nevershowagain)
+
+        val bottoneAnteprime:Button = view.findViewById(R.id.quarto_bottone)
+        bottoneAnteprime.visibility = RelativeLayout.GONE
 
 
         val myCheckBox = view.findViewById(R.id.myCheckBox) as CheckBox
