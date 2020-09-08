@@ -11,7 +11,7 @@
         android:layout_gravity="center"
         android:layout_marginStart="@*com.google.android.projection.gearhead:dimen/rail_widget_pill_margin"
         android:layout_marginEnd="@*com.google.android.projection.gearhead:dimen/rail_widget_pill_margin"
-        android:background="@*com.google.android.projection.gearhead:drawable/rail_widget_pill_background"/>
+        android:background="@*com.google.android.projection.gearhead:drawable/quantum_ic_phone_vd_theme_24"/>
     <LinearLayout
         android:id="@*com.google.android.projection.gearhead:id/content_container"
         android:layout_width="wrap_content"
