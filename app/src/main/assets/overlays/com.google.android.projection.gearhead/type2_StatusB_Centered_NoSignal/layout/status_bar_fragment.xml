@@ -63,7 +63,7 @@
         android:alpha="0.0"
         android:layout_height="match_parent"
         android:layout_marginRight="@*com.google.android.projection.gearhead:dimen/status_bar_internal_padding"
-        android:layout_toRightOf="@*com.google.android.projection.gearhead:id/battery_container"
+        android:layout_toRightOf="@*com.google.android.projection.gearhead:id/airplane_mode_icon"
         android:layout_centerVertical="true">
         <ImageView
             android:id="@*com.google.android.projection.gearhead:id/cell_info_overlay"
@@ -90,7 +90,7 @@
         android:importantForAccessibility="no"
         android:src="@*com.google.android.projection.gearhead:drawable/wifi_signal"
         android:tint="@*com.google.android.projection.gearhead:color/gearhead_sdk_grey_50"
-        android:layout_toRightOf="@*com.google.android.projection.gearhead:id/signal_icon"
+        android:layout_toRightOf="@*com.google.android.projection.gearhead:id/battery_container"
         android:layout_alignParentBottom="true"
         android:layout_alignParentTop="true" />
     <TextView
