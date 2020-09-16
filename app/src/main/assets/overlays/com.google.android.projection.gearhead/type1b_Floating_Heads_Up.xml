@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<item type="dimen" name="gearhead_hun_margin">@*com.google.android.projection.gearhead:dimen/gearhead_baseline_grid_4.5x</item>
+</resources>
