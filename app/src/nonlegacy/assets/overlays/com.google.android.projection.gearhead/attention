@@ -1,1 +1,16 @@
-Due to a limitation of Substratum, if you chose custom colours, just build & install right after and then install other extras. If you want to theme something with a gradient, also choose to apply gradient in the extras and then build. For custom bars: Madness mode = launcher icon is clock. L=launcher, + N = plus notification icon, + Q = plus quick access app, the L at the end = left side, R = right side.
+1) MAKE SHORT OVERLAYS: don't choose too many options at the same time or the options you've created might be always inactive. You don't have to choose all the options at the same time and you can install as many time as you want :)
+
+2) If you want to theme something with a gradient, also choose to apply gradient to something in the latest dropdown menu and then build.
+
+3) For custom bars: Madness mode = launcher icon is replaced by clock. One button mode = just launcher icon
+
+For two buttons mode and madness:
+4) L=launcher, + N = + notifications icon, + Q = + quick access app, At the end of the name L = left side, R = right side.
+
+5) If you choose a color for launcher icons text (first option) also choose "Launcher apply color" or "Launcher bold text"
+
+6) If your notifications icon looks weird when receiving notifications, build "Fix notification dot"
+
+7) If your status bar looks weird after modifying dimensions, build "Fix StatusB Height"
+
+8) When you see "heads up", those are the notification that appear on upper side. Just "notifications" means the one that appear in notification center

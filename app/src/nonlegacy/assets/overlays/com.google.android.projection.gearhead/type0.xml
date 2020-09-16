@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <type0>
-    <type0a name="Launcher icons text (please build launcher apply text color)" color="#FFFFFF" alpha_allowed="false">
+    <type0a name="Launcher icons text (see attention mark)" color="#FFFFFF" alpha_allowed="false">
         <resource name="hats_lib_prompt_take_survey_blue" />
     </type0a>
 	<type0b name="Bottom bar primary" color="#000000" alpha_allowed="false">
