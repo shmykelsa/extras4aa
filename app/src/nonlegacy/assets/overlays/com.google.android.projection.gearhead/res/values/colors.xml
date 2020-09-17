@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="boardwalk_black">#ff000000</color>
     <color name="gearhead_sdk_controller_ripple">@*com.google.android.projection.gearhead:color/gearhead_sdk_controller_ripple_day</color>
     <color name="gearhead_sdk_controller_ripple_dark">#ff7da9c7</color>
     <color name="gearhead_sdk_controller_ripple_day">#b27da9c7</color>
     <color name="gearhead_sdk_controller_ripple_light">#adffffff</color>
     <color name="gearhead_sdk_controller_ripple_night">#66ffffff</color>
-    <color name="google_dark_red900">#FF000000</color>
-    <color name="google_dark_yellow900">#FF000000</color>
-    <color name="google_dark_green900">#FF000000</color>
-    <color name="quantum_amberA400">#ff282a2d</color>
-    <color name="hats_lib_prompt_take_survey_blue">#FFFFFFFF</color>
 </resources>
