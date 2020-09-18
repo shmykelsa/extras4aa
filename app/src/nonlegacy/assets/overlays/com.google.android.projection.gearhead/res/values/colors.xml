@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="gearhead_sdk_controller_ripple">@*com.google.android.projection.gearhead:color/gearhead_sdk_controller_ripple_day</color>
-    <color name="gearhead_sdk_controller_ripple_dark">#ff7da9c7</color>
-    <color name="gearhead_sdk_controller_ripple_day">#b27da9c7</color>
-    <color name="gearhead_sdk_controller_ripple_light">#adffffff</color>
-    <color name="gearhead_sdk_controller_ripple_night">#66ffffff</color>
-</resources>
