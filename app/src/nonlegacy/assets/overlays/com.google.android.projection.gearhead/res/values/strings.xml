@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="car_clock_12_hours_format">h:mm</string>
-    <string name="car_clock_24_hours_format">HH:mm</string>
-</resources>
