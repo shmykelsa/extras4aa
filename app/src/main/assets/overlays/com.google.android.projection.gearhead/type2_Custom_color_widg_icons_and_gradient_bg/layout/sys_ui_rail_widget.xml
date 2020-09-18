@@ -11,7 +11,7 @@
         android:layout_gravity="center"
         android:layout_marginStart="@*com.google.android.projection.gearhead:dimen/rail_widget_pill_margin"
         android:layout_marginEnd="@*com.google.android.projection.gearhead:dimen/rail_widget_pill_margin"
-        android:background="@*com.google.android.projection.gearhead:drawable/rail_widget_pill_background" />
+        android:background="@*com.google.android.projection.gearhead:drawable/quantum_ic_phone_vd_theme_24" />
     <LinearLayout
         android:id="@*com.google.android.projection.gearhead:id/content_container"
         android:layout_width="wrap_content"
@@ -89,7 +89,7 @@
             <ImageView
                 android:id="@*com.google.android.projection.gearhead:id/left_action"
                 style="@*com.google.android.projection.gearhead:style/RailWidgetActionIcon"
-                android:tint="@*com.google.android.projection.gearhead:color/boardwalk_black" />
+                android:tint="@*com.google.android.projection.gearhead:color/template_gray_900" />
         </FrameLayout>
         <FrameLayout
             android:id="@*com.google.android.projection.gearhead:id/center_action_ripple_container"
@@ -97,7 +97,7 @@
             <ImageView
                 android:id="@*com.google.android.projection.gearhead:id/center_action"
                 style="@*com.google.android.projection.gearhead:style/RailWidgetActionIcon"
-                android:tint="@*com.google.android.projection.gearhead:color/boardwalk_black" />
+                android:tint="@*com.google.android.projection.gearhead:color/template_gray_900" />
         </FrameLayout>
         <FrameLayout
             android:id="@*com.google.android.projection.gearhead:id/right_action_ripple_container"
@@ -105,7 +105,7 @@
             <ImageView
                 android:id="@*com.google.android.projection.gearhead:id/right_action"
                 style="@*com.google.android.projection.gearhead:style/RailWidgetActionIcon"
-                android:tint="@*com.google.android.projection.gearhead:color/boardwalk_black" />
+                android:tint="@*com.google.android.projection.gearhead:color/template_gray_900" />
         </FrameLayout>
         <View
             android:id="@*com.google.android.projection.gearhead:id/end_margin"
