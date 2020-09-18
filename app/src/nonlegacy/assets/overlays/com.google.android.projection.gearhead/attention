@@ -14,3 +14,5 @@ For two buttons mode and madness:
 7) If your status bar looks weird after modifying dimensions, build "Fix StatusB Height"
 
 8) When you see "heads up", those are the notification that appear on upper side. Just "notifications" means the one that appear in notification center
+
+9) For misc coloring: Tint for widget icons also need "Custom color widg icons" (or with gradient bg if you need)
