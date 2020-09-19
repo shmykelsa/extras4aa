@@ -50,7 +50,7 @@
         android:layout_height="@*com.google.android.projection.gearhead:dimen/rail_height"
         android:layout_marginTop="5dip"
         android:layout_centerVertical="true"
-        android:layout_toLeftOf="@*com.google.android.projection.gearhead:id/launcher_icon" />
+        android:layout_alignParentStart="true"" />
     <ImageView
         android:id="@*com.google.android.projection.gearhead:id/notifications_icon"
         android:alpha="0.0"

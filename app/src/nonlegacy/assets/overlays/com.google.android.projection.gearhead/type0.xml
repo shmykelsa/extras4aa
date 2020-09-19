@@ -8,6 +8,7 @@
         <resource name="facet_bar_background" />
     </type0b>
     <type0c name="Navbar widget tint" color="#2e3134" alpha_allowed="false">
-        <resource name="vn_media_scrim_deprecated" />
+        <resource name="template_gray_846" />
+        <resource name="gearhead_rail_widget_pill_color" />
     </type0c>
 </type0>

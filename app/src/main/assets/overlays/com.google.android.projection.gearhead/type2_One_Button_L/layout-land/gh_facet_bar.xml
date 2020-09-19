@@ -22,7 +22,7 @@
         android:layout_toLeftOf="@*com.google.android.projection.gearhead:id/notifications_icon"
         android:layout_alignParentTop="true"
         android:layout_gravity="left"
-        android:layout_toRightOf="@*com.google.android.projection.gearhead:id/launcher_icon" />
+        android:layout_alignParentEnd="true" />
     <ImageView
         android:id="@*com.google.android.projection.gearhead:id/notifications_icon"
         style="@*com.google.android.projection.gearhead:style/FacetBarButton"

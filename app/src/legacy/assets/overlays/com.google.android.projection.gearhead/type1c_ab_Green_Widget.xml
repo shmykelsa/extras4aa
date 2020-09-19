@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="vn_media_scrim_deprecated">#32A852</color>
+    <color name="template_gray_846">#32A852</color>
+    <color name="gearhead_rail_widget_pill_color">#32A852</color>
 </resources>

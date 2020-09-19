@@ -16,9 +16,8 @@
         android:id="@*com.google.android.projection.gearhead:id/ongoing_widget"
         android:layout_width="@*com.google.android.projection.gearhead:dimen/facet_bar_touch_target_size"
         android:layout_height="@*com.google.android.projection.gearhead:dimen/facet_bar_touch_target_size"
-        android:layout_marginTop="5dip"
-        android:layout_centerVertical="true"
-        android:layout_toRightOf="@*com.google.android.projection.gearhead:id/launcher_icon" />
+        android:layout_marginTop="8dip"
+        android:layout_alignParentEnd="true" />
     <ImageView
         android:id="@*com.google.android.projection.gearhead:id/notifications_icon"
         android:alpha="0.0"
@@ -28,7 +27,7 @@
         android:src="@*com.google.android.projection.gearhead:drawable/ic_nc_icon_seen"
         android:layout_alignParentBottom="true"
         android:layout_alignParentTop="true"
-        android:layout_toRightOf="@*com.google.android.projection.gearhead:id/launcher_icon"/>
+        android:layout_alignParentEnd="true"/>
     <View
         android:id="@*com.google.android.projection.gearhead:id/rail_invisible_scrim"
         android:alpha="0.0"

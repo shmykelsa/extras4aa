@@ -59,7 +59,7 @@
         android:src="@*com.google.android.projection.gearhead:drawable/ic_nc_icon_seen"
         android:layout_alignParentBottom="true"
         android:layout_alignParentTop="true"
-        android:layout_toRightOf="@*com.google.android.projection.gearhead:id/launcher_icon"/>
+        android:layout_alignParentEnd="true"/>
     <View
         android:id="@*com.google.android.projection.gearhead:id/rail_invisible_scrim"
         android:alpha="0.0"
