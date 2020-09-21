@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gearhead_notification_center_row_action_button_color">#ff3333</color>
+    <color name="gearhead_notification_center_row_color">#800000</color>
+    <color name="template_gray_878">#ff3333</color>
+    <color name="template_gray_900">#800000</color>
+</resources>
