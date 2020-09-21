@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="alpha_jump_keyboard_key_disabled_deprecated">#0011ff</color>
     <style name="FacetBarButton">
         <item name="android:focusable">true</item>
         <item name="android:tint">#0011ff</item>

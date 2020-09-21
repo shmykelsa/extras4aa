@@ -41,7 +41,7 @@ android {
         buildConfigField "String", "IV_KEY", "\"" + IV_KEY + "\""
         buildConfigField "byte[]", "DECRYPTION_KEY", String.valueOf("\"" + KEY + "\"").replace("\"", "").replace("[", "{").replace("]", "}")
         buildConfigField "byte[]", "IV_KEY", String.valueOf("\"" + IV_KEY + "\"").replace("\"", "").replace("[", "{").replace("]", "}")
-        setProperty("archivesBaseName","AAEXTRAS-$versionName")
+        setProperty("archivesBaseName","EXTRAS4AA-$versionName")
     }
     buildTypes {
         debug {
@@ -71,6 +71,13 @@ android {
             signingConfig signingConfigs.debug
         }
     }
+
+    applicationVariants.all { variant ->
+        variant.outputs.all {
+            outputFileName = "../../../APKS/" + outputFileName
+        }
+    }
+
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
         legacy{
