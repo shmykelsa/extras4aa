@@ -10,9 +10,8 @@
         style="@*com.google.android.projection.gearhead:style/FacetBarIcon"
         android:src="@*com.google.android.projection.gearhead:drawable/ic_overview_solid"
         android:layout_above="@*com.google.android.projection.gearhead:id/margin_start"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentBottom="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true" />
     <android.support.constraint.Guideline
         android:id="@*com.google.android.projection.gearhead:id/margin_start"
         android:layout_width="wrap_content"
