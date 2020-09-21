@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="gearhead_notification_center_row_action_button_color">@*com.google.android.projection.gearhead:color/template_gray_878</color>
+    <color name="gearhead_notification_center_row_color">@*com.google.android.projection.gearhead:color/template_gray_900</color>
     <color name="gearhead_hun_background_color">@*com.google.android.projection.gearhead:color/template_gray_868</color>
     <color name="facet_bar_background">@*com.google.android.projection.gearhead:color/boardwalk_facet_bar_background</color>
     <color name="gearhead_rail_widget_pill_color">@*com.google.android.projection.gearhead:color/template_gray_846</color>
