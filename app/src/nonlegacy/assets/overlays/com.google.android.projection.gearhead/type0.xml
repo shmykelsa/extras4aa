@@ -7,7 +7,7 @@
         <resource name="boardwalk_facet_bar_background" />
         <resource name="facet_bar_background" />
     </type0b>
-    <type0c name="Navbar widget tint" color="#2e3134" alpha_allowed="false">
+    <type0c name="Navbar widget tint" color="#2e3134" alpha_allowed="true">
         <resource name="template_gray_846" />
         <resource name="gearhead_rail_widget_pill_color" />
     </type0c>
