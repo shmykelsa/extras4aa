@@ -66,7 +66,7 @@
                 android:includeFontPadding="false"
                 android:maxLines="1"
                 android:textColor="@*android:color/black"
-                android:textSize="@*com.google.android.projection.gearhead:dimen/gearhead_legacy_facet_bar_chevron_width" />
+                android:textSize="@*com.google.android.projection.gearhead:dimen/rail_widget_text_size" />
             <TextView
                 android:id="@*com.google.android.projection.gearhead:id/second_line_text"
                 android:layout_width="wrap_content"
