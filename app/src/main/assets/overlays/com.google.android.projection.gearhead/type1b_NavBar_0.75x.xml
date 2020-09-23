@@ -4,7 +4,7 @@
     <dimen name="rail_height">60.0dip</dimen>
     <dimen name="gearhead_legacy_facet_bar_chevron_width">30.0dip</dimen>
     <dimen name="legacy_facet_bar_buttons_margin_top">120.0dip</dimen>
-    <dimen name="legacy_facet_bar_buttons_margin_bottom">180.0dip</dimen>
+    <dimen name="legacy_facet_bar_buttons_margin_bottom">171.0dip</dimen>
     <dimen name="rail_icon_width">72.0dip</dimen>
     <dimen name="rail_widget_pill_height">44.0dip</dimen>
     <dimen name="gearhead_rail_widget_corner_radius">26.0dip</dimen>

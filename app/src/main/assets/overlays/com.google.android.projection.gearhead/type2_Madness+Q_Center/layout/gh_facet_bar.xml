@@ -22,9 +22,7 @@
             android:id="@*com.google.android.projection.gearhead:id/clock"
             android:layout_width="fill_parent"
             android:layout_height="@*com.google.android.projection.gearhead:dimen/gearhead_legacy_facet_bar_chevron_width"
-            android:autoSizeTextType="uniform"
-            android:autoSizeMinTextSize="@*com.google.android.projection.gearhead:dimen/gearhead_rail_widget_corner_radius"
-            android:autoSizeMaxTextSize="@*com.google.android.projection.gearhead:dimen/gearhead_legacy_facet_bar_chevron_width"
+android:textSize="@*com.google.android.projection.gearhead:dimen/rail_widget_text_size"
             android:textStyle="bold"
             android:layout_gravity="center_vertical|top"
             android:gravity="center"
@@ -36,9 +34,7 @@
             android:layout_width="fill_parent"
             android:layout_height="@*com.google.android.projection.gearhead:dimen/gearhead_legacy_facet_bar_chevron_width"
             android:gravity="center"
-            android:autoSizeTextType="uniform"
-            android:autoSizeMinTextSize="@*com.google.android.projection.gearhead:dimen/gearhead_rail_widget_corner_radius"
-            android:autoSizeMaxTextSize="@*com.google.android.projection.gearhead:dimen/gearhead_legacy_facet_bar_chevron_width"
+android:textSize="@*com.google.android.projection.gearhead:dimen/rail_widget_text_size"
             android:layout_gravity="center_vertical|bottom"
             android:format12Hour="mm"
             android:format24Hour="mm"
@@ -50,7 +46,7 @@
         android:layout_height="@*com.google.android.projection.gearhead:dimen/rail_height"
         android:layout_marginTop="5dip"
         android:layout_centerVertical="true"
-        android:layout_alignParentStart="true"" />
+        android:layout_alignParentEnd="true" />
     <ImageView
         android:id="@*com.google.android.projection.gearhead:id/notifications_icon"
         android:alpha="0.0"
