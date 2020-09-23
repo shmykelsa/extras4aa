@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gearhead_sdk_controller_ripple_dark">#ffffa500</color>
+    <color name="gearhead_sdk_controller_ripple_day">#b2ffa500</color>
+    <color name="gearhead_sdk_focus_normal_day">#80ffa500</color>
+    <color name="gearhead_sdk_focus_normal_night">#adffa500</color>
+    <color name="gearhead_sdk_focus_pressed_day">#ffffa500</color>
+    <color name="gearhead_sdk_focus_pressed_night">#ffffa500</color>
+    <color name="gearhead_focus_blue">#ffffa500</color>
+    <color name="gearhead_focus_blue_day">#ffffa500</color>
+    <color name="gearhead_focus_blue_night">#adffa500</color>
+    <color name="gearhead_focus_light_blue">#ffffa500</color>
+    <color name="gearhead_focus_light_blue_day">#ffffa500</color>
+    <color name="gearhead_focus_light_blue_night">#adffa500</color>
+</resources>
