@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <type0>
-    <type0a name="Launcher icons text (see attention mark)" color="#FFFFFF" alpha_allowed="false">
-        <resource name="hats_lib_prompt_take_survey_blue" />
+    <type0a name="Launcher icons text" color="#FFFFFF" alpha_allowed="true">
+        <resource name="template_white" />
     </type0a>
 	<type0b name="Navbar tint" color="#000000" alpha_allowed="false">
         <resource name="boardwalk_facet_bar_background" />

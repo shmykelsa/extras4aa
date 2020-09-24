@@ -41,15 +41,13 @@
         android:layout_width="fill_parent"
         android:layout_height="@*com.google.android.projection.gearhead:dimen/gearhead_launcher_label_height"
         android:layout_marginTop="@*com.google.android.projection.gearhead:dimen/gearhead_launcher_label_margin"
-        android:alpha="@*com.google.android.projection.gearhead:dimen/boardwalk_launcher_text_opacity"
         android:ellipsize="end"
+        android:textStyle="@*com.google.android.projection.gearhead:integer/delay_before_preview_ms"
         android:fontFamily="roboto-regular"
-        android:textStyle="bold"
         android:gravity="center_horizontal"
         android:maxLines="1"
-        android:textColor="#00000000"
+        android:textColor="@*com.google.android.projection.gearhead:color/template_white"
         android:textSize="@*com.google.android.projection.gearhead:dimen/gearhead_launcher_label_text_size"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true" />
-
 </RelativeLayout>
