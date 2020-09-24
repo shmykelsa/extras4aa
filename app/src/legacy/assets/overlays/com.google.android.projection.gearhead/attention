@@ -15,8 +15,4 @@ For two buttons mode and madness:
 
 8) When you see "heads up", those are the notification that appear on upper side. Just "notifications" means the one that appear in notification center
 
-9) Madness don't work on Android 7.0 or below
-
-10) If you choose a custom bar mode (madness, one button, two or three buttons) you MUST also install a dimension for navbar (even if 1.0x)
-
-11) For misc coloring: Tint for widget icons also need "Custom color widg icons" (or with gradient bg if you need)
+9) If you choose a custom bar mode (madness, one button, two or three buttons) you MUST also install a dimension for navbar (even if 1.0x)

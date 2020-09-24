@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="alpha_jump_keyboard_key_disabled_deprecated">#000000</color>
+    <color name="alpha_jump_keyboard_key_disabled_deprecated">#F5F5DC</color>
     <style name="RailWidgetActionIcon">
         <item name="android:layout_gravity">center</item>
         <item name="android:layout_width">@*com.google.android.projection.gearhead:dimen/rail_widget_action_icon_width</item>
         <item name="android:layout_height">@*com.google.android.projection.gearhead:dimen/rail_widget_action_icon_height</item>
         <item name="android:scaleType">fitCenter</item>
-        <item name="android:tint">#000000</item>
+        <item name="android:tint">#F5F5DC</item>
     </style>
 </resources>
