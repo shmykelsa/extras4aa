@@ -2,17 +2,15 @@
 
 2) If you want to theme something with a gradient, also choose to apply gradient to something in the latest dropdown menu and then build.
 
-3) For custom bars: Madness mode = launcher icon is replaced by clock. One button mode = just launcher icon
+3) For custom bars: Madness mode = home icon is replaced by clock. One button mode = just home icon. At the end of the name L = left side, R = right side.
 
-For two buttons mode and madness:
-4) L=launcher, + N = + notifications icon, + Q = + quick access app, At the end of the name L = left side, R = right side.
+For two/three buttons mode and madness:
+4) L=launcher, + N = + notifications icon, + Q = + quick access app. Three buttons = L + Q + N
 
-5) If you choose a color for launcher icons text (first option) also choose "Launcher apply color" or "Launcher bold text"
+5) If your notifications icon looks weird when receiving notifications, build "Fix notification dot"
 
-6) If your notifications icon looks weird when receiving notifications, build "Fix notification dot"
+6) If your status bar looks weird after modifying dimensions, build "Fix StatusB Height"
 
-7) If your status bar looks weird after modifying dimensions, build "Fix StatusB Height"
+7) When you see "heads up", those are the notification that appear on upper side. Just "notifications" means the one that appear in notification center
 
-8) When you see "heads up", those are the notification that appear on upper side. Just "notifications" means the one that appear in notification center
-
-9) If you choose a custom bar mode (madness, one button, two or three buttons) you MUST also install a dimension for navbar (even if 1.0x)
+8) If you choose a custom bar mode (madness, one button, two or three buttons) you MUST also install a dimension for navbar (even if 1.0x)
