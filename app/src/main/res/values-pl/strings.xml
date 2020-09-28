@@ -4,9 +4,13 @@
         \n\n Jeśli chcesz wspomóc rozwój możesz rozważyć darowiznę. Będzie to bardzo mile widziane 😊</string>
     <string name="donate">Wspomóż</string>
     <string name="do_not_show_again">Nie pokazuj więcej</string>
-    <string name="helpme"> Wygląda na to, że nie używasz Substratum Lite.\n
-  Aby zastosować Extras for AA, zainstaluj Substratum Lite
-    </string>
+    <string name="helpme">Aby zainstalować:\n
+        1. Zaznacz Android Auto i wybierz dodatek z listy\n
+        2. Sprawdź znak uwaga obok „Android Auto”, aby uniknąć błędów\n
+        3. Wybierz jeden lub więcej dodatków z listy\n
+        4. Naciśnij dolny przycisk i wybierz \"Kompiluj i Zaktualizuj\"\n
+        5. Powtórz kroki 3 i 4 tyle razy, ile potrzebujesz\n
+        6. Uruchom ponownie, przejdź do karty menedżer, wybierz wbudowana(e) nakładka(i) i włącz</string>
     <string name="previews_text">Podglądy!</string>
     <string name="helpme_lite">Aby zainstalować:\n
         1. Zaznacz Android Auto i wybierz dodatek z listy\n

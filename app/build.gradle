@@ -31,8 +31,8 @@ android {
         // to the substratum repo rather than anything lower. Keep targetSdkVersion the same.
         minSdkVersion 26
         // Both versions must be changed to increment on Play Store/user's devices
-        versionCode 26
-        versionName "4.20"
+        versionCode 27
+        versionName "4.3"
 
         // Themers: DO NOT MODIFY
         buildConfigField "boolean", "SUPPORTS_THIRD_PARTY_SYSTEMS", "" + SUPPORTS_THIRD_PARTY_SYSTEMS

@@ -7,8 +7,10 @@
     <string name="gotorating">Перейти!</string>
     <string name="previews_text">Демонстрация</string>
     <string name="gotoxdathread">Посетить наш ресурс на форуме XDA.</string>
-    <string name="helpme">У Вас не установлен Substratum Lite.\n
-     Чтобы применить Extras for AA, необходимо установить Substratum Lite.</string>
+    <string name="helpme">Инструкция по установке\n\n
+    Отметьте Android Auto и выберите один или несколько вариантов из списка\n
+    Нажмите кнопку ниже и выбирите тип установки\n
+    Перегрузите устройство, откройте вкладку, и активируйте установленные опции</string>
     <string name="hi_iew">Инструкция по установке\n\n
     Отметьте Android Auto и выберите обои из списка\n
     Нажмите кнопку ниже и выбирите тип установки\n
@@ -22,8 +24,8 @@
          6. Перезагрузить аппарат, запустить Substratum Lite, перейти на вкладку диспетчера, выбрать оверлеи, нажать кнопку внизу и выбрать &quot;Enable selected&quot;</string>
     <string name="launch_dialog_content">Это Extras for AA, тема которая меняет внешний вид Android Auto\n\n
     Если Вы желаете поблагодарить за разработку и мои усилия, вы можете сделать пожертвование с помощью кнопки внизу.Даже самая небольшая помощь, бдует высоко цениться и будет полезна в развитии проекта.</string>
-    <string name="mailme">A</string>
-    <string name="nevershowagain">A</string>
+    <string name="mailme">Напиши мне</string>
+    <string name="nevershowagain">Оставь меня в покое</string>
     <string name="proceed">Продолжить</string>
     <string name="rating_message">Привет, не могли бы уделить минутку, и оценить данную тему на XDA Labs?</string>
     <string name="reconsider">Возможно позже!</string>

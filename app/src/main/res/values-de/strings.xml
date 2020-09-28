@@ -2,7 +2,13 @@
 <resources>
     <string name="helpme">Anscheinend haben sie kein Substratum Lite.\n
 Bitte installieren sie Substratum Lite, um dieses thema korrekt anzuwenden</string>
-    <string name="previews_text">Vorschau!</string>
+    <string name="previews_text">So installieren Sie:\n
+         1. Aktivieren Sie Android Auto und wählen Sie ein Extra aus der Liste aus\n
+         2. Siehe aufmerksamkeitsmarkierung in der nähe von &quot;Android Auto&quot;, um Fehler zu vermeiden\n
+         3. Wählen sie ein oder mehrere Extras aus der liste aus\n
+         4. Klicken sie auf die untere Schaltfläche und wählen sie "Build &amp; Install"\n
+         5. Wiederholen sie die schritte 3 und 4 so oft sie möchten\n
+         6. Starten sie neu, gehen Sie zur Registerkarte Manager, wählen Sie die erstellten Overlays aus und klicken Sie auf &quot;Aktivieren&quot;.\n</string>
     <string name="helpme_lite">So installieren Sie:\n
          1. Aktivieren Sie Android Auto und wählen Sie ein Extra aus der Liste aus\n
          2. Siehe aufmerksamkeitsmarkierung in der nähe von &quot;Android Auto&quot;, um Fehler zu vermeiden\n

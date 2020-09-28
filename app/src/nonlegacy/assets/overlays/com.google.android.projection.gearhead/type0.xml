@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <type0>
-    <type0a name="Launcher icons text" color="#FFFFFF" alpha_allowed="true">
+    <type0a name="Launcher icons text" color="#FFFFFF" alpha_allowed="false">
         <resource name="template_white" />
     </type0a>
 	<type0b name="Navbar tint" color="#000000" alpha_allowed="false">

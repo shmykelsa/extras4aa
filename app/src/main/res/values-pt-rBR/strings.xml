@@ -8,8 +8,13 @@
     <string name="donation_message">Você parece estar gostando do Extras for AA, gostaria de mostrar sua apreciação com uma doação?</string>
     <string name="gotorating">Me leve lá!</string>
     <string name="gotoxdathread">Ir para XDA Thread</string>
-    <string name="helpme">Parece que você não está executando o Substratum Lite.\n
-     Para aplicar Extras para AA, instale o Substratum Lite.</string>
+    <string name="helpme">Para instalar:\n
+         1. Marque Android Auto e selecione um extra da lista\n
+         2. Veja a marca de atenção perto de &quot;Android Auto&quot; para evitar erros\n
+         3. Selecione um ou mais extras da lista\n
+         4. Clique no botão inferior e selecione &quot;Instalar&quot;\n
+         5. Repita as etapas 3 e 4 quantas vezes quiser\n
+         6. Reinicialize, vá para a guia do gerente, selecione as sobreposições criadas e ativa</string>
     <string name="helpme_lite">Para instalar:\n
          1. Marque Android Auto e selecione um extra da lista\n
          2. Veja a marca de atenção perto de &quot;Android Auto&quot; para evitar erros\n

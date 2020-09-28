@@ -11,7 +11,13 @@
     <string name="launch_dialog_content">Voici les Extras pour AA, un thème pour changer l\'apparance de votre Android Auto\n
         Si vous souhaitez soutenir le développement et contribuer à l\'effort, vous pouvez faire un don PayPal par l\'intermédiaire du bouton ci-dessous.\n
         Même les petits montants sont appréciés😊"</string>
-    <string name="helpme">On dirait que vous n\'utilisez pas Substratum Lite.\nPour faire fonctionner les Extras pour AA, s.v.p. installez Substratum Lite.</string>
+    <string name="helpme">Pour installer:\n
+         1. Cochez Android Auto et selectionnez un extras de cette liste\n
+         2. Regardez la note près de "Android Auto" pour éviter les erreurs\n
+         3. Choissisez un ou plusieurs extras de la liste\n
+         4. Cochez ensuite le carré dans le bas de l\'écran et sélectionnez "Compiler et Installer"\n
+         5. Répéter les étapes 3 et 4 pour chaque items supplémentaires ou tel que désiré\n
+         6. Redémarrer votre appareil ensuite, revenez dans Subtratum Lite, dans le bas choisir l\'icône au centre "Manager", choisir votre extra et cliquez sur "Activer".</string>
     <string name="helpme_lite">Pour installer:\n
          1. Cochez Android Auto et selectionnez un extras de cette liste\n
          2. Regardez la note près de "Android Auto" pour éviter les erreurs\n
