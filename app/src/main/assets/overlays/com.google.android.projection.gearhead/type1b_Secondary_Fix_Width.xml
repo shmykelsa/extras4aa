@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="gearhead_secondary_screen_card_width">160.0dip</dimen>
-    <dimen name="gearhead_secondary_screen_card_action_button_size">38.0dip</dimen>
-    <dimen name="gearhead_secondary_screen_card_left_right_action_button_padding">10.0dip</dimen>
-    <dimen name="gearhead_secondary_screen_card_primary_action_icon_size">30.0dip</dimen>
-    <dimen name="gearhead_secondary_screen_card_action_button_size">50.0dip</dimen>
-    <dimen name="boardwalk_display2_text_size">29.0dip</dimen>
-</resources>
