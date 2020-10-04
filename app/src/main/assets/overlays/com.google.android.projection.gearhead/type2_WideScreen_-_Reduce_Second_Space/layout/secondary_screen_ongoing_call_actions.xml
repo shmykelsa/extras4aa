@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@*com.google.android.projection.gearhead:dimen/gearhead_baseline_grid_2x"
+    android:layout_marginEnd="@*com.google.android.projection.gearhead:dimen/gearhead_baseline_grid_2x"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="vertical">
+    <ImageButton
+        android:id="@*com.google.android.projection.gearhead:id/mute_button"
+        android:layout_width="@*com.google.android.projection.gearhead:dimen/gearhead_secondary_screen_card_action_button_size"
+        android:layout_height="@*com.google.android.projection.gearhead:dimen/gearhead_secondary_screen_card_action_button_size"
+        android:layout_gravity="top|center"
+        android:background="@*com.google.android.projection.gearhead:drawable/stream_item_media_action_background_light"
+        android:foregroundGravity="center"
+        android:padding="@*com.google.android.projection.gearhead:dimen/gearhead_secondary_screen_card_left_right_action_button_padding"
+        android:scaleType="fitCenter"
+        android:src="@*com.google.android.projection.gearhead:drawable/boardwalk_ic_call_mute_self_selector"
+        android:tint="@*com.google.android.projection.gearhead:color/gearhead_sdk_tint_light" />
+    <FrameLayout
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1.0"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+        <FrameLayout
+            android:layout_width="@*com.google.android.projection.gearhead:dimen/gearhead_secondary_screen_card_action_button_size"
+            android:layout_height="@*com.google.android.projection.gearhead:dimen/gearhead_secondary_screen_card_action_button_size"
+            android:layout_gravity="center"
+            android:addStatesFromChildren="true"
+            android:background="@*com.google.android.projection.gearhead:drawable/stream_item_media_fab_background_light">
+            <com.google.android.apps.auto.sdk.ui.FloatingActionButton android:gravity="center" android:layout_gravity="center" android:id="@*com.google.android.projection.gearhead:id/end_call" android:padding="@*com.google.android.projection.gearhead:dimen/gearhead_secondary_screen_card_ongoing_call_fab_padding" android:clipChildren="false" android:clipToPadding="false" android:layout_width="@*com.google.android.projection.gearhead:dimen/gearhead_secondary_screen_card_ongoing_call_fab_size" android:layout_height="@*com.google.android.projection.gearhead:dimen/gearhead_secondary_screen_card_ongoing_call_fab_size" android:src="@*com.google.android.projection.gearhead:drawable/ic_call_end" android:scaleType="fitCenter" />
+        </FrameLayout>
+    </FrameLayout>
+    <ImageButton
+        android:id="@*com.google.android.projection.gearhead:id/speaker_button"
+        android:layout_width="@*com.google.android.projection.gearhead:dimen/gearhead_secondary_screen_card_action_button_size"
+        android:layout_height="@*com.google.android.projection.gearhead:dimen/gearhead_secondary_screen_card_action_button_size"
+        android:background="?gearheadCardButtonBackground"
+        android:padding="@*com.google.android.projection.gearhead:dimen/gearhead_secondary_screen_card_left_right_action_button_padding"
+        android:scaleType="fitCenter"
+        android:tint="@*com.google.android.projection.gearhead:color/gearhead_sdk_tint_light" />
+</LinearLayout>

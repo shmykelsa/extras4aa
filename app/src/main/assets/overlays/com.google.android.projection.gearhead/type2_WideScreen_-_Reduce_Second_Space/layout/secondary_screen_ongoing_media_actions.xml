@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@*com.google.android.projection.gearhead:dimen/gearhead_baseline_grid_0.5x"
+    android:layout_marginEnd="@*com.google.android.projection.gearhead:dimen/gearhead_baseline_grid_0.5x"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="vertical">
+    <ImageButton
+        android:id="@*com.google.android.projection.gearhead:id/prev"
+        android:layout_width="@*com.google.android.projection.gearhead:dimen/gearhead_secondary_screen_card_action_button_size"
+        android:layout_height="@*com.google.android.projection.gearhead:dimen/gearhead_secondary_screen_card_action_button_size"
+        android:layout_gravity="start|center"
+        android:background="@*com.google.android.projection.gearhead:drawable/gearhead_card_icon_focus_background"
+        android:foregroundGravity="center"
+        android:padding="@*com.google.android.projection.gearhead:dimen/gearhead_secondary_screen_card_left_right_action_button_padding"
+        android:scaleType="fitCenter"
+        android:tint="@*com.google.android.projection.gearhead:color/gearhead_sdk_tint_light"
+        android:visibility="invisible" />
+    <FrameLayout
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1.0"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+        <FrameLayout
+            android:layout_width="@*com.google.android.projection.gearhead:dimen/gearhead_secondary_screen_card_media_fab_size"
+            android:layout_height="@*com.google.android.projection.gearhead:dimen/gearhead_secondary_screen_card_media_fab_size"
+            android:layout_gravity="center"
+            android:addStatesFromChildren="true"
+            android:background="@*com.google.android.projection.gearhead:drawable/gearhead_secondary_screen_card_media_fab_ripple_background"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:foreground="@*com.google.android.projection.gearhead:drawable/gearhead_secondary_screen_card_media_fab_focus_foreground">
+            <com.google.android.apps.auto.components.ui.media.PlayPauseStopImageView
+                android:id="@*com.google.android.projection.gearhead:id/play_pause"
+                style="@*com.google.android.projection.gearhead:style/FabStyle.Small"
+                android:clipChildren="false"
+                android:padding="@*com.google.android.projection.gearhead:dimen/gearhead_secondary_screen_card_media_fab_padding"
+                android:scaleType="fitCenter"
+                android:src="@*com.google.android.projection.gearhead:drawable/ic_play_pause_stop" />
+            <ProgressBar
+                android:id="@*com.google.android.projection.gearhead:id/spinner"
+                style="@*com.google.android.projection.gearhead:style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="@*com.google.android.projection.gearhead:dimen/gearhead_secondary_screen_card_media_fab_size"
+                android:layout_height="@*com.google.android.projection.gearhead:dimen/gearhead_secondary_screen_card_media_fab_size"
+                android:layout_gravity="center"
+                android:background="@*com.google.android.projection.gearhead:drawable/circular_progress_bar_background"
+                android:elevation="@*com.google.android.projection.gearhead:dimen/buffering_spinner_elevation"
+                android:focusable="false"
+                android:indeterminateDrawable="@*com.google.android.projection.gearhead:drawable/music_buffering"
+                android:progressDrawable="@*com.google.android.projection.gearhead:drawable/circular_progress_bar" />
+        </FrameLayout>
+    </FrameLayout>
+    <ImageButton
+        android:id="@*com.google.android.projection.gearhead:id/next"
+        android:layout_width="@*com.google.android.projection.gearhead:dimen/gearhead_secondary_screen_card_action_button_size"
+        android:layout_height="@*com.google.android.projection.gearhead:dimen/gearhead_secondary_screen_card_action_button_size"
+        android:layout_gravity="bottom|center"
+        android:background="@*com.google.android.projection.gearhead:drawable/gearhead_card_icon_focus_background"
+        android:padding="@*com.google.android.projection.gearhead:dimen/gearhead_secondary_screen_card_left_right_action_button_padding"
+        android:scaleType="fitCenter"
+        android:tint="@*com.google.android.projection.gearhead:color/gearhead_sdk_tint_light"
+        android:visibility="invisible" />
+</LinearLayout>
