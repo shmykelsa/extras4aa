@@ -2,6 +2,7 @@
 <resources>
 	<dimen name="facet_bar_touch_target_size">38.0dip</dimen>
 	<dimen name="rail_height">40.0dip</dimen>
+	<dimen name="vertical_rail_width">43.0dip</dimen>
 	<dimen name="legacy_facet_bar_buttons_margin_top">80.0dip</dimen>
 	<dimen name="gearhead_legacy_facet_bar_chevron_width">20.0dip</dimen>
 	<dimen name="legacy_facet_bar_buttons_margin_bottom">120.0dip</dimen>
