@@ -10,8 +10,8 @@
         android:src="@*com.google.android.projection.gearhead:drawable/ic_overview_solid"
         android:layout_width="@*com.google.android.projection.gearhead:dimen/facet_bar_touch_target_size"
         android:layout_height="@*com.google.android.projection.gearhead:dimen/facet_bar_touch_target_size"
-        android:alpha="0.0"
         android:layout_centerHorizontal="true"
+        android:alpha="0.0"
         android:layout_alignParentBottom="true" />
     <FrameLayout
         android:layout_width="@*com.google.android.projection.gearhead:dimen/rail_height"
@@ -22,8 +22,8 @@
             android:id="@*com.google.android.projection.gearhead:id/clock"
             android:layout_width="fill_parent"
             android:layout_height="@*com.google.android.projection.gearhead:dimen/gearhead_legacy_facet_bar_chevron_width"
-android:textSize="@*com.google.android.projection.gearhead:dimen/rail_widget_text_size"
-android:textStyle="bold"
+            android:textStyle="bold"
+            android:textSize="@*com.google.android.projection.gearhead:dimen/rail_widget_text_size"
             android:layout_gravity="center_vertical|top"
             android:gravity="center"
             android:format12Hour="h"

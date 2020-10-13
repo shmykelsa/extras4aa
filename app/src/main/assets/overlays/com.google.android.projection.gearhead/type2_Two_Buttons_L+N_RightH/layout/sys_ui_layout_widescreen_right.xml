@@ -46,8 +46,8 @@
         android:layout_alignTop="@*com.google.android.projection.gearhead:id/activity" />
     <View
         android:id="@*com.google.android.projection.gearhead:id/rail"
-        android:layout_heigth="@*com.google.android.projection.gearhead:dimen/vertical_rail_width"
-        android:layout_widtht="@*com.google.android.projection.gearhead:dimen/legacy_facet_bar_buttons_margin_top"
+        android:layout_height="@*com.google.android.projection.gearhead:dimen/vertical_rail_width"
+        android:layout_width="@*com.google.android.projection.gearhead:dimen/legacy_facet_bar_buttons_margin_top"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true" />
     <View

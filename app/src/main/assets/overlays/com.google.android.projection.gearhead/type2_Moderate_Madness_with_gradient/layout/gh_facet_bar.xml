@@ -51,6 +51,7 @@ android:textSize="@*com.google.android.projection.gearhead:dimen/rail_widget_tex
         android:id="@*com.google.android.projection.gearhead:id/ongoing_widget"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:alpha="0.0"
         android:layout_marginTop="16.0dip"
         android:visibility="gone"
         app:collapsed="true"
