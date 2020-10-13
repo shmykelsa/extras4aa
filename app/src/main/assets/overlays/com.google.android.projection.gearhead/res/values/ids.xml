@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <item type="id" name="above_compass_container" />
     <item type="id" name="accepted_cars_view_switcher" />
     <item type="id" name="accessibility_action_clickable_span" />
     <item type="id" name="accessibility_custom_action_0" />
@@ -49,6 +50,7 @@
     <item type="id" name="action_bar_subtitle" />
     <item type="id" name="action_bar_title" />
     <item type="id" name="action_button" />
+    <item type="id" name="action_button_list_view" />
     <item type="id" name="action_container" />
     <item type="id" name="action_container_divider" />
     <item type="id" name="action_context_bar" />
@@ -79,24 +81,24 @@
     <item type="id" name="action_strip_container" />
     <item type="id" name="action_text" />
     <item type="id" name="action_vanagon_dev_settings" />
+    <item type="id" name="actionable_view" />
+    <item type="id" name="actionbar" />
+    <item type="id" name="actionbar_image" />
     <item type="id" name="actions" />
     <item type="id" name="actions_center_guideline" />
     <item type="id" name="actions_container" />
     <item type="id" name="actions_start_margin" />
     <item type="id" name="activity" />
     <item type="id" name="activity_chooser_view_content" />
+    <item type="id" name="activity_recognition_textbox" />
     <item type="id" name="add_feedback_report" />
     <item type="id" name="add_new_cars_description" />
     <item type="id" name="add_new_cars_label" />
     <item type="id" name="add_new_cars_switch" />
     <item type="id" name="additional_candidate" />
-    <item type="id" name="address_text" />
     <item type="id" name="airplane_mode_icon" />
     <item type="id" name="album_art" />
     <item type="id" name="alertTitle" />
-    <item type="id" name="alert_icon" />
-    <item type="id" name="alert_text" />
-    <item type="id" name="all_storage_description" />
     <item type="id" name="alpha_jump_fab" />
     <item type="id" name="alpha_jump_keyboard" />
     <item type="id" name="alpha_jump_keyboard_grid_layout" />
@@ -109,32 +111,33 @@
     <item type="id" name="android_auto_title" />
     <item type="id" name="app_bar" />
     <item type="id" name="app_bar_background" />
+    <item type="id" name="app_bar_container" />
     <item type="id" name="app_bar_inset" />
     <item type="id" name="app_bar_title" />
-    <item type="id" name="app_bar_title_container" />
     <item type="id" name="app_icon" />
     <item type="id" name="app_icon_overlay" />
-    <item type="id" name="app_icon_view" />
     <item type="id" name="app_info_button" />
     <item type="id" name="app_launcher_row" />
     <item type="id" name="app_name" />
     <item type="id" name="app_size" />
+    <item type="id" name="approve_button" />
+    <item type="id" name="approve_button_text" />
     <item type="id" name="apps_list" />
-    <item type="id" name="arrival_info_card_container" />
-    <item type="id" name="arrival_info_container" />
-    <item type="id" name="arrival_info_container_backdrop" />
-    <item type="id" name="arrival_info_view" />
-    <item type="id" name="arrival_text" />
     <item type="id" name="arrival_time_text" />
     <item type="id" name="arrow_image" />
+    <item type="id" name="arrowviewpager_leftarrow" />
+    <item type="id" name="arrowviewpager_rightarrow" />
     <item type="id" name="assistant_container" />
     <item type="id" name="assistant_icon" />
     <item type="id" name="assistant_icon_img" />
-    <item type="id" name="audio_route_selector_wrapper" />
+    <item type="id" name="audio_route_selector_container" />
+    <item type="id" name="audio_route_selector_view_wrapper" />
     <item type="id" name="autolaunch_dialog_snack_bar" />
     <item type="id" name="autolaunch_notification_id" />
     <item type="id" name="autolaunch_prompt_notification_id" />
     <item type="id" name="autolaunch_recycler_view" />
+    <item type="id" name="aux_content_type" />
+    <item type="id" name="auxiliary_button" />
     <item type="id" name="backdrop" />
     <item type="id" name="background" />
     <item type="id" name="background_aa_logo" />
@@ -145,10 +148,12 @@
     <item type="id" name="badge" />
     <item type="id" name="badge_background" />
     <item type="id" name="badged_icon_container" />
+    <item type="id" name="base_compass_button" />
     <item type="id" name="battery_container" />
     <item type="id" name="battery_level" />
     <item type="id" name="battery_saver_outline" />
     <item type="id" name="bg" />
+    <item type="id" name="bluedothud_stub" />
     <item type="id" name="bluetooth" />
     <item type="id" name="boardwalk_action_content_view" />
     <item type="id" name="body" />
@@ -163,11 +168,19 @@
     <item type="id" name="bottom_sheet_usb_cable" />
     <item type="id" name="bottom_spacing" />
     <item type="id" name="browse_icon_first" />
-    <item type="id" name="browse_icon_new" />
+    <item type="id" name="browse_icon_new_container" />
+    <item type="id" name="browse_icon_new_numbered" />
+    <item type="id" name="browse_icon_new_tri_state" />
     <item type="id" name="browse_icon_second" />
     <item type="id" name="browse_icon_third" />
+    <item type="id" name="browser_actions_header_text" />
+    <item type="id" name="browser_actions_menu_item_icon" />
+    <item type="id" name="browser_actions_menu_item_text" />
+    <item type="id" name="browser_actions_menu_items" />
+    <item type="id" name="browser_actions_menu_view" />
     <item type="id" name="bs_accept_button" />
     <item type="id" name="bs_body" />
+    <item type="id" name="bs_buttons" />
     <item type="id" name="bs_decline_button" />
     <item type="id" name="bs_illustration" />
     <item type="id" name="bs_title" />
@@ -188,9 +201,9 @@
     <item type="id" name="button" />
     <item type="id" name="buttonPanel" />
     <item type="id" name="button_bar" />
-    <item type="id" name="button_frame" />
     <item type="id" name="button_icon" />
     <item type="id" name="button_text" />
+    <item type="id" name="button_with_description" />
     <item type="id" name="cakewalk_text" />
     <item type="id" name="calendar_body" />
     <item type="id" name="calendar_events_query_live_data_id" />
@@ -199,6 +212,7 @@
     <item type="id" name="calendar_placeholder" />
     <item type="id" name="calendar_reminders_query_live_data_id" />
     <item type="id" name="call" />
+    <item type="id" name="call_actionbutton" />
     <item type="id" name="call_history_manager_loader_id" />
     <item type="id" name="call_history_menu_item_id" />
     <item type="id" name="call_log_body" />
@@ -266,10 +280,13 @@
     <item type="id" name="car_status_container" />
     <item type="id" name="car_text" />
     <item type="id" name="car_time" />
+    <item type="id" name="car_to_phone" />
     <item type="id" name="card" />
     <item type="id" name="card_body" />
+    <item type="id" name="card_content_selector" />
     <item type="id" name="card_item_container" />
     <item type="id" name="card_list" />
+    <item type="id" name="cardui_place_item" />
     <item type="id" name="caret_button" />
     <item type="id" name="caret_pointing_down" />
     <item type="id" name="caret_pointing_up" />
@@ -277,7 +294,7 @@
     <item type="id" name="cell_signal" />
     <item type="id" name="center_action" />
     <item type="id" name="center_action_ripple_container" />
-    <item type="id" name="check_mark" />
+    <item type="id" name="centerline" />
     <item type="id" name="checkbox" />
     <item type="id" name="checked" />
     <item type="id" name="chip_background" />
@@ -286,17 +303,23 @@
     <item type="id" name="chip_text" />
     <item type="id" name="chronometer" />
     <item type="id" name="clear_all" />
-    <item type="id" name="clear_all_data" />
-    <item type="id" name="clear_all_data_section" />
     <item type="id" name="click_container" />
+    <item type="id" name="click_manager" />
     <item type="id" name="clock" />
     <item type="id" name="clock_date_text_group" />
     <item type="id" name="close_button" />
     <item type="id" name="close_button_image" />
     <item type="id" name="close_icon" />
     <item type="id" name="close_keyboard_image" />
-    <item type="id" name="close_selection_overlay" />
+    <item type="id" name="cluster_nav_distance" />
+    <item type="id" name="cluster_nav_lane_container" />
     <item type="id" name="clustersim_display" />
+    <item type="id" name="clustersim_nav_card_contents" />
+    <item type="id" name="clustersim_nav_card_switcher" />
+    <item type="id" name="clustersim_nav_progress" />
+    <item type="id" name="clustersim_nav_rerouting_text" />
+    <item type="id" name="clustersim_nav_step_icon" />
+    <item type="id" name="clustersim_nav_step_name" />
     <item type="id" name="color_indicator" />
     <item type="id" name="common_auth_web_container" />
     <item type="id" name="common_auth_web_progress_bar" />
@@ -304,8 +327,9 @@
     <item type="id" name="common_pluggable_settings_loader" />
     <item type="id" name="common_settings_location_item" />
     <item type="id" name="compact_description_text" />
-    <item type="id" name="compact_maneuver_view" />
+    <item type="id" name="compact_step_view" />
     <item type="id" name="compact_turn_symbol" />
+    <item type="id" name="compass_container" />
     <item type="id" name="compose_button" />
     <item type="id" name="compose_button_icon" />
     <item type="id" name="compose_button_text" />
@@ -323,16 +347,22 @@
     <item type="id" name="contacts_manager_starred_loader_id" />
     <item type="id" name="contacts_menu_item_id" />
     <item type="id" name="container" />
+    <item type="id" name="contains_invalid_bindings" />
     <item type="id" name="content" />
     <item type="id" name="contentPanel" />
     <item type="id" name="content_container" />
     <item type="id" name="content_forward_view" />
     <item type="id" name="content_image" />
+    <item type="id" name="content_text_container" />
     <item type="id" name="content_view" />
     <item type="id" name="content_view_container" />
     <item type="id" name="coordinator" />
     <item type="id" name="crash_notification_id" />
     <item type="id" name="crossfade_background" />
+    <item type="id" name="current_zoom_textbox" />
+    <item type="id" name="curvular_attach_state_change_listener" />
+    <item type="id" name="curvular_layout_change_listener" />
+    <item type="id" name="curvular_object_animator" />
     <item type="id" name="customPanel" />
     <item type="id" name="custom_action_1" />
     <item type="id" name="custom_action_2" />
@@ -342,17 +372,26 @@
     <item type="id" name="custom_order_container" />
     <item type="id" name="custom_order_radio_button" />
     <item type="id" name="custom_order_text" />
+    <item type="id" name="custom_slider_container" />
     <item type="id" name="custom_wrapper_1" />
     <item type="id" name="custom_wrapper_2" />
     <item type="id" name="custom_wrapper_3" />
     <item type="id" name="custom_wrapper_4" />
     <item type="id" name="custom_wrapper_5" />
     <item type="id" name="custom_wrapper_6" />
+    <item type="id" name="data_charges" />
     <item type="id" name="data_notice_body" />
+    <item type="id" name="data_notice_entry_arrow" />
+    <item type="id" name="data_notice_entry_body" />
+    <item type="id" name="data_notice_entry_icon" />
+    <item type="id" name="data_notice_entry_title" />
     <item type="id" name="data_notice_header" />
     <item type="id" name="date" />
     <item type="id" name="date_picker_actions" />
     <item type="id" name="datetime_container" />
+    <item type="id" name="debug_overlay" />
+    <item type="id" name="debug_toggle" />
+    <item type="id" name="debug_toggle_container" />
     <item type="id" name="decor_content_parent" />
     <item type="id" name="default_activity_button" />
     <item type="id" name="default_play_button" />
@@ -408,12 +447,15 @@
     <item type="id" name="dekey_r5c6" />
     <item type="id" name="dekey_r5c7" />
     <item type="id" name="delete" />
-    <item type="id" name="delete_boardwalk" />
     <item type="id" name="delete_icon_left" />
     <item type="id" name="delete_icon_right" />
+    <item type="id" name="delete_shortcut" />
+    <item type="id" name="delete_shortcut_icon" />
     <item type="id" name="demand" />
     <item type="id" name="demand_space_container" />
     <item type="id" name="demand_space_content_container" />
+    <item type="id" name="deny_button" />
+    <item type="id" name="deny_button_text" />
     <item type="id" name="description" />
     <item type="id" name="description_text" />
     <item type="id" name="design_bottom_sheet" />
@@ -421,31 +463,34 @@
     <item type="id" name="design_menu_item_action_area_stub" />
     <item type="id" name="design_menu_item_text" />
     <item type="id" name="design_navigation_view" />
-    <item type="id" name="destination_card_container" />
-    <item type="id" name="destination_divider" />
-    <item type="id" name="destination_image" />
-    <item type="id" name="detailed_maneuver_view" />
+    <item type="id" name="detailed_step_view" />
     <item type="id" name="device_name" />
     <item type="id" name="device_selected" />
     <item type="id" name="dialer_audio_route_button" />
     <item type="id" name="dialer_audio_route_chevron" />
-    <item type="id" name="dialer_dialpad_parent_layout" />
+    <item type="id" name="dialer_content_root" />
+    <item type="id" name="dialer_error_view" />
     <item type="id" name="dialog_button" />
     <item type="id" name="dialog_contents" />
     <item type="id" name="dialog_header_contents" />
     <item type="id" name="dialpad_menu_item_id" />
     <item type="id" name="dialpad_view" />
+    <item type="id" name="dialpad_view_wrapper" />
+    <item type="id" name="directions_trip_card" />
+    <item type="id" name="directions_trip_cardlist" />
     <item type="id" name="disabled_app_area_text" />
     <item type="id" name="disclaimer_body" />
     <item type="id" name="disclaimer_body_accept_text" />
+    <item type="id" name="disclaimer_text" />
+    <item type="id" name="disclaimer_title_text" />
     <item type="id" name="discover_aa_title" />
     <item type="id" name="dismiss" />
     <item type="id" name="dismiss_container" />
     <item type="id" name="dismiss_container_scrim" />
     <item type="id" name="dismiss_icon" />
     <item type="id" name="display_cutout_padding" />
+    <item type="id" name="display_surface" />
     <item type="id" name="distance" />
-    <item type="id" name="distance_left_text" />
     <item type="id" name="distance_text" />
     <item type="id" name="divider" />
     <item type="id" name="drag_handle" />
@@ -468,10 +513,12 @@
     <item type="id" name="drawer_view" />
     <item type="id" name="drawer_view_container" />
     <item type="id" name="dummy_placeholder" />
+    <item type="id" name="edge" />
     <item type="id" name="edit_button" />
     <item type="id" name="edit_query" />
     <item type="id" name="edit_text" />
     <item type="id" name="eight" />
+    <item type="id" name="ellipsis_view" />
     <item type="id" name="embedded_projection_notice_view" />
     <item type="id" name="empty_drawer_list_text" />
     <item type="id" name="empty_view" />
@@ -482,6 +529,7 @@
     <item type="id" name="end_call_button" />
     <item type="id" name="end_margin" />
     <item type="id" name="end_padder" />
+    <item type="id" name="errorText" />
     <item type="id" name="error_icon" />
     <item type="id" name="error_id_ssp_key_mismatch" />
     <item type="id" name="eskey_r1c1" />
@@ -541,8 +589,7 @@
     <item type="id" name="expanded_card_divider" />
     <item type="id" name="expanded_menu" />
     <item type="id" name="expanding_action_panel" />
-    <item type="id" name="expanding_action_panel_deprecated" />
-    <item type="id" name="expanding_action_panel_responsive" />
+    <item type="id" name="expandingscrollview_container" />
     <item type="id" name="explanation_text_view" />
     <item type="id" name="extra1" />
     <item type="id" name="extra2" />
@@ -556,6 +603,11 @@
     <item type="id" name="feature_announce_decline" />
     <item type="id" name="feature_announce_icon" />
     <item type="id" name="feature_announce_title" />
+    <item type="id" name="featurehighlight_dismiss_action_text_view" />
+    <item type="id" name="featurehighlight_help_text_body_view" />
+    <item type="id" name="featurehighlight_help_text_header_view" />
+    <item type="id" name="featurehighlight_view" />
+    <item type="id" name="featurehighlight_view_tag_fragment" />
     <item type="id" name="feedback_container" />
     <item type="id" name="feedback_list" />
     <item type="id" name="feedback_list_empty" />
@@ -563,7 +615,12 @@
     <item type="id" name="filler" />
     <item type="id" name="first" />
     <item type="id" name="first_action" />
+    <item type="id" name="first_line_text" />
     <item type="id" name="five" />
+    <item type="id" name="floating_crosshairs" />
+    <item type="id" name="floating_pin_anchor" />
+    <item type="id" name="floating_pin_image" />
+    <item type="id" name="focus_listener" />
     <item type="id" name="focus_ring" />
     <item type="id" name="footer_description" />
     <item type="id" name="footer_icon" />
@@ -623,6 +680,7 @@
     <item type="id" name="frkey_r5c6" />
     <item type="id" name="frkey_r5c7" />
     <item type="id" name="full_facet" />
+    <item type="id" name="fullscreen_group" />
     <item type="id" name="fundip_container" />
     <item type="id" name="fundip_drawable" />
     <item type="id" name="fundip_scrim" />
@@ -630,8 +688,18 @@
     <item type="id" name="ghost_view" />
     <item type="id" name="ghost_view_holder" />
     <item type="id" name="glide_custom_view_target_tag" />
+    <item type="id" name="gmm_license_notice_textbox" />
+    <item type="id" name="goldfinger_card_index" />
+    <item type="id" name="grid_content_view" />
+    <item type="id" name="grid_item_image" />
+    <item type="id" name="grid_item_image_container" />
+    <item type="id" name="grid_item_text" />
+    <item type="id" name="grid_item_text_container" />
+    <item type="id" name="grid_item_title" />
+    <item type="id" name="grid_paged_list_view" />
     <item type="id" name="group_bottom_margin" />
     <item type="id" name="group_divider" />
+    <item type="id" name="group_top_margin" />
     <item type="id" name="hats_lib_close_button" />
     <item type="id" name="hats_lib_close_button_layout" />
     <item type="id" name="hats_lib_follow_up_url" />
@@ -673,47 +741,65 @@
     <item type="id" name="hats_notification_id" />
     <item type="id" name="hats_survey_question_scroll_view" />
     <item type="id" name="header" />
-    <item type="id" name="header_app_icon" />
     <item type="id" name="header_app_icon_view" />
-    <item type="id" name="header_back_button" />
     <item type="id" name="header_body" />
+    <item type="id" name="header_button_container" />
+    <item type="id" name="header_button_frame" />
+    <item type="id" name="header_button_image" />
     <item type="id" name="header_container" />
+    <item type="id" name="header_icon" />
+    <item type="id" name="header_icon_image" />
+    <item type="id" name="header_layout" />
+    <item type="id" name="header_strip" />
+    <item type="id" name="header_strip_icon_container" />
+    <item type="id" name="header_textbox" />
     <item type="id" name="header_title" />
     <item type="id" name="header_view" />
+    <item type="id" name="hide_if_clipped" />
     <item type="id" name="high_temperature" />
     <item type="id" name="hint_text" />
     <item type="id" name="home" />
     <item type="id" name="home_icon" />
     <item type="id" name="horizontal_line" />
+    <item type="id" name="horizontalprogressbar" />
     <item type="id" name="hun_nav" />
     <item type="id" name="hun_simple" />
     <item type="id" name="hun_view" />
     <item type="id" name="hun_with_actions" />
     <item type="id" name="hwr_ime" />
     <item type="id" name="i_understand_delete_consequences" />
-    <item type="id" name="icing_size_prefix" />
-    <item type="id" name="icing_storage_size_text" />
     <item type="id" name="icon" />
+    <item type="id" name="icon_bg" />
+    <item type="id" name="icon_circular_crop_container" />
     <item type="id" name="icon_container" />
     <item type="id" name="icon_frame" />
     <item type="id" name="icon_group" />
     <item type="id" name="icon_guideline" />
     <item type="id" name="icon_holder" />
+    <item type="id" name="icon_label" />
     <item type="id" name="icon_ripple_container" />
     <item type="id" name="illustration" />
     <item type="id" name="illustration_wrapper" />
     <item type="id" name="image" />
     <item type="id" name="imageDownloadTask" />
+    <item type="id" name="image_placeholder_tag" />
     <item type="id" name="ime" />
+    <item type="id" name="impression_logger" />
     <item type="id" name="indicator" />
     <item type="id" name="indicator_bar" />
     <item type="id" name="indicator_circle" />
     <item type="id" name="indicator_icon" />
     <item type="id" name="indicator_text" />
+    <item type="id" name="indoor_content" />
+    <item type="id" name="indoor_location_textbox" />
     <item type="id" name="info" />
+    <item type="id" name="initial_selected_tab_index" />
     <item type="id" name="initial_view" />
+    <item type="id" name="insets_marker" />
     <item type="id" name="install_bar" />
     <item type="id" name="installing_progress_layout" />
+    <item type="id" name="internal_header" />
+    <item type="id" name="is_hidden_after_clipped" />
     <item type="id" name="item_touch_helper_previous_elevation" />
     <item type="id" name="iwkey_r1c1" />
     <item type="id" name="iwkey_r1c10" />
@@ -793,6 +879,7 @@
     <item type="id" name="jakey_r4c6" />
     <item type="id" name="jakey_r4c7" />
     <item type="id" name="junction_image" />
+    <item type="id" name="junction_image_container" />
     <item type="id" name="key_0" />
     <item type="id" name="key_1" />
     <item type="id" name="key_2" />
@@ -918,15 +1005,19 @@
     <item type="id" name="kokey_r5c6" />
     <item type="id" name="kokey_r5c7" />
     <item type="id" name="label" />
+    <item type="id" name="labelGroup" />
+    <item type="id" name="lanes_image" />
+    <item type="id" name="lanes_image_container" />
     <item type="id" name="largeLabel" />
     <item type="id" name="large_icon" />
     <item type="id" name="large_icon_rounded_container" />
-    <item type="id" name="large_junction_image" />
     <item type="id" name="large_title" />
     <item type="id" name="launcher" />
     <item type="id" name="launcher_icon" />
+    <item type="id" name="launcher_icon_title" />
     <item type="id" name="launchscreens_logo_text" />
     <item type="id" name="launchscreens_product_logo" />
+    <item type="id" name="layers_fab_button" />
     <item type="id" name="left_action" />
     <item type="id" name="left_action_ripple_container" />
     <item type="id" name="left_button" />
@@ -934,8 +1025,25 @@
     <item type="id" name="left_icon_container" />
     <item type="id" name="left_most_space" />
     <item type="id" name="left_most_wrapper" />
+    <item type="id" name="left_normal" />
+    <item type="id" name="left_normal_short" />
+    <item type="id" name="left_normal_short_spacer" />
+    <item type="id" name="left_normal_spacer" />
+    <item type="id" name="left_sharp" />
+    <item type="id" name="left_sharp_short" />
+    <item type="id" name="left_sharp_short_spacer" />
+    <item type="id" name="left_sharp_spacer" />
+    <item type="id" name="left_slight" />
+    <item type="id" name="left_slight_spacer" />
+    <item type="id" name="left_slight_tall" />
+    <item type="id" name="left_slight_tall_spacer" />
+    <item type="id" name="left_uturn" />
+    <item type="id" name="left_uturn_short" />
+    <item type="id" name="left_uturn_short_spacer" />
+    <item type="id" name="left_uturn_spacer" />
     <item type="id" name="left_wrapper" />
     <item type="id" name="legal_body" />
+    <item type="id" name="legal_text" />
     <item type="id" name="legal_title" />
     <item type="id" name="lens_container" />
     <item type="id" name="license" />
@@ -955,37 +1063,43 @@
     <item type="id" name="lifetime_notification_title" />
     <item type="id" name="line1" />
     <item type="id" name="line3" />
+    <item type="id" name="line_spacing_extra" />
+    <item type="id" name="line_spacing_multiplier" />
+    <item type="id" name="link_textbox" />
     <item type="id" name="list" />
     <item type="id" name="list_item" />
     <item type="id" name="list_no_items_text" />
-    <item type="id" name="list_selection_scrim" />
     <item type="id" name="list_view" />
     <item type="id" name="list_view_focus_cluster" />
+    <item type="id" name="listitem" />
     <item type="id" name="loading_error_icon" />
     <item type="id" name="loading_spinner" />
     <item type="id" name="loading_text" />
     <item type="id" name="loading_view" />
+    <item type="id" name="location_accuracy_textbox" />
     <item type="id" name="location_allow_weather" />
     <item type="id" name="location_body" />
     <item type="id" name="location_header" />
     <item type="id" name="location_icon" />
+    <item type="id" name="location_textbox" />
     <item type="id" name="lockout" />
     <item type="id" name="lockout_label" />
     <item type="id" name="lockout_scrim" />
     <item type="id" name="lockout_text" />
+    <item type="id" name="logged_impression" />
+    <item type="id" name="logged_interaction" />
+    <item type="id" name="logging_params" />
     <item type="id" name="logo_view" />
+    <item type="id" name="lottie_animation_controller" />
+    <item type="id" name="lottie_layer_name" />
     <item type="id" name="low_temperature" />
     <item type="id" name="lower_action_bar" />
     <item type="id" name="main_container" />
-    <item type="id" name="main_scroll_view" />
-    <item type="id" name="main_view" />
-    <item type="id" name="manage_icing_storage" />
-    <item type="id" name="manage_wear_storage" />
-    <item type="id" name="maneuver_card_container" />
-    <item type="id" name="maneuver_container" />
     <item type="id" name="manufacturer_text" />
     <item type="id" name="map" />
     <item type="id" name="map_container" />
+    <item type="id" name="map_copyright_content" />
+    <item type="id" name="map_frame" />
     <item type="id" name="maps_chevron" />
     <item type="id" name="maps_chevron_space" />
     <item type="id" name="maps_icon" />
@@ -1000,16 +1114,21 @@
     <item type="id" name="media_chevron_space" />
     <item type="id" name="media_controller_compat_view_tag" />
     <item type="id" name="media_icon" />
-    <item type="id" name="medium_button" />
     <item type="id" name="medium_icon" />
+    <item type="id" name="menu_button" />
     <item type="id" name="menu_list" />
     <item type="id" name="message" />
+    <item type="id" name="message_container" />
     <item type="id" name="message_description" />
     <item type="id" name="message_icon" />
+    <item type="id" name="message_image" />
     <item type="id" name="message_left_guideline" />
     <item type="id" name="message_right_guideline" />
     <item type="id" name="message_text" />
     <item type="id" name="message_text_container" />
+    <item type="id" name="message_title" />
+    <item type="id" name="message_view" />
+    <item type="id" name="message_william_icon" />
     <item type="id" name="messaging_placeholder" />
     <item type="id" name="metadata" />
     <item type="id" name="metadata_actions_separator_guideline" />
@@ -1033,6 +1152,8 @@
     <item type="id" name="mini_facet" />
     <item type="id" name="missed_calls_menu_item_id" />
     <item type="id" name="mockup_image" />
+    <item type="id" name="mod_header_view" />
+    <item type="id" name="mod_sharing_fablet_container" />
     <item type="id" name="month_grid" />
     <item type="id" name="month_navigation_bar" />
     <item type="id" name="month_navigation_fragment_toggle" />
@@ -1061,15 +1182,22 @@
     <item type="id" name="mtrl_picker_text_input_range_end" />
     <item type="id" name="mtrl_picker_text_input_range_start" />
     <item type="id" name="mtrl_picker_title_text" />
+    <item type="id" name="mtrl_view_tag_bottom_padding" />
     <item type="id" name="music_icon" />
     <item type="id" name="mute_button" />
+    <item type="id" name="mylocation_button" />
+    <item type="id" name="mylocationhud_stub" />
     <item type="id" name="name_text" />
+    <item type="id" name="navigation_assistant_dialog_text" />
     <item type="id" name="navigation_header_container" />
+    <item type="id" name="navigation_info" />
+    <item type="id" name="navigation_welcome_dialog_image" />
+    <item type="id" name="navigation_welcome_dialog_text" />
+    <item type="id" name="navigation_welcome_title_text" />
     <item type="id" name="negative_action_button" />
-    <item type="id" name="next" />
+    <item type="id" name="new_title" />
     <item type="id" name="nine" />
     <item type="id" name="no_button" />
-    <item type="id" name="no_content_container" />
     <item type="id" name="no_content_view" />
     <item type="id" name="no_notifications_label" />
     <item type="id" name="no_notifications_text" />
@@ -1089,13 +1217,13 @@
     <item type="id" name="notifications" />
     <item type="id" name="notifications_icon" />
     <item type="id" name="number" />
-    <item type="id" name="number_boardwalk" />
-    <item type="id" name="number_delete_button_wrapper" />
     <item type="id" name="oem_chevron" />
     <item type="id" name="oem_chevron_space" />
     <item type="id" name="oem_container" />
     <item type="id" name="oem_icon" />
     <item type="id" name="on" />
+    <item type="id" name="on_map_directions_button" />
+    <item type="id" name="on_map_secondary_action_button_container" />
     <item type="id" name="one" />
     <item type="id" name="ongoing_call" />
     <item type="id" name="ongoing_empty" />
@@ -1103,9 +1231,12 @@
     <item type="id" name="ongoing_nav" />
     <item type="id" name="ongoing_widget" />
     <item type="id" name="options_list" />
+    <item type="id" name="orientation_accuracy_textbox" />
     <item type="id" name="overview_icon" />
+    <item type="id" name="page" />
     <item type="id" name="page_down" />
     <item type="id" name="page_down_container" />
+    <item type="id" name="page_logging_context" />
     <item type="id" name="page_up" />
     <item type="id" name="page_up_container" />
     <item type="id" name="paged_list_view" />
@@ -1117,12 +1248,14 @@
     <item type="id" name="paw_icon" />
     <item type="id" name="pending_intent_request_code_id" />
     <item type="id" name="permission_bullet_point" />
+    <item type="id" name="permission_car_prompt_id" />
     <item type="id" name="permission_description" />
     <item type="id" name="permission_explanation" />
     <item type="id" name="permission_icon" />
     <item type="id" name="permission_name" />
     <item type="id" name="permission_notification_id" />
     <item type="id" name="permission_parent" />
+    <item type="id" name="permission_usage_car_prompt_id" />
     <item type="id" name="permissions_list" />
     <item type="id" name="permissions_missing_start" />
     <item type="id" name="permits_chart" />
@@ -1136,6 +1269,7 @@
     <item type="id" name="phone_keyboard" />
     <item type="id" name="phone_label" />
     <item type="id" name="phone_number" />
+    <item type="id" name="phone_to_car" />
     <item type="id" name="place_autocomplete_clear_button" />
     <item type="id" name="place_autocomplete_powered_by_google" />
     <item type="id" name="place_autocomplete_prediction_primary_text" />
@@ -1146,6 +1280,7 @@
     <item type="id" name="place_autocomplete_separator" />
     <item type="id" name="placeholder_image" />
     <item type="id" name="placeholder_text" />
+    <item type="id" name="placepage_directions_button" />
     <item type="id" name="play_button" />
     <item type="id" name="play_icon" />
     <item type="id" name="play_pause" />
@@ -1155,11 +1290,10 @@
     <item type="id" name="playback_gradient_background" />
     <item type="id" name="playback_scrim" />
     <item type="id" name="playback_view" />
-    <item type="id" name="playback_view_deprecated" />
-    <item type="id" name="playback_view_responsive" />
     <item type="id" name="positive_action_button" />
     <item type="id" name="pound" />
     <item type="id" name="pre_text_icons" />
+    <item type="id" name="preference_button" />
     <item type="id" name="prev" />
     <item type="id" name="primary_action" />
     <item type="id" name="primary_action_button_holder" />
@@ -1180,29 +1314,38 @@
     <item type="id" name="progress_bar" />
     <item type="id" name="progress_circular" />
     <item type="id" name="progress_container" />
+    <item type="id" name="progress_content" />
     <item type="id" name="progress_horizontal" />
+    <item type="id" name="progress_indicator" />
+    <item type="id" name="progress_view" />
     <item type="id" name="promo_content_container" />
     <item type="id" name="promo_text" />
     <item type="id" name="promo_text_container" />
     <item type="id" name="promo_title" />
     <item type="id" name="promo_view" />
     <item type="id" name="prompt_banner_header" />
+    <item type="id" name="qu_header_view" />
+    <item type="id" name="qu_mylocation_container" />
+    <item type="id" name="query" />
     <item type="id" name="radio" />
     <item type="id" name="rail" />
     <item type="id" name="rail_background" />
     <item type="id" name="rail_container" />
     <item type="id" name="rail_hairline" />
     <item type="id" name="rail_invisible_scrim" />
+    <item type="id" name="rail_widget_root" />
     <item type="id" name="rating_prompt_notification_id" />
     <item type="id" name="read_aloud_button" />
+    <item type="id" name="recycled_view_pool_view_holder" />
     <item type="id" name="recycler_view" />
+    <item type="id" name="recycler_view_item_decoration" />
+    <item type="id" name="recycler_view_listener_manager" />
+    <item type="id" name="recycler_view_snap_helper" />
     <item type="id" name="rejected_cars_view_switcher" />
     <item type="id" name="remote_views" />
     <item type="id" name="remoteviews" />
+    <item type="id" name="renderable_components_applier" />
     <item type="id" name="report_time" />
-    <item type="id" name="rerouting_container" />
-    <item type="id" name="rerouting_progress" />
-    <item type="id" name="rerouting_text" />
     <item type="id" name="right_action" />
     <item type="id" name="right_action_ripple_container" />
     <item type="id" name="right_button" />
@@ -1210,14 +1353,36 @@
     <item type="id" name="right_item" />
     <item type="id" name="right_most_space" />
     <item type="id" name="right_most_wrapper" />
+    <item type="id" name="right_normal" />
+    <item type="id" name="right_normal_short" />
+    <item type="id" name="right_normal_short_spacer" />
+    <item type="id" name="right_normal_spacer" />
+    <item type="id" name="right_sharp" />
+    <item type="id" name="right_sharp_short" />
+    <item type="id" name="right_sharp_short_spacer" />
+    <item type="id" name="right_sharp_spacer" />
     <item type="id" name="right_side" />
+    <item type="id" name="right_slight" />
+    <item type="id" name="right_slight_spacer" />
+    <item type="id" name="right_slight_tall" />
+    <item type="id" name="right_slight_tall_spacer" />
+    <item type="id" name="right_uturn" />
+    <item type="id" name="right_uturn_short" />
+    <item type="id" name="right_uturn_short_spacer" />
+    <item type="id" name="right_uturn_spacer" />
     <item type="id" name="right_wrapper" />
     <item type="id" name="ripple_layer" />
+    <item type="id" name="row_caret" />
     <item type="id" name="row_container" />
     <item type="id" name="row_divider" />
+    <item type="id" name="row_image" />
     <item type="id" name="row_index_key" />
+    <item type="id" name="row_radio_button" />
+    <item type="id" name="row_radio_button_container" />
     <item type="id" name="row_text_container" />
     <item type="id" name="row_title" />
+    <item type="id" name="row_toggle" />
+    <item type="id" name="row_toggle_container" />
     <item type="id" name="rukey_r1c1" />
     <item type="id" name="rukey_r1c10" />
     <item type="id" name="rukey_r1c11" />
@@ -1274,8 +1439,10 @@
     <item type="id" name="rukey_r5c5" />
     <item type="id" name="rukey_r5c6" />
     <item type="id" name="rukey_r5c7" />
+    <item type="id" name="satellite_button" />
     <item type="id" name="save_non_transition_alpha" />
     <item type="id" name="save_overlay_view" />
+    <item type="id" name="scalebar_widget" />
     <item type="id" name="screenshot" />
     <item type="id" name="screenshot_elements" />
     <item type="id" name="scrim" />
@@ -1296,16 +1463,22 @@
     <item type="id" name="search_exit_button" />
     <item type="id" name="search_go_btn" />
     <item type="id" name="search_image" />
-    <item type="id" name="search_index_description" />
     <item type="id" name="search_mag_icon" />
+    <item type="id" name="search_omnibox_container" />
+    <item type="id" name="search_omnibox_edit_text" />
+    <item type="id" name="search_omnibox_loading_spinner" />
+    <item type="id" name="search_omnibox_menu_button" />
+    <item type="id" name="search_omnibox_one_google_account_disc" />
+    <item type="id" name="search_omnibox_text_box" />
+    <item type="id" name="search_omnibox_text_clear" />
     <item type="id" name="search_plate" />
     <item type="id" name="search_src_text" />
     <item type="id" name="search_term" />
     <item type="id" name="search_voice_btn" />
     <item type="id" name="second" />
     <item type="id" name="second_action" />
+    <item type="id" name="second_line_text" />
     <item type="id" name="second_screen" />
-    <item type="id" name="secondary" />
     <item type="id" name="secondary_action" />
     <item type="id" name="secondary_action_button_holder" />
     <item type="id" name="secondary_action_container" />
@@ -1321,6 +1494,7 @@
     <item type="id" name="secondary_screen_hairline" />
     <item type="id" name="secondary_screen_info_bar" />
     <item type="id" name="secondary_screen_invisible_scrim" />
+    <item type="id" name="secondary_screen_placeholder" />
     <item type="id" name="secondary_text_icon_container" />
     <item type="id" name="section_separator" />
     <item type="id" name="seek_bar" />
@@ -1334,12 +1508,15 @@
     <item type="id" name="settingsRecyclerView" />
     <item type="id" name="settings_container" />
     <item type="id" name="seven" />
+    <item type="id" name="shadow" />
     <item type="id" name="share_screenshot" />
+    <item type="id" name="shared_locations_start_share_button" />
+    <item type="id" name="shell_container" />
     <item type="id" name="shell_layout" />
     <item type="id" name="shortcut" />
+    <item type="id" name="side_menu_container" />
     <item type="id" name="signal_icon" />
     <item type="id" name="six" />
-    <item type="id" name="skip" />
     <item type="id" name="smallLabel" />
     <item type="id" name="small_icon" />
     <item type="id" name="small_icon_border" />
@@ -1357,13 +1534,16 @@
     <item type="id" name="speaker_button" />
     <item type="id" name="special_effects_controller_view_tag" />
     <item type="id" name="speedbump" />
-    <item type="id" name="speedbump_boardwalk_fundip" />
     <item type="id" name="speedbump_container" />
     <item type="id" name="speedbump_debug_view" />
-    <item type="id" name="speedbump_deprecated" />
     <item type="id" name="speedbump_drawable" />
+    <item type="id" name="speedbump_vanagon" />
     <item type="id" name="spinner" />
     <item type="id" name="split_action_bar" />
+    <item type="id" name="stableInset_bottom" />
+    <item type="id" name="stableInset_left" />
+    <item type="id" name="stableInset_right" />
+    <item type="id" name="stableInset_top" />
     <item type="id" name="stack_trace" />
     <item type="id" name="stack_trace_container" />
     <item type="id" name="standard_keypad_locked_overlay" />
@@ -1372,11 +1552,18 @@
     <item type="id" name="start_auto_prompt" />
     <item type="id" name="start_button" />
     <item type="id" name="start_margin" />
+    <item type="id" name="state_description" />
     <item type="id" name="status_bar" />
     <item type="id" name="status_bar_background_protection" />
     <item type="id" name="status_bar_container" />
     <item type="id" name="status_bar_latest_event_content" />
+    <item type="id" name="statusbar_container" />
+    <item type="id" name="step_detection_textbox" />
+    <item type="id" name="steps_container" />
     <item type="id" name="stop_icon" />
+    <item type="id" name="straight" />
+    <item type="id" name="straight_spacer" />
+    <item type="id" name="straight_tall" />
     <item type="id" name="stream_date" />
     <item type="id" name="stream_time" />
     <item type="id" name="submenuarrow" />
@@ -1385,16 +1572,28 @@
     <item type="id" name="subtitle" />
     <item type="id" name="subtitle_1" />
     <item type="id" name="subtitle_2" />
+    <item type="id" name="subtitle_textbox" />
+    <item type="id" name="suc_customization_original_weight" />
+    <item type="id" name="suc_footer_button_bar" />
+    <item type="id" name="suc_layout_content" />
+    <item type="id" name="suc_layout_footer" />
+    <item type="id" name="suc_layout_status" />
     <item type="id" name="surface_container" />
     <item type="id" name="switchWidget" />
     <item type="id" name="switch_bar" />
     <item type="id" name="system_layout_container" />
     <item type="id" name="tab_dot" />
+    <item type="id" name="tab_icon" />
+    <item type="id" name="tab_label" />
+    <item type="id" name="tab_list_container" />
+    <item type="id" name="tab_strip" />
+    <item type="id" name="tab_strip_icon_container" />
     <item type="id" name="tag_accessibility_actions" />
     <item type="id" name="tag_accessibility_clickable_spans" />
     <item type="id" name="tag_accessibility_heading" />
     <item type="id" name="tag_accessibility_pane_title" />
     <item type="id" name="tag_screen_reader_focusable" />
+    <item type="id" name="tag_state_description" />
     <item type="id" name="tag_transition_group" />
     <item type="id" name="tag_unhandled_key_event_manager" />
     <item type="id" name="tag_unhandled_key_listeners" />
@@ -1412,7 +1611,10 @@
     <item type="id" name="text_container" />
     <item type="id" name="text_icon_container" />
     <item type="id" name="text_input_end_icon" />
+    <item type="id" name="text_input_error_icon" />
     <item type="id" name="text_input_start_icon" />
+    <item type="id" name="text_watcher" />
+    <item type="id" name="textbox" />
     <item type="id" name="textinput_counter" />
     <item type="id" name="textinput_error" />
     <item type="id" name="textinput_helper_text" />
@@ -1427,46 +1629,66 @@
     <item type="id" name="three_candidates" />
     <item type="id" name="time" />
     <item type="id" name="time_and_date_container" />
-    <item type="id" name="time_left_text" />
-    <item type="id" name="title" />
+    <item type="id" name="time_and_distance_text" />
     <item type="id" name="titleDividerNoCustom" />
     <item type="id" name="title_container" />
     <item type="id" name="title_template" />
-    <item type="id" name="title_text" />
+    <item type="id" name="title_text_view" />
+    <item type="id" name="title_textbox" />
     <item type="id" name="toast_container" />
     <item type="id" name="toolbar" />
+    <item type="id" name="toolbar_view" />
     <item type="id" name="topPanel" />
     <item type="id" name="top_focus_dummy" />
     <item type="id" name="tos_body" />
     <item type="id" name="tos_header" />
-    <item type="id" name="total_size_prefix" />
-    <item type="id" name="total_storage_size_text" />
+    <item type="id" name="tos_icon" />
     <item type="id" name="touch_listener_scrim" />
+    <item type="id" name="touch_manager" />
     <item type="id" name="touch_outside" />
     <item type="id" name="transition_current_scene" />
+    <item type="id" name="transition_image_view" />
     <item type="id" name="transition_layout_save" />
     <item type="id" name="transition_position" />
     <item type="id" name="transition_scene_layoutid_cache" />
     <item type="id" name="transition_transform" />
+    <item type="id" name="travel_estimate_card_container" />
+    <item type="id" name="travel_estimate_view" />
     <item type="id" name="truncated_list_card" />
     <item type="id" name="truncated_list_text" />
+    <item type="id" name="turn_container" />
     <item type="id" name="turn_symbol" />
+    <item type="id" name="tutorial_blue_dot" />
+    <item type="id" name="tutorial_highlight_container" />
+    <item type="id" name="tutorial_personal_search_cancel_it" />
+    <item type="id" name="tutorial_personal_search_got_it" />
+    <item type="id" name="tutorial_pull_up_got_it" />
+    <item type="id" name="tutorial_pull_up_got_it_landscape" />
+    <item type="id" name="tutorial_pull_up_layout" />
     <item type="id" name="tutorial_title" />
+    <item type="id" name="tutorial_ugc_tasks_search_button_got_it" />
     <item type="id" name="two" />
+    <item type="id" name="ue3_params" />
     <item type="id" name="un_contact_image" />
     <item type="id" name="unchecked" />
     <item type="id" name="unlimited_browsing_exit_button" />
     <item type="id" name="unlimited_browsing_exit_header" />
     <item type="id" name="unlimited_browsing_exit_text" />
     <item type="id" name="up" />
+    <item type="id" name="up_button" />
     <item type="id" name="use_phone_keyboard_label" />
     <item type="id" name="use_phone_keyboard_label_text" />
     <item type="id" name="use_phone_keyboard_overlay" />
     <item type="id" name="use_phone_keyboard_overlay_label" />
     <item type="id" name="user_feedback_notification_id" />
     <item type="id" name="user_switch_loading_holder" />
+    <item type="id" name="view_do_not_reuse" />
     <item type="id" name="view_offset_helper" />
+    <item type="id" name="view_properties" />
     <item type="id" name="view_tree_lifecycle_owner" />
+    <item type="id" name="view_tree_saved_state_registry_owner" />
+    <item type="id" name="view_tree_view_model_store_owner" />
+    <item type="id" name="view_update_action" />
     <item type="id" name="visible_removing_fragment_view_tag" />
     <item type="id" name="vn_alpha_jump_keyboard" />
     <item type="id" name="vn_app_bar" />
@@ -1477,8 +1699,11 @@
     <item type="id" name="vn_confirm_exit_back" />
     <item type="id" name="vn_confirm_exit_card" />
     <item type="id" name="vn_confirm_exit_exit" />
+    <item type="id" name="vn_dismiss" />
+    <item type="id" name="vn_expanding_action_panel" />
     <item type="id" name="vn_icon_tray" />
     <item type="id" name="vn_list_view" />
+    <item type="id" name="vn_playback_view" />
     <item type="id" name="vn_sys_app_content" />
     <item type="id" name="vn_sys_clock" />
     <item type="id" name="vn_sys_content_group" />
@@ -1498,14 +1723,14 @@
     <item type="id" name="vn_sys_root" />
     <item type="id" name="vn_sys_status_bar" />
     <item type="id" name="vn_sys_status_bar_container" />
+    <item type="id" name="voice_button" />
     <item type="id" name="voicemail_menu_item_id" />
     <item type="id" name="watermark" />
-    <item type="id" name="wear_description" />
+    <item type="id" name="watermark_image" />
     <item type="id" name="wear_permission_message" />
-    <item type="id" name="wear_size_prefix" />
-    <item type="id" name="wear_storage_size_text" />
     <item type="id" name="weather_icon" />
     <item type="id" name="weather_temperature" />
+    <item type="id" name="webview_container" />
     <item type="id" name="wheel" />
     <item type="id" name="widget_frame" />
     <item type="id" name="wifi_signal" />
