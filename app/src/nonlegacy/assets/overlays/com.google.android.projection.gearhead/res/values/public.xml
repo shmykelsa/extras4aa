@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <public type="id" name="battery_container" id="0x7f0b00b4" />
-    <public type="id" name="battery_level" id="0x7f0b00b5" />
-    <public type="id" name="battery_saver_outline" id="0x7f0b00b6" />
-    <public type="color" name="gearhead_hun_background_color" id="0x7f060177" />
-</resources>

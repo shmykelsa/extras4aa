@@ -14,3 +14,5 @@ For two/three buttons mode and madness:
 7) When you see "heads up", those are the notification that appear on upper side. Just "notifications" means the one that appear in notification center
 
 8) If you choose a custom bar mode (madness, one button, two or three buttons) you MUST also install a dimension for navbar (even if 1.0x)
+
+9) If you wanna combine whatever custom bar mode that has more than one button with a NavBar dimension, please put the overlay with the dimension at the very bottom in priority tab under Android Auto
