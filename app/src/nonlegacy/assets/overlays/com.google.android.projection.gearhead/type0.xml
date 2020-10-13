@@ -4,7 +4,6 @@
         <resource name="template_white" />
     </type0a>
 	<type0b name="Navbar tint" color="#000000" alpha_allowed="false">
-        <resource name="boardwalk_facet_bar_background" />
         <resource name="facet_bar_background" />
     </type0b>
     <type0c name="Navbar widget tint" color="#2e3134" alpha_allowed="true">
