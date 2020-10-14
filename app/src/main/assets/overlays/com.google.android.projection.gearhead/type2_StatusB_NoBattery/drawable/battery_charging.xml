@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <level-list>
+            <item android:drawable="@*android:color/transparent" android:maxLevel="7" />
+            <item android:drawable="@*android:color/transparent" android:maxLevel="20" />
+            <item android:drawable="@*android:color/transparent" android:maxLevel="30" />
+            <item android:drawable="@*android:color/transparent" android:maxLevel="50" />
+            <item android:drawable="@*android:color/transparent" android:maxLevel="60" />
+            <item android:drawable="@*android:color/transparent" android:maxLevel="80" />
+            <item android:drawable="@*android:color/transparent" android:maxLevel="90" />
+            <item android:drawable="@*android:color/transparent" android:maxLevel="100" />
+        </level-list>
+    </item>
+</layer-list>

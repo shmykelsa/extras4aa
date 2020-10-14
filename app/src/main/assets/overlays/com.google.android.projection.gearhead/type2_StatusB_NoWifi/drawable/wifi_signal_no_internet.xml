@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <level-list>
+            <item android:drawable="@*android:color/transparent" android:maxLevel="0" />
+            <item android:drawable="@*android:color/transparent" android:maxLevel="1" />
+            <item android:drawable="@*android:color/transparent" android:maxLevel="2" />
+            <item android:drawable="@*android:color/transparent" android:maxLevel="3" />
+            <item android:drawable="@*android:color/transparent" android:maxLevel="4" />
+        </level-list>
+    </item>
+</layer-list>
