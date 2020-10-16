@@ -19,4 +19,13 @@
         <item name="android:textColor">@*com.google.android.projection.gearhead:color/boardwalk_secondary_screen_card_text_color</item>
         <item name="android:textSize">15.0dip</item>
     </style>
+    <style name="TextAppearance.Gearhead.SecondaryScreen.Clock.Large" parent="@style/TextAppearance.Gearhead.SecondaryScreen.Clock">
+        <item name="android:textSize">40.0dip</item>
+    </style>
+    <style name="TextAppearance.Gearhead.SecondaryScreen.Clock.Medium" parent="@style/TextAppearance.Gearhead.SecondaryScreen.Clock">
+        <item name="android:textSize">25.0dip</item>
+    </style>
+    <style name="TextAppearance.Gearhead.SecondaryScreen.Clock.Small" parent="@style/TextAppearance.Gearhead.SecondaryScreen.Clock">
+        <item name="android:textSize">12.0dip</item>
+    </style>
 </resources>

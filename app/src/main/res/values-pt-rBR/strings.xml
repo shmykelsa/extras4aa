@@ -9,14 +9,14 @@
     <string name="gotorating">Me leve lá!</string>
     <string name="gotoxdathread">Ir para XDA Thread</string>
     <string name="helpme">Para instalar:\n
-         1. Marque Android Auto e selecione um extra da lista\n
+         1. Marque Android Auto\n
          2. Veja a marca de atenção perto de &quot;Android Auto&quot; para evitar erros\n
          3. Selecione um ou mais extras da lista\n
          4. Clique no botão inferior e selecione &quot;Instalar&quot;\n
          5. Repita as etapas 3 e 4 quantas vezes quiser\n
          6. Reinicialize, vá para a guia do gerente, selecione as sobreposições criadas e ativa</string>
     <string name="helpme_lite">Para instalar:\n
-         1. Marque Android Auto e selecione um extra da lista\n
+         1. Marque Android Auto\n
          2. Veja a marca de atenção perto de &quot;Android Auto&quot; para evitar erros\n
          3. Selecione um ou mais extras da lista\n
          4. Clique no botão inferior e selecione &quot;Build &amp; Install&quot;\n
@@ -34,7 +34,9 @@
     <string name="proceed">Continuar</string>
     <string name="rating_message">Olá, você poderia tirar um momento para clasificar esse tema no XDA Labs?</string>
     <string name="reconsider">Talvez Depois</string>
-    <string name="takemetoxdathreadstring">Ainda preciso de ajuda!</string>
+    <string name="takemetoxdathreadstring">Eu gostaria de entrar em contato com você</string>
     <string name="helpButton">Ajuda</string>
     <string name="copied_bitcoin">Endereço BTC copiado para a área de transferência</string>
+    <string name="helpinstalling">Preciso de ajuda para instalar</string>
+    <string name="credit">Creditos</string>
 </resources>

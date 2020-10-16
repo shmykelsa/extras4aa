@@ -16,16 +16,19 @@
     <string name="donate">Donate</string>
     <string name="creditstring">Many thanks for the wallpapers go to: %1$s</string>
     <string name="helpButton">Help</string>
-    <string name="helpme">It seems like you are not running Substratum Lite.\n
-    In order to apply Extras for AA, please install Substratum Lite.</string>
+    <string name="helpme">To install:\n
+    1. Tick Android Auto\n
+        2. See attention mark near "Android Auto" to avoid errors\n
+        3. Hit the bottom button and select Build &amp; Install\n
+    4. Repeat step 1 as many times as you want\n
+    5. Reboot, go to manager tab, selet the built overlay(s) and enable them</string>
     <string name="helpme_lite">To install:\n
-        1. Tick Android Auto and select an extra from list\n
-        2. See attention mark near "Android Auto" to avoid errors
-        3. Select one or more extras from list
-        4. Hit the bottom button and select Build &amp; Install\n
-        5. Repeat steps 3 and 4 as many times as you want
-        6. Reboot, go to manager tab, select the built overlay(s) and enable</string>
-    <string name="takemetoxdathreadstring">I still need help!</string>
+        1. Tick Android Auto\n
+        2. See attention mark near "Android Auto" to avoid errors\n
+        3. Hit the bottom button and select Build &amp; Install\n
+        4. Repeat steps 3 and 4 as many times as you want\n
+        5. Reboot, go to manager tab, select the built overlay(s) and enable\n</string>
+    <string name="takemetoxdathreadstring">I\'d like to contact you</string>
     <string name="gotoxdathread">Go to XDA Thread</string>
     <string name="mailme">Mail me</string>
     <string name="contact_me_on_telegram">Join Telegram Channel</string>
@@ -36,4 +39,10 @@
     <string name="reconsider">Maybe Later</string>
     <string name="donation_message">You seem to really enjoy Extras for AA, would you like to show appreciation with a donation?</string>
     <string name="copied_bitcoin">BTC Address copied to clipboard</string>
+    <string name="helpinstalling">I need help installing</string>
+    <string name="faqstring" translatable="false">FAQ</string>
+    <string name="credit">Credits</string>
+    <string name="creditors" translatable="false">Special thanks to:\n\n
+    Iconic Icons for the wonderful work of Status Bar Icons. Check out Iconic Icons theme and download it to have matching Status Bar Icons with your device.\n
+    It\'s free and it\'s a very good Substratum theme to tweak the look of Android System</string>
 </resources>

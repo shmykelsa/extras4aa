@@ -5,7 +5,7 @@
     <string name="donate">Wspomóż</string>
     <string name="do_not_show_again">Nie pokazuj więcej</string>
     <string name="helpme">Aby zainstalować:\n
-        1. Zaznacz Android Auto i wybierz dodatek z listy\n
+        1. Zaznacz Android Auto\n
         2. Sprawdź znak uwaga obok „Android Auto”, aby uniknąć błędów\n
         3. Wybierz jeden lub więcej dodatków z listy\n
         4. Naciśnij dolny przycisk i wybierz \"Kompiluj i Zaktualizuj\"\n
@@ -20,7 +20,7 @@
         5. Powtórz kroki 3 i 4 tyle razy, ile potrzebujesz\n
         6. Uruchom ponownie, przejdź do karty menedżer, wybierz wbudowana(e) nakładka(i) i włącz</string>
     <string name="proceed">Kontynuuj</string>
-    <string name="takemetoxdathreadstring">Wciąż potrzebuję pomocy</string>
+    <string name="takemetoxdathreadstring">Chciałbym się z Tobą skontaktować</string>
     <string name="gotoxdathread">Zabierz mnie do wątku na XDA!</string>
     <string name="mailme">Wyślij mi maila</string>
     <string name="contact_me_on_telegram">Dołącz do kanału na Telegram</string>
@@ -36,4 +36,6 @@
     <string name="donation_message">Wygląda na to, że naprawdę podoba Ci się Extras for Android Auto, może chciałbyś wyrazić swoje uznanie darowizną?</string>
     <string name="helpButton">Pomocy</string>
     <string name="copied_bitcoin">Adres BTC skopiowany do schowka</string>
+    <string name="helpinstalling">Potrzebuję pomocy przy instalacji</string>
+    <string name="credit">O programie</string>
 </resources>

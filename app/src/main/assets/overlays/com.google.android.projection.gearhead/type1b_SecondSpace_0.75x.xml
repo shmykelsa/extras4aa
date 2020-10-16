@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="gearhead_secondary_screen_card_width">240.0dip</dimen>
+    <dimen name="alpha_jump_keyboard_key_text_size_deprecated">268.5dip</dimen>
+    <dimen name="gearhead_secondary_screen_card_action_button_size">43.5dip</dimen>
+    <dimen name="gearhead_secondary_screen_card_left_right_action_button_padding">4.0dip</dimen>
+    <dimen name="gearhead_secondary_screen_card_primary_action_icon_size">45.0dip</dimen>
+    <dimen name="gearhead_secondary_screen_card_media_fab_size">5.0dip</dimen>
+    <dimen name="secondary_screen_small_icon_size">19.5dip</dimen>
+    <dimen name="gearhead_secondary_screen_card_media_fab_padding">27.0dip</dimen>
+    <dimen name="gearhead_secondary_screen_card_action_button_size">39.0dip</dimen>
+    <dimen name="boardwalk_display2_text_size">43.5dip</dimen>
+    <dimen name="gearhead_secondary_screen_card_media_fab_size">48.75dip</dimen>
+    <style name="TextAppearance.Boardwalk.Body1.SecondaryScreen" parent="@*com.google.android.projection.gearhead:style/TextAppearance.Boardwalk.Body1">
+        <item name="android:textColor">@*com.google.android.projection.gearhead:color/boardwalk_secondary_screen_card_text_color</item>
+        <item name="android:textSize">30.0dip</item>
+    </style>
+    <style name="TextAppearance.Boardwalk.Body2.SecondaryScreen" parent="@*com.google.android.projection.gearhead:style/TextAppearance.Boardwalk.Body2">
+        <item name="android:textColor">@*com.google.android.projection.gearhead:color/boardwalk_secondary_screen_card_text_color</item>
+        <item name="android:textSize">22.5dip</item>
+    </style>
+    <style name="TextAppearance.Gearhead.SecondaryScreen.Clock.Large" parent="@*com.google.android.projection.gearhead:style/TextAppearance.Gearhead.SecondaryScreen.Clock">
+        <item name="android:textSize">60.0dip</item>
+    </style>
+    <style name="TextAppearance.Gearhead.SecondaryScreen.Clock.Medium" parent="@*com.google.android.projection.gearhead:style/TextAppearance.Gearhead.SecondaryScreen.Clock">
+        <item name="android:textSize">37.5dip</item>
+    </style>
+    <style name="TextAppearance.Gearhead.SecondaryScreen.Clock.Small" parent="@*com.google.android.projection.gearhead:style/TextAppearance.Gearhead.SecondaryScreen.Clock">
+        <item name="android:textSize">18.0dip</item>
+    </style>
+</resources>

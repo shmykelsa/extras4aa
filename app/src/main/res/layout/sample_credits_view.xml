@@ -29,10 +29,34 @@
         tools:ignore="RtlSymmetry" />
 
     <RelativeLayout
-        android:id="@+id/takemetocontacts"
+        android:id="@+id/faqbutton"
         android:layout_width="match_parent"
         android:layout_height="45dp"
         android:layout_below="@id/credits_content"
+        android:layout_alignStart="@id/credits_content"
+        android:layout_alignEnd="@id/credits_content"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/faqtext"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="@string/faqstring"
+            android:layout_marginStart="5dp"
+            android:textAppearance="@android:style/TextAppearance.Material"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:background="#9AD61616"
+            android:typeface="sans"
+            android:gravity="center"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/takemetocontacts"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/faqbutton"
         android:layout_alignStart="@id/credits_content"
         android:layout_alignEnd="@id/credits_content"
         android:padding="8dp">
@@ -50,6 +74,31 @@
             android:typeface="sans"
             android:gravity="center"/>
 
-</RelativeLayout>
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/takemetohelp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@id/takemetocontacts"
+            android:layout_alignStart="@id/takemetocontacts"
+            android:layout_alignEnd="@id/takemetocontacts"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/secondtextview"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="@string/helpinstalling"
+                android:layout_marginStart="5dp"
+                android:textAppearance="@android:style/TextAppearance.Material"
+                android:textColor="#fff"
+                android:textSize="16sp"
+                android:background="#9AD61616"
+                android:typeface="sans"
+                android:gravity="center"/>
+
+
 </RelativeLayout>
 
+</RelativeLayout>

@@ -23,12 +23,12 @@
         app:layout_constraintGuide_begin="@*com.google.android.projection.gearhead:dimen/common_keyline_2" />
     <com.google.android.projection.gearhead.system.facetbar.widget.RailWidgetView
         android:id="@*com.google.android.projection.gearhead:id/ongoing_widget"
-        android:alpha="0.0"
+        android:alpha="1.0"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16.0dip"
         android:visibility="gone"
-        app:collapsed="false"
+        app:collapsed="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_below="@*com.google.android.projection.gearhead:id/launcher_icon" />

@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="alpha_jump_keyboard_key_text_size_deprecated">0.0dip</dimen>
+    <dimen name="alpha_jump_keyboard_key_text_size_deprecated">0.01dip</dimen>
 </resources>

@@ -2,7 +2,7 @@
 <resources>
     <string name="mailme">M\'envoyer un mail</string>
     <string name="proceed">Continuer</string>
-    <string name="takemetoxdathreadstring">J\'ai toujours besoin d\'aide!</string>
+    <string name="takemetoxdathreadstring">Je souhaite vous contacter</string>
     <string name="gotoxdathread">Aller dans le sujet du forum XDA</string>
     <string name="donate">Faire un don</string>
     <string name="previews_text">Aperçus!</string>
@@ -12,16 +12,16 @@
         Si vous souhaitez soutenir le développement et contribuer à l\'effort, vous pouvez faire un don PayPal par l\'intermédiaire du bouton ci-dessous.\n
         Même les petits montants sont appréciés😊"</string>
     <string name="helpme">Pour installer:\n
-         1. Cochez Android Auto et selectionnez un extras de cette liste\n
+         1. Cochez Android Auto\n
          2. Regardez la note près de "Android Auto" pour éviter les erreurs\n
-         3. Choissisez un ou plusieurs extras de la liste\n
+         3. Choissisez un extra de la liste\n
          4. Cochez ensuite le carré dans le bas de l\'écran et sélectionnez "Compiler et Installer"\n
          5. Répéter les étapes 3 et 4 pour chaque items supplémentaires ou tel que désiré\n
-         6. Redémarrer votre appareil ensuite, revenez dans Subtratum Lite, dans le bas choisir l\'icône au centre "Manager", choisir votre extra et cliquez sur "Activer".</string>
+         6. Redémarrer votre appareil ensuite, revenez dans Subtratum Lite, dans le bas choisir l\'icône "Manager", choisir votre extra et cliquez sur "Activer".</string>
     <string name="helpme_lite">Pour installer:\n
-         1. Cochez Android Auto et selectionnez un extras de cette liste\n
+         1. Cochez Android Auto\n
          2. Regardez la note près de "Android Auto" pour éviter les erreurs\n
-         3. Choissisez un ou plusieurs extras de la liste\n
+         3. Choissisez un extra de la liste\n
          4. Cochez ensuite le carré dans le bas de l\'écran et sélectionnez "Build &amp; Install"\n
          5. Répéter les étapes 3 et 4 pour chaque items supplémentaires ou tel que désiré\n
          6. Redémarrer votre appareil ensuite, revenez dans Subtratum Lite, dans le bas choisir l\'icône au centre "Manager", choisir votre extra et cliquez sur "Enable".</string>
@@ -37,4 +37,6 @@
     <string name="donation_message">Il semblerait que vous appréciez vraiment Extras for Android Auto, voudriez-vous le montrer avec un don?</string>
     <string name="helpButton">Aide-moi</string>
     <string name="copied_bitcoin">BTC adresse copiée dans le presse papier</string>
+    <string name="helpinstalling">J\'ai besoin d\'aide pour installer</string>
+    <string name="credit">Crédits</string>
 </resources>

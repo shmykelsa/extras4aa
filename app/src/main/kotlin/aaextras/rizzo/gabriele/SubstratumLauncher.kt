@@ -20,7 +20,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.animation.AnimationUtils
 import android.widget.*
-
+import kotlinx.android.synthetic.main.activity_launcher.*
 
 
 class SubstratumLauncher : Activity() {
@@ -49,7 +49,7 @@ class SubstratumLauncher : Activity() {
         }
 
         //setContentView(R.layout.content_snow)
-        if (getDialogStatus()) {
+        /*if (getDialogStatus()) {
             storeCounterOpened()
             if (getCounterOpened() % 3 == 0) {
                 openDonationDialog()
@@ -58,10 +58,10 @@ class SubstratumLauncher : Activity() {
             } else {
                 finish()
             }
-        } else {
+        } else { */
             storeCounterOpened()
             showWelcomeDialog()
-        }
+        //}
     }
 
     @SuppressLint("InflateParams")
@@ -125,6 +125,12 @@ class SubstratumLauncher : Activity() {
             }
         }
 
+        val areacrediti = view.findViewById(R.id.area_credits) as RelativeLayout
+        areacrediti.startAnimation(anifadeinfast)
+        areacrediti.setOnClickListener {
+            openCreditsDialog()
+        }
+
         alertDialog.setView(view)
 
 
@@ -133,6 +139,30 @@ class SubstratumLauncher : Activity() {
         } else {
             alertDialog.show()
         }
+
+    }
+
+    private fun openCreditsDialog() {
+
+        val alertDialog = AlertDialog.Builder(this, R.style.DialogStyle)
+                .setCancelable(true)
+        val view = LayoutInflater.from(this).inflate(R.layout.sample_credits_view, null)
+
+        val text:TextView = view.findViewById(R.id.credits_content)
+            text.setText(R.string.creditors)
+
+        val takmetoxda = view.findViewById(R.id.takemetocontacts) as RelativeLayout
+        takmetoxda.visibility = RelativeLayout.GONE
+
+        val faqhelp = view.findViewById(R.id.takemetohelp) as RelativeLayout
+        faqhelp.visibility = RelativeLayout.GONE
+
+        val takemetofaq = view.findViewById(R.id.faqbutton) as RelativeLayout
+        takemetofaq.visibility = RelativeLayout.GONE
+
+        alertDialog.setView(view)
+        alertDialog.show()
+
 
     }
 
@@ -223,6 +253,33 @@ class SubstratumLauncher : Activity() {
         val view = LayoutInflater.from(this).inflate(R.layout.sample_credits_view, null)
 
         val text:TextView = view.findViewById(R.id.credits_content)
+        text.visibility = TextView.GONE
+
+        val takemetofaq = view.findViewById(R.id.faqbutton) as RelativeLayout
+        takemetofaq.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.link_faq))))
+        }
+
+        val takmetoxda = view.findViewById(R.id.takemetocontacts) as RelativeLayout
+        takmetoxda.setOnClickListener {
+            openContactDialog()
+        }
+        val faqhelp = view.findViewById(R.id.takemetohelp) as RelativeLayout
+        faqhelp.setOnClickListener {
+            openhelpinstalling()
+        }
+        alertDialog.setView(view)
+        alertDialog.show()
+
+    }
+
+    private fun openhelpinstalling() {
+
+        val alertDialog = AlertDialog.Builder(this, R.style.DialogStyle)
+                .setCancelable(true)
+        val view = LayoutInflater.from(this).inflate(R.layout.sample_credits_view, null)
+
+        val text:TextView = view.findViewById(R.id.credits_content)
         if (whatSubAreYouUsing()=="projekt.substratum.lite") {
             text.setText(R.string.helpme_lite)
         } else {
@@ -230,12 +287,16 @@ class SubstratumLauncher : Activity() {
         }
 
         val takmetoxda = view.findViewById(R.id.takemetocontacts) as RelativeLayout
-        takmetoxda.setOnClickListener {
-            openContactDialog()
-        }
+        takmetoxda.visibility = RelativeLayout.GONE
+
+        val faqhelp = view.findViewById(R.id.takemetohelp) as RelativeLayout
+        faqhelp.visibility = RelativeLayout.GONE
+
+        val takemetofaq = view.findViewById(R.id.faqbutton) as RelativeLayout
+        takemetofaq.visibility = RelativeLayout.GONE
+
         alertDialog.setView(view)
         alertDialog.show()
-
     }
 
     @SuppressLint("InflateParams")

@@ -1,16 +1,3 @@
-1) MAKE SHORT OVERLAYS: don't choose too many options at the same time or the options you've created might be always inactive. You don't have to choose all the options at the same time and you can install as many time as you want :)
+Extras For AA is quite advanced, and sometimes it requires a bit of knoweledge before applying mods.
 
-2) When choosing a gradient, you should also install an option that applies it to something (from last menu)
-
-3) Custom bars: those are mods that edit the look of bottom navbar of Android Auto. One button mode shrinks down navbar to just home button. Two/three buttons combine home button with another (or two other) buttons. L=Launcher, +Q=Quick Access App (music, maps, phone), +N = + Notifications. Madness means home button is swapped with a clickable clock.
-At the end of the name: L = Left, R = Right, H = Horizontal, V = Vertical.
-
-4) When choosing a custom bar, you MUST pick a dimension for navbar in "Dimensions menu"
-
-5) Heads up = notifications that appear on upper side. "Notifications" = the ones that appear in notification center
-
-FIXES:
-1) If your notifications icon looks weird when receiving notifications, build "Fix notification dot"
-2) If your status bar looks weird after modifying dimensions, build "Fix StatusB Height"
-3) If you are applying a custom bar mode and your car has widescreen, also pick a dimension for SecondSpace in "Dimensions menu"
-4) If you want to tweak SecondSpace dimension, build "Widescreen Fix Dimension"
+This document with FAQ and known issues might help you out visit http://bit.ly/extras4aafaq

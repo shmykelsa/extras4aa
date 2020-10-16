@@ -7,16 +7,19 @@
     <string name="gotorating">Перейти!</string>
     <string name="previews_text">Демонстрация</string>
     <string name="gotoxdathread">Посетить наш ресурс на форуме XDA.</string>
-    <string name="helpme">Инструкция по установке\n\n
-    Отметьте Android Auto и выберите один или несколько вариантов из списка\n
-    Нажмите кнопку ниже и выбирите тип установки\n
-    Перегрузите устройство, откройте вкладку, и активируйте установленные опции</string>
+    <string name="helpme">Для установки изменений внешнего вида АА:\n
+         1. Отметить Android Auto\n
+         2. Обратить внимание на знак &quot;внимание&quot; рядом с &quot;Android Auto&quot;, чтобы избежать ошибок\n
+         3. Выбрать одну или несколько опций из списка\n
+         4. Нажать кнопку внизу и выбрать &quot;строить &amp; установить&quot;\n
+         5. Шаги 3 и 4 можно повторить желаемое число раз\n
+         6. Перезагрузить аппарат, запустить Substratum Lite, перейти на вкладку диспетчера, выбрать оверлеи, нажать кнопку внизу и выбрать &quot;активный&quot;</string>
     <string name="hi_iew">Инструкция по установке\n\n
     Отметьте Android Auto и выберите обои из списка\n
     Нажмите кнопку ниже и выбирите тип установки\n
     Перегрузите устройство, откройте вкладку, выбирите фон и включите его</string>
     <string name="helpme_lite">Для установки изменений внешнего вида АА:\n
-         1. Отметить Android Auto и выбрать опции из списка\n
+         1. Отметить Android Auto\n
          2. Обратить внимание на знак &quot;внимание&quot; рядом с &quot;Android Auto&quot;, чтобы избежать ошибок\n
          3. Выбрать одну или несколько опций из списка\n
          4. Нажать кнопку внизу и выбрать &quot;Build &amp; Install&quot;\n
@@ -29,8 +32,10 @@
     <string name="proceed">Продолжить</string>
     <string name="rating_message">Привет, не могли бы уделить минутку, и оценить данную тему на XDA Labs?</string>
     <string name="reconsider">Возможно позже!</string>
-    <string name="takemetoxdathreadstring">Я все еще нуждаюсь в Вашей помощи!</string>
+    <string name="takemetoxdathreadstring">Я хотел бы написать тебе</string>
     <string name="donation_message">Вы, кажется, действительно любите Extras For AA, хотели бы вы сделать пожертвование?</string>
     <string name="helpButton">Помогите</string>
     <string name="copied_bitcoin">Скопировать адрес BTC в буфер обмена</string>
+    <string name="helpinstalling">Мне нужна помощь в установке</string>
+    <string name="credit">О создателях</string>
 </resources>

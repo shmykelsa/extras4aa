@@ -6,23 +6,15 @@
     <string name="proceed">Continuar</string>
     <string name="donate">Donar</string>
     <string name="previews_text">¡Vistas previas!</string>
-    <string name="helpme">Para instalar:\n
-    1. Marca Android Auto y selecciona un extra de la lista\n
-    2. Observa la exclamación al lado de &quot;Android Auto&quot; para evitar errores\n
-    3. Selecciona uno o más extras de la lista\n
-    4. Pincha el botón inferior y selecciona ‘Compilar &amp; Activar’\n
-    5. Repite los pasos 3 y 4 cuantas veces desees\n
-    6. Reinicia el móvil, vete a la pestaña ‘Gestor’, selecciona la/s capas de personalización, y  pincha en ‘Activar’\n
-    </string>
     <string name="helpme_lite">Para instalar:\n
-    1. Marca Android Auto y selecciona un extra de la lista\n
+    1. Marca Android Auto\n
     2. Observa la exclamación al lado de &quot;Android Auto&quot; para evitar errores\n
     3. Selecciona uno o más extras de la lista\n
     4. Pincha el botón inferior y selecciona ‘Build &amp; Install’\n
     5. Repite los pasos 3 y 4 cuantas veces desees\n
     6. Reinicia el móvil, vete a la pestaña ‘manager’, selecciona la/s capas de personalización, y  pincha en ‘enable’\n
     </string>
-    <string name="takemetoxdathreadstring">Necesito ayuda ¡!</string>
+    <string name="takemetoxdathreadstring">Me gustaria escribirte</string>
     <string name="gotoxdathread">Llévame al hilo en XDA</string>
     <string name="mailme">Mail me</string>
     <string name="contact_me_on_telegram">Únete al canal en Telegram</string>
@@ -38,4 +30,13 @@
     <string name="donation_message">Parece que disfrutas mucho usando Extras for Android Auto, ¿te gustaría mostrar tu apoyo realizando una donación?</string>
     <string name="helpButton">Ayuda</string>
     <string name="copied_bitcoin">Dirección BTC copiada al portapapeles</string>
+    <string name="helpinstalling">Necesito ayuda para instalar</string>
+    <string name="helpme">Para instalar:\n
+    1. Marca Android Auto\n
+    2. Observa la exclamación al lado de &quot;Android Auto&quot; para evitar errores\n
+    3. Selecciona uno o más extras de la lista\n
+    4. Pincha el botón inferior y selecciona ‘Construir &amp; Instalar’\n
+    5. Repite los pasos 3 y 4 cuantas veces desees\n
+        6. Reinicia el móvil, vete a la pestaña ‘manager’, selecciona la/s capas de personalización, y pincha en ‘activar’</string>
+    <string name="credit">Créditos</string>
 </resources>
