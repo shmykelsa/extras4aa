@@ -18,9 +18,9 @@ import android.support.constraint.ConstraintLayout
 import android.util.TypedValue
 import android.view.LayoutInflater
 import android.view.View
+import android.view.View.OnLongClickListener
 import android.view.animation.AnimationUtils
 import android.widget.*
-import kotlinx.android.synthetic.main.activity_launcher.*
 
 
 class SubstratumLauncher : Activity() {
@@ -49,20 +49,10 @@ class SubstratumLauncher : Activity() {
         }
 
         //setContentView(R.layout.content_snow)
-        /*if (getDialogStatus()) {
-            storeCounterOpened()
-            if (getCounterOpened() % 3 == 0) {
-                openDonationDialog()
-            } else if (!getStoreRatingStatus() && getCounterOpened() > 1) {
-                ratingDialog()
-            } else {
-                finish()
-            }
-        } else { */
             storeCounterOpened()
             showWelcomeDialog()
-        //}
     }
+
 
     @SuppressLint("InflateParams")
     private fun showWelcomeDialog() {
@@ -96,11 +86,45 @@ class SubstratumLauncher : Activity() {
         }
 
         val maybelater: Button = view.findViewById(R.id.terzo_bottone) as Button
+        var counter = 0
+        maybelater.setOnLongClickListener(OnLongClickListener {
+            val counter1 = counter++
+
+            when (counter1) {
+                1 -> return@OnLongClickListener true
+                2 -> return@OnLongClickListener true
+                3 -> {
+                    val text = "¯\\_(ツ)_/¯"
+                    val duration = Toast.LENGTH_LONG
+                    val toast = Toast.makeText(applicationContext, text, duration)
+                    toast.show()
+                }
+                4 -> {
+                    val text = "U scared?"
+                    val duration = Toast.LENGTH_LONG
+                    val toast = Toast.makeText(applicationContext, text, duration)
+                    toast.show()
+                }
+                5 -> return@OnLongClickListener true
+                6 -> bubusettete()
+                else -> { // Note the block
+                    true
+                }
+            }
+
+
+            true // <- set to true
+        })
+
         maybelater.startAnimation(anifadeinfast)
         maybelater.setText(R.string.helpButton)
         maybelater.setOnClickListener{
             openHelpDialog()
         }
+
+
+        maybelater.isLongClickable = true;
+
 
         val anteprime: Button = view.findViewById(R.id.quarto_bottone) as Button
         anteprime.startAnimation(anifadeinfast)
@@ -108,21 +132,12 @@ class SubstratumLauncher : Activity() {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.link_previews))))
         }
 
+
+
         val donate = view.findViewById(R.id.button_donate) as Button
         donate.startAnimation(anifadeinfast)
         donate.setOnClickListener {
             openDonationOptions()
-        }
-        /*Checkbox*/
-        val myCheckBox = view.findViewById(R.id.myCheckBox) as CheckBox
-        myCheckBox.startAnimation(anifadeinfast)
-        myCheckBox.setOnCheckedChangeListener { _, isChecked ->
-            if (isChecked) {
-                storeDialogStatus(true)
-            }
-            if (!isChecked) {
-                storeDialogStatus(false)
-            }
         }
 
         val areacrediti = view.findViewById(R.id.area_credits) as RelativeLayout
@@ -132,14 +147,13 @@ class SubstratumLauncher : Activity() {
         }
 
         alertDialog.setView(view)
+        alertDialog.show()
 
+    }
 
-        if (getDialogStatus()) {
-            finish()
-        } else {
-            alertDialog.show()
-        }
-
+    private fun bubusettete() {
+        val intent = Intent(this, Nyandroid::class.java)
+        startActivity(intent)
     }
 
     private fun openCreditsDialog() {
@@ -181,7 +195,7 @@ class SubstratumLauncher : Activity() {
         val bitcoinButton:ImageView = view.findViewById(R.id.bitcoin_button)
         bitcoinButton.setOnClickListener{
                 val clipboard = getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
-                val clip = ClipData.newPlainText("label","39bdKem8taTZvm2WeyH8wwDhYKzZ2PzhGn")
+                val clip = ClipData.newPlainText("label", "39bdKem8taTZvm2WeyH8wwDhYKzZ2PzhGn")
                 clipboard.primaryClip = clip
             val text = R.string.copied_bitcoin
             val duration = Toast.LENGTH_LONG
@@ -215,10 +229,6 @@ class SubstratumLauncher : Activity() {
 
         val bottoneAnteprime:Button = view.findViewById(R.id.quarto_bottone)
         bottoneAnteprime.visibility = RelativeLayout.GONE
-
-
-        val myCheckBox = view.findViewById(R.id.myCheckBox) as CheckBox
-        myCheckBox.visibility = CheckBox.GONE
 
         bottoneNegativo.setOnClickListener {
             val mSharedPreferences = getSharedPreferences("counter", MODE_PRIVATE)
@@ -368,9 +378,6 @@ class SubstratumLauncher : Activity() {
         bottoneAnteprime.visibility = RelativeLayout.GONE
 
 
-        val myCheckBox = view.findViewById(R.id.myCheckBox) as CheckBox
-        myCheckBox.visibility = CheckBox.GONE
-
         bottoneNegativo.setOnClickListener {
             storeRatingStatus(isChecked = true)
             finish()
@@ -441,18 +448,6 @@ class SubstratumLauncher : Activity() {
         return mSharedPreferences.getInt("counter_", 0)
     }
 
-    private fun storeDialogStatus(isChecked: Boolean) {
-        val mSharedPreferences = getSharedPreferences("dialog", Context.MODE_PRIVATE)
-        val mEditor = mSharedPreferences.edit()
-        mEditor.putBoolean("show_dialog_" + BuildConfig.VERSION_CODE, isChecked)
-        mEditor.apply()
-    }
-
-    private fun getDialogStatus(): Boolean {
-        storeCounterOpened()
-        val mSharedPreferences = getSharedPreferences("dialog", Context.MODE_PRIVATE)
-        return mSharedPreferences.getBoolean("show_dialog_" + BuildConfig.VERSION_CODE, false)
-    }
 
     private fun storeRatingStatus(isChecked: Boolean) {
         val mSharedPreferences = getSharedPreferences("rated", Context.MODE_PRIVATE)

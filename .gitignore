@@ -102,3 +102,4 @@ Thumbs.db
 .DS_Store
 /app/legacy/release/output-metadata.json
 /app/nonlegacy/release/output-metadata.json
+/app/src/main/java/

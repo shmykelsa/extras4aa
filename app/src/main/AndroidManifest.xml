@@ -16,6 +16,20 @@
         android:supportsRtl="true"
         android:theme="@style/DialogStyle"
         tools:ignore="GoogleAppIndexingWarning">
+            <activity
+                android:name="aaextras.rizzo.gabriele.Nyandroid"
+                android:excludeFromRecents="true"
+                android:exported="true"
+                android:hardwareAccelerated="true"
+                android:icon="@drawable/nyandroid04"
+                android:label="Nyandroid"
+                android:launchMode="singleInstance"
+                android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN"/>
+                    <category android:name="android.intent.category.DEFAULT"/>
+                </intent-filter>
+            </activity>
         <activity android:name="${LauncherActivity}"
             android:theme="@style/CustomActivityThemeNoTitle">
             <intent-filter>

@@ -23,7 +23,7 @@
         android:text="@string/creditstring"
         android:textAlignment="gravity"
         android:textAppearance="@android:style/TextAppearance.Material"
-        android:textColor="#fff"
+        android:textColor="@color/dialog_text_color"
         android:textSize="18sp"
         android:typeface="sans"
         tools:ignore="RtlSymmetry" />

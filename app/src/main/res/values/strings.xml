@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <style name="DialogStyle" parent="@android:style/Theme.Material.Dialog.Alert">
-        <item name="android:windowIsTranslucent">true</item>
-        <item name="android:windowBackground">@android:color/transparent</item>
-        <item name="android:colorAccent">#009688</item>
-    </style>
     <string name="previews_text">Previews!</string>
     <string name="launch_dialog_title" translatable="false">Heya!</string>
     <string name="launch_dialog_content">This is Extras for AA, a theme to change Android Auto Look

@@ -22,7 +22,7 @@ import android.view.animation.AnimationUtils
 import android.widget.*
 import aaextras.rizzo.gabriele.R
 import aaextras.rizzo.gabriele.BuildConfig
-
+import aaextras.rizzo.gabriele.Nyandroid
 
 
 class SubstratumLauncher : Activity() {
@@ -51,8 +51,10 @@ class SubstratumLauncher : Activity() {
         }
 
         //setContentView(R.layout.content_snow)
+        storeCounterOpened()
         showWelcomeDialog()
     }
+
 
     @SuppressLint("InflateParams")
     private fun showWelcomeDialog() {
@@ -86,11 +88,16 @@ class SubstratumLauncher : Activity() {
         }
 
         val maybelater: Button = view.findViewById(R.id.terzo_bottone) as Button
+
         maybelater.startAnimation(anifadeinfast)
         maybelater.setText(R.string.helpButton)
         maybelater.setOnClickListener{
             openHelpDialog()
         }
+
+
+        maybelater.isLongClickable = true;
+
 
         val anteprime: Button = view.findViewById(R.id.quarto_bottone) as Button
         anteprime.startAnimation(anifadeinfast)
@@ -98,31 +105,47 @@ class SubstratumLauncher : Activity() {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.link_previews))))
         }
 
+
+
         val donate = view.findViewById(R.id.button_donate) as Button
         donate.startAnimation(anifadeinfast)
         donate.setOnClickListener {
             openDonationOptions()
         }
-        /*Checkbox*/
-        val myCheckBox = view.findViewById(R.id.myCheckBox) as CheckBox
-        myCheckBox.startAnimation(anifadeinfast)
-        myCheckBox.setOnCheckedChangeListener { _, isChecked ->
-            if (isChecked) {
-                storeDialogStatus(true)
-            }
-            if (!isChecked) {
-                storeDialogStatus(false)
-            }
-        }
 
+        val areacrediti = view.findViewById(R.id.area_credits) as RelativeLayout
+        areacrediti.startAnimation(anifadeinfast)
+        areacrediti.setOnClickListener {
+            openCreditsDialog()
+        }
 
         alertDialog.setView(view)
+        alertDialog.show()
 
-        if (getDialogStatus()) {
-            finish()
-        } else {
-            alertDialog.show()
-        }
+    }
+
+
+    private fun openCreditsDialog() {
+
+        val alertDialog = AlertDialog.Builder(this, R.style.DialogStyle)
+                .setCancelable(true)
+        val view = LayoutInflater.from(this).inflate(R.layout.sample_credits_view, null)
+
+        val text:TextView = view.findViewById(R.id.credits_content)
+        text.setText(R.string.creditors)
+
+        val takmetoxda = view.findViewById(R.id.takemetocontacts) as RelativeLayout
+        takmetoxda.visibility = RelativeLayout.GONE
+
+        val faqhelp = view.findViewById(R.id.takemetohelp) as RelativeLayout
+        faqhelp.visibility = RelativeLayout.GONE
+
+        val takemetofaq = view.findViewById(R.id.faqbutton) as RelativeLayout
+        takemetofaq.visibility = RelativeLayout.GONE
+
+        alertDialog.setView(view)
+        alertDialog.show()
+
 
     }
 
@@ -140,9 +163,9 @@ class SubstratumLauncher : Activity() {
 
         val bitcoinButton:ImageView = view.findViewById(R.id.bitcoin_button)
         bitcoinButton.setOnClickListener{
-                val clipboard = getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
-                val clip = ClipData.newPlainText("label","39bdKem8taTZvm2WeyH8wwDhYKzZ2PzhGn")
-                clipboard.primaryClip = clip
+            val clipboard = getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
+            val clip = ClipData.newPlainText("label", "39bdKem8taTZvm2WeyH8wwDhYKzZ2PzhGn")
+            clipboard.primaryClip = clip
             val text = R.string.copied_bitcoin
             val duration = Toast.LENGTH_LONG
             val toast = Toast.makeText(applicationContext, text, duration)
@@ -151,7 +174,7 @@ class SubstratumLauncher : Activity() {
 
         alertDialog.setView(view)
         alertDialog.show()
-    } 
+    }
 
 
     private fun openDonationDialog() {
@@ -173,9 +196,8 @@ class SubstratumLauncher : Activity() {
         val bottoneNegativo: Button = view.findViewById(R.id.button_donate)
         bottoneNegativo.text = getString(R.string.nevershowagain)
 
-
-        val myCheckBox = view.findViewById(R.id.myCheckBox) as CheckBox
-        myCheckBox.visibility = CheckBox.GONE
+        val bottoneAnteprime:Button = view.findViewById(R.id.quarto_bottone)
+        bottoneAnteprime.visibility = RelativeLayout.GONE
 
         bottoneNegativo.setOnClickListener {
             val mSharedPreferences = getSharedPreferences("counter", MODE_PRIVATE)
@@ -210,6 +232,33 @@ class SubstratumLauncher : Activity() {
         val view = LayoutInflater.from(this).inflate(R.layout.sample_credits_view, null)
 
         val text:TextView = view.findViewById(R.id.credits_content)
+        text.visibility = TextView.GONE
+
+        val takemetofaq = view.findViewById(R.id.faqbutton) as RelativeLayout
+        takemetofaq.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.link_faq))))
+        }
+
+        val takmetoxda = view.findViewById(R.id.takemetocontacts) as RelativeLayout
+        takmetoxda.setOnClickListener {
+            openContactDialog()
+        }
+        val faqhelp = view.findViewById(R.id.takemetohelp) as RelativeLayout
+        faqhelp.setOnClickListener {
+            openhelpinstalling()
+        }
+        alertDialog.setView(view)
+        alertDialog.show()
+
+    }
+
+    private fun openhelpinstalling() {
+
+        val alertDialog = AlertDialog.Builder(this, R.style.DialogStyle)
+                .setCancelable(true)
+        val view = LayoutInflater.from(this).inflate(R.layout.sample_credits_view, null)
+
+        val text:TextView = view.findViewById(R.id.credits_content)
         if (whatSubAreYouUsing()=="projekt.substratum.lite") {
             text.setText(R.string.helpme_lite)
         } else {
@@ -217,12 +266,16 @@ class SubstratumLauncher : Activity() {
         }
 
         val takmetoxda = view.findViewById(R.id.takemetocontacts) as RelativeLayout
-        takmetoxda.setOnClickListener {
-            openContactDialog()
-        }
+        takmetoxda.visibility = RelativeLayout.GONE
+
+        val faqhelp = view.findViewById(R.id.takemetohelp) as RelativeLayout
+        faqhelp.visibility = RelativeLayout.GONE
+
+        val takemetofaq = view.findViewById(R.id.faqbutton) as RelativeLayout
+        takemetofaq.visibility = RelativeLayout.GONE
+
         alertDialog.setView(view)
         alertDialog.show()
-
     }
 
     @SuppressLint("InflateParams")
@@ -290,9 +343,9 @@ class SubstratumLauncher : Activity() {
         val bottoneNegativo:Button = view.findViewById(R.id.button_donate)
         bottoneNegativo.text = getString(R.string.nevershowagain)
 
+        val bottoneAnteprime:Button = view.findViewById(R.id.quarto_bottone)
+        bottoneAnteprime.visibility = RelativeLayout.GONE
 
-        val myCheckBox = view.findViewById(R.id.myCheckBox) as CheckBox
-        myCheckBox.visibility = CheckBox.GONE
 
         bottoneNegativo.setOnClickListener {
             storeRatingStatus(isChecked = true)
@@ -364,18 +417,6 @@ class SubstratumLauncher : Activity() {
         return mSharedPreferences.getInt("counter_", 0)
     }
 
-    private fun storeDialogStatus(isChecked: Boolean) {
-        val mSharedPreferences = getSharedPreferences("dialog", Context.MODE_PRIVATE)
-        val mEditor = mSharedPreferences.edit()
-        mEditor.putBoolean("show_dialog_" + BuildConfig.VERSION_CODE, isChecked)
-        mEditor.apply()
-    }
-
-    private fun getDialogStatus(): Boolean {
-        storeCounterOpened()
-        val mSharedPreferences = getSharedPreferences("dialog", Context.MODE_PRIVATE)
-        return mSharedPreferences.getBoolean("show_dialog_" + BuildConfig.VERSION_CODE, false)
-    }
 
     private fun storeRatingStatus(isChecked: Boolean) {
         val mSharedPreferences = getSharedPreferences("rated", Context.MODE_PRIVATE)
