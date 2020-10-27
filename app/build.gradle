@@ -29,11 +29,10 @@ android {
         applicationId "aaextras.rizzo.gabriele"
         // We are only supporting Nougat and above, all new changes will incorporate Nougat changes
         // to the substratum repo rather than anything lower. Keep targetSdkVersion the same.
-        minSdkVersion 26
+        minSdkVersion 24
         // Both versions must be changed to increment on Play Store/user's devices
-        versionCode 30
-        versionName "4.6"
-
+        versionCode 31
+        versionName "4.7"
         // Themers: DO NOT MODIFY
         buildConfigField "boolean", "SUPPORTS_THIRD_PARTY_SYSTEMS", "" + SUPPORTS_THIRD_PARTY_SYSTEMS
         buildConfigField "boolean", "ENABLE_APP_BLACKLIST_CHECK", "" + ENABLE_APP_BLACKLIST_CHECK
@@ -96,14 +95,14 @@ android {
         legacy {
             dimension 'dim'
             applicationId 'aaextras.rizzo.gabriele.legacy'
-            minSdkVersion 23
+            minSdkVersion 26
             versionName = defaultConfig.versionName + "L"
             manifestPlaceholders.substratumLauncherActivity = "aaextras.rizzo.gabriele.legacy.SubstratumLauncher"
             manifestPlaceholders.LauncherActivity = "aaextras.rizzo.gabriele.legacy.Launcher"
         }
         nonlegacy {
             dimension 'dim'
-            minSdkVersion 26
+            minSdkVersion 24
             manifestPlaceholders.substratumLauncherActivity = "aaextras.rizzo.gabriele.SubstratumLauncher"
             manifestPlaceholders.LauncherActivity = "aaextras.rizzo.gabriele.Launcher"
         }
