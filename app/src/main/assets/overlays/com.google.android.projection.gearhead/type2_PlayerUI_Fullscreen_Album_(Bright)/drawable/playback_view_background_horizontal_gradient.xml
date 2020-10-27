@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:angle="0.0"
+        android:centerColor="@*com.google.android.projection.gearhead:color/playback_view_background_center_gradient"
+        android:endColor="#33FFFFFF"
+        android:startColor="@*com.google.android.projection.gearhead:color/playback_view_background_start_gradient" />
+</shape>

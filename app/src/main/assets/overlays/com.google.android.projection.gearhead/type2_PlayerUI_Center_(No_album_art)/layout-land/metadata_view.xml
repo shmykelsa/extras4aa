@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.auto.components.metadataview.MetadataView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@*com.google.android.projection.gearhead:id/metadata"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical">
+        <ImageView
+            android:id="@*com.google.android.projection.gearhead:id/content_image"
+            android:alpha="0.0"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <TextView
+                android:id="@*com.google.android.projection.gearhead:id/metadata_title"
+                style="@*com.google.android.projection.gearhead:style/TextAppearance.Boardwalk.Body1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="2"
+                android:textSize="@*com.google.android.projection.gearhead:dimen/metadata_title_text_size" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@*com.google.android.projection.gearhead:dimen/metadata_text_container_margin"
+                android:baselineAligned="true"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingTop="@*com.google.android.projection.gearhead:dimen/metadata_text_container_padding">
+                <LinearLayout
+                    android:id="@*com.google.android.projection.gearhead:id/icon_holder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="@*com.google.android.projection.gearhead:dimen/metadata_icon_margin"
+                    android:orientation="horizontal"
+                    android:visibility="gone" />
+                <TextView
+                    android:id="@*com.google.android.projection.gearhead:id/metadata_subtitle"
+                    style="@*com.google.android.projection.gearhead:style/TextAppearance.Boardwalk.Body3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:alpha="@*com.google.android.projection.gearhead:dimen/metadata_view_subtitle_alpha"
+                    android:ellipsize="end"
+                    android:gravity="start"
+                    android:maxLines="1"
+                    android:textSize="@*com.google.android.projection.gearhead:dimen/metadata_subtitle_text_size" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@*com.google.android.projection.gearhead:dimen/metadata_text_container_margin"
+                android:gravity="start"
+                android:orientation="horizontal"
+                android:paddingTop="@*com.google.android.projection.gearhead:dimen/metadata_text_container_padding">
+                <TextView
+                    android:id="@*com.google.android.projection.gearhead:id/metadata_elapsed_time"
+                    style="@*com.google.android.projection.gearhead:style/TextAppearance.Boardwalk.Body3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:alpha="@*com.google.android.projection.gearhead:dimen/metadata_view_subtitle_alpha"
+                    android:gravity="end"
+                    android:maxLines="1"
+                    android:textSize="@*com.google.android.projection.gearhead:dimen/metadata_subtitle_text_size"
+                    android:visibility="gone" />
+                <TextView
+                    android:id="@*com.google.android.projection.gearhead:id/metadata_time_divider"
+                    style="@*com.google.android.projection.gearhead:style/TextAppearance.Boardwalk.Body3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@*com.google.android.projection.gearhead:dimen/metadata_time_divider_margin"
+                    android:layout_marginRight="@*com.google.android.projection.gearhead:dimen/metadata_time_divider_margin"
+                    android:alpha="@*com.google.android.projection.gearhead:dimen/metadata_view_subtitle_alpha"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:textSize="@*com.google.android.projection.gearhead:dimen/metadata_subtitle_text_size"
+                    android:visibility="gone" />
+                <TextView
+                    android:id="@*com.google.android.projection.gearhead:id/metadata_total_time"
+                    style="@*com.google.android.projection.gearhead:style/TextAppearance.Boardwalk.Body3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:alpha="@*com.google.android.projection.gearhead:dimen/metadata_view_subtitle_alpha"
+                    android:gravity="start"
+                    android:maxLines="1"
+                    android:textSize="@*com.google.android.projection.gearhead:dimen/metadata_subtitle_text_size"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView
+        android:id="@*com.google.android.projection.gearhead:id/metadata_extra_message"
+        style="@*com.google.android.projection.gearhead:style/TextAppearance.Boardwalk.Body3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@*com.google.android.projection.gearhead:dimen/common_keyline_1"
+        android:layout_marginTop="@*com.google.android.projection.gearhead:dimen/metadata_secondary_text_container_margin"
+        android:layout_marginEnd="@*com.google.android.projection.gearhead:dimen/common_keyline_1"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textSize="@*com.google.android.projection.gearhead:dimen/metadata_subtitle_text_size"
+        android:visibility="gone" />
+</com.google.android.apps.auto.components.metadataview.MetadataView>
