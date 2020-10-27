@@ -119,6 +119,12 @@ class SubstratumLauncher : Activity() {
             openCreditsDialog()
         }
 
+        val areanovita = view.findViewById(R.id.area_changelog) as RelativeLayout
+        areanovita.startAnimation(anifadeinfast)
+        areanovita.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.latest_changelog))))
+        }
+
         alertDialog.setView(view)
         alertDialog.show()
 
@@ -198,6 +204,12 @@ class SubstratumLauncher : Activity() {
 
         val bottoneAnteprime:Button = view.findViewById(R.id.quarto_bottone)
         bottoneAnteprime.visibility = RelativeLayout.GONE
+
+        val areacrediti = view.findViewById(R.id.area_credits) as RelativeLayout
+        areacrediti.visibility = RelativeLayout.GONE
+
+        val areanovita = view.findViewById(R.id.area_changelog) as RelativeLayout
+        areanovita.visibility = RelativeLayout.GONE
 
         bottoneNegativo.setOnClickListener {
             val mSharedPreferences = getSharedPreferences("counter", MODE_PRIVATE)
@@ -345,6 +357,12 @@ class SubstratumLauncher : Activity() {
 
         val bottoneAnteprime:Button = view.findViewById(R.id.quarto_bottone)
         bottoneAnteprime.visibility = RelativeLayout.GONE
+
+        val areacrediti = view.findViewById(R.id.area_credits) as RelativeLayout
+        areacrediti.visibility = RelativeLayout.GONE
+
+        val areanovita = view.findViewById(R.id.area_changelog) as RelativeLayout
+        areanovita.visibility = RelativeLayout.GONE
 
 
         bottoneNegativo.setOnClickListener {

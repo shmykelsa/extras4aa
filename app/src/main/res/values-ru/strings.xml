@@ -38,4 +38,5 @@
     <string name="copied_bitcoin">Скопировать адрес BTC в буфер обмена</string>
     <string name="helpinstalling">Мне нужна помощь в установке</string>
     <string name="credit">О создателях</string>
+    <string name="whatsnew">Что нового?</string>
 </resources>

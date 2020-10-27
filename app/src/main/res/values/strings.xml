@@ -39,4 +39,5 @@
     <string name="creditors" translatable="false">Special thanks to:\n\n
     Iconic Icons for the wonderful work of Status Bar Icons. Check out Iconic Icons theme and download it to have matching Status Bar Icons with your device.\n
     It\'s free and it\'s a very good Substratum theme to tweak the look of Android System</string>
+    <string name="whatsnew">What\'s new?</string>
 </resources>

@@ -39,4 +39,5 @@
     <string name="copied_bitcoin">BTC adresse copiée dans le presse papier</string>
     <string name="helpinstalling">J\'ai besoin d\'aide pour installer</string>
     <string name="credit">Crédits</string>
+    <string name="whatsnew">Quoi de neuf?</string>
 </resources>
