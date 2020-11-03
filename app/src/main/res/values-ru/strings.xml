@@ -3,9 +3,9 @@
     <string name="contact_me_on_telegram">Присоединиться к Telegram-каналу</string>
     <string name="creditstring">Большое спасибо за Ваш вклад:%1$s</string>
     <string name="do_not_show_again">Не показывать снова</string>
-    <string name="donate">Стать спонсором</string>
+    <string name="donate">🎁 Стать спонсором 🎁</string>
     <string name="gotorating">Перейти!</string>
-    <string name="previews_text">Демонстрация</string>
+    <string name="previews_text">🖼 Демонстрация 🖼</string>
     <string name="gotoxdathread">Посетить наш ресурс на форуме XDA.</string>
     <string name="helpme">Для установки изменений внешнего вида АА:\n
          1. Отметить Android Auto\n
@@ -29,12 +29,12 @@
     Если Вы желаете поблагодарить за разработку и мои усилия, вы можете сделать пожертвование с помощью кнопки внизу.Даже самая небольшая помощь, бдует высоко цениться и будет полезна в развитии проекта.</string>
     <string name="mailme">Напиши мне</string>
     <string name="nevershowagain">Оставь меня в покое</string>
-    <string name="proceed">Продолжить</string>
+    <string name="proceed">➡ Продолжить ➡</string>
     <string name="rating_message">Привет, не могли бы уделить минутку, и оценить данную тему на XDA Labs?</string>
     <string name="reconsider">Возможно позже!</string>
     <string name="takemetoxdathreadstring">Я хотел бы написать тебе</string>
     <string name="donation_message">Вы, кажется, действительно любите Extras For AA, хотели бы вы сделать пожертвование?</string>
-    <string name="helpButton">Помогите</string>
+    <string name="helpButton">🆘 Помогите 🆘</string>
     <string name="copied_bitcoin">Скопировать адрес BTC в буфер обмена</string>
     <string name="helpinstalling">Мне нужна помощь в установке</string>
     <string name="credit">О создателях</string>

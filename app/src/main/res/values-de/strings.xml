@@ -7,7 +7,7 @@
          4. Klicken sie auf die untere Schaltfläche und wählen sie "Build &amp; Install"\n
          5. Wiederholen sie die schritte 3 und 4 so oft sie möchten\n
          6. Starten sie neu, gehen Sie zur Registerkarte Manager, wählen Sie die erstellten Overlays aus und klicken Sie auf &quot;Aktivieren&quot;.\n</string>
-    <string name="previews_text">Vorschau</string>
+    <string name="previews_text">🖼 Vorschau 🖼</string>
     <string name="helpme_lite">So installieren Sie:\n
          1. Aktivieren Sie Android Auto\n
          2. Siehe aufmerksamkeitsmarkierung in der nähe von &quot;Android Auto&quot;, um Fehler zu vermeiden\n
@@ -23,18 +23,18 @@
         Bitte installiere Substratum Lite und versuche es dann wieder.</string>
     <string name="creditstring">Vielen Dank für die Wallpaper an:%1$s</string>
     <string name="do_not_show_again">Lieber nicht!</string>
-    <string name="donate">Spenden</string>
+    <string name="donate">🎁 Spenden 🎁</string>
     <string name="gotorating">Klar, auf geht\'s!</string>
     <string name="gotoxdathread">Geh zum XDA Thread</string>
     <string name="mailme">Mail mir</string>
     <string name="nevershowagain">Nicht wieder anzeigen</string>
-    <string name="proceed">Weiter</string>
+    <string name="proceed">➡ Weiter ➡</string>
     <string name="rating_message">Hey, hast Du einen Moment Zeit für eine Bewertung auf XDA Labs?</string>
     <string name="reconsider">Vielleicht später!</string>
     <string name="takemetoxdathreadstring">Ich brauche noch Hilfe!</string>
     <string name="contact_me_on_telegram">Treten Sie dem Telegram-Kanal bei</string>
     <string name="donation_message">Sie scheinen Extras For AA wirklich zu genießen, möchten Sie eine Spende machen?</string>
-    <string name="helpButton">Hilfe</string>
+    <string name="helpButton">🆘 Hilfe 🆘</string>
     <string name="copied_bitcoin">BTC-Adresse in Zwischenablage kopiert</string>
     <string name="helpinstalling">Ich brauche Hilfe bei der Installation</string>
     <string name="credit">Danksagungen</string>

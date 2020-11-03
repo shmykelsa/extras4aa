@@ -42,6 +42,12 @@ android {
         buildConfigField "byte[]", "IV_KEY", String.valueOf("\"" + IV_KEY + "\"").replace("\"", "").replace("[", "{").replace("]", "}")
         setProperty("archivesBaseName","EXTRAS4AA-$versionName")
     }
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
     buildTypes {
         debug {
             minifyEnabled true
@@ -80,18 +86,14 @@ android {
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
         legacy{
-            assets.srcDirs = ['src/legacy/assets/']
+            assets.srcDirs += 'src/base/assets/'
         }
         nonlegacy {
-            assets.srcDirs = ['src/nonlegacy/assets/']
+            assets.srcDirs += 'src/base/assets/'
         }
     }
     flavorDimensions 'dim'
     productFlavors {
-        full {
-            dimension 'dim'
-            resConfigs ''
-        }
         legacy {
             dimension 'dim'
             applicationId 'aaextras.rizzo.gabriele.legacy'
@@ -105,6 +107,14 @@ android {
             minSdkVersion 24
             manifestPlaceholders.substratumLauncherActivity = "aaextras.rizzo.gabriele.SubstratumLauncher"
             manifestPlaceholders.LauncherActivity = "aaextras.rizzo.gabriele.Launcher"
+        }
+        icons {
+            dimension 'dim'
+            applicationId 'aaextras.rizzo.gabriele.icons'
+            minSdkVersion 24
+            versionName = 1.0 + "I"
+            manifestPlaceholders.substratumLauncherActivity = "aaextras.rizzo.gabriele.icons.SubstratumLauncher"
+            manifestPlaceholders.LauncherActivity = "aaextras.rizzo.gabriele.icons.Launcher"
         }
     }
 }

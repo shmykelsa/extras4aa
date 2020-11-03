@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="previews_text">Previews!</string>
+    <string name="previews_text">🖼 Previews! 🖼</string>
     <string name="launch_dialog_title" translatable="false">Heya!</string>
     <string name="launch_dialog_content">This is Extras for AA, a theme to change Android Auto Look
         \n\nIf you want to thank me for the development and the effort, you could make a donation with the button down below.
         \nEven a small amount would be much appreciated 😊</string>
     <string name="do_not_show_again">Do not show again</string>
-    <string name="proceed">Continue</string>
-    <string name="donate">Donate</string>
-    <string name="creditstring">Many thanks for the wallpapers go to: %1$s</string>
-    <string name="helpButton">Help</string>
+    <string name="proceed">➡ Continue ➡</string>
+    <string name="donate">🎁 Donate 🎁</string>
+    <string name="helpButton">🆘 Help 🆘</string>
     <string name="helpme">To install:\n
     1. Tick Android Auto\n
         2. See attention mark near "Android Auto" to avoid errors\n

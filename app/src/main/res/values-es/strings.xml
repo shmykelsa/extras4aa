@@ -3,9 +3,9 @@
         <string name="launch_dialog_content">Esto es Extras para AA, un tema para cambiar el aspecto de Android Auto.\n
     Si quieres contribuir con el desarollo, quizás puedas considerar una donación. Sería bien recibida. 😊</string>
     <string name="do_not_show_again">No mostrar de nuevo</string>
-    <string name="proceed">Continuar</string>
-    <string name="donate">Donar</string>
-    <string name="previews_text">¡Vistas previas!</string>
+    <string name="proceed">➡ Continuar ➡</string>
+    <string name="donate">🎁 Donar 🎁</string>
+    <string name="previews_text">🖼 ¡Vistas previas! 🖼</string>
     <string name="helpme_lite">Para instalar:\n
     1. Marca Android Auto\n
     2. Observa la exclamación al lado de &quot;Android Auto&quot; para evitar errores\n
@@ -28,7 +28,7 @@
     <string name="nevershowagain">¡No me molestéis!</string>
     <string name="reconsider">Quizás más tarde</string>
     <string name="donation_message">Parece que disfrutas mucho usando Extras for Android Auto, ¿te gustaría mostrar tu apoyo realizando una donación?</string>
-    <string name="helpButton">Ayuda</string>
+    <string name="helpButton">🆘 Ayuda 🆘</string>
     <string name="copied_bitcoin">Dirección BTC copiada al portapapeles</string>
     <string name="helpinstalling">Necesito ayuda para instalar</string>
     <string name="helpme">Para instalar:\n

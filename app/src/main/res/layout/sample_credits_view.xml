@@ -20,7 +20,6 @@
         android:gravity="center"
         android:lineSpacingMultiplier="0.86"
         android:paddingStart="1dp"
-        android:text="@string/creditstring"
         android:textAlignment="gravity"
         android:textAppearance="@android:style/TextAppearance.Material"
         android:textColor="@color/dialog_text_color"
