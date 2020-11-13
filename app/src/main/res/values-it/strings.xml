@@ -4,9 +4,9 @@
         \n\n Se vuoi ringraziarmi per il lavoro, puoi farlo con una donazione, dal bottone sotto.
         \n Anche una piccola somma sarebbe molto apprezzata 😊</string>
     <string name="do_not_show_again">Non mostrare di nuovo</string>
-    <string name="proceed">Continua</string>
-    <string name="previews_text">Anteprime!</string>
-    <string name="donate">Dona</string>
+    <string name="proceed">➡ Continua ➡</string>
+    <string name="previews_text">🖼 Anteprime! 🖼</string>
+    <string name="donate">🎁 Dona 🎁</string>
     <string name="helpme_lite">Per installare un extra:
         \n1. Guarda il messaggio di attenzione (simbolo di attenzione accanto ad Android Auto) per evitare errori
         \n2. Seleziona Android Auto e poi un extra dalla lista
@@ -27,7 +27,7 @@
     <string name="nevershowagain">Lasciami stare!</string>
     <string name="reconsider">Forse dopo</string>
     <string name="donation_message">Sembra che Substratum Extras for Android Auto ti piaccia! Vorresti aiutarmi facendo una piccola donazione?</string>
-    <string name="helpButton">Aiuto</string>
+    <string name="helpButton">🆘 Aiuto 🆘</string>
     <string name="copied_bitcoin">Indirizzo Bitcoin copiato negli appunti</string>
     <string name="helpinstalling">Ho bisogno di aiuto per installare</string>
     <string name="helpme">Per installare un extra:
@@ -37,4 +37,5 @@
         \n4. Ripetere i passi 2 e 3 a proprio piacimento
         \n3. Riavvia il dispositivo, ri-apri Substratum, recati alla sezione gestore, e abilita gli extra</string>
     <string name="credit">Crediti</string>
+    <string name="whatsnew">Novità e cambiamenti</string>
 </resources>

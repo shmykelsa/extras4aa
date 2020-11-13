@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="mailme">M\'envoyer un mail</string>
-    <string name="proceed">Continuer</string>
+    <string name="proceed">➡ Continuer ➡</string>
     <string name="takemetoxdathreadstring">Je souhaite vous contacter</string>
     <string name="gotoxdathread">Aller dans le sujet du forum XDA</string>
-    <string name="donate">Faire un don</string>
-    <string name="previews_text">Aperçus!</string>
+    <string name="donate">🎁 Faire un don 🎁</string>
+    <string name="previews_text">🖼 Aperçus! 🖼</string>
     <string name="do_not_show_again">Ne plus afficher</string>
     <string name="contact_me_on_telegram">Suivez le canal Telegram</string>
     <string name="launch_dialog_content">Voici les Extras pour AA, un thème pour changer l\'apparance de votre Android Auto\n
@@ -35,8 +35,9 @@
     <string name="nevershowagain">Laissez-moi tranquille!</string>
     <string name="reconsider">Plus tard</string>
     <string name="donation_message">Il semblerait que vous appréciez vraiment Extras for Android Auto, voudriez-vous le montrer avec un don?</string>
-    <string name="helpButton">Aide-moi</string>
+    <string name="helpButton">🆘 Aide-moi 🆘</string>
     <string name="copied_bitcoin">BTC adresse copiée dans le presse papier</string>
     <string name="helpinstalling">J\'ai besoin d\'aide pour installer</string>
     <string name="credit">Crédits</string>
+    <string name="whatsnew">Quoi de neuf?</string>
 </resources>

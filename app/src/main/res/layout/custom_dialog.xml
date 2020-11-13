@@ -144,5 +144,39 @@
                 android:textSize="16sp" />
 
         </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/area_changelog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/area_credits"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="9dp">
+
+            <ImageButton
+                android:id="@+id/image_changelog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="0dp"
+                android:background="@android:color/transparent"
+                android:tint="@color/dialog_text_color"
+                android:contentDescription="@android:string/untitled"
+                android:src="@drawable/ic_info_black_24dp"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/image_changelog"
+                android:layout_alignBottom="@id/image_changelog"
+                android:layout_toEndOf="@id/image_changelog"
+                android:text="@string/whatsnew"
+                android:textColor="@color/dialog_text_color"
+                android:textAppearance="@android:style/TextAppearance.Material"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
     </RelativeLayout>
 </RelativeLayout>

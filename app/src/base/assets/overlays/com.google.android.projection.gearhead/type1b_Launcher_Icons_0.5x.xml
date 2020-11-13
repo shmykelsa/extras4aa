@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="gearhead_launcher_app_height">93.6dip</dimen>
+    <dimen name="gearhead_launcher_app_top_bottom_paddding">8.4dip</dimen>
+    <dimen name="gearhead_launcher_icon_diameter">50.4dip</dimen>
+    <dimen name="gearhead_launcher_badge_background_diameter">20.4dip</dimen>
+    <dimen name="gearhead_launcher_badge_left_margin">31.8dip</dimen>
+    <dimen name="gearhead_launcher_label_text_size">14.4dip</dimen>
+    <dimen name="gearhead_launcher_label_height">16.8dip</dimen>
+    <item type="dimen" name="gearhead_launcher_label_margin">9.6dip</item>
+    <dimen name="gearhead_launcher_app_left_right_paddding">6.0dip</dimen>
+    <item type="dimen" name="gearhead_launcher_app_margin">2.5dip</item>
+</resources>

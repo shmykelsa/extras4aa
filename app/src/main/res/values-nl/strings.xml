@@ -3,8 +3,8 @@
     <string name="contact_me_on_telegram">Contact me op Telegram</string>
     <string name="creditstring">Hartelijk dank voor de achtergronden gaan naar:%1$s</string>
     <string name="do_not_show_again">Niet meer tonen</string>
-    <string name="donate">Donatie</string>
-    <string name="previews_text">Voorbeelden!</string>
+    <string name="donate">🎁 Donatie 🎁</string>
+    <string name="previews_text">🖼 Voorbeelden! 🖼</string>
     <string name="gotorating">Breng me er naar toe!</string>
     <string name="gotoxdathread">Ga naar XDA Thread</string>
     <string name="hi_iew">Heya!\n
@@ -16,13 +16,14 @@
         Zelfs een klein bedrag zou zeer worden gewaardeerd 😊</string>
     <string name="mailme">Mail me</string>
     <string name="nevershowagain">Laat me met rust!</string>
-    <string name="proceed">Doorgaan</string>
+    <string name="proceed">➡ Doorgaan ➡</string>
     <string name="rating_message">Hé, wil je even de tijd nemen om dit thema te beoordelen op XDA Labs?</string>
     <string name="reconsider">Misschien later</string>
     <string name="takemetoxdathreadstring">Jeg vil gerne kontakte dig</string>
     <string name="donation_message">Het lijkt alsof je er echt van geniet Extras for AA, wilt u een donatie doen?</string>
-    <string name="helpButton">Help</string>
+    <string name="helpButton">🆘 Help 🆘</string>
     <string name="copied_bitcoin">BTC adres gekopieerd naar het klembord</string>
     <string name="helpinstalling">Jeg har brug for hjælp til installationen</string>
     <string name="credit">Dank aan</string>
+    <string name="whatsnew">Aankondigingen</string>
 </resources>

@@ -3,8 +3,8 @@
     <string name="contact_me_on_telegram">Junte-Telegram Canal</string>
     <string name="creditstring">Agredecimentos pelos papéis de parede a:%1$s</string>
     <string name="do_not_show_again">Não mostrar novamente</string>
-    <string name="donate">Doar</string>
-    <string name="previews_text">Prévias!</string>
+    <string name="donate">🎁 Doar 🎁</string>
+    <string name="previews_text">🖼 Prévias! 🖼</string>
     <string name="donation_message">Você parece estar gostando do Extras for AA, gostaria de mostrar sua apreciação com uma doação?</string>
     <string name="gotorating">Me leve lá!</string>
     <string name="gotoxdathread">Ir para XDA Thread</string>
@@ -31,12 +31,13 @@
         Mesmo uma pequena quantia seria apreciada!😊</string>
     <string name="mailme">Me envie um E-mail</string>
     <string name="nevershowagain">Me deixe em paz!</string>
-    <string name="proceed">Continuar</string>
+    <string name="proceed">➡ Continuar ➡</string>
     <string name="rating_message">Olá, você poderia tirar um momento para clasificar esse tema no XDA Labs?</string>
     <string name="reconsider">Talvez Depois</string>
     <string name="takemetoxdathreadstring">Eu gostaria de entrar em contato com você</string>
-    <string name="helpButton">Ajuda</string>
+    <string name="helpButton">🆘 Ajuda 🆘</string>
     <string name="copied_bitcoin">Endereço BTC copiado para a área de transferência</string>
     <string name="helpinstalling">Preciso de ajuda para instalar</string>
     <string name="credit">Creditos</string>
+    <string name="whatsnew">O que há de novo?</string>
 </resources>

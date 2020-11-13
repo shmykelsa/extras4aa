@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="action_bar_height">64.0dip</dimen>
+    <dimen name="action_panel_button_fab_space">32.0dip</dimen>
+    <dimen name="action_panel_button_margin_space">48.0dip</dimen>
+    <dimen name="action_panel_button_width_height">38.0dip</dimen>
+    <dimen name="action_panel_fab_width_height">48.0dip</dimen>
+    <dimen name="action_panel_inter_button_space">24.0dip</dimen>
+    <dimen name="action_panel_secondary_shelf_bottom_margin">40.0dip</dimen>
+</resources>
