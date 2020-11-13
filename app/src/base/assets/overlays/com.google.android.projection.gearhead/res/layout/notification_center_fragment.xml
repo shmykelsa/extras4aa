@@ -10,7 +10,7 @@
         android:id="@*com.google.android.projection.gearhead:id/notification_center_background"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:background="@*com.goole.android.projection.gearhead:color/template_divider_color_dark"
+        android:background="@*com.google.android.projection.gearhead:color/template_anchor_default_background_color"
         android:focusable="false" />
     <com.google.android.apps.auto.sdk.ui.PagedListView
         android:id="@*com.google.android.projection.gearhead:id/paged_list_view"
