@@ -101,23 +101,24 @@ android {
             versionName = defaultConfig.versionName + "L"
             manifestPlaceholders.substratumLauncherActivity = "aaextras.rizzo.gabriele.legacy.SubstratumLauncher"
             manifestPlaceholders.LauncherActivity = "aaextras.rizzo.gabriele.legacy.Launcher"
-            setProperty("archivesBaseName","EXTRAS4AA-$versionName")
+            setProperty("archivesBaseName","EXTRAS4AA-$productFlavors.legacy.versionName")
         }
         nonlegacy {
             dimension 'dim'
             minSdkVersion 26
+            versionName = defaultConfig.versionName
             manifestPlaceholders.substratumLauncherActivity = "aaextras.rizzo.gabriele.SubstratumLauncher"
             manifestPlaceholders.LauncherActivity = "aaextras.rizzo.gabriele.Launcher"
-            setProperty("archivesBaseName","EXTRAS4AA-$versionName")
+            setProperty("archivesBaseName","EXTRAS4AA-$productFlavors.nonlegacy.versionName")
         }
         icons {
             dimension 'dim'
             applicationId 'aaextras.rizzo.gabriele.icons'
             minSdkVersion 24
-            versionName = 1.0 + "I"
+            versionName = "1.0I"
             manifestPlaceholders.substratumLauncherActivity = "aaextras.rizzo.gabriele.icons.SubstratumLauncher"
             manifestPlaceholders.LauncherActivity = "aaextras.rizzo.gabriele.icons.Launcher"
-            setProperty("archivesBaseName","EXTRAS4AA-$versionName")
+            setProperty("archivesBaseName","EXTRAS4AA-$productFlavors.icons.versionName")
         }
     }
 }
