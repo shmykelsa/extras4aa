@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="gearhead_hun_background_color">@*com.google.android.projection.gearhead:color/template_gray_868</color>
+    <color name="template_anchor_default_background_color">@*com.google.android.projection.gearhead:color/template_anchor_default_background_color</color>
 </resources>
