@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="template_anchor_default_background_color">#ffadad85</color>
+    <color name="template_container_background">#ffadad85</color>
 </resources>

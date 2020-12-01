@@ -31,8 +31,8 @@ android {
         // to the substratum repo rather than anything lower. Keep targetSdkVersion the same.
         minSdkVersion 24
         // Both versions must be changed to increment on Play Store/user's devices
-        versionCode 32
-        versionName "4.8"
+        versionCode 34
+        versionName "4.8.3"
         // Themers: DO NOT MODIFY
         buildConfigField "boolean", "SUPPORTS_THIRD_PARTY_SYSTEMS", "" + SUPPORTS_THIRD_PARTY_SYSTEMS
         buildConfigField "boolean", "ENABLE_APP_BLACKLIST_CHECK", "" + ENABLE_APP_BLACKLIST_CHECK
@@ -98,7 +98,7 @@ android {
             dimension 'dim'
             applicationId 'aaextras.rizzo.gabriele.legacy'
             minSdkVersion 24
-            versionName = defaultConfig.versionName + "L"
+            legacy.versionName = defaultConfig.versionName + "L"
             manifestPlaceholders.substratumLauncherActivity = "aaextras.rizzo.gabriele.legacy.SubstratumLauncher"
             manifestPlaceholders.LauncherActivity = "aaextras.rizzo.gabriele.legacy.Launcher"
             setProperty("archivesBaseName","EXTRAS4AA-$productFlavors.legacy.versionName")
@@ -106,19 +106,18 @@ android {
         nonlegacy {
             dimension 'dim'
             minSdkVersion 26
-            versionName = defaultConfig.versionName
+            nonlegacy.versionName = defaultConfig.versionName
             manifestPlaceholders.substratumLauncherActivity = "aaextras.rizzo.gabriele.SubstratumLauncher"
             manifestPlaceholders.LauncherActivity = "aaextras.rizzo.gabriele.Launcher"
-            setProperty("archivesBaseName","EXTRAS4AA-$productFlavors.nonlegacy.versionName")
+            setProperty("archivesBaseName","EXTRAS4AA-")
         }
         icons {
             dimension 'dim'
             applicationId 'aaextras.rizzo.gabriele.icons'
             minSdkVersion 24
-            versionName = "1.0I"
+            icons.versionName = "1.0I"
             manifestPlaceholders.substratumLauncherActivity = "aaextras.rizzo.gabriele.icons.SubstratumLauncher"
             manifestPlaceholders.LauncherActivity = "aaextras.rizzo.gabriele.icons.Launcher"
-            setProperty("archivesBaseName","EXTRAS4AA-$productFlavors.icons.versionName")
         }
     }
 }
