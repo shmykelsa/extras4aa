@@ -115,7 +115,7 @@ android {
             dimension 'dim'
             applicationId 'aaextras.rizzo.gabriele.icons'
             minSdkVersion 24
-            icons.versionName = "1.0I"
+            icons.versionName = "1.1I"
             manifestPlaceholders.substratumLauncherActivity = "aaextras.rizzo.gabriele.icons.SubstratumLauncher"
             manifestPlaceholders.LauncherActivity = "aaextras.rizzo.gabriele.icons.Launcher"
         }
