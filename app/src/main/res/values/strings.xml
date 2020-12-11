@@ -11,8 +11,8 @@
     <string name="helpButton">🆘 Help 🆘</string>
     <string name="helpme">To install:\n
     1. Tick Android Auto\n
-        2. See attention mark near "Android Auto" to avoid errors\n
-        3. Hit the bottom button and select Build &amp; Install\n
+    2. See attention mark near "Android Auto" to avoid errors\n
+    3. Hit the bottom button and select Build &amp; Install\n
     4. Repeat step 1 as many times as you want\n
     5. Reboot, go to manager tab, selet the built overlay(s) and enable them</string>
     <string name="helpme_lite">To install:\n
@@ -25,7 +25,10 @@
     <string name="gotoxdathread">Go to XDA Thread</string>
     <string name="mailme">Mail me</string>
     <string name="contact_me_on_telegram">Join Telegram Channel</string>
-    <string name="hi_iew">Heya!  If you are here, that\'s because you don\'t have Substratum Installed.  Extras for AA is a theme and needs Substratum to work, it\'s not a stand-alone app.  Please install Substratum and try again.</string>
+    <string name="hi_iew">Heya!\n
+    If you are here, that\'s because you don\'t have Substratum Installed.\n
+    Extras for AA is a theme and needs Substratum to work, it\'s not a stand-alone app.\n
+    Please install Substratum and try again.</string>
     <string name="rating_message">Hey, would you take a moment to rate this theme on XDA Labs?</string>
     <string name="gotorating">Take me there!</string>
     <string name="nevershowagain">Leave me alone!</string>
@@ -36,7 +39,8 @@
     <string name="faqstring" translatable="false">FAQ</string>
     <string name="credit">Credits</string>
     <string name="creditors" translatable="false">Special thanks to:\n\n
-    Iconic Icons for the wonderful work of Status Bar Icons. Check out Iconic Icons theme and download it to have matching Status Bar Icons with your device.\n
+    Iconic Icons for the wonderful work of Status Bar Icons.\n
+    Check out Iconic Icons theme and download it to have matching Status Bar Icons with your device.\n
     It\'s free and it\'s a very good Substratum theme to tweak the look of Android System</string>
     <string name="whatsnew">What\'s new?</string>
 </resources>
