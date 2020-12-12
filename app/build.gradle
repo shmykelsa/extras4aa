@@ -79,7 +79,19 @@ android {
 
     applicationVariants.all { variant ->
         variant.outputs.all {
-            outputFileName = "../../../APKS/" + outputFileName
+
+            def project = "Extras4AA"
+            def SEP = "_"
+            def flavor = variant.productFlavors[0].name
+            def version = variant.versionName
+            def newApkName
+            if (flavor == "nonlegacy") {
+                newApkName = project + SEP + version + SEP + "release" + ".apk"
+            } else {
+                newApkName = project + SEP + flavor + SEP + version + SEP + "release" + ".apk"
+            }
+
+            outputFileName = "../../../APKS/" + new File(newApkName)
         }
     }
 
@@ -101,7 +113,6 @@ android {
             legacy.versionName = defaultConfig.versionName + "L"
             manifestPlaceholders.substratumLauncherActivity = "aaextras.rizzo.gabriele.legacy.SubstratumLauncher"
             manifestPlaceholders.LauncherActivity = "aaextras.rizzo.gabriele.legacy.Launcher"
-            setProperty("archivesBaseName","EXTRAS4AA-$productFlavors.legacy.versionName")
         }
         nonlegacy {
             dimension 'dim'
@@ -109,7 +120,6 @@ android {
             nonlegacy.versionName = defaultConfig.versionName
             manifestPlaceholders.substratumLauncherActivity = "aaextras.rizzo.gabriele.SubstratumLauncher"
             manifestPlaceholders.LauncherActivity = "aaextras.rizzo.gabriele.Launcher"
-            setProperty("archivesBaseName","EXTRAS4AA-")
         }
         icons {
             dimension 'dim'

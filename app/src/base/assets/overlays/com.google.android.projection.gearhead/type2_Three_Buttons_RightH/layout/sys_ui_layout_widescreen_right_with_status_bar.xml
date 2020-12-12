@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    <View
+        android:id="@*com.google.android.projection.gearhead:id/activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@*com.google.android.projection.gearhead:dimen/alpha_jump_keyboard_key_text_size_deprecated"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"/>
+    <View
+        android:id="@*com.google.android.projection.gearhead:id/notification_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@*com.google.android.projection.gearhead:id/activity"
+        android:layout_alignBottom="@*com.google.android.projection.gearhead:id/activity"
+        android:layout_alignEnd="@*com.google.android.projection.gearhead:id/activity"
+        android:layout_alignTop="@*com.google.android.projection.gearhead:id/activity" />
+        <View
+            android:id="@*com.google.android.projection.gearhead:id/status_bar"
+            android:layout_width="0.0dip"
+            android:layout_height="@*com.google.android.projection.gearhead:dimen/status_bar_height"
+            android:layout_alignStart="@*com.google.android.projection.gearhead:id/activity"
+            android:layout_alignEnd="@*com.google.android.projection.gearhead:id/activity"
+            android:layout_alignTop="@*com.google.android.projection.gearhead:id/activity"/>
+    <View
+        android:id="@*com.google.android.projection.gearhead:id/secondary"
+        android:layout_width="@*com.google.android.projection.gearhead:dimen/alpha_jump_keyboard_key_text_size_deprecated"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+    <View
+        android:id="@*com.google.android.projection.gearhead:id/demand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@*com.google.android.projection.gearhead:id/activity"
+        android:layout_alignBottom="@*com.google.android.projection.gearhead:id/activity"
+        android:layout_alignEnd="@*com.google.android.projection.gearhead:id/activity"
+        android:layout_alignTop="@*com.google.android.projection.gearhead:id/activity" />
+    <View
+        android:id="@*com.google.android.projection.gearhead:id/notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1.0dip"
+        android:layout_alignStart="@*com.google.android.projection.gearhead:id/activity"
+        android:layout_alignBottom="@*com.google.android.projection.gearhead:id/activity"
+        android:layout_alignEnd="@*com.google.android.projection.gearhead:id/activity"
+        android:layout_alignTop="@*com.google.android.projection.gearhead:id/activity" />
+    <View
+        android:id="@*com.google.android.projection.gearhead:id/rail"
+        android:layout_height="@*com.google.android.projection.gearhead:dimen/vertical_rail_width"
+        android:layout_width="@*com.google.android.projection.gearhead:dimen/legacy_facet_bar_buttons_margin_bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+    <View
+        android:id="@*com.google.android.projection.gearhead:id/ime"
+        android:layout_width="0.0dip"
+        android:layout_height="@*com.google.android.projection.gearhead:dimen/car_ime_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@*com.google.android.projection.gearhead:id/secondary"/>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

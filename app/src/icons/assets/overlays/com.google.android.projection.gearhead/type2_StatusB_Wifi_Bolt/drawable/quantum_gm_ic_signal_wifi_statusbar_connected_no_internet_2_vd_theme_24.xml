@@ -1,0 +1,17 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="23dp"
+android:height="23dp"
+android:viewportWidth="23.0"
+android:viewportHeight="23.0">
+<path android:fillAlpha="1.0" android:strokeLineCap="round"  android:strokeColor="#ffffffff" android:strokeMiterLimit="1.63" android:strokeAlpha="1.0"  android:fillColor="#ff00ff00" android:strokeLineJoin="round"  android:strokeWidth="1.81"
+android:pathData="M11.15,19.6"/>
+<path android:fillAlpha="0.0" android:strokeLineCap="round"  android:strokeColor="#ffffffff" android:strokeMiterLimit="1.63" android:strokeAlpha="1.0"  android:fillColor="#ff000000" android:strokeLineJoin="round"  android:strokeWidth="1.81"
+android:pathData="M11.55,20.66Q7.9,17.02,2.47,9.81Q2.43,6.04,6.07,4.36Q11.62,2.34,16.91,4.31Q20.53,6.16,20.57,9.72"/>
+<path android:fillAlpha="0.0" android:strokeLineCap="round"  android:strokeColor="#ffffffff" android:strokeMiterLimit="1.63" android:strokeAlpha="0.4117647"  android:fillColor="#ff000000" android:strokeLineJoin="round"  android:strokeWidth="1.81"
+android:pathData="M17.01,8.02Q11.56,5.15,6.02,7.94L16.69,11.4Q11.75,13.99,7.77,12.35L11.58,16.96"/>
+<path android:fillAlpha="0.0" android:strokeLineCap="round"  android:strokeColor="#ffffffff" android:strokeMiterLimit="1.63" android:strokeAlpha="1.0"  android:fillColor="#ff000000" android:strokeLineJoin="round"  android:strokeWidth="1.81"
+android:pathData="M16.81,11.53Q11.8,13.97,7.82,12.33L11.62,16.94"/>
+<path android:fillAlpha="1.0" android:strokeLineCap="round"  android:strokeColor="#ffffffff" android:strokeMiterLimit="0.75" android:strokeAlpha="1.0"  android:fillColor="#ff00ff00" android:strokeLineJoin="round"  android:strokeWidth="1.25"
+android:pathData="M18.91,21.66C18.91,21.66,18.91,21.66,18.91,21.66"/>
+<path android:fillAlpha="0.0" android:strokeLineCap="round"  android:strokeColor="#ffffffff" android:strokeMiterLimit="0.75" android:strokeAlpha="1.0"  android:fillColor="#ff000000" android:strokeLineJoin="round"  android:strokeWidth="1.25"
+android:pathData="M17.24,15.83Q17.89,13.99,20.6,14.86Q22.03,16.79,20.47,18.01Q18.89,18.34,18.91,19.99"/>
+</vector>
