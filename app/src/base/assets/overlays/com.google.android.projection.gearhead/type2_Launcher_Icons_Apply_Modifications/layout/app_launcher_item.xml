@@ -12,20 +12,21 @@
     android:paddingRight="@*com.google.android.projection.gearhead:dimen/gearhead_launcher_app_left_right_paddding"
     android:paddingBottom="@*com.google.android.projection.gearhead:dimen/gearhead_launcher_app_top_bottom_paddding"
     android:visibility="invisible">
+
         <ImageView
             android:id="@*com.google.android.projection.gearhead:id/icon"
-            android:layout_width="@*com.google.android.projection.gearhead:dimen/gearhead_launcher_icon_diameter"
-            android:layout_height="@*com.google.android.projection.gearhead:dimen/gearhead_launcher_icon_diameter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true" />
+
     <ImageView
         android:id="@*com.google.android.projection.gearhead:id/badge_background"
         android:layout_width="@*com.google.android.projection.gearhead:dimen/gearhead_launcher_badge_background_diameter"
         android:layout_height="@*com.google.android.projection.gearhead:dimen/gearhead_launcher_badge_background_diameter"
         android:layout_marginLeft="@*com.google.android.projection.gearhead:dimen/gearhead_launcher_badge_left_margin"
         android:layout_marginTop="@*com.google.android.projection.gearhead:dimen/gearhead_launcher_badge_left_margin"
-        android:layout_toLeftOf="@*com.google.android.projection.gearhead:id/icon"
         android:alpha="0.0"/>
     <ImageView
         android:id="@*com.google.android.projection.gearhead:id/badge"

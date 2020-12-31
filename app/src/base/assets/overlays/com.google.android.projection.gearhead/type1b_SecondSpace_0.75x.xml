@@ -28,4 +28,9 @@
     <style name="TextAppearance.Gearhead.SecondaryScreen.Clock.Small" parent="@*com.google.android.projection.gearhead:style/TextAppearance.Gearhead.SecondaryScreen.Clock">
         <item name="android:textSize">18.0dip</item>
     </style>
+    <dimen name="secondary_screen_card_vertical_margin">18.0dip</dimen>
+    <dimen name="secondary_screen_date_bottom_margin">72.0dip</dimen>
+    <dimen name="secondary_screen_large_icon_size">27.0dip</dimen>
+    <dimen name="secondary_screen_small_icon_size">20.0dip</dimen>
+    <dimen name="secondary_screen_stream_item_internal_margin">6.0dip</dimen>
 </resources>
