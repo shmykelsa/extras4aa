@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="template_container_background">#ffadad85</color>
+    <color name="template_card_content_container_border_color">#ffadad85</color>
+</resources>
