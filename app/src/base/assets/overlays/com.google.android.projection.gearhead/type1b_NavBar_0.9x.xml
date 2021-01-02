@@ -19,4 +19,6 @@
     <dimen name="rail_widget_large_icon_size">50.4dip</dimen>
     <dimen name="rail_widget_text_size">25.2dip</dimen>
     <dimen name="rail_widget_small_text_size">21.6dip</dimen>
+    <dimen name="rail_widget_max_width">675.0dip</dimen>
+
 </resources>

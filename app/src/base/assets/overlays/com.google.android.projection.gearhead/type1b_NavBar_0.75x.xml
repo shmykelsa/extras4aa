@@ -20,4 +20,5 @@
     <dimen name="rail_widget_pill_margin">7.0dip</dimen>
     <dimen name="rail_widget_text_size">22.0dip</dimen>
     <dimen name="rail_widget_small_text_size">20.0dip</dimen>
+    <dimen name="rail_widget_max_width">562.5dip</dimen>
 </resources>
