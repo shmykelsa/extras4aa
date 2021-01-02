@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="template_card_content_container_default_width">307.2dip</dimen>
+    <dimen name="template_card_content_container_max_width">332.8dip</dimen>
+    <dimen name="template_card_content_container_min_height">160.0dip</dimen>
+    <dimen name="template_card_content_container_min_width">288.0dip</dimen>
+    <dimen name="template_paged_list_scrollbar_width">76.8dip</dimen>
+    <dimen name="template_paged_list_scrollbar_width_card">22.4dip</dimen>
+    <dimen name="template_plain_content_container_padding">8.0dip</dimen>
+    <dimen name="template_plain_content_container_width">320.0dip</dimen>
+    <dimen name="template_routing_arrival_content_container_height">60.8dip</dimen>
+    <dimen name="template_routing_arrival_content_container_width">256.0dip</dimen>
+    <dimen name="template_routing_compact_step_height">38.4dip</dimen>
+    <dimen name="template_routing_compact_turn_icon_size">28.8dip</dimen>
+    <item type="dimen" name="template_routing_image_span_body2_max_height">28.8dip</item>
+    <item type="dimen" name="template_routing_image_span_body3_max_height">27.8dip</item>
+    <dimen name="template_routing_image_span_max_width">86.4dip</dimen>
+    <dimen name="template_routing_junction_image_max_height">160.0dip</dimen>
+    <dimen name="template_routing_lanes_image_container_height">44.0dip</dimen>
+    <dimen name="template_routing_lanes_image_height">35.2dip</dimen>
+    <dimen name="template_routing_lanes_image_width">235.2dip</dimen>
+    <dimen name="template_routing_message_image_size">51.2dip</dimen>
+    <dimen name="template_routing_rerouting_icon_size">28.8dip</dimen>
+    <dimen name="template_routing_turn_icon_size">51.2dip</dimen>
+    <dimen name="template_steps_card_content_container_width">256.0dip</dimen>
+</resources>
