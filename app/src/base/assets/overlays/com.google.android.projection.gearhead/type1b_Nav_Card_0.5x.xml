@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="template_card_content_container_default_width">192.0dip</dimen>
-    <dimen name="template_card_content_container_max_width">208.0dip</dimen>
+    <dimen name="template_card_content_container_max_width">200.0dip</dimen>
     <dimen name="template_card_content_container_min_height">100.0dip</dimen>
     <dimen name="template_card_content_container_min_width">180.0dip</dimen>
     <dimen name="template_paged_list_scrollbar_width">48.0dip</dimen>
     <dimen name="template_paged_list_scrollbar_width_card">14.0dip</dimen>
     <dimen name="template_plain_content_container_padding">5.0dip</dimen>
-    <dimen name="template_plain_content_container_width">200.0dip</dimen>
-    <dimen name="template_routing_arrival_content_container_height">38.0dip</dimen>
+    <dimen name="template_plain_content_container_width">180.0dip</dimen>
+    <dimen name="template_routing_arrival_content_container_height">44.0dip</dimen>
     <dimen name="template_routing_arrival_content_container_width">160.0dip</dimen>
     <dimen name="template_routing_compact_step_height">24.0dip</dimen>
     <dimen name="template_routing_compact_turn_icon_size">18.0dip</dimen>
@@ -17,10 +17,31 @@
     <dimen name="template_routing_image_span_max_width">54.0dip</dimen>
     <dimen name="template_routing_junction_image_max_height">100.0dip</dimen>
     <dimen name="template_routing_lanes_image_container_height">27.5dip</dimen>
-    <dimen name="template_routing_lanes_image_height">22.0dip</dimen>
+    <dimen name="template_routing_lanes_image_height">29.0dip</dimen>
     <dimen name="template_routing_lanes_image_width">147.0dip</dimen>
     <dimen name="template_routing_message_image_size">32.0dip</dimen>
     <dimen name="template_routing_rerouting_icon_size">18.0dip</dimen>
     <dimen name="template_routing_turn_icon_size">32.0dip</dimen>
     <dimen name="template_steps_card_content_container_width">160.0dip</dimen>
+    <item type="dimen" name="template_card_content_container_routing_width_fraction">0.4</item>
+    <item type="dimen" name="template_adaptive_width_fraction">0.46</item>
+    <style name="Widget.Template.Text.Body1" parent="@*com.google.android.projection.gearhead:style/Widget.Template.Text">
+        <item name="android:textAppearance">@*com.google.android.projection.gearhead:style/TextAppearance.Template.Body1</item>
+        <item name="android:textSize">24.0dip</item>
+        <item name="android:letterSpacing">@*com.google.android.projection.gearhead:dimen/boardwalk_body1_letter_spacing</item>
+    </style>
+    <style name="Widget.Template.Text.Body2" parent="@*com.google.android.projection.gearhead:style/Widget.Template.Text">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textAppearance">@*com.google.android.projection.gearhead:style/TextAppearance.Template.Body2</item>
+        <item name="android:letterSpacing">@*com.google.android.projection.gearhead:dimen/boardwalk_body2_letter_spacing</item>
+    </style>
+    <style name="Widget.Template.Text.Body3" parent="@*com.google.android.projection.gearhead:style/Widget.Template.Text">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textAppearance">@*com.google.android.projection.gearhead:style/TextAppearance.Template.Body3</item>
+        <item name="android:letterSpacing">@*com.google.android.projection.gearhead:dimen/boardwalk_body3_letter_spacing</item>
+    </style>
+    <style name="Widget.Template.Text.Body3.Medium" parent="@*com.google.android.projection.gearhead:style/Widget.Template.Text.Body3">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textAppearance">@*com.google.android.projection.gearhead:style/TextAppearance.Template.Body3.Medium</item>
+    </style>
 </resources>
