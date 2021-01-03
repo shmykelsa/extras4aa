@@ -78,9 +78,7 @@ class SubstratumLauncher : Activity() {
         cont.setOnClickListener {
             if (getCounterOpened() % 3 == 0) {
                 openDonationDialog()
-            } else if (!getStoreRatingStatus() && getCounterOpened() > 1) {
-                ratingDialog()
-            } else {
+            }  else {
                 finish()
             }
         }
