@@ -2,4 +2,5 @@
 <resources>
     <color name="facet_bar_hairline_color">#00ffffff</color>
     <color name="card_divider_daynight_grey">#00ffffff</color>
+    <color name="window_divider">#00ffffff</color>
 </resources>
