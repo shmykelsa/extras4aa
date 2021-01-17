@@ -15,8 +15,8 @@
 
         <ImageView
             android:id="@*com.google.android.projection.gearhead:id/icon"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="@*com.google.android.projection.gearhead:dimen/gearhead_launcher_icon_diameter"
+            android:layout_height="@*com.google.android.projection.gearhead:dimen/gearhead_launcher_icon_diameter"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true" />

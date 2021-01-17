@@ -50,7 +50,7 @@ class SubstratumLauncher : Activity() {
             sendBroadcast(returnIntent)
         }
 
-        setContentView(R.layout.content_snow)
+        //setContentView(R.layout.content_snow)
         storeCounterOpened()
         showWelcomeDialog()
     }
