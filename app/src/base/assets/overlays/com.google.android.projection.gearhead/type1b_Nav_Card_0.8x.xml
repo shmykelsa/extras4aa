@@ -4,7 +4,6 @@
     <dimen name="template_card_content_container_max_width">332.8dip</dimen>
     <dimen name="template_card_content_container_min_height">160.0dip</dimen>
     <dimen name="template_card_content_container_min_width">288.0dip</dimen>
-    <dimen name="template_paged_list_scrollbar_width">76.8dip</dimen>
     <dimen name="template_paged_list_scrollbar_width_card">22.4dip</dimen>
     <dimen name="template_plain_content_container_padding">8.0dip</dimen>
     <dimen name="template_plain_content_container_width">320.0dip</dimen>
@@ -43,5 +42,80 @@
     <style name="Widget.Template.Text.Body3.Medium" parent="@*com.google.android.projection.gearhead:style/Widget.Template.Text.Body3">
         <item name="android:textSize">15.0dip</item>
         <item name="android:textAppearance">@*com.google.android.projection.gearhead:style/TextAppearance.Template.Body3.Medium</item>
+    </style>
+    <style name="TextAppearance.Template.Display1"
+        parent="@*com.google.android.projection.gearhead:style/TextAppearance.Boardwalk.Display1">
+        <item name="android:textSize">28.0dip</item>
+    </style>
+    <style name="TextAppearance.Template.Display2"
+        parent="@*com.google.android.projection.gearhead:style/TextAppearance.Boardwalk.Display2">
+        <item name="android:textSize">24.0dip</item>
+    </style>
+    <style name="TextAppearance.Template.Display2.Medium"
+        parent="@*com.google.android.projection.gearhead:style/TextAppearance.Boardwalk.Display2.Medium" >
+        <item name="android:textSize">19.0dip</item>
+    </style>
+    <style name="TextAppearance.Template.Display3"
+        parent="@*com.google.android.projection.gearhead:style/TextAppearance.Boardwalk.Display3" >
+        <item name="android:textSize">16.0dip</item>
+    </style>
+    <dimen name="legacy_template_card_content_container_default_width">288.0dip</dimen>
+    <dimen name="legacy_template_card_content_container_max_width">332.8dip</dimen>
+    <dimen name="legacy_template_card_content_container_min_height">160.0dip</dimen>
+    <dimen name="legacy_template_card_content_container_min_width">288.0dip</dimen>
+    <dimen name="legacy_template_paged_list_scrollbar_width_card">22.4dip</dimen>
+    <dimen name="legacy_template_plain_content_container_padding">8.0dip</dimen>
+    <dimen name="legacy_template_plain_content_container_width">288.0dip</dimen>
+    <dimen name="legacy_template_routing_arrival_content_container_height">60.8dip</dimen>
+    <dimen name="legacy_template_routing_arrival_content_container_width">256.0dip</dimen>
+    <dimen name="legacy_template_routing_compact_step_height">38.4dip</dimen>
+    <dimen name="legacy_template_routing_compact_turn_icon_size">28.8dip</dimen>
+    <item type="dimen" name="legacy_template_routing_image_span_body2_max_height">28.8dip</item>
+    <item type="dimen" name="legacy_template_routing_image_span_body3_max_height">27.8dip</item>
+    <dimen name="legacy_template_routing_image_span_max_width">86.4dip</dimen>
+    <dimen name="legacy_template_routing_junction_image_max_height">160.0dip</dimen>
+    <dimen name="legacy_template_routing_lanes_image_container_height">44.0dip</dimen>
+    <dimen name="legacy_template_routing_lanes_image_height">35.2dip</dimen>
+    <dimen name="legacy_template_routing_lanes_image_width">235.2dip</dimen>
+    <dimen name="legacy_template_routing_message_image_size">51.2dip</dimen>
+    <dimen name="legacy_template_routing_rerouting_icon_size">28.8dip</dimen>
+    <dimen name="legacy_template_routing_turn_icon_size">51.2dip</dimen>
+    <dimen name="legacy_template_steps_card_content_container_width">256.0dip</dimen>
+    <item type="dimen" name="legacy_template_card_content_container_routing_width_fraction">0.8</item>
+    <item type="dimen" name="legacy_template_adaptive_width_fraction">0.7</item>
+    <style name="Widget.LegacyTemplate.Text.Body1" parent="@*com.google.android.projection.gearhead:style/Widget.LegacyTemplate.Text">
+        <item name="android:textAppearance">@*com.google.android.projection.gearhead:style/TextAppearance.Template.Body1</item>
+        <item name="android:textSize">36.0dip</item>
+        <item name="android:letterSpacing">@*com.google.android.projection.gearhead:dimen/boardwalk_body1_letter_spacing</item>
+    </style>
+    <style name="Widget.LegacyTemplate.Text.Body2" parent="@*com.google.android.projection.gearhead:style/Widget.LegacyTemplate.Text">
+        <item name="android:textSize">28.0dip</item>
+        <item name="android:textAppearance">@*com.google.android.projection.gearhead:style/TextAppearance.Template.Body2</item>
+        <item name="android:letterSpacing">@*com.google.android.projection.gearhead:dimen/boardwalk_body2_letter_spacing</item>
+    </style>
+    <style name="Widget.LegacyTemplate.Text.Body3" parent="@*com.google.android.projection.gearhead:style/Widget.LegacyTemplate.Text">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:textAppearance">@*com.google.android.projection.gearhead:style/TextAppearance.Template.Body3</item>
+        <item name="android:letterSpacing">@*com.google.android.projection.gearhead:dimen/boardwalk_body3_letter_spacing</item>
+    </style>
+    <style name="Widget.LegacyTemplate.Text.Body3.Medium" parent="@*com.google.android.projection.gearhead:style/Widget.LegacyTemplate.Text.Body3">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textAppearance">@*com.google.android.projection.gearhead:style/TextAppearance.Template.Body3.Medium</item>
+    </style>
+    <style name="TextAppearance.LegacyTemplate.Display1"
+        parent="@*com.google.android.projection.gearhead:style/TextAppearance.Boardwalk.Display1">
+    <item name="android:textSize">28.0dip</item>
+    </style>
+    <style name="TextAppearance.LegacyTemplate.Display2"
+        parent="@*com.google.android.projection.gearhead:style/TextAppearance.Boardwalk.Display2">
+        <item name="android:textSize">24.0dip</item>
+    </style>
+    <style name="TextAppearance.LegacyTemplate.Display2.Medium"
+        parent="@*com.google.android.projection.gearhead:style/TextAppearance.Boardwalk.Display2.Medium" >
+        <item name="android:textSize">19.0dip</item>
+    </style>
+    <style name="TextAppearance.LegacyTemplate.Display3"
+        parent="@*com.google.android.projection.gearhead:style/TextAppearance.Boardwalk.Display3" >
+        <item name="android:textSize">16.0dip</item>
     </style>
 </resources>

@@ -2,4 +2,6 @@
 <resources>
     <color name="template_container_background">#7300BFFF</color>
     <color name="template_card_content_container_border_color">#7300BFFF</color>
+    <color name="legacy_template_container_background">#7300BFFF</color>
+    <color name="legacy_template_card_content_container_border_color">#7300BFFF</color>
 </resources>
