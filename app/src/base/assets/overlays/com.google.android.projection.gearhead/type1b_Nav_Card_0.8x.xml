@@ -22,8 +22,6 @@
     <dimen name="template_routing_rerouting_icon_size">28.8dip</dimen>
     <dimen name="template_routing_turn_icon_size">51.2dip</dimen>
     <dimen name="template_steps_card_content_container_width">256.0dip</dimen>
-    <item type="dimen" name="template_card_content_container_routing_width_fraction">0.8</item>
-    <item type="dimen" name="template_adaptive_width_fraction">0.7</item>
     <style name="Widget.Template.Text.Body1" parent="@*com.google.android.projection.gearhead:style/Widget.Template.Text">
         <item name="android:textAppearance">@*com.google.android.projection.gearhead:style/TextAppearance.Template.Body1</item>
         <item name="android:textSize">36.0dip</item>
@@ -81,8 +79,6 @@
     <dimen name="legacy_template_routing_rerouting_icon_size">28.8dip</dimen>
     <dimen name="legacy_template_routing_turn_icon_size">51.2dip</dimen>
     <dimen name="legacy_template_steps_card_content_container_width">256.0dip</dimen>
-    <item type="dimen" name="legacy_template_card_content_container_routing_width_fraction">0.8</item>
-    <item type="dimen" name="legacy_template_adaptive_width_fraction">0.7</item>
     <style name="Widget.LegacyTemplate.Text.Body1" parent="@*com.google.android.projection.gearhead:style/Widget.LegacyTemplate.Text">
         <item name="android:textAppearance">@*com.google.android.projection.gearhead:style/TextAppearance.Template.Body1</item>
         <item name="android:textSize">36.0dip</item>
