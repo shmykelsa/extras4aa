@@ -8,7 +8,7 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">
     <com.google.android.apps.auto.components.ui.image.CrossfadeImageView
-        android:src="@*com.google.android.projection.gearhead:drawable/app_launcher_background"
+        android:src="@*com.google.android.projection.gearhead:drawable/wallpaper_default"
         android:scaleType="centerCrop"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"

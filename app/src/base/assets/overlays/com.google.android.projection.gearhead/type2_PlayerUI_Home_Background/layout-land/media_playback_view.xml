@@ -32,7 +32,7 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:scaleType="centerCrop"
-            android:src="@*com.google.android.projection.gearhead:drawable/app_launcher_background" />
+            android:src="@*com.google.android.projection.gearhead:drawable/wallpaper_default" />
         <View
             android:id="@*com.google.android.projection.gearhead:id/playback_scrim"
             android:layout_width="fill_parent"
