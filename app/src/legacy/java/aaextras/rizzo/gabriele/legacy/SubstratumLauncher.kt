@@ -2,6 +2,9 @@
 
 package aaextras.rizzo.gabriele.legacy
 
+import aaextras.rizzo.gabriele.BuildConfig
+import aaextras.rizzo.gabriele.Nyandroid
+import aaextras.rizzo.gabriele.R
 import android.annotation.SuppressLint
 import android.app.Activity
 import android.app.AlertDialog
@@ -18,11 +21,9 @@ import android.support.constraint.ConstraintLayout
 import android.util.TypedValue
 import android.view.LayoutInflater
 import android.view.View
+import android.view.View.OnLongClickListener
 import android.view.animation.AnimationUtils
 import android.widget.*
-import aaextras.rizzo.gabriele.R
-import aaextras.rizzo.gabriele.BuildConfig
-import aaextras.rizzo.gabriele.Nyandroid
 
 
 class SubstratumLauncher : Activity() {
@@ -70,6 +71,7 @@ class SubstratumLauncher : Activity() {
 
         val dialogContent = view.findViewById(R.id.dialog_content) as TextView
         dialogContent.startAnimation(anifadein)
+        dialogContent.text = getString(R.string.launch_dialog_content, getString(R.string.ThemeName))
 
         val dialogTitle = view.findViewById(R.id.title) as TextView
         dialogTitle.startAnimation(anislideup)
@@ -80,12 +82,41 @@ class SubstratumLauncher : Activity() {
         cont.setOnClickListener {
             if (getCounterOpened() % 3 == 0) {
                 openDonationDialog()
-            } else {
+            }  else {
                 finish()
             }
         }
 
         val maybelater: Button = view.findViewById(R.id.terzo_bottone) as Button
+        var counter = 0
+        maybelater.setOnLongClickListener(OnLongClickListener {
+            val counter1 = counter++
+
+            when (counter1) {
+                1 -> return@OnLongClickListener true
+                2 -> return@OnLongClickListener true
+                3 -> {
+                    val text = "¯\\_(ツ)_/¯"
+                    val duration = Toast.LENGTH_LONG
+                    val toast = Toast.makeText(applicationContext, text, duration)
+                    toast.show()
+                }
+                4 -> {
+                    val text = "U scared?"
+                    val duration = Toast.LENGTH_LONG
+                    val toast = Toast.makeText(applicationContext, text, duration)
+                    toast.show()
+                }
+                5 -> return@OnLongClickListener true
+                6 -> bubusettete()
+                else -> { // Note the block
+                    true
+                }
+            }
+
+
+            true // <- set to true
+        })
 
         maybelater.startAnimation(anifadeinfast)
         maybelater.setText(R.string.helpButton)
@@ -94,7 +125,7 @@ class SubstratumLauncher : Activity() {
         }
 
 
-        maybelater.isLongClickable = true;
+        maybelater.isLongClickable = true
 
 
         val anteprime: Button = view.findViewById(R.id.quarto_bottone) as Button
@@ -113,6 +144,7 @@ class SubstratumLauncher : Activity() {
 
         val areacrediti = view.findViewById(R.id.area_credits) as RelativeLayout
         areacrediti.startAnimation(anifadeinfast)
+
         areacrediti.setOnClickListener {
             openCreditsDialog()
         }
@@ -123,11 +155,21 @@ class SubstratumLauncher : Activity() {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.latest_changelog))))
         }
 
+        val areafaq = view.findViewById(R.id.areafaq) as RelativeLayout
+        areafaq.startAnimation(anifadeinfast)
+        areafaq.setOnClickListener{
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.link_faq))))
+        }
+
         alertDialog.setView(view)
         alertDialog.show()
 
     }
 
+    private fun bubusettete() {
+        val intent = Intent(this, Nyandroid::class.java)
+        startActivity(intent)
+    }
 
     private fun openCreditsDialog() {
 
@@ -144,9 +186,6 @@ class SubstratumLauncher : Activity() {
         val faqhelp = view.findViewById(R.id.takemetohelp) as RelativeLayout
         faqhelp.visibility = RelativeLayout.GONE
 
-        val takemetofaq = view.findViewById(R.id.faqbutton) as RelativeLayout
-        takemetofaq.visibility = RelativeLayout.GONE
-
         alertDialog.setView(view)
         alertDialog.show()
 
@@ -158,7 +197,7 @@ class SubstratumLauncher : Activity() {
         val alertDialog = AlertDialog.Builder(this, R.style.DialogStyle)
                 .setCancelable(true)
 
-        val view = View.inflate(this, R.layout.donation_dialog, null);
+        val view = View.inflate(this, R.layout.donation_dialog, null)
 
         val paypalButton:ImageView = view.findViewById(R.id.paypal_button)
         paypalButton.setOnClickListener{
@@ -191,7 +230,7 @@ class SubstratumLauncher : Activity() {
         sezionesuperiore.visibility = RelativeLayout.GONE
 
         val textViewcentrale:TextView = view.findViewById(R.id.dialog_content)
-        textViewcentrale.text = getString(R.string.donation_message)
+        textViewcentrale.text = getString(R.string.donation_message, getString(R.string.ThemeName))
         textViewcentrale.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 20F)
 
         val bottoneContinua: Button = view.findViewById(R.id.button_continue)
@@ -208,6 +247,7 @@ class SubstratumLauncher : Activity() {
 
         val areanovita = view.findViewById(R.id.area_changelog) as RelativeLayout
         areanovita.visibility = RelativeLayout.GONE
+
 
         bottoneNegativo.setOnClickListener {
             val mSharedPreferences = getSharedPreferences("counter", MODE_PRIVATE)
@@ -244,10 +284,7 @@ class SubstratumLauncher : Activity() {
         val text:TextView = view.findViewById(R.id.credits_content)
         text.visibility = TextView.GONE
 
-        val takemetofaq = view.findViewById(R.id.faqbutton) as RelativeLayout
-        takemetofaq.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.link_faq))))
-        }
+
 
         val takmetoxda = view.findViewById(R.id.takemetocontacts) as RelativeLayout
         takmetoxda.setOnClickListener {
@@ -280,9 +317,6 @@ class SubstratumLauncher : Activity() {
 
         val faqhelp = view.findViewById(R.id.takemetohelp) as RelativeLayout
         faqhelp.visibility = RelativeLayout.GONE
-
-        val takemetofaq = view.findViewById(R.id.faqbutton) as RelativeLayout
-        takemetofaq.visibility = RelativeLayout.GONE
 
         alertDialog.setView(view)
         alertDialog.show()
@@ -318,8 +352,7 @@ class SubstratumLauncher : Activity() {
             val modelname = Build.MODEL
 
             val nomePacchetto = whatSubAreYouUsing()
-            val pinfo: PackageInfo?
-            pinfo = packageManager.getPackageInfo(nomePacchetto, 0)
+            val pinfo = packageManager.getPackageInfo(nomePacchetto, 0)
             val version = pinfo.versionName
 
             val text = getString(R.string.link_mail, BuildConfig.VERSION_NAME, androidversion.toString(), modelname, nomePacchetto, version)
@@ -334,54 +367,6 @@ class SubstratumLauncher : Activity() {
         alertDialog.show()
 
     }
-
-    private fun ratingDialog() {
-        val alertDialog = AlertDialog.Builder(this, R.style.DialogStyle)
-                .setCancelable(true)
-        val view = LayoutInflater.from(this).inflate(R.layout.custom_dialog, null)
-
-        val sezionesuperiore:TextView = view.findViewById(R.id.title)
-        sezionesuperiore.visibility = RelativeLayout.GONE
-
-        val textViewcentrale:TextView = view.findViewById(R.id.dialog_content)
-        textViewcentrale.text = getString(R.string.rating_message)
-        textViewcentrale.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 22F)
-
-        val bottoneContinua:Button = view.findViewById(R.id.button_continue)
-        bottoneContinua.text = getString(R.string.gotorating)
-
-        val bottoneNegativo:Button = view.findViewById(R.id.button_donate)
-        bottoneNegativo.text = getString(R.string.nevershowagain)
-
-        val bottoneAnteprime:Button = view.findViewById(R.id.quarto_bottone)
-        bottoneAnteprime.visibility = RelativeLayout.GONE
-
-        val areacrediti = view.findViewById(R.id.area_credits) as RelativeLayout
-        areacrediti.visibility = RelativeLayout.GONE
-
-        val areanovita = view.findViewById(R.id.area_changelog) as RelativeLayout
-        areanovita.visibility = RelativeLayout.GONE
-
-
-        bottoneNegativo.setOnClickListener {
-            storeRatingStatus(isChecked = true)
-            finish()
-        }
-
-        bottoneContinua.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.link_playstore))))
-            storeRatingStatus(isChecked = true)
-        }
-
-        val maybelater:Button = view.findViewById(R.id.terzo_bottone) as Button
-        maybelater.setOnClickListener { finish() }
-
-        if (!getStoreRatingStatus()) {
-            alertDialog.setView(view)
-            alertDialog.show()
-        }
-    }
-
 
     @Suppress("DEPRECATION")
     @SuppressLint("PackageManagerGetSignatures")
@@ -434,17 +419,6 @@ class SubstratumLauncher : Activity() {
     }
 
 
-    private fun storeRatingStatus(isChecked: Boolean) {
-        val mSharedPreferences = getSharedPreferences("rated", Context.MODE_PRIVATE)
-        val mEditor = mSharedPreferences.edit()
-        mEditor.putBoolean("show_rating_dialog_", isChecked)
-        mEditor.apply()
-    }
-
-    private fun getStoreRatingStatus(): Boolean {
-        val mSharedPreferences = getSharedPreferences("rated", Context.MODE_PRIVATE)
-        return mSharedPreferences.getBoolean("show_rating_dialog_", false)
-    }
 
 
     private fun isPackageInstalled(packageName: String, packageManager: PackageManager): Boolean {

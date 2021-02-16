@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="do_not_show_again">Non mostrare di nuovo</string>
+    <string name="proceed">➡ Continua ➡</string>
+    <string name="previews_text">🖼 Anteprime! 🖼</string>
+    <string name="donate">🎁 Dona 🎁</string>
+    <string name="helpme_lite">Per installare un extra:
+        \n1. Guarda il messaggio di attenzione (simbolo di attenzione accanto ad Android Auto) per evitare errori
+        \n2. Seleziona Android Auto e poi un extra dalla lista
+        \n3. Premi il bottone in basso e seleziona \'Install Selected\'
+        \n4. Ripetere i passi 2 e 3 a proprio piacimento
+        \n3. Riavvia il dispositivo, ri-apri Lite, recati alla sezione manager, e abilita gli extra</string>
+    <string name="takemetoxdathreadstring">Vorrei contattarti</string>
+    <string name="gotoxdathread">Vai al thread XDA</string>
+    <string name="mailme">Madami una mail</string>
+    <string name="contact_me_on_telegram">Contattami su Telegram</string>
+    <string name="hi_iew">Ciao,\n
+    Se sei finito qui vuol dire che non hai Substratum installato.\n
+    %1$s è un tema e ha bisogno di Substratum Lite per funzionare, non è un\'applicazione che funziona da sola.\n
+    Installa Substratum e riprova.\n</string>
+    <string name="gotorating">Portami!</string>
+    <string name="nevershowagain">Lasciami stare!</string>
+    <string name="reconsider">Forse dopo</string>
+    <string name="donation_message">Sembra che Substratum Extras for Android Auto ti piaccia! Vorresti aiutarmi facendo una piccola donazione?</string>
+    <string name="helpButton">🆘 Aiuto 🆘</string>
+    <string name="copied_bitcoin">Indirizzo Bitcoin copiato negli appunti</string>
+    <string name="helpinstalling">Ho bisogno di aiuto per installare</string>
+    <string name="helpme">Per installare un extra:
+        \n1. Guarda il messaggio di attenzione (simbolo di attenzione accanto ad Android Auto) per evitare errori
+        \n2. Seleziona Android Auto e poi un extra dalla lista
+        \n3. Premi il bottone in basso e seleziona \'Costruisci e installa\'
+        \n4. Ripetere i passi 2 e 3 a proprio piacimento
+        \n3. Riavvia il dispositivo, ri-apri Substratum, recati alla sezione gestore, e abilita gli extra</string>
+    <string name="credit">Crediti</string>
+    <string name="whatsnew">Novità e cambiamenti</string>
+</resources>

@@ -3,7 +3,7 @@ package aaextras.rizzo.gabriele
 import android.app.Activity
 import android.content.pm.PackageManager
 import android.os.Bundle
-
+import android.widget.TextView
 
 
 @Suppress("ConstantConditionIf")
@@ -34,7 +34,11 @@ class Launcher : Activity() {
             }
         }
             setContentView(R.layout.activity_launcher)
-        }
+
+        val tv:TextView = findViewById(R.id.textView)
+        tv.setText(getString(R.string.hi_iew, getString(R.string.ThemeName)))
+
+    }
 
     private fun isPackageInstalled(packageName: String, packageManager: PackageManager): Boolean {
         return try {

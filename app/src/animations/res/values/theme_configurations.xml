@@ -1,0 +1,25 @@
+<resources>
+    <!-- Theme name and author name -->
+    <string name="ThemeName" translatable="false">Animations For AA</string>
+    <string name="ThemeAuthor" translatable="false">Gabriele Rizzo</string>
+    <!-- Your email for bug reports (DEFAULT: empty) -->
+    <!--suppress CheckTagEmptyBody -->
+    <string name="ThemeAuthorEmail" translatable="false">gabriele.rizzo@outlook.com</string>
+    <!-- Theme wallpaper source (must be raw) -->
+    <string name="ThemeWallpaperSource" translatable="false"/>
+    <!-- Do your theme support substratum legacy? -->
+    <!-- If you choose not to support legacy, then change the following line from -->
+    <!-- 'true' to 'false' to hide your theme on the Play Store from any stock ROM-->
+    <!-- Does your theme support substratum samsung? -->
+    <bool name="ThemeSupportSamsung" translatable="false">true</bool>
+    <bool name="ThemeSupportLegacy" translatable="false">true</bool>
+    <!-- Do you want to override the hero image auto color assignment? -->
+    <!-- Don't force anything? -> auto -->
+    <!-- Force black/dark icons? -> dark -->
+    <!-- Force white/light icons? -> light -->
+    <string name="ThemeHeroOverride" translatable="false">auto</string>
+    <!-- Put your theme changelog here, each item will be a new bullet point in the sheet -->
+    <string-array name="ThemeChangelog">
+        <item> The changelog is available on the welcome dialog</item>
+    </string-array>
+</resources>

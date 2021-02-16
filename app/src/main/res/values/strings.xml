@@ -2,9 +2,9 @@
 <resources>
     <string name="previews_text">🖼 Previews! 🖼</string>
     <string name="launch_dialog_title" translatable="false">Heya!</string>
-    <string name="launch_dialog_content">This is Extras for AA, a theme to change Android Auto Look
-        \n\nIf you want to thank me for the development and the effort, you could make a donation with the button down below.
-        \nEven a small amount would be much appreciated 😊</string>
+    <string name="launch_dialog_content">This is %1$s, a theme to change Android Auto Look
+        \n\nIf you\'ve never used this theme, I suggest you to look at the previews and the FAQ down below
+        \nThis theme is the result of so much effort and if you want to thank me for my work, please consider a donation. Even a small amount is appreciated 😊</string>
     <string name="do_not_show_again">Do not show again</string>
     <string name="proceed">➡ Continue ➡</string>
     <string name="donate">🎁 Donate 🎁</string>
@@ -27,16 +27,15 @@
     <string name="contact_me_on_telegram">Join Telegram Channel</string>
     <string name="hi_iew">Heya!\n
     If you are here, that\'s because you don\'t have Substratum Installed.\n
-    Extras for AA is a theme and needs Substratum to work, it\'s not a stand-alone app.\n
+    %1$s is a theme and needs Substratum to work, it\'s not a stand-alone app.\n
     Please install Substratum and try again.</string>
-    <string name="rating_message">Hey, would you take a moment to rate this theme on XDA Labs?</string>
     <string name="gotorating">Take me there!</string>
     <string name="nevershowagain">Leave me alone!</string>
     <string name="reconsider">Maybe Later</string>
-    <string name="donation_message">You seem to really enjoy Extras for AA, would you like to show appreciation with a donation?</string>
+    <string name="donation_message">You seem to really enjoy %1$s, would you like to contribute to the development by making a donation to me?</string>
     <string name="copied_bitcoin">BTC Address copied to clipboard</string>
     <string name="helpinstalling">I need help installing</string>
-    <string name="faqstring" translatable="false">FAQ</string>
+    <string name="faqstring" translatable="false">!!!FAQ!!!</string>
     <string name="credit">Credits</string>
     <string name="creditors" translatable="false">Special thanks to:\n\n
     Iconic Icons for the wonderful work of Status Bar Icons.\n

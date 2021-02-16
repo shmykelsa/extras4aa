@@ -35,6 +35,9 @@ class Launcher : Activity() {
             }
         }
             setContentView(R.layout.activity_launcher)
+
+        val tv:TextView = findViewById(R.id.textView)
+        tv.setText(getString(R.string.hi_iew, getString(R.string.ThemeName)))
         }
 
     private fun isPackageInstalled(packageName: String, packageManager: PackageManager): Boolean {

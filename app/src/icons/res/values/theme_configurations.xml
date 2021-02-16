@@ -1,6 +1,6 @@
 <resources>
     <!-- Theme name and author name -->
-    <string name="ThemeName" translatable="false">Extras for AA Icons Special</string>
+    <string name="ThemeName" translatable="false">Icons For AA</string>
     <string name="ThemeAuthor" translatable="false">Gabriele Rizzo</string>
     <!-- Your email for bug reports (DEFAULT: empty) -->
     <!--suppress CheckTagEmptyBody -->
@@ -20,6 +20,6 @@
     <string name="ThemeHeroOverride" translatable="false">auto</string>
     <!-- Put your theme changelog here, each item will be a new bullet point in the sheet -->
     <string-array name="ThemeChangelog">
-        <item> The changelog is available on XDA Labs and Telegram Channel</item>
+        <item> The changelog is available on the welcome dialog</item>
     </string-array>
 </resources>
