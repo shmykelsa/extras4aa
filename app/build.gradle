@@ -133,7 +133,7 @@ android {
             dimension 'dim'
             applicationId 'aaextras.rizzo.gabriele.animations'
             minSdkVersion 24
-            animations.versionName = "1.0A"
+            animations.versionName = "1.0.1A"
             manifestPlaceholders.substratumLauncherActivity = "aaextras.rizzo.gabriele.animations.SubstratumLauncher"
             manifestPlaceholders.LauncherActivity = "aaextras.rizzo.gabriele.animations.Launcher"
         }

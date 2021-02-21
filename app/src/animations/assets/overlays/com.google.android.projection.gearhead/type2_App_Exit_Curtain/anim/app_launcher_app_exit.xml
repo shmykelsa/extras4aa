@@ -7,8 +7,6 @@
         android:toYDelta="-119.99817%"
         android:pivotX="50%"
         android:pivotY="100%"
-        android:interpolator="@*android:interpolator/accelerate_decelerate"
-
         android:fromYDelta="18.0%" />
 
     <translate
