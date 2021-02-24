@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="donate">🎁 Wspomóż 🎁</string>
+    <string name="previews_text">🖼 Podglądy! 🖼</string>
+    <string name="launch_dialog_content">This is %1$s, a theme to change Android Auto Look
+        \n\nIf you\'ve never used this theme, I suggest you to look at the previews and the FAQ down below
+        \nThis theme is the result of so much effort and if you want to thank me for my work, please consider a donation. Even a small amount is appreciated 😊</string>
     <string name="do_not_show_again">Nie pokazuj więcej</string>
+    <string name="proceed">➡ Kontynuuj ➡</string>
+    <string name="donate">🎁 Wspomóż 🎁</string>
+    <string name="helpButton">🆘 Pomocy 🆘</string>
     <string name="helpme">Aby zainstalować:\n
         1. Zaznacz Android Auto\n
         2. Sprawdź znak uwaga obok „Android Auto”, aby uniknąć błędów\n
@@ -9,7 +15,6 @@
         4. Naciśnij dolny przycisk i wybierz \"Kompiluj i Zaktualizuj\"\n
         5. Powtórz kroki 3 i 4 tyle razy, ile potrzebujesz\n
         6. Uruchom ponownie, przejdź do karty menedżer, wybierz wbudowana(e) nakładka(i) i włącz</string>
-    <string name="previews_text">🖼 Podglądy! 🖼</string>
     <string name="helpme_lite">Aby zainstalować:\n
         1. Zaznacz Android Auto i wybierz dodatek z listy\n
         2. Sprawdź znak uwaga obok „Android Auto”, aby uniknąć błędów\n
@@ -17,12 +22,11 @@
         4. Naciśnij dolny przycisk i wybierz &quot;Build &amp; Install&quot;\n
         5. Powtórz kroki 3 i 4 tyle razy, ile potrzebujesz\n
         6. Uruchom ponownie, przejdź do karty menedżer, wybierz wbudowana(e) nakładka(i) i włącz</string>
-    <string name="proceed">➡ Kontynuuj ➡</string>
     <string name="takemetoxdathreadstring">Chciałbym się z Tobą skontaktować</string>
     <string name="gotoxdathread">Zabierz mnie do wątku na XDA!</string>
     <string name="mailme">Wyślij mi maila</string>
     <string name="contact_me_on_telegram">Dołącz do kanału na Telegram</string>
-    <string name="hi_iew">"Witaj!
+    <string name="hi_iew">\"Witaj!
 				\nJeśli tu jesteś, to znaczy, że nie masz zainstalowanego Substratum.
 				\n%1$s to motyw i potrzebuje Substratum do działania, to nie jest samodzielna aplikacja.
 				\nUpewnij się, że masz zainstalowany Substratum i spróbuj ponownie.</string>
@@ -30,9 +34,11 @@
     <string name="nevershowagain">Zostaw mnie w spokoju!</string>
     <string name="reconsider">Może później</string>
     <string name="donation_message">Wygląda na to, że naprawdę podoba Ci się Extras for Android Auto, może chciałbyś wyrazić swoje uznanie darowizną?</string>
-    <string name="helpButton">🆘 Pomocy 🆘</string>
     <string name="copied_bitcoin">Adres BTC skopiowany do schowka</string>
     <string name="helpinstalling">Potrzebuję pomocy przy instalacji</string>
     <string name="credit">O programie</string>
     <string name="whatsnew">Co nowego?</string>
+    <string name="more_backgrounds">More Wallpapers</string>
+    <string name="otherthemes">Check out the other versions of Wallpapers For AA</string>
+    <string name="gimmemore">Can you add a wallpaper?</string>
 </resources>
