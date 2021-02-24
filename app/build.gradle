@@ -80,15 +80,16 @@ android {
     applicationVariants.all { variant ->
         variant.outputs.all {
 
-            def project = "Extras4AA"
             def SEP = "_"
             def flavor = variant.productFlavors[0].name
             def version = variant.versionName
             def newApkName
             if (flavor == "nonlegacy") {
-                newApkName = project + SEP + version + SEP + "release" + ".apk"
+                newApkName = "Extras" + "4AA" + SEP + version + SEP + "release" + ".apk"
+            } else if (flavor == "legacy") {
+                newApkName = "Extras" + "4AA" + SEP + "LEGACY" + version + SEP + "release" + ".apk"
             } else {
-                newApkName = project + SEP + flavor + SEP + version + SEP + "release" + ".apk"
+                newApkName = flavor + "4AA" + SEP + version + SEP + "release" + ".apk"
             }
 
             outputFileName = "../../../APKS/" + new File(newApkName)
