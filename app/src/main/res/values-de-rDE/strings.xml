@@ -1,38 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="previews_text">🖼 Vorschau 🖼</string>
+    <string name="launch_dialog_content">This is %1$s, a theme to change Android Auto Look
+        \n\nIf you\'ve never used this theme, I suggest you to look at the previews and the FAQ down below
+        \nThis theme is the result of so much effort and if you want to thank me for my work, please consider a donation. Even a small amount is appreciated 😊</string>
+    <string name="do_not_show_again">Lieber nicht!</string>
+    <string name="proceed">➡ Weiter ➡</string>
+    <string name="donate">🎁 Spenden 🎁</string>
+    <string name="helpButton">🆘 Hilfe 🆘</string>
     <string name="helpme">So installieren Sie:\n
          1. Aktivieren Sie Android Auto\n
          2. Siehe aufmerksamkeitsmarkierung in der nähe von &quot;Android Auto&quot;, um Fehler zu vermeiden\n
          3. Wählen sie ein oder mehrere Extras aus der liste aus\n
-         4. Klicken sie auf die untere Schaltfläche und wählen sie "Build &amp; Install"\n
+         4. Klicken sie auf die untere Schaltfläche und wählen sie \"Build &amp; Install\"\n
          5. Wiederholen sie die schritte 3 und 4 so oft sie möchten\n
          6. Starten sie neu, gehen Sie zur Registerkarte Manager, wählen Sie die erstellten Overlays aus und klicken Sie auf &quot;Aktivieren&quot;.\n</string>
-    <string name="previews_text">🖼 Vorschau 🖼</string>
     <string name="helpme_lite">So installieren Sie:\n
          1. Aktivieren Sie Android Auto\n
          2. Siehe aufmerksamkeitsmarkierung in der nähe von &quot;Android Auto&quot;, um Fehler zu vermeiden\n
          3. Wählen sie ein oder mehrere Extras aus der liste aus\n
-         4. Klicken sie auf die untere Schaltfläche und wählen sie "Build &amp; Install"\n
+         4. Klicken sie auf die untere Schaltfläche und wählen sie \"Build &amp; Install\"\n
          5. Wiederholen sie die schritte 3 und 4 so oft sie möchten\n
          6. Starten sie neu, gehen Sie zur Registerkarte Manager, wählen Sie die erstellten Overlays aus und klicken Sie auf &quot;Aktivieren&quot;.\n</string>
+    <string name="takemetoxdathreadstring">Ich brauche noch Hilfe!</string>
+    <string name="gotoxdathread">Geh zum XDA Thread</string>
+    <string name="mailme">Mail mir</string>
+    <string name="contact_me_on_telegram">Treten Sie dem Telegram-Kanal bei</string>
     <string name="hi_iew">Heya!\n\n
         Wenn Du hier bist, hast Du Substratum nicht installiert.\n
         %1$s ist ein Thema und benötigt Substratum Lite um zu funktionieren. Es ist keine eigenständige App.\n
         Bitte installiere Substratum Lite und versuche es dann wieder.</string>
-    <string name="do_not_show_again">Lieber nicht!</string>
-    <string name="donate">🎁 Spenden 🎁</string>
     <string name="gotorating">Klar, auf geht\'s!</string>
-    <string name="gotoxdathread">Geh zum XDA Thread</string>
-    <string name="mailme">Mail mir</string>
     <string name="nevershowagain">Nicht wieder anzeigen</string>
-    <string name="proceed">➡ Weiter ➡</string>
     <string name="reconsider">Vielleicht später!</string>
-    <string name="takemetoxdathreadstring">Ich brauche noch Hilfe!</string>
-    <string name="contact_me_on_telegram">Treten Sie dem Telegram-Kanal bei</string>
     <string name="donation_message">Sie scheinen %1$s wirklich zu genießen, möchten Sie eine Spende machen?</string>
-    <string name="helpButton">🆘 Hilfe 🆘</string>
     <string name="copied_bitcoin">BTC-Adresse in Zwischenablage kopiert</string>
     <string name="helpinstalling">Ich brauche Hilfe bei der Installation</string>
     <string name="credit">Danksagungen</string>
     <string name="whatsnew">Was gibt\'s Neues?</string>
+    <string name="more_backgrounds">More Wallpapers</string>
+    <string name="otherthemes">Check out the other versions of Wallpapers For AA</string>
+    <string name="gimmemore">Can you add a wallpaper?</string>
 </resources>

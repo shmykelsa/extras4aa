@@ -4,7 +4,7 @@ import android.app.Activity
 import android.content.pm.PackageManager
 import android.os.Bundle
 import aaextras.rizzo.gabriele.R
-
+import android.widget.TextView
 
 
 @Suppress("ConstantConditionIf")

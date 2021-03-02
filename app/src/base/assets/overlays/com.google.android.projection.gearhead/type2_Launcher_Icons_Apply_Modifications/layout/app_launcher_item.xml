@@ -12,7 +12,7 @@
     android:paddingRight="@*com.google.android.projection.gearhead:dimen/gearhead_launcher_app_left_right_paddding"
     android:paddingBottom="@*com.google.android.projection.gearhead:dimen/gearhead_launcher_app_top_bottom_paddding"
     android:visibility="invisible">
-
+    
         <ImageView
             android:id="@*com.google.android.projection.gearhead:id/icon"
             android:layout_width="@*com.google.android.projection.gearhead:dimen/gearhead_launcher_icon_diameter"
@@ -37,6 +37,15 @@
         android:layout_toEndOf="@*com.google.android.projection.gearhead:id/badge_background"
         android:layout_below="@*com.google.android.projection.gearhead:id/badge_background"
         android:alpha="0.0"/>
+
+    <ImageView
+        android:id="@*com.google.android.projection.gearhead:id/notification_badge"
+        android:layout_width="@*com.google.android.projection.gearhead:dimen/gearhead_launcher_notification_badge_diameter"
+        android:layout_height="@*com.google.android.projection.gearhead:dimen/gearhead_launcher_notification_badge_diameter"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:alpha="1.0"/>
+
     <TextView
         android:id="@*com.google.android.projection.gearhead:id/label"
         style="@*com.google.android.projection.gearhead:style/GearheadSdkBody2"

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.auto.components.ui.media.MediaPlaybackView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@*com.google.android.projection.gearhead:id/playback_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@*com.google.android.projection.gearhead:color/playback_background"
+    android:clipChildren="false">
+    <FrameLayout
+        android:id="@*com.google.android.projection.gearhead:id/playback_content_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.google.android.apps.auto.components.ui.image.CrossfadeImageView
+                android:id="@*com.google.android.projection.gearhead:id/album_art"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop" />
+            <View
+                android:id="@*com.google.android.projection.gearhead:id/playback_gradient_background"
+                android:layout_width="wrap_content"
+                android:alpha="0.3"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@*com.google.android.projection.gearhead:id/album_art"
+                android:layout_alignBottom="@*com.google.android.projection.gearhead:id/album_art"
+                android:background="@*com.google.android.projection.gearhead:drawable/playback_view_background_vertical_gradient" />
+        </RelativeLayout>
+        <com.google.android.apps.auto.components.ui.image.CrossfadeImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerCrop"
+            android:src="@*com.google.android.projection.gearhead:drawable/wallpaper_amp" />
+        <View
+            android:id="@*com.google.android.projection.gearhead:id/playback_scrim"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@*com.google.android.projection.gearhead:color/boardwalk_gradient_black_25" />
+        <com.google.android.apps.auto.sdk.ui.FocusClusterLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            app:forceFieldType="multimoveModal">
+            <include android:visibility="gone" layout="@*com.google.android.projection.gearhead:layout/vn_expanding_action_panel" />
+            <include android:visibility="gone" layout="@*com.google.android.projection.gearhead:layout/expanding_action_panel" />
+        </com.google.android.apps.auto.sdk.ui.FocusClusterLayout>
+    </FrameLayout>
+    <com.google.android.apps.auto.components.nocontentview.NoContentView
+        android:id="@*com.google.android.projection.gearhead:id/no_content_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" />
+</com.google.android.apps.auto.components.ui.media.MediaPlaybackView>

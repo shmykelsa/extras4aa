@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="contact_me_on_telegram">Junte-Telegram Canal</string>
-    <string name="do_not_show_again">Não mostrar novamente</string>
-    <string name="donate">🎁 Doar 🎁</string>
     <string name="previews_text">🖼 Prévias! 🖼</string>
-    <string name="donation_message">Você parece estar gostando do %1$s, gostaria de mostrar sua apreciação com uma doação?</string>
-    <string name="gotorating">Me leve lá!</string>
-    <string name="gotoxdathread">Ir para XDA Thread</string>
+    <string name="launch_dialog_content">This is %1$s, a theme to change Android Auto Look
+        \n\nIf you\'ve never used this theme, I suggest you to look at the previews and the FAQ down below
+        \nThis theme is the result of so much effort and if you want to thank me for my work, please consider a donation. Even a small amount is appreciated 😊</string>
+    <string name="do_not_show_again">Não mostrar novamente</string>
+    <string name="proceed">➡ Continuar ➡</string>
+    <string name="donate">🎁 Doar 🎁</string>
+    <string name="helpButton">🆘 Ajuda 🆘</string>
     <string name="helpme">Para instalar:\n
          1. Marque Android Auto\n
          2. Veja a marca de atenção perto de &quot;Android Auto&quot; para evitar erros\n
@@ -21,18 +22,23 @@
          4. Clique no botão inferior e selecione &quot;Build &amp; Install&quot;\n
          5. Repita as etapas 3 e 4 quantas vezes quiser\n
          6. Reinicialize, vá para a guia do gerente, selecione as sobreposições criadas e &quot;Activate&quot;</string>
+    <string name="takemetoxdathreadstring">Eu gostaria de entrar em contato com você</string>
+    <string name="gotoxdathread">Ir para XDA Thread</string>
+    <string name="mailme">Me envie um E-mail</string>
+    <string name="contact_me_on_telegram">Junte-Telegram Canal</string>
     <string name="hi_iew">Heya!\n\n
     Se voce está aqui, é porque você não tem o Substratum Instalado.\n
     %1$s é um thema e precisa do Substratum Lite pra funcionar, não é um aplivativo independente.\n
     Por favor instale o Substratum Lite e tente novamente. </string>
-    <string name="mailme">Me envie um E-mail</string>
+    <string name="gotorating">Me leve lá!</string>
     <string name="nevershowagain">Me deixe em paz!</string>
-    <string name="proceed">➡ Continuar ➡</string>
     <string name="reconsider">Talvez Depois</string>
-    <string name="takemetoxdathreadstring">Eu gostaria de entrar em contato com você</string>
-    <string name="helpButton">🆘 Ajuda 🆘</string>
+    <string name="donation_message">Você parece estar gostando do %1$s, gostaria de mostrar sua apreciação com uma doação?</string>
     <string name="copied_bitcoin">Endereço BTC copiado para a área de transferência</string>
     <string name="helpinstalling">Preciso de ajuda para instalar</string>
     <string name="credit">Creditos</string>
     <string name="whatsnew">O que há de novo?</string>
+    <string name="more_backgrounds">More Wallpapers</string>
+    <string name="otherthemes">Check out the other versions of Wallpapers For AA</string>
+    <string name="gimmemore">Can you add a wallpaper?</string>
 </resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="previews_text">🖼 Previews! 🖼</string>
+    <string name="launch_dialog_content">This is %1$s, a theme to change Android Auto Look
+        \n\nIf you\'ve never used this theme, I suggest you to look at the previews and the FAQ down below
+        \nThis theme is the result of so much effort and if you want to thank me for my work, please consider a donation. Even a small amount is appreciated 😊</string>
+    <string name="do_not_show_again">Do not show again</string>
+    <string name="proceed">➡ Continue ➡</string>
+    <string name="donate">🎁 Donate 🎁</string>
+    <string name="helpButton">🆘 Help 🆘</string>
+    <string name="helpme">To install:\n
+    1. Tick Android Auto\n
+    2. See attention mark near \"Android Auto\" to avoid errors\n
+    3. Hit the bottom button and select Build &amp; Install\n
+    4. Repeat step 1 as many times as you want\n
+    5. Reboot, go to manager tab, selet the built overlay(s) and enable them</string>
+    <string name="helpme_lite">To install:\n
+        1. Tick Android Auto\n
+        2. See attention mark near \"Android Auto\" to avoid errors\n
+        3. Hit the bottom button and select Build &amp; Install\n
+        4. Repeat steps 3 and 4 as many times as you want\n
+        5. Reboot, go to manager tab, select the built overlay(s) and enable\n</string>
+    <string name="takemetoxdathreadstring">I\'d like to contact you</string>
+    <string name="gotoxdathread">Go to XDA Thread</string>
+    <string name="mailme">Mail me</string>
+    <string name="contact_me_on_telegram">Join Telegram Channel</string>
+    <string name="hi_iew">Heya!\n
+    If you are here, that\'s because you don\'t have Substratum Installed.\n
+    %1$s is a theme and needs Substratum to work, it\'s not a stand-alone app.\n
+    Please install Substratum and try again.</string>
+    <string name="gotorating">Take me there!</string>
+    <string name="nevershowagain">Leave me alone!</string>
+    <string name="reconsider">Maybe Later</string>
+    <string name="donation_message">You seem to really enjoy %1$s, would you like to contribute to the development by making a donation to me?</string>
+    <string name="copied_bitcoin">BTC Address copied to clipboard</string>
+    <string name="helpinstalling">I need help installing</string>
+    <string name="credit">Credits</string>
+    <string name="whatsnew">What\'s new?</string>
+    <string name="more_backgrounds">More Wallpapers</string>
+    <string name="otherthemes">Check out the other versions of Wallpapers For AA</string>
+    <string name="gimmemore">Can you add a wallpaper?</string>
+</resources>
