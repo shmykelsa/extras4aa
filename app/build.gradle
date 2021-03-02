@@ -21,6 +21,15 @@ ext {
 }
 
 android {
+    signingConfigs {
+        'new' {
+            storeFile file('D:\\SigninKeys\\persubstratum.jks')
+            storePassword 'trottola'
+            keyAlias 'key0'
+            keyPassword 'trottola'
+        }
+    }
+
     compileSdkVersion 28
 
     defaultConfig {
@@ -60,7 +69,7 @@ android {
             jniDebuggable = false
             debuggable = false
             renderscriptDebuggable = false
-            signingConfig signingConfigs.debug
+            signingConfig signingConfigs.new
         }
         release {
             minifyEnabled true
@@ -73,7 +82,7 @@ android {
             jniDebuggable = false
             debuggable = false
             renderscriptDebuggable = false
-            signingConfig signingConfigs.debug
+            signingConfig signingConfigs.new
         }
     }
 
@@ -125,8 +134,8 @@ android {
         icons {
             dimension 'dim'
             applicationId 'aaextras.rizzo.gabriele.icons'
-            minSdkVersion 24
-            icons.versionName = "1.3I"
+            minSdkVersion 25
+            icons.versionName = "2.0I"
             manifestPlaceholders.substratumLauncherActivity = "aaextras.rizzo.gabriele.icons.SubstratumLauncher"
             manifestPlaceholders.LauncherActivity = "aaextras.rizzo.gabriele.icons.Launcher"
         }
