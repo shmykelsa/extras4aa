@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="previews_text">🖼 Voorbeelden! 🖼</string>
-    <string name="launch_dialog_content">This is %1$s, a theme to change Android Auto Look
-        \n\nIf you\'ve never used this theme, I suggest you to look at the previews and the FAQ down below
-        \nThis theme is the result of so much effort and if you want to thank me for my work, please consider a donation. Even a small amount is appreciated 😊</string>
+    <string name="launch_dialog_content">Dit is %1$s, een thema om het uiterlijk van Android Auto te wijzigen
+        \n\nAls je dit thema nog nooit hebt gebruikt, stel ik voor dat je de voorbeelden bekijkt en de FAQ hieronder
+        \nIn het maken van dit thema is veel tijd en moeite gestopt en als je me wilt bedanken voor mijn werk, overweeg alsjeblieft een donatie. Zelfs een klein bedrag wordt gewaardeerd 😊</string>
     <string name="do_not_show_again">Niet meer tonen</string>
     <string name="proceed">➡ Doorgaan ➡</string>
     <string name="donate">🎁 Donatie 🎁</string>
     <string name="helpButton">🆘 Help 🆘</string>
-    <string name="helpme">To install:\n
-    1. Tick Android Auto\n
-    2. See attention mark near \"Android Auto\" to avoid errors\n
-    3. Hit the bottom button and select Build &amp; Install\n
-    4. Repeat step 1 as many times as you want\n
-    5. Reboot, go to manager tab, selet the built overlay(s) and enable them</string>
-    <string name="helpme_lite">To install:\n
-        1. Tick Android Auto\n
-        2. See attention mark near \"Android Auto\" to avoid errors\n
-        3. Hit the bottom button and select Build &amp; Install\n
-        4. Repeat steps 3 and 4 as many times as you want\n
-        5. Reboot, go to manager tab, select the built overlay(s) and enable\n</string>
-    <string name="takemetoxdathreadstring">Jeg vil gerne kontakte dig</string>
+    <string name="helpme">Om te installeren:\n
+    1. Selecteer Android Auto\n
+    2. Druk op het uitroepteken de bij \"Android Auto\" om fouten te vermijden\n
+    3. Klik op de onderste knop en selecteer Build &amp; Install\n
+    4. Herhaal stap 1 zo vaak als je wilt\n
+    5. Herstarten, ga naar het tabblad manager, selecteer de ingebouwde overlay(s) en schakel ze in</string>
+    <string name="helpme_lite">Om te installeren:\n
+    1. Selecteer Android Auto\n
+    2. Druk op het informatie symbool bij \"Android Auto\" om fouten te vermijden\n
+    3. Klik op de onderste knop en selecteer Build &amp; Install\n
+    4. Herhaal stap 1 zo vaak als je wilt\n
+    5. Herstarten, ga naar het tabblad manager, selecteer de ingebouwde overlay(s) en schakel ze in\n</string>
+    <string name="takemetoxdathreadstring">Neem contact op</string>
     <string name="gotoxdathread">Ga naar XDA Thread</string>
     <string name="mailme">Mail me</string>
-    <string name="contact_me_on_telegram">Contact me op Telegram</string>
+    <string name="contact_me_on_telegram">Deelnemen aan Telegram kanaal</string>
     <string name="hi_iew">Heya!\n
     Als je hier bent, komt dat omdat je Substratum niet hebt geïnstalleerd.
         \n%1$s is een thema en heeft Substratum nodig om te werken, het is geen op zichzelf staande app.
@@ -33,10 +33,10 @@
     <string name="reconsider">Misschien later</string>
     <string name="donation_message">Het lijkt alsof je er echt van geniet %1$s, wilt u een donatie doen?</string>
     <string name="copied_bitcoin">BTC adres gekopieerd naar het klembord</string>
-    <string name="helpinstalling">Jeg har brug for hjælp til installationen</string>
-    <string name="credit">Dank aan</string>
-    <string name="whatsnew">Aankondigingen</string>
-    <string name="more_backgrounds">More Wallpapers</string>
-    <string name="otherthemes">Check out the other versions of Wallpapers For AA</string>
-    <string name="gimmemore">Can you add a wallpaper?</string>
+    <string name="helpinstalling">Ik heb hulp nodig bij het installeren</string>
+    <string name="credit">Met dank aan</string>
+    <string name="whatsnew">Wat is er nieuw?</string>
+    <string name="more_backgrounds">Meer achtergronden</string>
+    <string name="otherthemes">Bekijk de andere versies van Wallpapers voor AA</string>
+    <string name="gimmemore">Kun je een achtergrond toevoegen?</string>
 </resources>

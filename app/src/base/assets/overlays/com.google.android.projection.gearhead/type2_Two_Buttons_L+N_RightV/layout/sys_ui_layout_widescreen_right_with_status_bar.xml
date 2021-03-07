@@ -41,7 +41,9 @@
             android:layout_height="@*com.google.android.projection.gearhead:dimen/status_bar_height"
             android:layout_alignStart="@*com.google.android.projection.gearhead:id/activity"
             android:layout_alignEnd="@*com.google.android.projection.gearhead:id/activity"
-            android:layout_alignTop="@*com.google.android.projection.gearhead:id/activity"/>
+            android:layout_alignTop="@*com.google.android.projection.gearhead:id/activity">
+<tag android:value="true" android:id="@*com.google.android.projection.gearhead:id/persistent" />
+    </View>
     <View
         android:id="@*com.google.android.projection.gearhead:id/notification"
         android:layout_width="wrap_content"
