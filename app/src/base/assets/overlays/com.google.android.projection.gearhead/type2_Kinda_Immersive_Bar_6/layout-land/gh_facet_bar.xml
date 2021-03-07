@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@*com.google.android.projection.gearhead:id/rail"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.google.android.apps.auto.components.ui.image.CrossfadeImageView
+            android:src="@*com.google.android.projection.gearhead:drawable/wallpaper_pleats"
+            android:scaleType="centerCrop"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true" />
+        <View android:id="@id/playback_scrim" android:background="#40000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <RelativeLayout
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            >
+
+        <ImageView
+        android:id="@*com.google.android.projection.gearhead:id/launcher_icon"
+        style="@*com.google.android.projection.gearhead:style/FacetBarIcon"
+        android:layout_marginStart="40.0dip"
+        android:src="@*com.google.android.projection.gearhead:drawable/ic_overview_solid"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+    <com.google.android.projection.gearhead.system.facetbar.widget.RailWidgetView
+        android:id="@*com.google.android.projection.gearhead:id/ongoing_widget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12.0dip"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@*com.google.android.projection.gearhead:id/notifications_icon"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="left"
+        android:layout_toRightOf="@*com.google.android.projection.gearhead:id/launcher_icon" />
+    <ImageView
+        android:id="@*com.google.android.projection.gearhead:id/notifications_icon"
+        style="@*com.google.android.projection.gearhead:style/FacetBarButton"
+        android:padding="@*com.google.android.projection.gearhead:dimen/rail_notification_icon_padding"
+        android:src="@*com.google.android.projection.gearhead:drawable/ic_nc_icon_seen"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@*com.google.android.projection.gearhead:id/assistant_container"
+        android:layout_alignParentTop="true" />
+    <View
+        android:id="@*com.google.android.projection.gearhead:id/rail_invisible_scrim"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:background="@*android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+    <FrameLayout
+        android:id="@*com.google.android.projection.gearhead:id/assistant_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16.0dip"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true">
+        <FrameLayout
+            android:id="@*com.google.android.projection.gearhead:id/assistant_icon"
+            style="@*com.google.android.projection.gearhead:style/FacetBarIcon"
+            android:layout_width="@*com.google.android.projection.gearhead:dimen/rail_height"
+            android:layout_marginStart="24.0dip"
+            android:layout_marginEnd="24.0dip">
+            <ImageView
+                android:id="@*com.google.android.projection.gearhead:id/assistant_icon_img"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:alpha="@*com.google.android.projection.gearhead:dimen/boardwalk_assistant_mic_icon_available_opacity"
+                android:scaleType="centerInside"
+                android:src="@*com.google.android.projection.gearhead:drawable/ic_assistant_mic" />
+        </FrameLayout>
+        <com.google.android.libraries.gsa.logoview.LogoView
+            android:id="@*com.google.android.projection.gearhead:id/logo_view"
+            android:layout_width="128.0dip"
+            android:layout_height="80.0dip"
+            android:layout_gravity="center"
+            android:background="@*com.google.android.projection.gearhead:drawable/demand_space_logo_background"
+            android:visibility="invisible" />
+    </FrameLayout>
+        </RelativeLayout>
+    </FrameLayout>
+
+</RelativeLayout>
