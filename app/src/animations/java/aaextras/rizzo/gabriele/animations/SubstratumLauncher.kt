@@ -230,7 +230,7 @@ class SubstratumLauncher : Activity() {
         sezionesuperiore.visibility = RelativeLayout.GONE
 
         val textViewcentrale:TextView = view.findViewById(R.id.dialog_content)
-        textViewcentrale.text = String.format (getString(R.string.launch_dialog_content), getString(R.string.ThemeName))
+        textViewcentrale.text = getString(R.string.donation_message, getString(R.string.ThemeName))
         textViewcentrale.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 20F)
 
         val bottoneContinua: Button = view.findViewById(R.id.button_continue)

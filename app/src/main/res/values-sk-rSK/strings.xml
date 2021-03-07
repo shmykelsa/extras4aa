@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="previews_text">🖼 Previews! 🖼</string>
-    <string name="launch_dialog_content">This is %1$s, a theme to change Android Auto Look
-        \n\nIf you\'ve never used this theme, I suggest you to look at the previews and the FAQ down below
-        \nThis theme is the result of so much effort and if you want to thank me for my work, please consider a donation. Even a small amount is appreciated 😊</string>
-    <string name="do_not_show_again">Do not show again</string>
-    <string name="proceed">➡ Continue ➡</string>
-    <string name="donate">🎁 Donate 🎁</string>
-    <string name="helpButton">🆘 Help 🆘</string>
-    <string name="helpme">To install:\n
-    1. Tick Android Auto\n
-    2. See attention mark near \"Android Auto\" to avoid errors\n
-    3. Hit the bottom button and select Build &amp; Install\n
-    4. Repeat step 1 as many times as you want\n
-    5. Reboot, go to manager tab, selet the built overlay(s) and enable them</string>
-    <string name="helpme_lite">To install:\n
-        1. Tick Android Auto\n
-        2. See attention mark near \"Android Auto\" to avoid errors\n
-        3. Hit the bottom button and select Build &amp; Install\n
-        4. Repeat steps 3 and 4 as many times as you want\n
-        5. Reboot, go to manager tab, select the built overlay(s) and enable\n</string>
-    <string name="takemetoxdathreadstring">I\'d like to contact you</string>
-    <string name="gotoxdathread">Go to XDA Thread</string>
-    <string name="mailme">Mail me</string>
-    <string name="contact_me_on_telegram">Join Telegram Channel</string>
-    <string name="hi_iew">Heya!\n
-    If you are here, that\'s because you don\'t have Substratum Installed.\n
-    %1$s is a theme and needs Substratum to work, it\'s not a stand-alone app.\n
-    Please install Substratum and try again.</string>
-    <string name="gotorating">Take me there!</string>
-    <string name="nevershowagain">Leave me alone!</string>
-    <string name="reconsider">Maybe Later</string>
-    <string name="donation_message">You seem to really enjoy %1$s, would you like to contribute to the development by making a donation to me?</string>
-    <string name="copied_bitcoin">BTC Address copied to clipboard</string>
-    <string name="helpinstalling">I need help installing</string>
-    <string name="credit">Credits</string>
-    <string name="whatsnew">What\'s new?</string>
-    <string name="more_backgrounds">More Wallpapers</string>
-    <string name="otherthemes">Check out the other versions of Wallpapers For AA</string>
-    <string name="gimmemore">Can you add a wallpaper?</string>
+    <string name="previews_text">🖼 Ukážky! 🖼</string>
+    <string name="launch_dialog_content">Toto je %1$s motív na zmenu vzhľadu Android Auto
+         \n\nAk ste túto tému nikdy nepoužili, odporúčame vám pozrieť si ukážky a časté otázky uvedené nižšie
+         \nTáto téma je výsledkom toľkého úsilia. Ak sa mi chcete poďakovať za prácu, zvážte dar. Oceňuje sa aj malé množstvo 😊</string>
+    <string name="do_not_show_again">Nezobrazuj znova</string>
+    <string name="proceed">➡ Pokračuj ➡</string>
+    <string name="donate">🎁 Darujte 🎁</string>
+    <string name="helpButton">🆘 Pomoc 🆘</string>
+    <string name="helpme">Inštalácia:\n
+    1. Začiarknite Android Auto\n
+    2. Ak chcete predísť chybám, vedľa značky „Android Auto“ si všimnite upozornenie\n
+    3. Stlačte spodné tlačidlo a vyberte položku Zabudovať &amp; Nainštalovať\n
+    4. Opakujte krok 1 toľkokrát, koľkokrát chcete\n
+    5. Reštartujte, prejdite na kartu správcu, vyberte zabudované vrstvy a povoľte ich</string>
+    <string name="helpme_lite">Inštalácia:\n
+        1. Začiarknite Android Auto\n
+        2. Ak chcete predísť chybám, vedľa značky „Android Auto“ si všimnite upozornenie\n
+        3. Stlačte spodné tlačidlo a vyberte položku Zabudovať &amp; Nainštalovať\n
+        4. Opakujte kroky 3 a 4 toľkokrát, koľkokrát chcete\n
+        5. Reštartujte, prejdite na kartu správcu, vyberte zabudované vrstvy a povoľte ich\n</string>
+    <string name="takemetoxdathreadstring">Rád by som sa s vami skontaktoval</string>
+    <string name="gotoxdathread">Prejdite do XDA vlákna</string>
+    <string name="mailme">Pošlite mi email</string>
+    <string name="contact_me_on_telegram">Pripojte sa k Telegram Channel</string>
+    <string name="hi_iew">Ahoj!\n
+    Ak ste tu, je to preto, že nemáte nainštalovaný Substratum.\n
+    %1$s je téma a na svoju prácu potrebuje Substratum, nejde o samostatnú aplikáciu.\n
+    Nainštalujte si Substratum a skúste to znova.</string>
+    <string name="gotorating">Prejsť tam!</string>
+    <string name="nevershowagain">Nechaj ma osamote!</string>
+    <string name="reconsider">Možno neskôr</string>
+    <string name="donation_message">Zdá sa, že si skutočne užívate %1$s, chceli by ste prispieť na rozvoj darom pre mňa?</string>
+    <string name="copied_bitcoin">BTC adresa bola skopírovaná do schránky</string>
+    <string name="helpinstalling">Potrebujem pomoc s inštaláciou</string>
+    <string name="credit">Poďakovania</string>
+    <string name="whatsnew">Čo je nové?</string>
+    <string name="more_backgrounds">Ďalšie tapety</string>
+    <string name="otherthemes">Vyskúšajte ďalšie verzie aplikácie Wallpapers For AA</string>
+    <string name="gimmemore">Môžete pridať tapetu?</string>
 </resources>
