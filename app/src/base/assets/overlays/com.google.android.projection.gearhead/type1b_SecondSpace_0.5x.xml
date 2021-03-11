@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="gearhead_secondary_screen_card_width">160.0dip</dimen>
-    <dimen name="alpha_jump_keyboard_key_text_size_deprecated">179.0dip</dimen>
-    <dimen name="gearhead_secondary_screen_card_action_button_size">29.0dip</dimen>
-    <dimen name="gearhead_secondary_screen_card_left_right_action_button_padding">3.0dip</dimen>
-    <dimen name="gearhead_secondary_screen_card_primary_action_icon_size">30.0dip</dimen>
-    <dimen name="gearhead_secondary_screen_card_media_fab_size">3.0dip</dimen>
-    <dimen name="secondary_screen_small_icon_size">13.0dip</dimen>
-    <dimen name="gearhead_secondary_screen_card_media_fab_padding">18.0dip</dimen>
-    <dimen name="gearhead_secondary_screen_card_action_button_size">26.0dip</dimen>
-    <dimen name="boardwalk_display2_text_size">29.0dip</dimen>
-    <dimen name="gearhead_secondary_screen_card_media_fab_size">32.5dip</dimen>
     <style name="TextAppearance.Boardwalk.Body1.SecondaryScreen" parent="@*com.google.android.projection.gearhead:style/TextAppearance.Boardwalk.Body1">
         <item name="android:textColor">@*com.google.android.projection.gearhead:color/boardwalk_secondary_screen_card_text_color</item>
         <item name="android:textSize">20.0dip</item>
     </style>
     <style name="TextAppearance.Boardwalk.Body2.SecondaryScreen" parent="@*com.google.android.projection.gearhead:style/TextAppearance.Boardwalk.Body2">
+        <item name="android:textColor">@*com.google.android.projection.gearhead:color/boardwalk_secondary_screen_card_text_color</item>
+        <item name="android:textSize">15.0dip</item>
+    </style>
+    <style name="TextAppearance.Boardwalk.Display2.SecondaryScreen" parent="@*com.google.android.projection.gearhead:style/TextAppearance.Boardwalk.Display2">
         <item name="android:textColor">@*com.google.android.projection.gearhead:color/boardwalk_secondary_screen_card_text_color</item>
         <item name="android:textSize">15.0dip</item>
     </style>
@@ -28,9 +21,37 @@
     <style name="TextAppearance.Gearhead.SecondaryScreen.Clock.Small" parent="@*com.google.android.projection.gearhead:style/TextAppearance.Gearhead.SecondaryScreen.Clock">
         <item name="android:textSize">12.0dip</item>
     </style>
+    <dimen name="gearhead_secondary_screen_card_width">160.0dip</dimen>
+    <dimen name="alpha_jump_keyboard_key_text_size_deprecated">179.0dip</dimen>
+    <dimen name="gearhead_secondary_screen_card_left_right_action_button_padding">3.0dip</dimen>
+    <dimen name="gearhead_secondary_screen_card_primary_action_icon_size">30.0dip</dimen>
+    <dimen name="gearhead_secondary_screen_card_media_fab_size">32.5dip</dimen>
+    <dimen name="secondary_screen_small_icon_size">13.0dip</dimen>
+    <dimen name="gearhead_secondary_screen_card_media_fab_padding">4.0dip</dimen>
+    <dimen name="gearhead_secondary_screen_card_action_button_size">28.0dip</dimen>
+    <dimen name="boardwalk_display2_text_size">29.0dip</dimen>
     <dimen name="secondary_screen_card_vertical_margin">12.0dip</dimen>
     <dimen name="secondary_screen_date_bottom_margin">48.0dip</dimen>
     <dimen name="secondary_screen_large_icon_size">18.0dip</dimen>
-    <dimen name="secondary_screen_small_icon_size">13.0dip</dimen>
     <dimen name="secondary_screen_stream_item_internal_margin">4.0dip</dimen>
+    <dimen name="gearhead_secondary_image_size">77.0dip</dimen>
+    <dimen name="gearhead_secondary_max_text_width">140.0dip</dimen>
+    <dimen name="gearhead_secondary_media_main_button_icon_size">18.0dip</dimen>
+    <dimen name="gearhead_secondary_media_main_button_size">36.0dip</dimen>
+    <dimen name="gearhead_secondary_media_progress_size">32.0dip</dimen>
+    <dimen name="gearhead_secondary_screen_card_height">200.0dip</dimen>
+    <dimen name="gearhead_secondary_screen_card_media_fab_focus_ring_inset">2.0dip</dimen>
+    <dimen name="gearhead_secondary_screen_card_media_fab_ripple_inset">2.0dip</dimen>
+    <dimen name="gearhead_secondary_screen_card_ongoing_call_fab_padding">10.0dip</dimen>
+    <dimen name="gearhead_secondary_screen_card_ongoing_call_fab_size">39.0dip</dimen>
+    <dimen name="gearhead_secondary_screen_card_primary_action_icon_padding">5.0dip</dimen>
+    <dimen name="gearhead_secondary_screen_card_with_actions_content_section_height">52.0dip</dimen>
+    <dimen name="gearhead_secondary_side_button_background_inset">4.0dip</dimen>
+    <dimen name="gearhead_secondary_side_button_margin">12.0dip</dimen>
+    <dimen name="gearhead_secondary_side_button_padding">9.0dip</dimen>
+    <dimen name="gearhead_secondary_side_button_size">30.0dip</dimen>
+    <dimen name="gearhead_secondary_telecom_main_button_container_size">36.0dip</dimen>
+    <dimen name="gearhead_secondary_telecom_main_button_padding_size">8.0dip</dimen>
+    <dimen name="gearhead_secondary_telecom_main_button_size">32.0dip</dimen>
+    <dimen name="gearhead_secondary_telecom_progress_size">32.0dip</dimen>
 </resources>
