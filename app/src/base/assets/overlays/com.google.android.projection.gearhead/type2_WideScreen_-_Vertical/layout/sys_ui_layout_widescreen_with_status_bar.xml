@@ -55,7 +55,7 @@
         </View>
         <View
             android:id="@*com.google.android.projection.gearhead:id/rail"
-            android:layout_height="@*com.google.android.projection.gearhead:dimen/car_rail_height"
+            android:layout_height="@*com.google.android.projection.gearhead:dimen/rail_height"
             android:layout_width="fill_parent"
             android:layout_alignParentBottom="true"
             android:layout_alignParentStart="true"
