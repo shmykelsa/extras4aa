@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="projection_keyboard_arrow_back_key_inset">2.0dip</dimen>
+    <dimen name="projection_keyboard_backspace_key_inset">2.0dip</dimen>
+    <dimen name="projection_keyboard_empty_key_width">51.0dip</dimen>
+    <dimen name="projection_keyboard_external_key_inset">2.0dip</dimen>
+    <dimen name="projection_keyboard_globe_key_inset">2.0dip</dimen>
+    <dimen name="projection_keyboard_height">230.0dip</dimen>
+    <dimen name="projection_keyboard_hide_key_inset">2.0dip</dimen>
+    <dimen name="projection_keyboard_key_height">39.0dip</dimen>
+    <dimen name="projection_keyboard_key_horizontal_margin">0.0dip</dimen>
+    <dimen name="projection_keyboard_key_vertical_margin">2.0dip</dimen>
+    <dimen name="projection_keyboard_key_width">51.0dip</dimen>
+    <dimen name="projection_keyboard_popup_double_empty_key_width">103.5dip</dimen>
+    <dimen name="projection_keyboard_search_circle">36.0dip</dimen>
+    <dimen name="projection_keyboard_search_key_inset">2.0dip</dimen>
+    <dimen name="projection_keyboard_spacebar_height">24.0dip</dimen>
+    <dimen name="projection_keyboard_spacebar_horizontal_margin">3.0dip</dimen>
+    <dimen name="projection_keyboard_spacebar_rounding">3.0dip</dimen>
+    <dimen name="projection_keyboard_spacebar_vertical_margin">2.0dip</dimen>
+    <dimen name="projection_keyboard_spacebar_visual_height">16.0dip</dimen>
+    <dimen name="projection_keyboard_spacebar_visual_width">217.5dip</dimen>
+    <dimen name="projection_keyboard_spacebar_width">240.0dip</dimen>
+    <style name="TextAppearance.Gearhead.KeyTextPrimary" parent="@*com.google.android.projection.gearhead:style/TextAppearance.AppCompat.Body2">
+        <item name="android:textSize">19.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+</resources>
