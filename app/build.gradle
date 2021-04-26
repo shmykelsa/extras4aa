@@ -40,8 +40,8 @@ android {
         // to the substratum repo rather than anything lower. Keep targetSdkVersion the same.
         minSdkVersion 24
         // Both versions must be changed to increment on Play Store/user's devices
-        versionCode 41
-        versionName "5.1"
+        versionCode 44
+        versionName "5.2"
         // Themers: DO NOT MODIFY
         buildConfigField "boolean", "SUPPORTS_THIRD_PARTY_SYSTEMS", "" + SUPPORTS_THIRD_PARTY_SYSTEMS
         buildConfigField "boolean", "ENABLE_APP_BLACKLIST_CHECK", "" + ENABLE_APP_BLACKLIST_CHECK
@@ -135,7 +135,7 @@ android {
             dimension 'dim'
             applicationId 'aaextras.rizzo.gabriele.icons'
             minSdkVersion 26
-            icons.versionName = "2.4I"
+            icons.versionName = "2.5I"
             manifestPlaceholders.substratumLauncherActivity = "aaextras.rizzo.gabriele.icons.SubstratumLauncher"
             manifestPlaceholders.LauncherActivity = "aaextras.rizzo.gabriele.icons.Launcher"
         }
@@ -143,7 +143,7 @@ android {
             dimension 'dim'
             applicationId 'aaextras.rizzo.gabriele.animations'
             minSdkVersion 24
-            animations.versionName = "1.0.1A"
+            animations.versionName = "1.1A"
             manifestPlaceholders.substratumLauncherActivity = "aaextras.rizzo.gabriele.animations.SubstratumLauncher"
             manifestPlaceholders.LauncherActivity = "aaextras.rizzo.gabriele.animations.Launcher"
         }

@@ -4,7 +4,7 @@
     tools:ignore="MissingTranslation">
     <string name="link_support" translatable="false">"https://forum.xda-developers.com/android-auto/android-auto-general/theme-personalize-look-aa-t4103365"</string>
     <string name="link_playstore" translatable="false">"https://labs.xda-developers.com/store/app/aaextras.rizzo.gabriele.icons"</string>
-    <string name="link_donate" translatable="false">"https://www.paypal.com/donate?hosted_button_id=YK7G5GHS64D6N"</string>
+    <string name="link_donate" translatable="false">"https://www.paypal.com/donate?hosted_button_id=JAFCYRN32KYZE"</string>
     <string name="link_mail" translatable="false">mailto:gabriele.rizzo@outlook.com?Subject=[EXAA v%1$s] - Describe Subject Here&amp;Body=Android Version:%2$s\nDevice:%3$s\n%4$s v.%5$s</string>
     <string name="link_telegram" translatable="false">http://t.me/shmykelsathemes</string>
     <string name="link_previews" translatable="false">https://telegra.ph/Extras-For-AA-Previews-10-27</string>
