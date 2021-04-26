@@ -23,10 +23,10 @@ ext {
 android {
     signingConfigs {
         'new' {
-            storeFile file('D:\\SigninKeys\\persubstratum.jks')
-            storePassword 'trottola'
-            keyAlias 'key0'
-            keyPassword 'trottola'
+            storeFile file(localProperties['STORELOCATION'])
+            storePassword localProperties['STOREPASSWORD']
+            keyAlias 'key3'
+            keyPassword localProperties['KEYPASSWORD']
         }
     }
 
