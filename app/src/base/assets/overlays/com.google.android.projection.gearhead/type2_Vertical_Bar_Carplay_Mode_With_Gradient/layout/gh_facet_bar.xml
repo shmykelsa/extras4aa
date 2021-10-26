@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@*com.google.android.projection.gearhead:id/rail"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@*com.google.android.projection.gearhead:drawable/quantum_ic_phone_vd_theme_24">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    <ImageView
+        android:id="@*com.google.android.projection.gearhead:id/launcher_icon"
+        style="@*com.google.android.projection.gearhead:style/FacetBarIcon"
+        android:src="@*com.google.android.projection.gearhead:drawable/ic_overview_solid"
+        android:layout_marginBottom="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true" />
+    <FrameLayout
+        android:id="@*com.google.android.projection.gearhead:id/media_rec_icon"
+        style="@*com.google.android.projection.gearhead:style/FacetBarIcon"
+        android:layout_marginBottom="@*com.google.android.projection.gearhead:dimen/gearhead_baseline_grid_2x"
+        android:padding="@*com.google.android.projection.gearhead:dimen/rail_media_rec_icon_padding"
+        android:visibility="gone"
+        android:layout_above="@*com.google.android.projection.gearhead:id/notifications_icon"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true">
+        <ImageView
+            android:id="@*com.google.android.projection.gearhead:id/media_rec_icon_img"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerInside"
+            android:src="@*com.google.android.projection.gearhead:drawable/ic_music_note_white" />
+    </FrameLayout>
+    <View
+        android:id="@*com.google.android.projection.gearhead:id/rail_hairline"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:background="@*com.google.android.projection.gearhead:color/facet_bar_hairline_color"
+        android:visibility="gone"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"/>
+    <com.google.android.projection.gearhead.system.facetbar.widget.RailWidgetView
+        android:id="@*com.google.android.projection.gearhead:id/ongoing_widget"
+        android:alpha="1.0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8.0dip"
+        android:visibility="gone"
+        app:collapsed="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@*com.google.android.projection.gearhead:id/notifications_icon" />
+    <ImageView
+        android:id="@*com.google.android.projection.gearhead:id/notifications_icon"
+        style="@*com.google.android.projection.gearhead:style/FacetBarButton"
+        android:layout_marginBottom="8.0dip"
+        android:src="@*com.google.android.projection.gearhead:drawable/ic_nc_icon_seen"
+        android:layout_above="@*com.google.android.projection.gearhead:id/assistant_icon"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+    <View
+        android:id="@*com.google.android.projection.gearhead:id/rail_invisible_scrim"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:background="@*android:color/transparent" />
+		    <FrameLayout
+        android:id="@*com.google.android.projection.gearhead:id/assistant_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_above="@*com.google.android.projection.gearhead:id/launcher_icon"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true">
+        <FrameLayout
+        android:id="@*com.google.android.projection.gearhead:id/assistant_icon"
+        style="@*com.google.android.projection.gearhead:style/FacetBarIcon"
+        android:layout_marginBottom="8.0dip"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true">
+        <ImageView
+            android:id="@*com.google.android.projection.gearhead:id/assistant_icon_img"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerInside"
+            android:src="@*com.google.android.projection.gearhead:drawable/ic_assistant_mic" />
+    </FrameLayout>
+    </FrameLayout>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

@@ -50,11 +50,19 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true" />
-    <View
-        android:id="@*com.google.android.projection.gearhead:id/ime"
-        android:layout_width="0.0dip"
-        android:layout_height="@*com.google.android.projection.gearhead:dimen/car_ime_height"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"/>
+        <View android:id="@*com.google.android.projection.gearhead:id/fullscreen"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"/>
+        <View
+            android:id="@*com.google.android.projection.gearhead:id/ime"
+            android:layout_width="fill_parent"
+            android:layout_height="@*com.google.android.projection.gearhead:dimen/car_ime_height"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true" />
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>

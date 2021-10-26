@@ -14,7 +14,7 @@
             android:layout_height="fill_parent"
             android:layout_alignParentBottom="true"
             android:layout_alignParentStart="true" />
-        <View android:id="@id/playback_scrim" android:background="#40000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <View android:id="@*com.google.android.projection.gearhead:id/playback_scrim" android:background="#40000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
         <RelativeLayout
             android:layout_height="fill_parent"
             android:layout_width="fill_parent"
@@ -56,10 +56,28 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true" />
     <FrameLayout
+        android:id="@*com.google.android.projection.gearhead:id/media_rec_icon"
+        android:padding="@*com.google.android.projection.gearhead:dimen/rail_media_rec_icon_padding"
+        android:visibility="gone"
+        android:alpha="0.0"
+        android:layout_marginEnd="@*com.google.android.projection.gearhead:dimen/rail_element_spacing"
+        android:layout_toLeftOf="@*com.google.android.projection.gearhead:id/notifications_icon"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        style="@*com.google.android.projection.gearhead:style/FacetBarIcon">
+        <ImageView android:id="@*com.google.android.projection.gearhead:id/media_rec_icon_img"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@*com.google.android.projection.gearhead:drawable/ic_music_note_white"
+            android:scaleType="centerInside"
+            android:alpha="@*com.google.android.projection.gearhead:dimen/boardwalk_assistant_mic_icon_available_opacity"/>
+    </FrameLayout>
+
+
+    <FrameLayout
         android:id="@*com.google.android.projection.gearhead:id/assistant_container"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="16.0dip"
         android:layout_alignParentTop="true"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true">
@@ -77,13 +95,7 @@
                 android:scaleType="centerInside"
                 android:src="@*com.google.android.projection.gearhead:drawable/ic_assistant_mic" />
         </FrameLayout>
-        <com.google.android.libraries.gsa.logoview.LogoView
-            android:id="@*com.google.android.projection.gearhead:id/logo_view"
-            android:layout_width="128.0dip"
-            android:layout_height="80.0dip"
-            android:layout_gravity="center"
-            android:background="@*com.google.android.projection.gearhead:drawable/demand_space_logo_background"
-            android:visibility="invisible" />
+
     </FrameLayout>
         </RelativeLayout>
     </FrameLayout>

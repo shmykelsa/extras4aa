@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#00000000"
+    android:layout_width="fill_parent"
+    android:layout_height="@*com.google.android.projection.gearhead:dimen/legacy_facet_bar_buttons_margin_bottom">
+    <View
+        android:id="@*com.google.android.projection.gearhead:id/background"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+    <com.google.android.projection.gearhead.common.GhTextClock
+        android:id="@*com.google.android.projection.gearhead:id/clock"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:format12Hour="@*com.google.android.projection.gearhead:string/car_clock_12_hours_format"
+        android:format24Hour="@*com.google.android.projection.gearhead:string/car_clock_24_hours_format"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="10.0dip"
+        android:gravity="center"
+        android:textAppearance="@*com.google.android.projection.gearhead:style/TextAppearance.Boardwalk.Body3"
+        android:textSize="@*com.google.android.projection.gearhead:dimen/rail_widget_text_size"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <FrameLayout
+        android:id="@*com.google.android.projection.gearhead:id/battery_container"
+        android:layout_width="@*com.google.android.projection.gearhead:dimen/facet_bar_touch_target_size"
+        android:layout_height="@*com.google.android.projection.gearhead:dimen/facet_bar_touch_target_size"
+        android:padding="20dp"
+        android:layout_below="@*com.google.android.projection.gearhead:id/clock"
+        android:importantForAccessibility="no"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:id="@*com.google.android.projection.gearhead:id/battery_level"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:tint="@*com.google.android.projection.gearhead:color/gearhead_sdk_grey_50" />
+        <ImageView
+            android:id="@*com.google.android.projection.gearhead:id/battery_saver_outline"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@*com.google.android.projection.gearhead:drawable/battery_saver_outline"
+            android:visibility="invisible" />
+    </FrameLayout>
+
+
+
+    <ImageView
+        android:id="@*com.google.android.projection.gearhead:id/airplane_mode_icon"
+        android:layout_width="@*com.google.android.projection.gearhead:dimen/rail_widget_text_size"
+        android:layout_height="@*com.google.android.projection.gearhead:dimen/rail_widget_text_size"
+        android:layout_marginHorizontal="@*com.google.android.projection.gearhead:dimen/rail_notification_icon_padding"
+        android:importantForAccessibility="no"
+        android:src="@*com.google.android.projection.gearhead:drawable/ic_airplane_mode"
+        android:tint="@*com.google.android.projection.gearhead:color/gearhead_sdk_grey_50"
+        android:layout_below="@*com.google.android.projection.gearhead:id/battery_container"
+        android:layout_marginTop="8.0dip"
+        android:layout_alignParentEnd="true"/>
+    <FrameLayout
+        android:id="@*com.google.android.projection.gearhead:id/signal_icon"
+        android:layout_marginTop="8.0dip"
+        android:layout_width="@*com.google.android.projection.gearhead:dimen/rail_widget_text_size"
+        android:layout_height="@*com.google.android.projection.gearhead:dimen/rail_widget_text_size"
+        android:layout_marginHorizontal="@*com.google.android.projection.gearhead:dimen/rail_notification_icon_padding"
+        android:layout_below="@*com.google.android.projection.gearhead:id/battery_container"
+        android:layout_alignParentEnd="true">
+        <ImageView
+            android:id="@*com.google.android.projection.gearhead:id/cell_info_overlay"
+            android:layout_width="@*com.google.android.projection.gearhead:dimen/rail_widget_action_icon_margin"
+            android:layout_height="@*com.google.android.projection.gearhead:dimen/rail_widget_pill_margin"
+            android:layout_gravity="start"
+            android:importantForAccessibility="no" />
+        <ImageView
+            android:id="@*com.google.android.projection.gearhead:id/cell_signal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="bottom"
+            android:scaleX="0.9"
+            android:scaleY="0.9"
+            android:importantForAccessibility="no"
+            android:tint="@*com.google.android.projection.gearhead:color/gearhead_sdk_grey_50" />
+    </FrameLayout>
+    <ImageView
+        android:id="@*com.google.android.projection.gearhead:id/wifi_signal"
+        android:layout_marginTop="8.0dip"
+        android:layout_width="@*com.google.android.projection.gearhead:dimen/rail_widget_text_size"
+        android:layout_height="@*com.google.android.projection.gearhead:dimen/rail_widget_text_size"
+        android:layout_marginHorizontal="@*com.google.android.projection.gearhead:dimen/rail_notification_icon_padding"
+        android:layout_below="@*com.google.android.projection.gearhead:id/battery_container"
+        android:layout_alignParentStart="true"
+        android:importantForAccessibility="no"
+        android:src="@*com.google.android.projection.gearhead:drawable/wifi_signal"
+        android:tint="@*com.google.android.projection.gearhead:color/gearhead_sdk_grey_50" />
+    <TextView
+        android:id="@*com.google.android.projection.gearhead:id/weather_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="@*com.google.android.projection.gearhead:dimen/rail_widget_text_size"
+        android:layout_marginRight="@*com.google.android.projection.gearhead:dimen/rail_notification_icon_padding"
+        android:gravity="end"
+        android:textAppearance="@*com.google.android.projection.gearhead:style/TextAppearance.Boardwalk.Body3"
+        android:textSize="@*com.google.android.projection.gearhead:dimen/rail_widget_text_size"
+        android:layout_marginTop="8.0dip"
+        android:visibility="gone"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@*com.google.android.projection.gearhead:id/wifi_signal"/>
+    <ImageView
+        android:id="@*com.google.android.projection.gearhead:id/weather_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="@*com.google.android.projection.gearhead:dimen/rail_widget_text_size"
+        android:layout_marginLeft="@*com.google.android.projection.gearhead:dimen/rail_notification_icon_padding"
+        android:gravity="start"
+        android:src="@*com.google.android.projection.gearhead:drawable/ic_weather_cloud"
+        android:tint="@*com.google.android.projection.gearhead:color/gearhead_sdk_grey_50"
+        android:visibility="gone"
+        android:layout_toLeftOf="@*com.google.android.projection.gearhead:id/weather_temperature"
+        android:layout_marginTop="8.0dip"
+        android:layout_below="@*com.google.android.projection.gearhead:id/wifi_signal"/>
+    <ImageView
+        android:id="@*com.google.android.projection.gearhead:id/etc_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="@*com.google.android.projection.gearhead:dimen/status_bar_icon_size"
+        android:layout_marginRight="@*com.google.android.projection.gearhead:dimen/status_bar_spacer_size"
+        android:importantForAccessibility="no"
+        android:src="@*com.google.android.projection.gearhead:drawable/ic_gearhead_etc_valid_card"
+        android:tint="@*com.google.android.projection.gearhead:color/gearhead_sdk_grey_50"
+        android:layout_toLeftOf="@*com.google.android.projection.gearhead:id/weather_icon"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true" />
+</RelativeLayout>
